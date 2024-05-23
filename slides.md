@@ -1562,7 +1562,7 @@ Les centres de recherche sont toujours en train de développer des méthodes d'a
 
 Des ruptures peut se passe dans les données des modèles de réanalyse quand même. -->
 
-![bg 65%](img/4/ecole_ete_2024_4_reanalyses-graphique.png)
+![bg 65%](img/3/ecole_ete_2024_3_reanalyses-graphique.png)
 
 # Réanalyses
 
@@ -1607,7 +1607,7 @@ li {
 
 Chaque génération : Avancements pour la résolution spatio-temporelle et plus de variables disponibles. -->
 
-![bg 70%](img/4/ecole_ete_2024_4_reanalyses-courbe.jpg)
+![bg 70%](img/3/ecole_ete_2024_3_reanalyses-courbe.jpg)
 
 # Historique des réanalyses
 
@@ -1690,7 +1690,7 @@ Certaines produits fonctionnent mieux que les autres pour les analyses, dépenda
 
 Débat continuelle entre les statisticiens, hydrologues et modélisateurs du climat. -->
 
-![bg right:63% fit](img/4/ecole_ete_2024_4_reanalyses-comparaison.jpg)
+![bg right:63% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
 
 # Réanalyses
 
