@@ -1807,4 +1807,113 @@ Par exemple – Simulations futures – le modèle indique une précipitation ex
 
 Les données sont archivées sur des serveurs dédiés de longue durée, généralement pour un sous-ensemble de variables que le modèle produit et allant jusqu'à des fréquences horaires. -->
 
+# Modèles du climat
+
+Modèles utilisés pour faire de longues séries climatiques, soit des possibilités climatiques passées ou des projections futures.
+
+Archivage de longue durée pour une sélection de variables climatiques jusqu’à des fréquences horaires.
+
+Expériences fortement guidées par les scénarios développés par le GIEC (le « IPCC » )
+
+- **AR/AR4 → SRES; AR5 →  RCP; AR6 → SSP**
+
+---
+
+<!-- _footer: "" -->
+
+<!-- Échelle mondiale nécessitent une certaine agrégation spatiale, se prêtant à des résolutions plus grossières. 
+
+Pour CMIP5, données étaient généralement agrégées et archivées aux trois heures.
+
+Il s'agit quand même d'une grande quantité de données, compte tenu du nombre de projets, de scénarios et de variables disponibles.
+
+Perspective d’Ouranos, les données CMIP5 que nous avons maintenant dépasse 20 To. pour les 5 ou 6 variables que nous utilisons souvent.
+
+Avec CMIP6 les données de base sont offerts aux heures avec des résolutions encore plus fines. -->
+
+# Modèles du climat global (GCM)
+
+Les modèles du climat modernes ont une résolution spatiale allant jusqu’à **25 Km*** et une résolution temporelle d’archivage jusqu’aux heures.
+ - *Ce chiffre peut descendre, dépendamment le modèle
+
+La base de données CMIP5 récupérée à Ouranos fait environ *20 To* pour quelques variables, ce qui représente seulement une infime partie de la base de données CMIP5 complète.
+
+**Données CMIP6** : Pas raisonnable de télécharger toute la base 
+ - 8 ou 16 octets * expérience * modèle * réalisation * niveaux * pas de temps * projet * etc... = **ENORME**
+
+---
+
+<!-- _footer: "" -->
+
+<!-- Plusieurs modèles globaux existe et la communauté international est organisé pour coordonner les activités des différents centre de modélisation à travers le monde. L’organisme en haut, le WCRP s’occupent de plusieurs projets liées à la modelisation, mais on s’intéresse à CMIP aujourd’hui.
+
+CMIP est un regroupement des instituts et chercheurs qui s’occupe des efforts de standardisation des expériences climatiques, les formats, les métadonnées des GCMs. Ils ont même établi un ensemble de portail web pour retrouver un maximum de données des modèles participants, géré par la ESGF.
+
+Les modélisations qu’on trouvent dans le rapport du GIEC sont toujours basés sur les modèles CMIP, et les 5e et 6e  rapports ont étés basées sur CMIP5 et CMIP6, respectivement. -->
+
+# Coordination des modèles globales
+
+WCRP : « World Climate Research Program »
+ - CMIP : « Coupled Model Intercomparison Project »
+
+Standardisation de la priorité des expériences évalués
+
+Standardisation du format / métadonnées de données
+ - Vocabulaire Contrôlée
+
+Établissement de portail de données sur le web
+- ESGF : « Earth System Grid Federation »
+
+Présentement : **CMIP6** (production / utilisation)
+
+---
+
+<!-- _footer: "**Source : Taylor et al. (2011) An Overview of the CMIP5 Experiment Design (https://doi.org/10.1175/BAMS-D-11-00094.1)**" -->
+
+<!-- Pour les gens qui aime à savoir, les relations entre les organismes de recherche en climat sont pas énormément compliqués, mais quand même.
+
+Je vais parler maintenant de l’exemple de la structure de CMIP5. La génération actuel, CMIP6, est différent en quelques manières mais pour la plupart, l’idée de priorisations de l’ordre des simulations et la structure des expériences sont très similaires. -->
+
+![bg 50%](img/4/ecole_ete_2022_4_cmip-relationship.jpg)
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Eyring et al. 2016: Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization (https://doi.org/10.5194/gmd-9-1937-2016)**" -->
+
+<!-- Dominique avait parlé un peu de ça hier mais l’idée de la coordination pour CMIP6 est pour établir les expériences prioritaires selon les instituts des modèles. 
+
+Au centre, il y a le DECK pour « Diagnostic, Evaluation and Characterization of Klima » qui contient les 4 expériences que sont fait toujours , donc le contrôle préindustriel, la simulation AMIP, le 4x CO2 et le 1% CO2 par années. 
+
+Ils inclus aussi l’expérience historique de CMIP6 dans le cœur des priorités. Tout le reste est divisé en MIP, qui répondent à diverses questions et les grands défis scientifiques identifiés par les groupes de travail. -->
+
+![bg horizontal 95%](img/4/ecole_ete_2022_4_cmip-wheel.jpg)
+![bg 66%](img/4/ecole_ete_2022_4_cmip-experiments.jpg)
+
+# CMIP6
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "Source : IPCC AR6 WG1 1.20" -->
+
+<!-- Je voudrais retourner à cette carte super qu’on a vue hier avec Dominique.
+
+Les pays riche qui peuvent se permettre d'entreprendre ces efforts de modélisation
+
+Même si on ne voit pas des instituts dans Afrique par exemple, dans une monde connecté, nos collaborateurs sont des fois partout et les efforts de s’améliorer les modèles sont un travail faite par la communauté « at large » -->
+
+# Instituts participants à CMIP
 
