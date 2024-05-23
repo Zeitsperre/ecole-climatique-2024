@@ -23,7 +23,6 @@ style: |
       left: 60%;
       text-align: right;
       font-size: 20px;
-      text-shadow: 0px 0px 10px #fff;
     }
     img[alt~="center"] {
       display: block;
@@ -105,6 +104,8 @@ Centré sur les États-Unis mais quand même interessant. -->
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- Benjamin Franklin, connu pour son expérience du cerf-volant attaché à un fil conducteur pour démontrer que les éclairs c'est de l’électricité
 en 1743, il avait noté le mouvement d'une tempête de Philadelphie à Boston et a remarqué que la direction du mouvement d'une tempête n'était pas nécessairement dans la direction des vents prédominants. 
 Évoqué le lien entre un hiver très froid en Europe suite à une éruption du volcan Laki en Iceland. -->
@@ -129,6 +130,8 @@ en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle e
 ## Georges Washington commence un journal d’observations météorologiques.
 
 ---
+
+<!-- _paginate: false -->
 
 <!-- Et l'intérêt des grandes figures politiques américaine pour la météo se poursuit avec Thomas Jefferson qui faisaient aussi des observations météorologiques sur une base régulière. 
 Deux observations par jour, à son levé, qu'il considérait comme étant la température minimum de la journée, et vers 3 ou 4h, qu'il considérait comme étant la température maximale. 
@@ -187,6 +190,8 @@ L'idée d'un réseau d'observation météorologique en utilisant plusieurs poste
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- Joseph Henry, premier secrétaire de l'institution Smithsonian, et plus connu pour ces découvertes par rapport à l'inductance des matériaux.
 En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 bénévoles pour résoudre le problème des tempêtes américaine. -->
 
@@ -218,8 +223,8 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 3 ans plus tard à Vienne, l'idée d'avoir des échanges journaliers des observations météorologiques à travers le monde est lancé, ce qui marque aussi les début de la OMM (WMO : World Meteorological Organization). Rendu en 1891, le réseau d'observateurs météo bénévoles contenait plus de 2000 stations. -->
 
-![bg right:55% 100%](img/1/ecole_ete_2024_1_UlyssesSGrant.jpg)
-![bg right 100%](img/1/ecole_ete_2024_1_AlbertJMyer.jpg)
+![bg right 95%](img/1/ecole_ete_2024_1_UlyssesSGrant.jpg)
+![bg right 95%](img/1/ecole_ete_2024_1_AlbertJMyer.jpg)
 
 
 # 1870
@@ -680,10 +685,788 @@ Dans sa version la plus simple, la relation entre facteur de réflectivité et p
 
 ---
 
+<!-- _header: "" -->
+
 <!-- Réseau d’observation radar : Nécessaire pour la cartographie des systèmes de météo.
 
 Environnement Canada : le réseau canadien d'observation radar. Comme vous pouvez le constater, la couverture spatiale se limite au sud du pays. -->
 
-![bg]()
+![bg fit right:60%](img/2/ecole_ete_2024_2_radars-canadiens.jpg)
 
 # Radars canadiens
+
+---
+
+<!-- _header: "" -->
+
+<!-- Si on regarde au États-Unis, le territoire entier est presque couvert et la densité des radars est aussi supérieur à celle du canada. -->
+
+![bg fit right:60%](img/2/ecole_ete_2024_2_radars-americains.jpg)
+
+# Radars americains
+
+---
+
+<!-- Au Canada, on peut suivre en temps réel, avec des images aux 10 min, les observations radar d'environnement Canada. De même au États-Unis aux 5 min. 
+
+Avantage : résolution temporelle et spatiale. La résolution spatiale d'un radar est d'environ 1 degré en azimut et en élévation, et quelques centaines de mètres en distance. Donc une image radar de 200 km enregistre la puissance moyenne à chaque pas de temps dans environ 3 millions de points de grille. 
+
+Problème : La taille des données. Réseau = plusieurs terabytes de données produites par jour. Il faut donc développer des produits intermédiaires ou des cartes qui eux pourront être archivé. -->
+
+# Radar
+
+Résolution temporelle de *5 à 10 min*.
+
+Résolution spatiale de 1 degré en azimuth et en élévation. ~100 m sur l’axe de l’onde émise.
+
+Une image de 200 km → *3 millions points de grille*
+
+Plusieurs téraoctets de données produites par jour.
+
+---
+
+<!-- _header: "" -->
+
+<!-- Difficile de transformer l’information sur une grille uniforme de précipitation. 
+Problème est causée par la résolution du radar qui se dégrade en fonction de la distance.
+
+Exemple : climatologie en Angleterre ou l'on peut voir des artefacts de blocage du rayon ou de délimitation entre les radars.
+
+Erreurs peut venir du terrain, tels que les montagnes, ainsi que des insectes et des oiseaux en vol. -->
+
+![bg fit left:55%](img/2/ecole_ete_2024_2_composite-radar.png)
+
+# Composite radar
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 10%;
+}
+li {
+  position: absolute;
+  bottom: 10%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _paginate: false -->
+
+<!-- Voici le page internet de l’observatoire du J.S. Marshall qui j’ai parlais de plus tôt. On peut voir les images de ce radar en tempos réelle avec couplée avec une modèle de prévision qui estime les prochains 3 heures. -->
+
+![bg fit](img/2/ecole_ete_2024_2_golfball.png)
+![bg fit](img/2/ecole_ete_2024_2_storm-radar.png)
+
+# Radar + Prévision
+
+* [McGill Radar Nowcasting (site web)](https://radar.mcgill.ca/imagery/nowcasting.html)
+
+---
+
+<!-- _header: "" -->
+
+<!-- Observations satellitaires : Beaucoup à apprendre sur l'imagerie par satellite. 
+
+Une source d'information non-négligeable pour le climat et toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés. -->
+
+![bg fit right:60%](img/2/ecole_ete_2024_2_satellite.jpg)
+
+# Satellite
+
+---
+
+<!-- Deux types d'orbites de satellite possible :
+
+1. Géostationnaire : un satellite à 36000km au dessus de la terre qui orbite l'équateur au même rythme que la rotation de la terre et donc reste fixé au dessus du même point terrestre en permanence. 
+2. Orbite polaire : Passent au dessus du pole nord et pole sud à une altitude d'environ 850 km. 
+
+Au fur et a mesure que la terre tourne vers l'est, le satellite passe au dessus d'une région à l'ouest et enregistre des bandes successives d'information sur le globe. Un satellite à orbite polaire typique va faire une rotation complet autour de la terre en un peu moins de deux heures, 14 fois par jour. -->
+
+# Satellite
+
+Également de la famille d’observation par « *télédétection* »
+
+Deux types d’orbites : *géostationnaires* et à *orbite polaire*.
+
+Géostationnaire : 36000 km au dessus de la terre fixé au dessus du même point terrestre en permanence
+
+Orbite polaire : ~850 km au dessus de la terre, ~14 orbites par jour.
+
+---
+
+<!-- _header: "" -->
+
+<!-- L'utilisation de base des satellites d'observations consistait en une image photographique afin d'observer les nuages, comme on peut voir ici des satellite géostationnaires GOES-1 et GOES-18. 
+
+Le nombre d'instruments et leur capacité d'observation c'est grandement amélioré avec les années. -->
+
+![bg right:70% horizontal fit](img/2/ecole_ete_2024_2_GOES-1.jpg)
+![bg fit](img/2/ecole_ete_2024_2_GOES-18.png)
+
+# Mission Satellitaire « GOES »
+
+GOES-1 (1975)
+
+GOES-18 (2022)
+
+* **Crédits des images : NASA, NOAA, JMA**
+
+---
+
+<!-- Un capteur photographique multispectrale à plusieurs bande pour capter autant la lumière visible que l'infrarouge. 
+
+Ils ont aussi un sondeur qui permet de mesurer un meilleur profile vertical de température et d'humidité dans l'atmosphère. 
+
+Il permet de dériver une panoplie d'information comme la hauteur et l'épaisseur des nuages, la température de surface de l'océan, l'étendu de la neige en hiver, la glace de mer et la hauteur de la surface de l'océan. -->
+
+# Satellite
+
+Équipé d’un capteur photographique multispectres et sondeur,
+
+Information obtenue sur : hauteur et épaisseur de nuages, température de surface de l’océan, étendue de la neige et glace de mer, hauteur de la surface de l’océan, etc.
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 4%;
+}
+li {
+  position: absolute;
+  bottom: 10%
+}
+</style>
+
+<!-- Acquisition : Collecter des données à différentes fréquences dans des bandes spectrales très spécifiques :
+
+Visible (380 à 740 nanomètres).
+
+Proche infrarouge (1 micromètre).
+
+Infrarouge (10 micromètres).
+
+Radar (dizaines de centimètres).
+
+Détectés de l'espace pour donnez l’idée de l'énergie réfléchi et émis de la surface. 
+
+Avec quelques corrections, ce type d'imagerie peut déterminer de manière très fiable des choses telles que la couverture nuageuse. -->
+
+![bg fit 95%](img/2/ecole_ete_2024_2_satellite-graphic.png)
+
+# Satellite
+
+* **Source : NASA**
+
+---
+
+<!-- _header: "" -->
+
+<!-- Télédétection et Machine Learning : Créer des images de nombreuse phénomènes, identifier les objets ou surveiller les événements climatiques.
+Ouragans, les El Nino, tempêtes. -->
+
+![bg right:60% fit 95%](img/2/ecole_ete_2024_2_imagerie-aerienne.png)
+
+# Satellite 
+## Imagerie aérienne
+
+* **Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA**
+
+---
+
+<!-- Grand réseau demande nombreux satellites et ressources alors les responsabilités sont partagés.
+
+« Japan Meteorological Agency » JMA : Himawari (« Tournesol »)
+
+NASA « Geostationary Operational Environmental Satellites » (GOES West et GOES East)
+
+EUMETSAT : METEOSAT. 
+
+ISRO : INSAT « Indian National Satellite System »
+
+Satellites à orbite polaire : Données de plus haute résolution sur la géologie, l'hydrologie, l'océanographie et l'écologie. -->
+
+# Satellite
+
+
+- Couverture globale de satellite géostationnaire
+- GMS Himawari 8 (japonais : JMA)
+  - l’est asiatique et l’océan pacifique.
+- GOES West et GOES East (américains : NASA)
+  - l’océan pacifique\, les Amériques\, l’océan atlantique.
+- METEOSAT (européen : EUMETSAT)
+  - Europe et Afrique.
+- INSAT (indien : ISRO)
+  - Asie et l’océan Indien.
+- Les satellites en orbites polaires ont des missions plus spécialisées 
+  - e.g. LANDSAT, SRTM, Terra, Aqua, etc.
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 4%;
+}
+li {
+  position: absolute;
+  bottom: 10%
+}
+</style>
+
+<!-- Plusieurs autres systèmes d'observations existes.
+
+Les bouées Argos qui consistent en une flotte de quelque 4000 bouées dont le déploiement à débuté au début des années 2000. Ces bouées dérivent à une profondeur de 1000 m et à chaque 10 jours, plongent jusqu'à 2000 m pour ensuite remonter à la surface et transmettre le profil vertical de conductivité, température et pression, à partir desquels la salinité et densité peuvent être calculé.
+
+Ceci est une des outils qui est déployé pour mieux comprendre la circulation thermohaline que Chris avait présenté lundi. -->
+
+![bg horizontal fit 95%](img/2/ecole_ete_2024_2_argos-graphic.jpg)
+![bg fit 95%](img/2/ecole_ete_2024_2_argos-map.png)
+
+# Bouée Argos
+
+- **Crédit: http://www.jamstec.go.jp/e/about/equipment/observe/seawater.html**
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 4%;
+}
+</style>
+
+<!-- _footer: "" -->
+
+<!-- Pour les hydrologues : Station de jaugeage pour mesurer le débit en rivière.
+
+Basé sur une relation hauteur débit, ou une courbe d’étalonnage qui est calibré par des techniciens lors de périodes de différents débits. 
+
+Si vous avez des questions spéciqiues à ces genres de structures, je vous suggerez de parler avec les experts au fond de la salle.-->
+
+![bg fit](img/2/ecole_ete_2024_2_jaugeage.jpg)
+
+# Station de jaugeage
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+h2 {
+  position: absolute;
+  top: 12.5%;
+}
+img[alt~="center-left"] {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 50%;
+}
+img[alt~="top-right"] {
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  width: 40%;
+}
+img[alt~="bottom-right"] {
+  position: absolute;
+  bottom: 7.5%;
+  right: 2.5%;
+  width: 40%;
+}
+</style>
+
+<!-- _header: "" -->
+
+<!-- On parle souvent de la concentration de CO2 dans l'atmosphère. 
+
+Montré : Station de mesure de CO2 de Mauna Loa à Hawaï Ainsi qu'une photo du spectrophotomètre original utilisé au début des années 1950 par le chercheur Charles Keeling
+
+Fameuses mesures qui sont la base de la courbe Keeling qui montre l'évolution du CO2 dans l'atmosphère avec ces variations saisonnière. -->
+
+![center-left](img/2/ecole_ete_2024_2_mauna-loa.jpg)
+![top-right](img/2/ecole_ete_2024_2_co2-sensor.jpg)
+![bottom-right](img/2/ecole_ete_2024_2_keeling-curve.png)
+
+# Mesure de CO2 
+## Spectrophotomètre
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 7.5%
+}
+</style>
+
+<!-- Greenhouse Gases Observing Satellite (GOSAT) maintien par NASA et Japan Aerospace Exploration Agency (JAXA) 
+La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces genres de techniques de spectroscopie avec télédétection -->
+
+![bg fit 80%](img/2/ecole_ete_2024_2_satellite-co2.jpg)
+
+# Mesure de CO2 par Satellite
+
+* **Source : World Data Center for Greenhouse Gases (https://gaw.kishou.go.jp)**
+
+---
+
+<!-- On a fait un survol théorique des instruments d'observations. 
+
+On va maintenant regarder plus concrètement qu'est ce qui est disponible comme données climatiques et à quoi ça ressemble de trouver les données dont on a besoin, les obtenir et les manipuler.
+
+QUESTIONS -->
+
+# 3. Données observées
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 7.5%
+}
+</style>
+
+<!-- La plupart des centres urbains ont des stations météo qui sont opérationnelle depuis très longtemps, souvent colocalisé avec les aéroports. 
+
+Au Canada, les données de stations archivées remontent jusqu'en 1840 pour la ville de Toronto.
+
+À McGill il y une programme pour numériser les archives météo pour Montréal. Les carnets historique semble à ce qu’on voit. -->
+
+![bg fit 80%](img/3/ecole_ete_2024_3_donnees-ecrit.png)
+
+# Données de stations
+
+* **Source: "DRAW: Data Rescue Archives and Weather" (https://citsci.geog.mcgill.ca/en/)**
+
+---
+
+<!-- Si vous êtes intéressé aux données d'une station d'Environnement Canada un grand portion des données sont disponible en ligne
+
+Accéder via le site web climat.meteo.gc.ca : fichier CSV des données. 
+
+# FIXME: THIS INFORMATION IS OBSOLETE - MENTION MSC DATA MART
+
+Par contre, pour un étude à plus grande échelle spatiale et temporelle, il faut obtenir les données brutes d'environnement Canada ou d'un de leur partenaire -->
+
+# Données de stations
+
+Les archives débutent vers les années 1840
+
+Les données de stations d’Environnement Canada sont disponibles sur https://climat.meteo.gc.ca en tableaux mensuels.
+
+Un API existe pour automatiser les requêtes
+
+Les données de stations du RMCQ sont disponibles sur https://agrometeo.org en temps réel. (vieux / obsolètes)
+
+---
+
+<!-- _header: "" -->
+
+<!-- Environnement Canada document ses données en gros détail. 
+
+On peut voir ici la liste des variables à fréquence journalière (température minimum, maximum et moyenne, la précipitation autant sous forme de neige que liquide, ou total et la neige au sol. 
+
+Ce n'est pas toutes les stations qui rapporte toutes les variables et que chaque station a son historique d'opération et de période hors d'usage. 
+
+Et donc souvent on regarde ces listes et on se dit que tout est beau, c'est exactement ce qu'il nous faut pour faire notre analyse, mais dans les faits, lorsqu'on utilise des données de stations, on ne saura pas si c'est adéquat tant que l'on aura pas récupéré les données et vérifier leur couverture réelle. -->
+
+![bg fit right:60% 70%](img/3/ecole_ete_2024_3_donnees-tableau.png)
+
+# Données de stations
+
+* **Source: Environnement Canada**
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 1%;
+}
+</style>
+
+<!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
+
+Au Québec, il existe le RMCQ, le « Réseau météorologique coopératif du Québec » qui regroupe des stations opérées par Rio Tinto Alcan, Environnement Canada, 
+Hydro-Québec, le MELCC, le ministère de l'énergie et des ressources naturelles (MERN) et la société de protection des forêts contre le feu (SOPFEU). 
+
+Ces données en temps réel sont disponible via le site agrometeo.org. 
+
+Les données historiques ne sont pas publiques -->
+
+![bg fit 80%](img/3/ecole_ete_2024_3_reseau-des-stations.png)
+
+# Données de stations canadiens
+
+---
+
+<!-- _header: "" -->
+<!-- _paginate: false -->
+
+<!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
+
+Au Québec, il existe le RMCQ, le « Réseau météorologique coopératif du Québec » qui regroupe des stations opérées par Rio Tinto Alcan, Environnement Canada, Hydro-Québec, le MELCC, le ministère de l'énergie et des ressources naturelles (MERN) et la société de protection des forêts contre le feu (SOPFEU). 
+
+Ces données en temps réel sont disponible via le site agrometeo.org. 
+
+Les données historiques ne sont pas publiques. -->
+
+![bg right:65% fit](img/3/ecole_ete_2024_3_reseau-melcc.png)
+
+# Données de stations du MELCCFP
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- Globale : il y a les National Centres for Environmental Information (NCEI) (était le NCDC) de NOAA qui regroupe des données observées à travers le monde sur une base mensuelle qui provient en fait des partenaires de la OMM. -->
+
+![bg fit 90%](img/3/ecole_ete_2024_3_reseau-omm.png)
+
+# Données de stations de la OMM
+
+---
+
+<!-- Sont nos sources les plus anciennes d’enregistrements continus et ininterrompus de conditions climatiques et météorologiques. 
+
+Les observations peuvent être erronées ou pourraient être influencées par des événements à proximité. S'agissant d'observations spatiales uniques, elles ne décrivent pas non plus les tendances régionales. 
+
+Des erreurs systématiques dans nos données en raison de facteurs tels que la turbulence du vent et l’accumulation de neige sur les capteurs. -->
+
+# Données de stations
+
+FIXME: Need two columns
+
+**Forces**
+
+Information locale à partir d'instruments
+
+Représentatif de l’échelle à laquelle l’humain perçoit la météo.
+
+**Faiblesses**
+
+Possibilité d’erreurs par les observateurs.
+Peut être affecté par la proximité de perturbations (chaleur urbaine, masse d’eau).
+Déplacement et fermeture de stations.
+Discontinuités temporelles.
+Couverture spatiale très hétérogène.
+
+---
+
+<!-- Données manquantes sur une longue période. 
+
+Données homogénéisées : Consiste en des méthodes pour boucher ces trous dans les données à l'aide de stations avoisinante et aussi d'éliminer les sauts dans les données qui pourraient être du à des déplacements de stations ou changement d'instruments. 
+
+Résultat : beaucoup moins de stations, mais des séries plus complètes et sans rupture. -->
+
+# Données homogénéisées
+
+Ajustement des données brutes de stations à l’aide de connaissances sur les erreurs des différents instruments, le déplacement de stations, etc.
+
+Utilisation de données de stations avoisinantes pour combler les données manquantes.
+
+Détection et correction des sauts dans les séries à l’aide de méthodes statistiques (*régression linéaire*, *test de Student*, etc.).
+
+---
+
+<!-- Environnement Canada (Lucie Vincent et Éva Mékis)
+
+Plus de 400 stations homogénéisées pour les température minimum et maximum et la précipitation à une échelle temporelle journalière.
+
+les vents de surface à l'échelle horaire pour une centaine de stations et la pression de surface pour environ 600 stations.
+
+La semaine passée, Environnement Canada ont annoncé qui la prochaine version (3) sera disponible dans quelques mois. -->
+
+# Données homogénéisées
+
+Environnement Canada est le principal pourvoyeur de ce type de données au pays via les travaux de Hui Wan, Xiaolan Wang, Val Swail, Lucie Vincent et Éva Mekis.
+
+- **http://www.ec.gc.ca/dccha-ahccd/**
+
+Plus de 400 stations homogénéisées pour les températures minimum, maximum et la précipitation.
+
+- Wan et al. 2007; Wan et al. 2010 (Génération 1)
+- Mekis et Vincent 2011; Vincent et al. 2012. (Génération 2)
+- Vincent et al\. 2020 (Génération 3)
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 2.5%
+}
+</style>
+
+<!-- _footer: "" -->
+
+<!-- Éva Mékis et al. 2011 : Données homogénéisées de précipitation, et ce que vous voyez ici ce sont la différences entre les tendances de 1950-2009 avant et après homogénéisation. 
+
+Les données de précipitation liquide : Surestimés. Les tendances sur cette période de façon systématique au pays allant jusqu'à une surestimation de 15%. 
+
+Les données précipitation sous forme de neige : Des différences régionales. Dans l'ouest canadien les données homogénéisées montrent des tendances plus élevé, encore une fois de l'ordre de 5 à 15%. -->
+
+![bg fit 85%](img/3/ecole_ete_2024_3_mekis-2011.png)
+
+# Données homogénéisées
+
+- **Mekis & Vincent 2011. An Overview of the Second Generation Adjusted Daily Precipitation Dataset for Trend Analysis in Canada (https://doi.org/10.1080/07055900.2011.583910)**
+
+---
+
+<!-- Forces : informations climatiques locales, plus continues et fiables avec a peu près les mêmes faiblesses spatiales que les données brutes. 
+
+Dans un contexte d'étude des tendances et changement climatique, il est préférable d'utiliser les données homogénéisées lorsque possible. -->
+
+# Données homogénéisées
+
+FIXME: Need two columns
+
+**Forces**
+
+Information locale.
+Représentatif de l’échelle à laquelle l’humain perçoit la météo.
+Séries (plus) continues.
+Corrigé pour donner des tendances plus représentative de la réalité.
+
+**Faiblesses**
+
+Moins de stations disponibles.
+Couverture spatiale très hétérogène.
+Peu d’information sur l’incertitude des méthodes d’homogénéisation.
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 2.5%
+}
+</style>
+
+<!-- _footer: "" -->
+
+<!-- Une manière de comparer les données observées avec les grilles implique les méthodes d’interpolation sur grille.
+
+Voici l’exemple d’une interpolation des données des stations à travers le Québec. -->
+
+![bg fit 60%](img/3/ecole_ete_2024_3_interpolees.jpg)
+
+# Données interpolées
+
+- **Source : NRCAN**
+
+---
+
+<!-- Interpolation : Utilisé pour produire des jeux de données sans données manquantes. 
+
+Pleines des méthodes possible avec leurs forces et faiblesses.
+
+Souvent les erreurs associées avec les interpolation viennent des erreurs dans les données utilisées pour les produire.
+
+Régions éloignées d'une bonne densité de stations sont susceptible d'être couverte de données qui ne reflète pas les conditions réelles. -->
+
+# Données interpolées
+
+Interpolation de données de stations (brutes ou homogénéisées) sur une grille.
+
+Plusieurs méthodes possibles :
+- Bilinéaire
+- Interpolation multivariée (Gandin 1963)
+- « Inverse distance weighting » (Shepard 1968)
+- « Thin-plate splines » (Duchon 1976\, Wahba 1979)
+- Krigeage (Matheron 1960), etc.
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 2.5%
+}
+</style>
+
+<!-- _footer: "" -->
+
+<!-- Populaire : « Climate Research Unit » (CRU) de l'Université d'East Anglia. 
+
+CRU combine des informations sur la température du sol pour produire une température continue quadrillée à l'échelle globale du sol (CRUTEM). 
+
+Hadley Centre for Climate Research and Prediction porte sur la température de surface de la mer (HadSST). 
+
+La combinaison de ces deux jeux de données : température continus dans le monde entier (HadCRUT version 4). -->
+
+![bg fit 80%](img/3/ecole_ete_2024_3_cru-interpolees.jpg)
+
+# Données interpolées CRU
+
+- **Source : CRU (http://www.cru.uea.ac.uk/)**
+
+---
+
+<!-- Ces ensembles de données peuvent remonter à 1850.
+
+Utilisés pour examiner les tendances à grande échelle des températures pour l'ensemble de l'historique, à un intervalle mensuel. -->
+
+# Données interpolées CRU
+
+Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST, gu23wld, etc.)
+
+Résolution temporelle mensuelle *à partir de 1850*.
+
+Résolution spatiale de *~500 km sur le globe*.
+
+- Jones, P. D., New, M., Parker, D. E., Martin, S., & Rigor, I. G. (1999). Surface air temperature and its changes over the past 150 years. Reviews of Geophysics, 37(2), 173-199. https://doi.org/10.1029/1999RG900002
+- https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4
+
+---
+
+<!-- Canada : pionnière en matière d'analyse spatiale  
+
+Territoire aussi vaste que Canada : Des ensembles de données climatiques interpolés fiables sont indispensables.
+
+CANGRD : Données homogénéisé et une interpolation multivariée simple pour combler les lacunes spatiales de l'ensemble du Canada. 
+
+La résolution relativement grossière : Réduisent les erreurs dues à la technique d'interpolation. -->
+
+# Données interpolées CanGRD
+
+CanGRD est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
+
+Résolution temporelle mensuelle *à partir de 1900*.
+
+Résolution spatiale de *~50 km sur le territoire canadien*.
+
+- Données CanGRD : https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-historical-climate-data.html
+
+---
+
+<!-- Plusieurs méthodes disponible pour l’interpolation : Ressource Naturelle Canada (RNCan) utilise ANUSPLIN pour leur grille de 10 km au Canada.
+
+Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude. -->
+
+# Données interpolées RNCan
+
+Ressources Naturelles Canada produit une grille interpolée sur le Canada avec la méthode ANUSPLIN
+
+Résolution temporelle journalière *à partir de 1950*.
+
+Résolution spatiale de *~10 km sur le territoire canadien*.
+
+- Hutchinson, M. F. (1995). Interpolating mean rainfall using thin plate smoothing splines. International Journal of Geographical Information Systems, 9(4), 385–403. https://doi.org/10.1080/02693799508902045
+- Données NRCan : https://cfs.nrcan.gc.ca/projects/3/4
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+h2 {
+  position: absolute;
+  top: 10%;
+}
+</style>
+
+<!-- Exemple récent d'un ancien produit du RNCan et autres.
+
+Semblait que le centre de Québec ne recevait aucune pluie pour quelques années. 
+
+Les produits intégraient des données brutes au réseau de stations météorologiques du Québec. Peu de stations : les méthodes traditionnelles d'identification précoce de cette erreur n'ont pas réussi à trouver la problème. 
+
+Été interpolée à partir de si peu de stations : L’interpolation a créé un véritable trou dans le jeu de données. -->
+
+![bg horizontal fit 70%](img/3/ecole_ete_2024_3_interpolated-signals.png)
+![bg fit 70%](img/3/ecole_ete_2024_3_interpolated-error.png)
+
+# Propagation des erreurs
+
+---
+
+<!-- Les techniques d'interpolation peuvent grandement influencer notre compréhension du climat entre les observations. 
+
+Les erreurs qui surviennent souvent ne proviennent pas des techniques d'interpolation mais des données source.
+
+Les données interpolées doivent toujours faire l’objet d’un examen critique. 
+
+Si la zone ne dispose pas d'une couverture de stations cohérente ou si une interpolation inappropriée est utilisée, des problèmes peuvent survenir. 
+
+Impossible de savoir quelle méthode est utilisée à moins d’être bien documentée. -->
+
+# Données interpolées
+
+FIXME: Need two columns
+
+**Forces**
+
+Couverture spatiale complète à haute résolution.
+Séries temporelles continues.
+
+**Faiblesses**
+
+Les données dans les régions à faible densité de stations sont de moindre qualité.
+Peu d’information sur les incertitudes liées aux méthodes d’interpolation.
+Les erreurs dans les données de stations utilisées se propagent dans les données interpolées.
+
+---
+
+<!-- Les réanalyses peuvent être présenté comme une reproduction de la météo passé à couverture globale, avec aucune données manquantes. 
+
+Intègre les observations climatiques dans des modèles climatiques qui peut ensuite compléter les données manquantes à l'aide de formules physiques.
+
+QUESTIONS -->
+
+# Données de réanalyses
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- Les centres de recherche sont toujours en train de développer des méthodes d'assimilation de plus en plus sophistiqués pour contrer ces problèmes là qui se base sur des mathématiques très avancés.
+
+Des ruptures peut se passe dans les données des modèles de réanalyse quand même. -->
+
+![bg fit](/img/4/ecole_ete_2024_4_reanalyses-graphique.png)
+
+# Réanalyses
+
+---
+
