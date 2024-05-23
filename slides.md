@@ -40,6 +40,10 @@ style: |
 <!-- _footer: "" -->
 <!-- _paginate: skip -->
 
+<!-- Bonjour!
+
+On va aborder le sujet des données climatiques, donc comment on procède pour les acquérir, comment on les interprètes et aussi comment on peut les manipuler avec divers logiciels. -->
+
 <style scoped> 
 
 </style>
@@ -55,6 +59,12 @@ Avec remerciements à Blaise Gauvin St-Denis et l'équipe PCDO
 - 30 mai 2024
 
 ---
+
+<!-- Les objectifs du cours sont les suivants : [...] donc ici on va plus parler du travail qui est fait par les services météorologiques nationaux pour prendre des mesures. 
+
+Ensuite [...] où là on va parler des données qui sont diffusées au public et donc que des organismes comme Ouranos ou des étudiants comme vous peuvent utiliser. 
+
+Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information faramineuse pour ce qui est de l'observation de la terre et de notre atmosphère et il n'y a pas le jeu de données parfaits qui répond à toute les questions donc il faut comprendre les [...], et aussi je souhaite vous donner une appréciation de la [...]. -->
 
 # **Objectifs du cours**
 
@@ -83,6 +93,8 @@ Trevor James Smith
 
 ---
 
+<!-- Ce cours est séparé en huit (8) sections : [...] -->
+
 # **Contenu du cours**
 
 1. Historique des instruments d’observations météorologiques
@@ -92,7 +104,7 @@ Trevor James Smith
 5. Données de modèles climatiques
 6. Données dérivées
 7. Formats habituels des données climatiques et outils d’analyses
-8. Les services climatiques
+8. Les services climatiques (PAVICS)
 
 ---
 
@@ -542,13 +554,15 @@ Il n'est pas dans la réseau du MELCC ou Environnement Canada mais prends des me
 
 Radiosonde : outil de mesure atmosphérique généralement attaché à un ballon et capable de mesurer des éléments tels que la pression, l'humidité relative, la température, le vent et l'altitude, lors de sa navigation dans la troposphère et la stratosphère jusqu'à 30 km d'altitude.
 
-Nous aide à comprendre les différences entre les zones atmosphériques, les cellules éoliennes, et sont lancées des centaines de fois par jour autour le monde. -->
+Nous aide à comprendre les différences entre les zones atmosphériques, les cellules éoliennes, et sont lancées des centaines de fois par jour autour le monde.
+
+Christopher peut-être avait parler un peu de ces choses l’autre jour. -->
 
 # Radiosonde
 
 La **radiosonde** est composée d’un ensemble d’instruments d’observations attachés à un ballon qui s’élève dans l’atmosphère.
 
-Permet d’obtenir la distribution verticale de température, pression et humidité jusqu’à 30 km d’altitude.
+Permet d’obtenir la distribution verticale de température, pression et humidité jusqu’à *30 Km d’altitude*.
 
 Avec un équipement de localisation au sol, il est possible d’obtenir le profil vertical de vent.
 
@@ -754,7 +768,7 @@ li {
 <!-- _header: "" -->
 <!-- _paginate: false -->
 
-<!-- Voici le page internet de l’observatoire du J.S. Marshall qui j’ai parlais de plus tôt. On peut voir les images de ce radar en tempos réelle avec couplée avec une modèle de prévision qui estime les prochains 3 heures. -->
+<!-- Voici le page internet de l’observatoire du J.S. Marshall qui j’ai parlais de plus tôt. On peut voir les images de ce radar en temps réelle avec couplée avec une modèle de prévision qui estime les prochains trois (3) heures. -->
 
 ![bg fit](img/2/ecole_ete_2024_2_golfball.png)
 ![bg fit](img/2/ecole_ete_2024_2_storm-radar.png)
@@ -769,7 +783,7 @@ li {
 
 <!-- Observations satellitaires : Beaucoup à apprendre sur l'imagerie par satellite. 
 
-Une source d'information non-négligeable pour le climat et toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés. -->
+Une source d'information non-négligeable pour le climat et toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés.-->
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_satellite.jpg)
 
@@ -777,9 +791,27 @@ Une source d'information non-négligeable pour le climat et toutes sortes d'info
 
 ---
 
+<!-- _header: "" -->
+
+<!-- Toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés.
+
+L’image ici parvient à GPM, le mission de « Global Precipitation Measurement » une initiative de plusieurs pays.-->
+
+![bg fit right:65%](img/2/ecole_ete_2024_2_gpm.png)
+
+# Données satellitaires
+
+Coordination à l'international
+
+Plusieurs « *missions* » en opération en même temps
+
+- **Source : NASA** 
+
+---
 <!-- Deux types d'orbites de satellite possible :
 
 1. Géostationnaire : un satellite à 36000km au dessus de la terre qui orbite l'équateur au même rythme que la rotation de la terre et donc reste fixé au dessus du même point terrestre en permanence. 
+
 2. Orbite polaire : Passent au dessus du pole nord et pole sud à une altitude d'environ 850 km. 
 
 Au fur et a mesure que la terre tourne vers l'est, le satellite passe au dessus d'une région à l'ouest et enregistre des bandes successives d'information sur le globe. Un satellite à orbite polaire typique va faire une rotation complet autour de la terre en un peu moins de deux heures, 14 fois par jour. -->
@@ -790,9 +822,12 @@ Au fur et a mesure que la terre tourne vers l'est, le satellite passe au dessus 
 
 Deux types d’orbites : *géostationnaires* et à *orbite polaire*.
 
-Géostationnaire : 36000 km au dessus de la terre fixé au dessus du même point terrestre en permanence
+Géostationnaire : 
+  - 36,000 Km au dessus de la terre fixé au dessus du même point terrestre en permanence
 
-Orbite polaire : ~850 km au dessus de la terre, ~14 orbites par jour.
+Orbite polaire : 
+  - ~850 Km au dessus de la terre
+  - ~14 orbites par jour
 
 ---
 
@@ -873,6 +908,19 @@ Ouragans, les El Nino, tempêtes. -->
 ## Imagerie aérienne
 
 * **Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA**
+
+---
+
+<!-- Télédétection et apprentissage automatique : Créer des images de nombreuse phénomènes, identifier les objets, ou surveiller les événements climatiques.
+
+Il y a eu plusieurs avancements récemment dans la domaine d’identification et prévision des Ouragans, les El Nino, tempêtes, et autres phénomènes. -->
+
+![bg right:60% fit](img/2/ecole_ete_2024_2_ouragans.png)
+
+# Satellite
+## Ouragans et « Machine Learning »
+
+- **Source : Herrera et al. (2022) Predicting Atlantic Hurricanes Using Machine Learning (https://doi.org/10.3390/atmos13050707)**
 
 ---
 
@@ -987,7 +1035,9 @@ img[alt~="bottom-right"] {
 
 Montré : Station de mesure de CO2 de Mauna Loa à Hawaï Ainsi qu'une photo du spectrophotomètre original utilisé au début des années 1950 par le chercheur Charles Keeling
 
-Fameuses mesures qui sont la base de la courbe Keeling qui montre l'évolution du CO2 dans l'atmosphère avec ces variations saisonnière. -->
+Fameuses mesures qui sont la base de la courbe Keeling qui montre l'évolution du CO2 dans l'atmosphère avec ces variations saisonnière.
+
+la dernière lecture que j'ai faite pendant la semaine passée suggère que les niveaux de CO2 sont supérieurs à 427 PPM. -->
 
 ![center-left](img/2/ecole_ete_2024_2_mauna-loa.jpg)
 ![top-right](img/2/ecole_ete_2024_2_co2-sensor.jpg)
@@ -1160,16 +1210,16 @@ FIXME: Need two columns
 **Forces**
 
 Information locale à partir d'instruments
-
-Représentatif de l’échelle à laquelle l’humain perçoit la météo.
+Représentatif de l’échelle à laquelle l’humain perçoit la météo
+Records les plus anciens des valeurs « *vérifiées sur le terrain* » (« *ground-truthed* »)
 
 **Faiblesses**
 
-Possibilité d’erreurs par les observateurs.
-Peut être affecté par la proximité de perturbations (chaleur urbaine, masse d’eau).
-Déplacement et fermeture de stations.
-Discontinuités temporelles.
-Couverture spatiale très hétérogène.
+Possibilité d’erreurs par les observateurs
+Peut être affecté par la proximité de perturbations (chaleur urbaine, masse d’eau)
+Déplacement et fermeture de stations
+Discontinuités temporelles
+Couverture spatiale très hétérogène
 
 ---
 
@@ -1185,7 +1235,8 @@ Ajustement des données brutes de stations à l’aide de connaissances sur les 
 
 Utilisation de données de stations avoisinantes pour combler les données manquantes.
 
-Détection et correction des sauts dans les séries à l’aide de méthodes statistiques (*régression linéaire*, *test de Student*, etc.).
+Détection et correction des sauts dans les séries à l’aide de méthodes statistiques 
+  - *régression linéaire*, *test de Student*, *test de Mann-Kendall*, etc.
 
 ---
 
@@ -1207,7 +1258,7 @@ Plus de 400 stations homogénéisées pour les températures minimum, maximum et
 
 - Wan et al. 2007; Wan et al. 2010 (Génération 1)
 - Mekis et Vincent 2011; Vincent et al. 2012. (Génération 2)
-- Vincent et al\. 2020 (Génération 3)
+- Vincent et al. 2020 (Génération 3)
 
 ---
 
@@ -1248,16 +1299,16 @@ FIXME: Need two columns
 
 **Forces**
 
-Information locale.
-Représentatif de l’échelle à laquelle l’humain perçoit la météo.
-Séries (plus) continues.
-Corrigé pour donner des tendances plus représentative de la réalité.
+Information locale
+Représentatif de l’échelle à laquelle l’humain perçoit la météo
+Séries (plus) continues
+Corrigé pour donner des tendances plus représentative de la réalité
 
 **Faiblesses**
 
-Moins de stations disponibles.
-Couverture spatiale très hétérogène.
-Peu d’information sur l’incertitude des méthodes d’homogénéisation.
+Moins de stations disponibles
+Couverture spatiale très hétérogène
+Peu d’information sur l’incertitude des méthodes d’homogénéisation
 
 ---
 
@@ -1274,15 +1325,17 @@ li {
 
 <!-- _footer: "" -->
 
-<!-- Une manière de comparer les données observées avec les grilles implique les méthodes d’interpolation sur grille.
+<!-- C’est génial d’y avoir des données aux endroits, mais si je s’intéresse sur les tendances régionales ou des conditions loin d’un station d’observation, je devais interpoler les valeurs spatialement. 
 
-Voici l’exemple d’une interpolation des données des stations à travers le Québec. -->
+Une manière de comparer les données observées avec les grilles implique les méthodes d’interpolation sur grille.
+
+On le voit ici un exemple d’une interpolation faite par la MELCC des données de stations à travers le Québec. -->
 
 ![bg fit 60%](img/3/ecole_ete_2024_3_interpolees.jpg)
 
 # Données interpolées
 
-- **Source : NRCAN**
+- **Source : MELCCFP**
 
 ---
 
@@ -1330,63 +1383,73 @@ La combinaison de ces deux jeux de données : température continus dans le mon
 
 ![bg fit 80%](img/3/ecole_ete_2024_3_cru-interpolees.jpg)
 
-# Données interpolées CRU
+# Données interpolées - Globales
 
 - **Source : CRU (http://www.cru.uea.ac.uk/)**
 
 ---
 
+<!-- _header: "" -->
+
 <!-- Ces ensembles de données peuvent remonter à 1850.
 
 Utilisés pour examiner les tendances à grande échelle des températures pour l'ensemble de l'historique, à un intervalle mensuel. -->
 
-# Données interpolées CRU
+![bg right:35% 100%](img/3/ecole_ete_2024_3_hadcrut.png)
 
-Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST, gu23wld, etc.)
+# Données interpolées - Globales
 
-Résolution temporelle mensuelle *à partir de 1850*.
+Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST, autres)
+ - Résolution temporelle mensuelle *à partir de 1850*.
+ - Résolution spatiale de *~500 km sur le globe*.
 
-Résolution spatiale de *~500 km sur le globe*.
-
-- Jones, P. D., New, M., Parker, D. E., Martin, S., & Rigor, I. G. (1999). Surface air temperature and its changes over the past 150 years. Reviews of Geophysics, 37(2), 173-199. https://doi.org/10.1029/1999RG900002
-- https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4
+[HadCRUT4](https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4)
+  - **Source : Jones et al. (1999) (https://doi.org/10.1029/1999RG900002)**
 
 ---
 
-<!-- Canada : pionnière en matière d'analyse spatiale  
+<!-- Canada est reconnue globalement comme pionnière en matière d'analyse spatiale
 
 Territoire aussi vaste que Canada : Des ensembles de données climatiques interpolés fiables sont indispensables.
 
-CANGRD : Données homogénéisé et une interpolation multivariée simple pour combler les lacunes spatiales de l'ensemble du Canada. 
+CANGRD : Données homogénéisé et une interpolation multivariée simple pour combler les lacunes spatiales de l'ensemble du Canada.
 
-La résolution relativement grossière : Réduisent les erreurs dues à la technique d'interpolation. -->
+La résolution relativement grossière : Réduisent les erreurs dues à la technique d'interpolation.
 
-# Données interpolées CanGRD
+Ressource Naturelle Canada (RNCan) utilise ANUSPLIN, une méthode très populaire pour créer leur grille de 10 km au Canada.
+
+Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude et autres facteurs. -->
+
+# Données interpolées - Canada
 
 CanGRD est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
+ - Résolution temporelle mensuelle *à partir de 1900*.
+ - Résolution spatiale de *~50 km sur le territoire canadien*.
 
-Résolution temporelle mensuelle *à partir de 1900*.
-
-Résolution spatiale de *~50 km sur le territoire canadien*.
-
-- Données CanGRD : https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-historical-climate-data.html
+Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant la méthode ANUSPLIN
+ - Résolution temporelle journalière *à partir de 1950*.
+ - Résolution spatiale de *~10 km sur le territoire canadien*.
+ - ANUSPLIN : Hutchinson, M. F. (1995) (https://doi.org/10.1080/02693799508902045)
 
 ---
 
-<!-- Plusieurs méthodes disponible pour l’interpolation : Ressource Naturelle Canada (RNCan) utilise ANUSPLIN pour leur grille de 10 km au Canada.
+<!-- _header: "" -->
+<!-- _footer: "" -->
 
-Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude. -->
+<!-- Plusieurs méthodes disponible pour la choix de méthode
+La groupe Info-Climat de la MELCCFP produisent une grille à 10 Km de résolution en utilisant le Krigeage comme interpolation.
 
-# Données interpolées RNCan
+Il y a plusieurs manières de faire interpolation par Krigeage mais l’objectif de cette approche c’est de trouver la valeur potentiel par régression Gaussien avec le moins d’erreur possible. -->
 
-Ressources Naturelles Canada produit une grille interpolée sur le Canada avec la méthode ANUSPLIN
+![bg fit right:45%](img/2/ecole_ete_2024_2_melcc-grille.png)
 
-Résolution temporelle journalière *à partir de 1950*.
+# Données interpolées - Québec
 
-Résolution spatiale de *~10 km sur le territoire canadien*.
-
-- Hutchinson, M. F. (1995). Interpolating mean rainfall using thin plate smoothing splines. International Journal of Geographical Information Systems, 9(4), 385–403. https://doi.org/10.1080/02693799508902045
-- Données NRCan : https://cfs.nrcan.gc.ca/projects/3/4
+Produit de la ministère de l’environnement et la lutte contre les changements climatiques, la faune et les parcs (MELCCFP) « Grille climatique quotidien »
+ - Méthode interpolation : Krigeage
+ - Résolution temporelle journalière à partir de 1961.
+ - Résolution spatiale de ~10 km sur le territoire de Québec.
+ - **Données non-public, sauf pour les chercheurs**
 
 ---
 
@@ -1401,7 +1464,7 @@ h2 {
 }
 </style>
 
-<!-- Exemple récent d'un ancien produit du RNCan et autres.
+<!-- Exemple d'un produit du RNCan et autres.
 
 Semblait que le centre de Québec ne recevait aucune pluie pour quelques années. 
 
@@ -1413,6 +1476,31 @@ Les produits intégraient des données brutes au réseau de stations météorolo
 ![bg fit 70%](img/3/ecole_ete_2024_3_interpolated-error.png)
 
 # Propagation des erreurs
+
+---
+
+<!-- _header: "" -->
+<!-- _footer: "" -->
+
+<!-- Un autre jeu de données souvent noté est celle de NASA qui s’appelle DayMET qui est basé sur la même approche ANUSPLIN de NRCan
+
+DayMET intègre les observations satellitaires en plus des stations du réseau de l’OMM, qui rendre possible une grille sur terre à un résolution très fine.
+
+Un application de ces données pourrait examiner les conditions loco-régionales pour la période de passé récent.
+
+J’ai décider de présenter ça comme la dernière exemple à cause que cette approche de s’intégrer des données de nombreux types de sources se rendre DayMET très similaire à un réanalyses – Mais ceci n’est pas un! -->
+
+![bg right 90%](img/2/ecole_ete_2024_2_daymet.png)
+
+# Données interpolées – Amérique du Nord
+
+Le NASA produit l’interpolation de « DayMET »
+- Résolution temporelle quotidien à partir de 1980
+- Résolution spatiale de ~1 km sur Amérique du Nord
+
+Intégration des données :
+- Aux stations (États Unis, Canada, Mexique)
+- Satellitaires (NASA SRTM)
 
 ---
 
@@ -1443,13 +1531,17 @@ Les erreurs dans les données de stations utilisées se propagent dans les donn�
 
 ---
 
-<!-- Les réanalyses peuvent être présenté comme une reproduction de la météo passé à couverture globale, avec aucune données manquantes. 
+<!-- BREAK – ON VA PRENDRE UN POSE ICI
 
-Intègre les observations climatiques dans des modèles climatiques qui peut ensuite compléter les données manquantes à l'aide de formules physiques.
+Je présente ici les réanalyses et les prévisions comme des jeux de données un peu uniques, mais interreliés.
 
-QUESTIONS -->
+Les objectifs des réanalyses sont de recréer des événements passées, et les prévisions essaie de prévenir les événements immédiats à venir.
 
-# Données de réanalyses
+Les deux types de modèles essaie de reproduire ou anticiper les conditions météo à couverture globale, tout en intégrant le maximum de sources de données le plus efficacement possible.
+
+QUESTIONS ? -->
+
+# Données de réanalyses et prévisions
 
 ---
 
@@ -1458,15 +1550,261 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
+li {
+  position: absolute;
+  bottom: 7.5%
+}
 </style>
 
-<!-- Les centres de recherche sont toujours en train de développer des méthodes d'assimilation de plus en plus sophistiqués pour contrer ces problèmes là qui se base sur des mathématiques très avancés.
+<!-- Intègre les observations climatiques dans des modèles climatiques qui peut ensuite compléter les données manquantes ou extrapoler à un avenir proche à l'aide de formules physiques.
+
+Les centres de recherche sont toujours en train de développer des méthodes d'assimilation de plus en plus sophistiqués pour contrer ces problèmes là qui se base sur des mathématiques très avancés.
 
 Des ruptures peut se passe dans les données des modèles de réanalyse quand même. -->
 
-![bg fit](/img/4/ecole_ete_2024_4_reanalyses-graphique.png)
+![bg 65%](img/4/ecole_ete_2024_4_reanalyses-graphique.png)
 
 # Réanalyses
 
+- **Source : ECMWF**
+
 ---
+
+<!-- Première génération : milieu des années 1990 avec ECMWF et NCEP qui travaillaient sur les réanalyses ERA-15 et NCEP1. 
+
+Deuxième génération de réanalyses, le JMA c'est joint aux efforts de production avec leur réanalyse JRA-25, alors que NCEP produisait NCEP2 et NARR et le ECMWF produisait ERA-40, puis ERA-Interim par la suite. 
+
+La troisième génération de réanalyses avait plus de développeurs que jamais. Le NCEP avait CFSR, le ECMWF avait ERA20C, la NOAA et le CIRES produisent le 20CR, la NASA a une produit nommé MERRA et le JMA a passé à JRA55. 
+
+Aujourd’hui : on à plusieurs continuations de ces produits. -->
+
+# Historique des réanalyses
+
+Première génération (~1990) : NCEP1, ERA-15.
+
+Deuxième génération (~2000) : NCEP2, NARR, JRA-25, ERA-40, ERA-interim.
+
+Troisième génération (~2008) : CFSR, 20CR, MERRA, JRA55, ERA20C.
+
+Quatrième génération (~2014) : CFSv2, MERRA2, ERA-20CM, 
+
+et ça continue… (~2019 et après) : ERA5, ERA5-Land
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 7.5%
+}
+</style>
+
+<!-- Les nouvelles générations de réanalyses suivent généralement les avancés dans les nouvelles générations de modèles prévisionnelles ainsi que les évolutions majeurs dans les méthodes d'assimilations et leurs entrées. 
+
+Chaque génération : Avancements pour la résolution spatio-temporelle et plus de variables disponibles. -->
+
+![bg 70%](img/4/ecole_ete_2024_4_reanalyses-courbe.jpg)
+
+# Historique des réanalyses
+
+- **Source : ECMWF**
+
+---
+
+<!-- _footer: "" -->
+
+<!-- Aperçu de complexité de ces données : Produits les plus récents sont disponibles à l’échelle de 30 km et sont produits à partir des données observées plusieurs fois par jour. 
+
+Pour les variables individuelles et les niveaux d’altitudes, il s'agit d'une quantité maniable de données
+
+Pour ERA5, la taille de la totalité du catalogue augmente de 11 To chaque mois.
+
+Pour ERA5-Land, la résolution est encore plus fine, alors... encore plus grand.  
+
+Collecter uniquement ce qui est nécessaire est une bonne approche. -->
+
+# Réanalyses
+
+Réanalyses modernes :
+  - Résolutions spatiales entre ~25 à 10 Km (ou moins!)
+  - Résolution temporelle d’archivage jusqu’aux heures
+
+Plusieurs Go de données par mois/niveau/variable.
+
+  - 16 octets * 24 heures * ~30 jours * 12 mois * (360 / résolution Lons) * (180 / résolution Lat) * nombres de niveaux en altitude * etc... = **ENORME**
+
+Quelques exemples :
+  - ERA-Interim (ancien) : 30 ans de réanalyses pour une vingtaine de variables = ~7 To de données.
+  - ERA5 : 11 To de nouvelles données par mois.
+  - ERA5-Land : Résolution plus fine (~7 plus fine qu’ERA5)
+
+---
+
+<!-- C’est important de noter que plusieurs critiques pour les réanalyses s’applique aux prévisions aussi.
+
+Les centres avancent bien sur le problème d'assimilation de données pour rediriger leurs modèle vers les observations plusieurs fois par jour.
+
+Même avec tous ces avancements technologiques, il restent encore des difficultés avec les comparaisons statistiques entre les jeu de données de réanalyses et leurs données assimilés. -->
+
+# Réanalyses
+
+La comparaison de réanalyses et l’évaluation de leurs forces et faiblesses respectives est encore très anecdotiques.
+
+Plusieurs avancements dans l’assimilation des données, mais...
+- Les incertitudes associées au jeu de données de référence sont souvent ignorées lors de la validation
+
+Pour en savoir plus :
+
+- https://reanalysis.org/
+- https://climatedataguide.ucar.edu
+
+---
+
+<!-- _footer: "" -->
+
+<!-- Évolution rapide des données observées au cours des années : Maintenant millions de données d'entrée à tout les cycles de 12 h aux stations et les  satellites créer des sauts énormes quand ils sont mise en ligne.
+
+Cette quantité d'information disponible rendre des difficultés dans la validation des observations. Les avancements dans la contrôle de qualité des sortis des réanalyses traîne. -->
+
+![bg left:60% fit](img/2/ecole_ete_2024_2_icr4.png)
+
+## Intégration des données
+
+Augmentation du nombre des données des sources satellitaires intégrés dans la production des réanalyses ECMWF de 1996 to 2011.
+
+Pour en savoir plus :
+
+- [Simmons. 2017](https://climate.copernicus.eu/sites/default/files/repository/Events/ICR5/Talks/Simmons_keynote_ICR5_13pm.pdf)
+
+---
+
+<!-- _header: "" -->
+
+<!-- Nombreuse réanalyses disponibles : Pas des fiables méthodes pour savoir quelle réanalyse on doit utiliser. 
+
+Certaines produits fonctionnent mieux que les autres pour les analyses, dépendamment sur la phénomène
+
+Débat continuelle entre les statisticiens, hydrologues et modélisateurs du climat. -->
+
+![bg right:63% fit](img/4/ecole_ete_2024_4_reanalyses-comparaison.jpg)
+
+# Réanalyses
+
+- **Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**
+
+---
+
+# RDRS???
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 7.5%
+}
+</style>
+
+<!-- Comme Dominique avait expliqué hier, on peut faire des prévisions météorologiques à l'aide de modèle, la capacité prédictive de jour le jour est limité par la nature chaotique de la circulation atmosphérique, à disons l'ordre de deux semaines.
+
+Nous avons tous des expériences avec les prévisions quand on regarde le Weather Channel ou entends CBC / Radio-Canada – des fois c’est précis, ds fois pas du tout. -->
+
+![bg fit 60%](img/5/ecole_ete_2024_5_previsions.jpg)
+
+# Modèles de prévision
+
+- **Source : ECMWF (TIGGE)**
+
+---
+
+<!-- La service météorologique de Canada roule 20 configurations du modèle GEM deux fois par jour sur un horizon de 16 jours pour faire les prévisions d'ensembles. Les 20 simulations diverges tranquillement dans le temps et c'est ce qui mène à des situations ou un système de précipitation, ou la ligne de délimitation pluie-neige, passe par exemple au nord ou au sud de Montréal, dépendamment du membre de l'ensemble.
+
+Après ça, c'est au météorologues d'assigner des probabilités à ces événements. La nature de ces données là font en sorte qu'elles sont archivé pour une durée limitée et rarement utilisé pour des études climatiques. -->
+
+# Modèles de prévision
+
+Modèles utilisés pour faire des prévisions pour (souvent) les 14 jours à venir.
+
+Le service météorologique du Canada (SMC) roule 20 configurations du modèle « GEM »
+- *2 * jour, sur un horizon de 16 jours*
+
+Archivage de durée limitée et rarement utilisé pour des études climatiques.
+
+Intégration des données observées de plusieurs sources pour piloter les prévisions
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 7.5%
+}
+</style>
+
+<!-- Je voudrais montrer cette visualisation des données prévisions.
+
+J’ai pris cette carte de la prévision du modèle GEM pour ce matin l’autre jour. Ça se peut que la chiffre pour la température est précis ou proche. On verra. -->
+
+![bg fit 80%](img/3/ecole_ete_2024_3_ventusky.png)
+
+## [Prévision en temps réelle](https://www.ventusky.com/?p=47.515;-70.201;10&l=temperature-2m)
+
+---
+
+<!-- Données de réanalyse : Résolvent un bon nombre des problèmes qui peut découler des données de station et peuvent protéger contre certains problèmes pouvant être propagés par interpolation.
+
+Lorsque les systèmes d’observations qui sont intégrés changent très souvent, c’est difficile de déterminer la qualité des estimations entre produits et années. 
+
+Il existe des différences majeures entre les produits et il peut être impossible de savoir lequel est le bon pour vos besoins. -->
+
+# Réanalyses
+
+FIXME: Need two columns
+
+**Forces**
+
+Couverture spatiale complète.
+Séries continues à haute résolution temporelle
+Cohérence physique entre les variables.
+Utilise un maximum de données observées pour initialiser le modèle plusieurs fois par jour.
+Variables souvent beaucoup plus intéressantes.
+
+**Faiblesses**
+
+Plusieurs phénomènes encore paramétrés (p. ex. précipitation).
+Les modèles de réanalyses / prévisions ont des différences majeures entre elles.
+Les normes relatives aux variables ne sont pas toujours cohérentes entre les jeux des données réanalyses / prévisions et les modèles climatiques.
+
+---
+
+<!-- Jusqu'ici on a seulement regardé des jeux de données qui nous informent sur le climat et les événements météorologiques passés et présents. 
+
+Études d'impacts futures nous prends des projections des conditions climatiques qui nous attendent dans le future.
+
+QUESTIONS -->
+
+# Données des modèles climatiques
+
+---
+
+<!-- Donc ce qui va nous intéressé davantage ici ce sont les modèles du climat qui sont utilisés pour faire des longues séries climatiques, soit des possibilités climatiques passées ou des projections futures.
+
+Un modèle climatique qui roule dans le passé ne vise pas à reproduire les événements météorologiques, mais bien les statistiques de ces événements, ce qu'on appelle le climat.
+
+Par exemple – Simulations futures – le modèle indique une précipitation extrême le 1er juin 2038 – ça veut dire que les conditions générales de ce type d'événement sont plausible
+
+Les données sont archivées sur des serveurs dédiés de longue durée, généralement pour un sous-ensemble de variables que le modèle produit et allant jusqu'à des fréquences horaires. -->
+
 
