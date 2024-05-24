@@ -1702,7 +1702,9 @@ Débat continuelle entre les statisticiens, hydrologues et modélisateurs du cli
 
 ---
 
-# RDRS???
+# Réanalyses canadiens
+
+
 
 ---
 
@@ -1721,7 +1723,7 @@ li {
 
 Nous avons tous des expériences avec les prévisions quand on regarde le Weather Channel ou entends CBC / Radio-Canada – des fois c’est précis, ds fois pas du tout. -->
 
-![bg fit 60%](img/5/ecole_ete_2024_5_previsions.jpg)
+![bg fit 60%](img/3/ecole_ete_2024_3_previsions.jpg)
 
 # Modèles de prévision
 
@@ -2238,3 +2240,660 @@ h2 {
 ## Système d'archivage d'Ouranos
 
 ---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+li {
+  position: absolute;
+  bottom: 12.5%
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _paginate: false -->
+
+<!-- FIXME: ADD TEXT -->
+
+![bg horizontal fit](img/4/ecole_ete_2024_4_lto.jpg)
+![bg horizontal fit](img/4/ecole_ete_2024_4_lto-gens.jpg)
+
+## Système d'archivage d'Ouranos
+
+- **LTO : « Linear Tape-Open »**
+jusqu'à *18 To par cassette* !
+
+---
+
+<!-- Quelques distinctions des modèles globaux.
+
+Pas toujours le cas ou on se trouve les mêmes expériences entre les domaines. 
+
+Pas souvent de nombreuses instituts qui font des expériences sur la même domaine.
+
+Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
+
+<!-- FIXME Columns needed -->
+
+# Modèles régionaux du climat
+
+**Forces**
+
+Couverture spatiale à haute résolution sur un domaine choisi.
+Séries continues.
+Cohérence physique entre les variables.
+Permet de faire des projections dans le futur.
+
+**Faiblesses**
+
+Plusieurs phénomènes encore paramétrés (p. ex. formes de  précipitation spéciales).
+Les modèles ont des différences majeures entre eux.
+Multiplication des expériences requises pour couvrir l’incertitude des modèles pilotes.
+Coûts énormes en calcul et en stockage / archivage des données
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Leduc et al. (2019) - (https://doi.org/10.1175/JAMC-D-18-0021.1)**" -->
+
+<!-- Avant de passer vers les données dérivées, je dois aussi mentionner les expériences avec les Grands Ensembles.
+
+Celles sont des simulations qui utilise les mêmes modèles mais avec des conditions initiales légèrement perturbés.
+
+Ici on voit les travaux de Martin Leduc, un chercheur d’Ouranos qui a développé un ensemble qui utilise notre modèle MRCC5. -->
+
+![bg 60%](img/4/ecole_ete_2024_4_grands-ensembles.png)
+
+## Grands ensembles
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- Un autre type d'ensemble qui a fait surface dans les dernières années sont les grands ensembles.
+
+Dizaines de simulations avec des conditions initiales légèrement perturbées pour évaluer le climat dans un contexte non-stationnaire. 
+
+Ces travaux ont débuté avec l’ensemble du CCSM3 de NCAR. 
+
+Les produits d’Environnement Canada sont aussi connues pour leurs simulations à base de leur GCM « CanESM2 », un autre qui utilise les sortis de GCM pour rouler leur RCM « CanRCM4 » , et récemment ils offrent un produit corrigé pour mieux aider les chercheurs qui s’appelle CanLEAD. -->
+
+## Grands ensembles
+
+Les grands ensembles consistent à produire plusieurs dizaines de membres d’une même configuration d’un modèle.
+
+Permet de mieux évaluer le rôle de la variabilité naturelle dans la chaîne d’incertitude de la modélisation climatique.
+
+NCAR CESM1 LENS (40 membres)
+
+CanESM / CanESM2 Large Ensemble (50 membres)
+ - CanRCM4-LE → CanLEAD-LE (données corrigés)
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Leduc et al. (2016) The ClimEx Project: Dynamical downscaling of a GCM large ensemble at very high resolution for Bavaria and Quebec. International Conference on Regional Climate-CORDEX, Stockholm, 17-20 May 2016. Poster.**" -->
+
+
+<!-- Scientifiques du Bavière et Ouranos ont rouler une nouvelle ensemble large nommé ClimEx. Cette ensemble avait utilisé 5 familles de perturbations pour rouler le CanESM2 pour 50 simulations sur les domaines d’Europe et le Québec, incluant le Nord-Est des États-Unis. 
+
+ieux comprendre les effets hydrologiques dans le futur par créer des données d’entrée pour les modèles hydriques et hydrologiques à l’échelle très fine. 
+
+Disponible pour l’Europe et on est en discussion pour l’ouvrir accès aux public pour le données qui contient le Québec. -->
+
+![bg 60%](img/4/ecole_ete_2024_4_climex.png)
+
+##  Ensemble de Simulations « ClimEx »
+
+---
+
+<!-- Il y a une particularité plutôt troublante à laquelle vous devrez faire face quand tu travail avec les données de modèles. 
+
+Notre calendrier standard est compliqué face au évènements des années bissextil
+
+Simplification: certains centres ont a leur début fait le choix d'utiliser des calendriers uniforme, soit de 360 jours, ou 365, ou 366. 
+
+Ils ajustent la rotation de la terre autour du soleil en conséquence pour garder les équinoxe constant. 
+
+Échelle journalière : difficile de comparer les séries continuelles.
+
+Si on export ces données vers les modèle hydrologiques, qui ne fonctionne qu'avec un calendrier régulier, on suggère généralement de rajouter la journée manquante avec une interpolation linéaire.
+
+Par contre pour les rares modèles à 360 jours, ça devient plus compliquer et on va généralement les ignorer de ce genre d'étude. -->
+
+## Calendriers climatiques
+
+Différents modèles climatiques utilisent différents calendriers  :
+ - « standard » (ancien nom : « gregorian » )
+ - « proleptic_gregorian »
+ - « julian »
+ - 360 jours (« 360_day » : modèles HadGEM) 
+ - 365 jours (« no_leap »)
+ - 366 jours (« all_leap »)
+
+Pour savoir en plus :
+ - **Conventions CF (http://cfconventions.org/cf-conventions/cf-conventions#calendar)**
+
+ ---
+
+<!-- Je vais terminer la section sur les sources des données avec des données qui sont typiquement produites pendant la transformation vers informations. Ce qu’on fait durant l’étape de l’analyse.
+
+Les données dérivées ne sont pas exactement une source distincte en raison que on pourrait faire ces dérivations en utilisant plus qu’une source des données ou plusieurs, selon la question ou l’analyse qu’on veut faire.
+
+QUESTIONS ? -->
+
+# Données « dérivées »
+
+---
+
+# Données « post-traitées » vs données « dérivées »
+
+
+
+https://doi.org/10.1038/s41597-023-02855-z
+
+---
+
+# FIXME : Données « post-traitées »
+
+Talk about : 
+ - Scenarios Génériques
+ - ESPO-R ESPO-G
+
+**5 slides maximum!**
+
+
+---
+
+<!-- _footer: "**Source : IPCC AR5 WG1 - FigTS_TFE9.1**" -->
+
+<!-- Données dérivées : Indices climatiques pré-calculé à partir des données sources.
+
+Données climatiques traités légèrement ou fortement pour donner des informations très spécifiques.
+
+Indicateurs inclure les degrés-jours de croissance ou la date du dernier gel printanier : particulièrement utiles pour les agronomes. -->
+
+![bg left:40% fit](img/5/ecole_ete_2024_5_ipcc.jpg)
+
+## Données « dérivées »
+
+Transformation de données bruts vers des indices qui décrit des conditions climatiques dans une manière plus accessible / décrivant / pertinente
+
+Aide en faisant les comparaisons des conditions climatiques entre :
+ - Sources des données; Horizons temporelles; Régions spatiales; etc...
+
+Pour mieux communiquer les informations avec les grands publics
+
+---
+
+<!-- Il y a plusieurs jeu de données qui sont basées sur les observations ou les modèles.
+
+Canada est très avancé sur cet enjeu et nous produisons plusieurs jeu de données dérivées.
+
+Les traitements pour rendre des données plus utiles peuvent êtres légères comme les totales de pluie par saison ou plus complexe pour donner des informations très spécifiques. 
+
+Indicateurs inclure les degrés-jours de croissance ou la date du dernier gel printanier : particulièrement utiles pour les agronomes.
+
+ETCCDDI un groupe de recherche de l’OMM ont créé un guide sur les indices climatiques qui est utilisé comme référence pour plusieurs analyses aujourd’hui -->
+
+## Données « dérivées »
+
+Plusieurs indicateurs climatiques sont calculés à partir de données observées et publiés comme jeu des données
+
+Ressources Naturelles Canada calcule des indicateurs bioclimatiques (p. ex. début de la saison de croissance)
+
+Standard pour plusieurs indices climatiques : European Climate Assessment & Dataset (ECAD)
+
+Pour en savoir plus : 
+- **ETCCDI Comparaison - https://www.ecad.eu/documents/ETCCDMIndicesComparison.pdf**
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Ancien extracteur des données RNCan - lien maintenant retiré**" -->
+
+<!-- RNCan dispose d'un grand nombre de ces ensembles de données traitées via ses portails de données climatologiques.
+
+19 indices bioclimatiques produits par RNCan. Comme quoi il n'est pas toujours nécessaire de repartir à zéro. -->
+
+![bg 52.5%](img/5/ecole_ete_2024_5_rncan-indices.jpg)
+
+## Données « dérivées »
+
+---
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : Ouranos (https://portraits.ouranos.ca)**" -->
+
+<!-- À Ouranos, on produit plusieurs jeu de données dérivées ou pré-calculés pour le province au complet
+
+Une plateforme très souvent consulté sur notre site web est nommé les portraits climatiques. Ceci montre les statistiques sur grilles des conditions présentement et un scénario de futur pour les degrès-jours de croissance selon quelques produits de données. 
+
+On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs climatiques, basées sur des nouveaux produits des données utilisées maintenant par Environnement Canada. Je vous encourage d'explorer nos  -->
+
+![bg right:60% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
+
+## <!-- fit --> Données « dérivées »
+
+FIXME: What do we offer?
+
+
+---
+
+<!-- Un autre avancement que s’intéresse aux chercheurs c’est les analyses climatique sur mesure. Cette approche aide les gens à calculer des indicateurs très coûteux ou spécifiques sur un serveur qui est proche aux données.
+
+Ça évite la nécessité de télécharger des données et faire l’analyse elle-même. 
+
+Ouranos à travailler comme partenaire avec Environnement Canada sur le site « Données Climatiques » ou « Climate Data » Point CA
+
+En Europe, l’agence Copernicus aussi offrent des indicateurs sur mesure sur leur plateforme « Climate Data Store ». Encore, Ouranos avait contribué du travail sur les logiciels qui roule dans le back-end de ce projet aussi. -->
+
+# Données dérivées « sur mesure » 
+
+Calculs des indices par requête internet / en-ligne :
+
+- Données Climatiques (Canada) : https://donneesclimatiques.ca/  
+
+- Copernicus Data Store (Europe) : https://cds.climate.copernicus.eu/
+
+- PAVICS (Québec) :
+https://pavics.ouranos.ca/
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : ClimateData.ca - (https://donneesclimatiques.ca/analyser/)**" -->
+
+<!-- Voici une exemple de donneesclimatiques.ca – Il me donne l’option de calculer les jours avec précipitation en haut d’un seuil pour un bassin versant (proche à ici). Cet requête serait envoyer à un serveur qui va retourner un tableau ou une grille qui contient l’indicateur calculer. -->
+
+![bg 95%](img/5/ecole_ete_2024_5_climatedataca.png)
+
+## Données dérivées « sur mesure » 
+
+---
+
+<!-- Quelques distinctions des modèles globaux.
+
+Pas toujours le cas ou on se trouve les mêmes expériences entre les domaines. 
+
+Pas souvent de nombreuses instituts qui font des expériences sur la même domaine.
+
+Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
+
+# Données dérivées
+
+**Forces**
+
+Transformation des données vers les informations utiles pour montrer des conditions / changements au grand public 
+Facilite la comparaison entres sources / formes différents des données
+Moins d’espace disque nécessaire pour les stocker
+
+**Faiblesses**
+
+« Filtrage » des données - enlève plusieurs détails   
+Seuils et paramétrages sont très spécifiques de cas à cas – besoin de refaire des calculs 
+Outils et algorithmes de calcul complexe nécessaires pour traiter des données énormes
+~~Produits « one-shot » (Faite une fois) – besoin de refaire des calculs souvent~~
+
+---
+
+<!-- On est terminés avec les sources des données climatiques – Félicitations !
+
+On passent maintenant vers la section où on va apprendre comment tous des données sont sauvées, gérées, et les attributs associées avec tous ces données.
+
+QUESTIONS ? -->
+
+# <!-- fit --> Formats habituels des données climatiques et outils d’analyses
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Centre canadien de service climatiques**" -->
+
+<!-- Nous revenons aux données des stations d’Environnement Canada, les fichiers source bruts se présentent comme suit.
+
+Ligne de saisie par jour avec le numéro de station, la date et une valeur avec un indicateur de confiance par heure. 
+
+Ce format est fourni sur demande mais il est rare que quelqu'un le veut. -->
+
+![bg 80%](img/6/ecole_ete_2024_6_eccc-flatfile.jpg)
+
+## (Ancien) Format des données de stations
+
+---
+
+<!-- Peuvent être très spécifiques à chaque fournisseur et peuvent être difficiles à gérer. 
+
+Pour comprendre ce format maison, il faut se référer à la documentation sur le site web d'environnement Canada.
+
+Pour les ingénieurs, on pourrais dire RTFM : Read the « fantastic » Manual. -->
+
+## (Ancien) Format des données de stations
+
+L’information sur les variables, les unités et les “flags” se trouve dans une documentation à part.
+
+Pour les données de précipitations sur le Canada, la base de données contient *~10000 fichiers texte pour un total de ~550 Mo.*
+
+Ce format des données est utilisé à l’interne d’ECCC, alors pas facilement accessible aux grand publics.
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Centre canadien de service climatiques**" -->
+
+<!-- Par exemple, pour obtenir le nom et l'emplacement de la station météo, nous avons besoin d'une table de consultation contenant ces informations, comme celle ici. -->
+
+![bg 80%](img/6/ecole_ete_2024_6_flatfile-stations.jpg)
+
+## (Ancien) Format des données de stations
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+h3 {
+  position: absolute;
+  top: 7.5%;
+}
+img[alt~="center-left"] {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 100%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : https://ruc.noaa.gov/raobs/fsl_format-new.html**" -->
+<!-- _paginate: false -->
+
+<!-- Certains formats de données brutes peuvent contenir des lectures à très haute fréquence ou de nombreuses variables qui nécessitent beaucoup de déchiffrement comme les données de radiosonde.
+
+Je n'ai pas travaillé avec des données de radiosondage et je ne les trouvent pas cela très excitant. -->
+
+![bg right fit](img/6/ecole_ete_2024_6_radiosonde.jpg)
+
+## Format « maison »
+
+### Données de radiosonde dans le format FSL
+
+![img center-left](img/6/ecole_ete_2024_6_radio-legende.png)
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- Si on regarde les données interpolées de RNCan, ils utilisent un format de donnée texte plus connu dans le domaine de SIG appelé ArcInfo.
+
+Les dimensions et les coordonnées de la grille, ainsi que le code pour les valeurs manquantes sont spécifié dans l'entête du fichier. -->
+
+![bg 60%](img/6/ecole_ete_2024_6_arcinfo.jpg)
+
+## Format ArcInfo (Grille ASCII)
+
+---
+
+<!-- Plusieurs problèmes avec les fichiers texte.
+
+Contiennent rarement de l'information sur la source des données et la façon dont elles ont étés produite. 
+
+Ne profitent pas des méthodes de compression de données moderne et prennent donc beaucoup plus d’espace sur disque. -->
+
+## Format ArcInfo (Grille ASCII)
+
+Pour une base de données comme les données journalières interpolées de Ressource Naturelle Canada sur une grille à 10 km (1068x510) :
+
+Un fichier par jour de ~5 Mo :
+ - Pour 62 années → ~22 000 fichiers pour un total de *~110 Go par variable*
+
+**Simple, stable, mais...**
+ - **aucun compression (gourmand pour l’espace disque)**
+ - **aucun métadonnées**
+
+---
+
+<!-- _footer: "**Source : https://github.com/Ouranosinc/miranda**" -->
+<!-- _paginate: false -->
+
+<!-- Les métadonnées sont critiques pour mieux comprendre les données qu’on joue avec.
+
+Sans ces informations c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc.
+
+Si le programmation de ça vous intéresse, je suggère de regarder ce projet je développe qui s'appelle « Miranda » -->
+
+![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
+
+## À coté – les métadonnées
+
+Des données qui décrit / défini les données
+ - Historique / changements / provenance de opérations
+ - Créateur, origine, date de création, version, modèles, standard de métadonnées, unités, etc.
+ - Calendrier(s)
+ - Codes de qualité de données
+
+ ---
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : https://eo4society.esa.int**" -->
+
+<!-- 
+
+FIXME: Add notes
+
+-->
+
+![bg left fit](img/6/ecole_ete_2024_6_datacube.jpg)
+
+## Formats « Datacube »
+
+Données avec plusieurs dimensions
+« matrice multi-dimensionnel »
+ - latitude, longitude, élévation, temps, autres coordonnées, variables, etc...
+ - Données satellitaires et climatiques sur grille
+
+Compression !
+
+Métadonnées intégrés !
+
+---
+
+<!-- Pour ces raisons: Plusieurs tentatives de développer un format de données standard pour les applications climatiques : Le format gagnant de ce processus est le NetCDF. 
+
+etCDF : Structuré pour des données multidimensionnelles qui préserve les métadonnées et bénéficie de la compression facultative. 
+
+Développé par la «University Corporation for Atmospheric Research» et est devenu la norme pour de nombreux ensembles de données climatiques. -->
+
+## Format « NetCDF »
+
+Ce format permet d’enregistrer des données multidimensionnelles ainsi que les métadonnées qui s’y rattachent.
+
+Algorithmes de compression disponibles lors de l’écriture du fichier.
+
+Développé par UCAR (pas UQAR, malheureusement) et le National Science Foundation (NSF) aux États-Unis
+
+Pour en savoir plus :
+ - **Site web du projet (https://www.unidata.ucar.edu/software/netcdf)**
+ - **Wikipédia : (https://en.wikipedia.org/wiki/NetCDF)**
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "Source : https://artefacts.ceda.ac.uk/formats/netcdf/index_cf.html" -->
+
+<!-- Le format de données inclut les dimensions par lesquelles les variables sont définies, les définitions des variables, leurs unités et leurs méthodes de cellule, ainsi que les dimensions qu’elles utilisent.
+
+Il possède des attributs globaux réservés qui stockent des informations telles que la date de production, les traitements éventuellement appliqués, les auteurs des données, etc. -->
+
+![bg 65%](img/6/ecole_ete_2024_6_netcdf.jpg)
+
+## Définition du format « NetCDF »
+
+---
+
+<!-- La communauté scientifique du climat a également élaboré de nombreuses conventions sur la définition des données NetCDF, ce qui a permis de garantir que les données peuvent être lues, analysées et interprétées facilement. -->
+
+## Format « NetCDF »
+
+La communauté des sciences du climat a établi une convention à suivre pour bien écrire des données climatiques.
+
+Standards pour les données parmi les climatologues
+ - CF Conventions : http://cfconventions.org
+ - COARDS (ancien) : https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions
+
+Les variables ont des noms standardisés.
+
+La définition des unités temporelles et de la grille géospatiales est standardisée.
+
+---
+
+<style scoped>
+img[alt~="center-right"] {
+  position: absolute;
+  top: 10%;
+  right: 2.5%;
+  width: 30%;
+}
+img[alt~="bottom-center"] {
+  position: absolute;
+  bottom: 7.5%;
+  left: 40%;
+  height: 12.5%;
+}
+</style>
+
+<!-- FIXME THIS NEEDS TO BE UPDATED -->
+
+<!-- Plus récemment on commence à trouver les données en formats optimisées pour le partage sur l’internet, comme des « data streams » et « data lakes » ou flux lacs des données.
+
+Plusieurs exemples des systèmes  sont offerts par Google, Microsoft, Amazon, et Apache
+
+Ces formats de données peuvent êtres structurés (en base de données relationnel/SQL), semi-structurés (comme les CSV et les JSON), non-structurés (comme les PDFs) ou en binaire (comme les images). 
+
+À Ouranos on est en train d’offrir quelques données dans un format très similaire a NetCDF mais optimisé pour la téléchargement des données en-ligne, qui s’appelle Zarr. -->
+
+## Formats infonuagiques
+
+Services propriétaires de calcul et entreposage
+ - Amazon AWS (S3)
+ - Google Big Query / Earth Engine (Cloud)
+ - Apache Spark (Hadoop)
+
+Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne : « [OPeNDAP](https://www.opendap.org/) » 
+
+« Datacube » similaire à NetCDF optimisé pour la téléchargement et lecture en-ligne : « [Zarr] »
+
+![img center-right](img/6/ecole_ete_2024_6_proprietary.png)
+![img bottom-center](img/6/ecole_ete_2024_6_zarr.png)
+
+---
+
+<style scoped>
+img[alt~="bottom-right"] {
+  position: absolute;
+  bottom: 7.5%;
+  right: 20%;
+  width: 33%;
+}
+</style>
+
+<!-- Autres : le format GRIB (Gridded Binary) est un maintenant vieux format utilisé encore pour les données provenant du OMM qui ressemble au format NetCDF.
+
+Centres de recherches d’Environnement Canada travailles encore avec leur format binaire maison, comme le CCC de CCCMA et RPN du groupe Recherche en Prévision Numérique
+
+Je veux mentionner les fichiers de type vectorielle, qui sont en fait des définitions des points, lignes, et polygones que nous utilisons définir des endroits ou régions géographiques. Le plus connu est le Shapefile, mais ça commence à être remplacé par des nouvelles formats ouverts. -->
+
+## Autres formats traditionnels
+
+GRIB « Gridded Binary » : http://www.grib.us/
+
+CCC, RPN : formats de données sur grille d’Environnement Canada.
+
+Vectorielle : définition des points, des lignes ou des contours de polygones représentant des phénomènes ou objets spatiaux.
+
+ - Shapefile, GeoJSON, GML, KML ...
+ - PostgreSQL/PostGIS, **GeoPackage →**
+
+![img bottom-right](img/6/ecole_ete_2024_6_geopackage.png)
+
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- Pour travailler avec ces fichiers très volumineux, il faut généralement avoir des logiciels d'analyses ou à des langages de programmation.
+
+Quelques langages traditionnel : C/C++, Fortran,  Java, MATLAB/Octave
+
+Populaire récemment : R, Python, ArcGIS/QGIS,  Julia, Rust, etc.
+
+Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactive Data Language, mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux sont maintenant désuets. -->
+
+## Plateformes et langages
+
+![bg 90%](img/6/ecole_ete_2024_6_plateformes.png)
+
+---
+
+## Outils pour systèmes d’opérations
