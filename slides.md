@@ -2884,11 +2884,11 @@ h2 {
 
 <!-- Pour travailler avec ces fichiers très volumineux, il faut généralement avoir des logiciels d'analyses ou à des langages de programmation.
 
-Quelques langages traditionnel : C/C++, Fortran,  Java, MATLAB/Octave
+Quelques langages traditionnel : C/C++, Fortran, Java, MATLAB/Octave
 
-Populaire récemment : R, Python, ArcGIS/QGIS,  Julia, Rust, etc.
+Populaire récemment : R, Python, ArcGIS/QGIS, Julia, Rust, etc.
 
-Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactive Data Language, mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux sont maintenant désuets. -->
+Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactive Data Language, mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux langaes sont maintenant désuets. -->
 
 ## Plateformes et langages
 
@@ -2896,4 +2896,178 @@ Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactiv
 
 ---
 
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- FIXME CONVERT OR REMAKE THIS SLIDE WHEN YOU HAVE TIME -->
+
+<!--La plupart de ces outils ont étés crées pour les grandes familles des systèmes Linux comme Ubuntu ou WSL, UNIX comme macOS et BSD mais il y a aussi les façons de manipuler les données directement du « command prompt » ou « Powershell » en Windows. 
+
+Aussi des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO qui ont étés produite spécifiquement pour les NetCDFs. -->
+
 ## Outils pour systèmes d’opérations
+
+![bg 90%](img/6/ecole_ete_2024_6_oses.png)
+
+---
+
+<!-- Si on à le temps je pourrais faire un exemple très vite de comment l’outil ncview se voit. -->
+
+## Exemple: : `ncview`
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**" -->
+
+<!-- Pour ceux et celles qui s'intéressent à la gestion des indices climatiques, Ouranos a développé un package python permettant de faire exactement cela. Je pourrais en parler plus tard si les gens sont intéressés. -->
+
+![bg 80%](img/6/ecole_ete_2024_6_xclim.png)
+
+## Outils d'analyses crées par Ouranos
+
+---
+
+<!-- Complexités avec les recherches climatiques.
+
+« Quelles sont les échelles spatiales et temporelles qui nous intéressent? »
+
+« Quel niveau d'incertitude avec la précision des données sommes-nous prêts à accepter? »
+
+« Quelle est la raison de nos besoins en données »
+
+Peut être décourageant même pour les chercheurs expérimentés qui ont déjà travaillé avec des données climatiques.
+
+Quantité de données disponibles nécessite un ensemble de compétences lui-même pour naviguer et trouver les données nécessaires. -->
+
+# Comment choisir ses données ?
+
+Qu’est-ce qui est disponible (accessible) à la résolution spatiale et temporelle nécessaire ?
+
+Est-ce que le jeu de données représente bien le processus à étudier ?
+
+Lors de la validation, est-ce que l’incertitude sur les données observées et l’aspect de la représentativité spatiale et temporelle est pris en compte ?
+
+Faites-vous une étude d’impact ou un projet d’analyse de processus ?
+
+---
+
+<!-- La capacité des spécialistes à réduire l'écart entre la science du climat et la recherche généralisée s'est étendue au domaine des services climatologiques.
+
+Ouranos : Rencontrer ou de discuter avec des chercheurs sur divers produits et de déterminer le niveau de complexité, les produits et le volume de données dont un chercheur a besoin pour faire avancer ses recherches.
+
+Données brutes; Données tabulaires; Des représentations cartographiques corrigées : l’Équipe de Scénarios et Services Climatiques. -->
+
+# Les services climatiques
+
+Pont entre la science du climat et la prise de décisions en matière d’adaptation aux changements climatiques.
+
+Les groupes **Scénarios et services climatiques (SSC)** et **Plateformes climatiques, données et opérations (PCDO)** à Ouranos offre des produits synthétisés ou pré-traités, et aussi les rapports informationnels aux partenaires qui n’ont pas l’expertise ou la capacité pour traiter autant de données.
+
+Ouranos offre aussi une plateforme de calcul intégré avec les données climatiques.
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Pour enregistrer : https://pavics.ouranos.ca/**" -->
+<!-- _paginate: false -->
+
+## Plateforme de recherche - PAVICS
+
+![bg horizontal fit](img/6/ecole_ete_2024_6_pavics-register.png)
+![bg fit](img/6/ecole_ete_2024_6_pavics-extras.png)
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- L’idée en générale c’est d’offrir une système qui pourrait aider plusieurs type des chercheurs. 
+
+Directement dans la plateforme on offre un environnement basé sur JupyterLab qui donne la capacité de rouler et partager les notebooks de calcul
+
+Ou bien si on veut seulement utiliser les processus de calcul ou les données directe, on pourrait travailler sur nos ordis personnels et envoyer des requête comme voulus de Python ou R ou n’importe quoi.
+
+PAVICS offrent même la capacité de rouler les calculs sur données qui sont hébergés dans d’autres serveurs.
+
+Par exemple, j’ai parlé de Climatedata.ca tantôt - la base de données et les calculs sont fait sur un système basée sur PAVICS.
+
+Toute ça fonctionne par communication WPS un standard de requête sur le web géré par le « Open Geospatial Consortium » dont nous à Ouranos ont fait plusieurs contributions de code et ressources. -->
+
+![bg 85%](img/6/test.png)
+
+## Plateforme de calcul « **PAVICS** »
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- À Ouranos on offrent la même genre de capacité pour nos nouvelles jeux de données et au lieu de seulement offrir des indicateurs climatiques pré-calculées sur notre site web, usagers ont l’option de rouler des calculs au besoin ou télécharger des données de manière intelligent, etc. -->
+
+![bg 90%](img/6/ecole_ete_2024_6_pavics-offres.png)
+
+## Offre des services climatiques chez Ouranos
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!--
+
+Canadian Historical Station Data: http://climate.weather.gc.ca/historical_data/search_historic_data_e.html
+US Land-Based Station Data: https://www.ncdc.noaa.gov/data-access/land-based-station-data
+Adjusted and Homogenized Canadian Climate data (AHCCD): http://www.ec.gc.ca/dccha-ahccd/
+Climate Research Unit (CRU) datasets: http://www.cru.uea.ac.uk/data
+NOAA/ESRL Radiosonde database: https://ruc.noaa.gov/raobs/
+University of Wyoming atmospheric soundings for North America: http://weather.uwyo.edu/upperair/sounding.html
+Suivi Hydrologique au Québec (DEH): https://www.cehq.gouv.qc.ca/suivihydro/default.asp
+Canadian Historical Weather Radar Images: http://climate.weather.gc.ca/radar/index_e.html
+NCAR/RAP Real-Time Weather for the US (surface, radar, satellite, forecasts): http://weather.rap.ucar.edu/
+Geostationary Satellite Server: http://www.goes.noaa.gov/
+CFSR Reanalysis data: https://rda.ucar.edu/datasets/ds093.1/
+MERRA-2 Reanalysis data: https://goldsmr4.gesdisc.eosdis.nasa.gov/data/
+JRA-55 Reanalysis data: https://rda.ucar.edu/datasets/ds628.0/
+ERA-Interim Reanalysis data: http://apps.ecmwf.int/datasets/data/interim-full-daily/levtype=sfc/
+Web-based Reanalysis Intercomparison Tool (WRIT): https://www.esrl.noaa.gov/psd/data/writ/
+Earth System Grid Federation node at DOE/LLNL (CMIP5, CMIP6, CORDEX, etc.): https://esgf-node.llnl.gov/search/esgf-llnl/
+ClimEx Project (Bavaria Portal) : https://www.climex-project.org/ 
+NRCan Gridded Observations : https://cfs.nrcan.gc.ca/projects/3/4 
+CanGRD Interpolated Homogenized Observations : https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-historical-climate-data.html
+
+-->
+
+![bg 70%](img/6/ecole_ete_2024_6_data-info-knowledge.png)
+
+# Merci !
+
