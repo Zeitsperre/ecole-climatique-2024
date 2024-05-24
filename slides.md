@@ -68,10 +68,14 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 # **Objectifs du cours**
 
-* Connaissance de base de l’historique de la collecte de données climatiques, du fonctionnement des différents instruments et de leurs incertitudes.
-* Vue d’ensemble des données disponibles pour faire des études climatiques.
-* Connaissance des forces et faiblesses des différents types de jeux de données.
-* Compréhension de la taille considérable de certaines des bases de données et des défis à les analyser.
+Connaissance de base de l’historique de la collecte de données climatiques, du fonctionnement des différents instruments et de leurs incertitudes.
+
+
+Vue d’ensemble des données disponibles pour faire des études climatiques.
+
+Connaissance des forces et faiblesses des différents types de jeux de données.
+
+Compréhension de la taille considérable de certaines des bases de données et des défis à les analyser.
 
 ---
 
@@ -1901,13 +1905,13 @@ Ils inclus aussi l’expérience historique de CMIP6 dans le cœur des priorité
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
 </style>
 
-<!-- _footer: "Source : IPCC AR6 WG1 1.20" -->
+<!-- _footer: "**Source : IPCC AR6 WG1 1.20**" -->
 
 <!-- Je voudrais retourner à cette carte super qu’on a vue hier avec Dominique.
 
@@ -1915,5 +1919,322 @@ Les pays riche qui peuvent se permettre d'entreprendre ces efforts de modélisat
 
 Même si on ne voit pas des instituts dans Afrique par exemple, dans une monde connecté, nos collaborateurs sont des fois partout et les efforts de s’améliorer les modèles sont un travail faite par la communauté « at large » -->
 
-# Instituts participants à CMIP
+![bg 75%](img/4/ecole_ete_2022_4_cmip-map.png)
 
+## Instituts participants à CMIP
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Knutti, et al. (2013) Climate model genealogy: Generation CMIP5 and how we got there (https://doi.org/10.1002/grl.50256)**" -->
+
+<!-- Knutti 2013 avait commencer le travaux de « comment rassembler les modèles CMIP ? ». Ici on voit à travers les générations de CMIP (CMIP2, CMIP3 et CMIP5) la distance des modèles par rapport aux observations en considérant les moyennes de la température et la précipitation de surface. 
+
+Les modèles s'améliore (on se rapproche de zéro), et les modèles problématiques continue à améliorer. 
+
+On ne peut pas dire que le CESM1 est le meilleur modèle et simplement ne pas examiner les autres. 
+
+Cette mesure ne contient aucune information sur les performance de distribution spatiale, la capacité du modèle à bien répondre au forçage radiatif future, ou le comportement de d'autres variables climatiques que la température et la précipitation. 
+
+Pour tel raison, il n’y a pas un CMIP4 (les modèles utilisés dans le 4e rapport du GIEC était basées sur CMIP3) – Je ne sais pas pourquoi. Peut-être Dominique le sait. -->
+
+![bg fit right:75%](img/4/ecole_ete_2022_4_model-evolution.jpg)
+
+## Modèles participants de CMIP2 à CMIP5
+
+*NOTE: CMIP4 n'existe pas!*
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Knutti et al. (2013) - (https://doi.org/10.1002/grl.50256)\nBrunner et al. (2020) - (https://doi.org/10.5194/esd-11-995-2020)**" -->
+
+<!-- Arbre généalogique des modèles climatiques. CMIP5 à gauche et CMIP6 à droite.
+
+Attention CMIP6 – Les modèles de CMIP6 sont plus nombreux, mais ils sont regroupés par famille – les chiffres à cotés des entrées.
+
+Modèles qui proviennent d'un même centre de recherche ou qui partage beaucoup de leurs composantes, ici indiqué par le code de couleur des noms de modèles vont avoir des climat passé simulé plus semblable, 
+
+Réponses à l'augmentation du CO2 sont aussi similaires. 
+
+Donc ce qu'on va généralement viser à faire dans ces études climatiques c'est d'échantillonner cet ensemble de modèle de façon à prendre des modèles variés. C'est ce qu'on appelle des méthodes de sélection par grappe, ou « cluster analysis ». -->
+
+![bg horizontal 90%](img/4/ecole_ete_2022_4_cmip5-model-families.jpg)
+![bg horizontal 80%](img/4/ecole_ete_2022_4_cmip6-model-families.png)
+
+## Généalogies des modèles participants de CMIP5 et CMIP6
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Meehl et al. (2020) Context for interpreting equilibrium climate sensitivity and transient climate response from the CMIP6 Earth system models (https://doi.org/10.1126/sciadv.aba1981)**" -->
+
+<!-- Pour mieux illustrer ce point voici un comparaison de quelques métriques, en particulière le « Equilibrium Climate Sensitivity » en orange et le « Transient Climate Response » en vert.
+
+Ces deux métriques représente les dynamiques des modèles et les modeleurs essaie de trouver les contraintes pour mieux simuler le système climatique.
+
+On peut voir pour les derniers 3 générations, la TCR ne bougent pas vraiment, et malheureusement, la élongation de ECS nous indique que les prévisions pour la sensibilité du système étaient peut-être trop conservateurs. -->
+
+![bg 77%](img/4/ecole_ete_2022_4_model-sensitivity.jpg)
+
+## Comparaison de modèles CMIP
+
+---
+
+<!-- Modèles climatiques sont l'un des meilleurs outils dont nous disposons pour mieux comprendre notre environnement et notre climat. 
+
+Nous pouvons examiner les impacts du changement d'affectation des sols, de la pollution et des événements environnementaux à grande échelle. 
+
+Aide à comprendre l'impact potentiel du changement climatique sur l'environnement mondial à l'avenir.
+
+Pas très capable à reproduire des événements à courte ou petite échelle.
+
+Un défi de trouver la bonne manière de les comparer à cause que leurs sorties sont très différents des fois. -->
+
+# Modès du climat globales
+
+FIXME: NEED TWO COLUMNS
+
+*Forces*
+
+Couverture spatiale complète.
+Séries continues.
+Cohérence physique entre les variables.
+Permet de faire des projections dans le futur.
+Standards souvent bien suivi pour le calcul des variables et formats de données
+
+*Faiblesses*
+
+Plusieurs phénomènes encore paramétrés (p. ex. types spéciales de la précipitation).
+Les modèles ont des différences majeures entre eux.
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Kotamarthi, et al. (2021) Global Climate Models. In: Downscaling Techniques for High-Resolution Climate Projections: From Global Change to Local Impacts. Cambridge University Press; 2021:19-39.**" -->
+
+<!-- Dominique a mentionné dans son cours la catégorie des modèles régionales, qui permettent de faire une modélisation à plus fine échelle sur une région limitée.
+
+La façon générale dont les modèles régionales marchent c’est en utilisant des sortis de modèles globaux – Je ne suis pas l’expert mais rapidement, en utilisant les conditions vue à la limite de domaine, le RCM simule les dynamiques qui sont souvent paramétrés à l’échelle globale.
+
+Sans les sortis globaux pour piloter les simulations RCM, ils ne fonctionnent pas. -->
+
+![bg fit 95%](img/4/ecole_ete_2022_4_rcms.png)
+
+# Modèles régionaux du climat (RCM)
+
+---
+
+<!-- La communauté de la modélisation régional fait aussi des efforts pour standardiser ces pratiques. 
+
+Le premier effort de rassemblement c'est fait à travers le projet PRUDENCE, une coordination des modèles et expériences régionaux. On suivi en Europe avec ENSEMBLES et en Amérique du Nord avec NARCCAP. 
+
+Aujourd'hui : Projet CORDEX ou le « Coordinated Regional Downscaling Experiment ».
+
+CORDEX est un gros famille des expériences qui fait partie des projets en sous le DECK. Dans le passé, il était basé sur CMIP5, mais maintenant on commence à associer les données CORDEX aux génération de CMIP. -->
+
+# Modèles régionaux du climat (RCM)
+
+Tout comme la communauté de modélisation globale, la modélisation régionale a aussi établi des protocoles d’expériences.
+
+Les projets PRUDENCE, ENSEMBLES et NARCCAP sont les prédécesseurs de CORDEX :
+ - « *CO*ordinated *R*egional *D*ownscaling *EX*periment »
+
+**CMIP5-CORDEX (passé) et CMIP6-CORDEX (en production)**
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+img[alt~="center-left"] {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 65%;
+}
+img[alt~="top-right"] {
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  width: 25%;
+}
+img[alt~="bottom-right"] {
+  position: absolute;
+  bottom: 7.5%;
+  right: 2.5%;
+  width: 25%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : CORDEX (https://cordex.org/domains/)**" -->
+
+<!-- CORDEX : Regroupement des modèles régionaux, divisées par domaine régionale
+
+Europe, Afrique, les Amériques, Asie, etc. 
+
+Comme j’ai mentionné, les données produites par cette coordination se font partie du même regroupement gérer par le ESGF, alors ils sont accessibles au même lieu que CMIP5/CMIP6. 
+
+La couverture des expériences par région n’est pas uniforme – grappes de calcul pour rouler des modèles climatiques sont coûteux en temps et ressources. -->
+
+![img center-left](img/4/ecole_ete_2022_4_cordex-global.jpg)
+![img top-right](img/4/ecole_ete_2022_4_cordex-arctic.jpg)
+![img bottom-right](img/4/ecole_ete_2022_4_cordex-antarctic.jpg)
+
+# CMIP5-CORDEX
+
+---
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : https://na-cordex.org**" -->
+
+<!-- Centres de recherche font souvent des séries d'expériences en modélisation climatiques qui vont au delà des protocoles des projets internationaux : tester les nouveaux développement dans les modèles ou répondre à des questions de recherche spécifique.
+
+Le modèle régional canadien du climat ou le MRCC version 5 a été utilisé à Ouranos pour faire l'ensemble des simulations suivants. 
+
+Différentes version de modèles, différentes résolution, différents pilotes et des expériences de perturbation.
+
+Pas nécessairement basées dans la région d’intérêt d’un projet. Pour le projet CORDEX-NA on trouve Ouranos et UQAM, mais aussi le DMI ou « Danish Meteorological Institute » et le SMHI ou « Swedish Meteorology and Hydrology Institute » se trouvent comme participants. -->
+
+![bg right:66% fit](img/4/ecole_ete_2022_4_cmip5-responsables.png)
+
+# CMIP5-CORDEX
+
+Domaine Amérique du nord
+
+« NA-CORDEX »
+
+Couverture des expériences inégales
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : ESGF-LLNL (https://esgf-node.llnl.gov/search/esgf-llnl/)**" -->
+
+<!-- Rappel que l’ESGF est responsable pour la gestion de ces données, incluant les grands laboratoires où les données des modèles globaux roulent.
+
+Cette archive est distribué sur plusieurs nœuds hébergées aux instituts de recherche partout le monde pour les mieux sauvegarder et diffuser globalement.
+
+Le portail web offre accès à CMIP, CORDEX, et plusieurs autres projets.
+
+Utilisation est gratuit pour raisons de la recherche. -->
+
+![bg right:70% 90%](img/4/ecole_ete_2022_4_esgf-llnl.jpg)
+
+# Le reseau ESGF
+
+Portail web
+
+Distribué entre plusieurs centres de recherche
+
+
+---
+
+<style scoped>
+h1 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Source : ESGF/esgf-download (https://esgf.github.io/esgf-download/)**" -->
+
+<!-- Un API existe pour connecter et télécharger les données et des outils comme ESGF-Download nous aident à faire des grands téléchargements intelligents au besoin. -->
+
+![bg right:70% fit](img/4/ecole_ete_2022_4_esgpull.png)
+
+# ESGF-Download
+
+Gestion des données d'ESGF par ligne de commande
+* Je suis un contributeur au projet sur GitHub!
+
+---
+
+<!-- Ouranos : Modèles du famille MRCC, maintenant version 5.
+
+Tester la sensibilité aux perturbations au départ d’une scénario, ou pour évaluer des nouvelles modules ou changements aux modèle ou pour aider des chercheurs avec des questions spécifiques liées aux questions d’hydrologiques, socio-sanitaires, ou environnementales. -->
+
+# Ensemble du MRCC à Ouranos
+
+Les centres de recherche (p.ex. Ouranos) développent un ensemble de simulation relié à leur(s) modèle(s).
+ - Pour faire des tests de sensibilité
+ - Pour évaluer des améliorations ou ajouts au modèle
+ - Pour diverses expériences spécifiques
+ - Pour offrir des nouvelles jeu de données
+
+---
+
+<!-- Résolution très haut en considérant le progrès d’avancement des ordinateurs, alors on utilise l’infrastructure HPC ou High Performance Computing du réseau Calcul Québec pour rouler tous nos expériences ou simulations. 
+
+Grands nombres de simulations demande des centaines de tera octets (To) d’espace sur disque juste pour les récupérer du réseau .
+
+Aussi, une système d’archivage est nécessaire pour sauvegarder des centaines des simulations que nous avons produites depuis qu’Ouranos à commencé. -->
+
+# Ensemble MRCC d’Ouranos
+
+Le MRCC a une résolution spatiale allant jusqu’à ~12 km et une résolution temporelle d’archivage jusqu’aux heures.
+
+Conserver une centaine de variables aux 3h sur une grille de 12 km sur l’Amérique du Nord pour une simulation de 140 ans requiert environ 40 To d’espace disque.
+ - Quinzaine des variables archivés aux heures
+
+Système d’archivage créé uniquement pour les sortis de modèle MRCC
+
+---
+
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _header: "" -->
+<!-- _footer: "**Crédit : Travis Logan et Pascal Bourgault, équipe PCDO**" -->
+<!-- _paginate: false -->
+
+<!-- FIXME: ADD TEXT -->
+
+![bg horizontal 62%](img/4/ecole_ete_2022_4_archive1.jpg)
+![bg horizontal 62%](img/4/ecole_ete_2022_4_archive2.jpg)
+![bg horizontal fit](img/4/ecole_ete_2022_4_robot.jpg)
+
+## Système d'archivage d'Ouranos
+
+---
