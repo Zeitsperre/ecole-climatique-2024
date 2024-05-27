@@ -13,30 +13,31 @@ transition: fade
 # backgroundImage: url('https://marp.app/assets/hero-background.svg')
 size: 16:9
 style: |
-    footer {
-      left: 5%;
-      right: 2.5%;
-      font-color: white;
-      font-size: 20px;
-    }
-    header {
-      right: 5%;
-      left: 50%;
-      text-align: right;
-      font-size: 20px;
-    }
-    img[alt~="center"] {
-      display: block;
-      margin: 0 auto;
-    }
-    .container{
-      display: flex;
-    }
-    .column{
-      flex: 1;
-    }
+  footer {
+    left: 5%;
+    right: 2.5%;
+    font-color: white;
+    font-size: 20px;
+  }
+  header {
+    right: 5%;
+    left: 50%;
+    text-align: right;
+    font-size: 20px;
+  }
+  img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+  }
+  .container{
+    display: flex;
+  }
+  .column{
+    flex: 1;
+  }
 
 ---
+
 <!-- _header: "" -->
 <!-- _footer: "" -->
 <!-- _paginate: skip -->
@@ -49,15 +50,16 @@ On va aborder le sujet des données climatiques, donc comment on procède pour l
 
 </style>
 
-# <!-- fit --> Données Climatiques : Acquisition, Interprétation, et Manipulation
+# <!-- fit --> **Données Climatiques** : Acquisition, Interprétation, et Manipulation
 
 ### Trevor James Smith
 
-Avec remerciements à Blaise Gauvin St-Denis et l'équipe PCDO
-
-- Plateformes climatiques, données et opérations, Ouranos
-- École d’été en science du climat et des changements climatiques
+- Équipe de plateformes climatiques, données et opérations (PCDO), Ouranos
+- École d’été en science du climat et des changements climatiques, édition 2024
+- Domaine Forget, Sainte Irénée, Québec
 - 30 mai 2024
+
+### Avec remerciements à Blaise Gauvin St-Denis et l'équipe PCDO
 
 ---
 
@@ -84,16 +86,15 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 ![bg absolute left:40% 85%](img/extras/profile.jpg)
 
-# Qui suis-je ?
+# **Qui suis-je ?**
 
-Trevor James Smith
+### Trevor James Smith 
 
-![height:35](img/github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
+#### ![height:35](img/extras/github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
 
-
-- Developpeur/packageur/mainteneur des logiciels de recherche scientifiques
-- M.Sc. en Géographie, environnement et urbanisme
-  - Sujet: Analyse des impacts des changements climatiques sur les vignobles en sud du Québec
+- Developpeur/packageur/mainteneur des logiciels de recherche scientifiques; 
+- M.Sc. Géographie, environnement et urbanisme
+  - Analyse des impacts des changements climatiques sur les vignobles en sud du Québec
 - 10+ années d'expérience en utilisant Python, Linux, GIS, et autres téchnologies associées
 
 ---
@@ -110,7 +111,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 ![bg vertical right:50% 95%](img/extras/ouranos-website.png)
 ![bg 95%](img/extras/ice-storm.jpg)
 
-# C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀
+# **C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀**
 
 * Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
