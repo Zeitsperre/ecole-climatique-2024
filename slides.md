@@ -15,6 +15,7 @@ size: 16:9
 style: |
     footer {
       left: 5%;
+      right: 2.5%;
       font-color: white;
       font-size: 20px;
     }
@@ -126,7 +127,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 1. Historique des instruments d’observations météorologiques
 2. Fonctionnement des instruments d’observations météorologiques
 3. Données observées
-4. Données de réanalyses
+4. Données de réanalyses et de prévisions
 5. Données de modèles climatiques
 6. Données dérivées
 7. Formats habituels des données climatiques et outils d’analyses
@@ -154,7 +155,7 @@ en 1743, il avait noté le mouvement d'une tempête de Philadelphie à Boston et
 
 ![bg right](img/1/ecole_ete_2024_1_BenFranklin.jpg)
 
-# 1743
+## 1743
 
 ### Benjamin Franklin fait des observations des mouvements de tempêtes et patrons météorologiques.
 
@@ -167,9 +168,9 @@ en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle e
 
 ![bg left](img/1/ecole_ete_2024_1_GeorgeWashington.jpg)
 
-# 1767
+## 1767
 
-## Georges Washington commence un journal d’observations météorologiques.
+### Georges Washington commence un journal d’observations météorologiques.
 
 ---
 
@@ -182,9 +183,9 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 ![bg right](img/1/ecole_ete_2024_1_ThomasJefferson.jpg)
 
-# 1776
+## 1776
 
-## Thomas Jefferson recrute des observateurs météo bénévoles en Virginie.
+### Thomas Jefferson recrute des observateurs météo bénévoles en Virginie.
 
 ---
 
@@ -194,9 +195,9 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 ![bg left](img/1/ecole_ete_2024_1_ThomasJefferson.jpg)
 
-# 1800
+## 1800
 
-## Le réseau de bénévoles s’étend dans 5 états.
+### Le réseau de bénévoles s’étend dans 5 états.
 
 - Massachusetts
 - Pennsylvanie
@@ -210,9 +211,9 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 ![bg right 90%](img/1/ecole_ete_2024_1_LewisAndClark.jpg)
 
-# 1803 / 1804
+## 1803 / 1804
 
-## L’expédition de Lewis et Clark vers l’ouest américain fait des observations météorologiques régulières
+### L’expédition de Lewis et Clark vers l’ouest américain fait des observations météorologiques régulières
 
 - [https://lewisandclarkjournals.unl.edu/item/lc.jrn.1803-08-30](https://lewisandclarkjournals.unl.edu/item/lc.jrn.1803-08-30)
 
@@ -226,9 +227,9 @@ L'idée d'un réseau d'observation météorologique en utilisant plusieurs poste
 
 ![bg left](img/1/ecole_ete_2024_1_JamesTilton.jpg)
 
-# 1814
+## 1814
 
-## James Tilton ordonne les observations météorologiques dans les postes militaires.
+### James Tilton ordonne les observations météorologiques dans les postes militaires.
 
 ---
 
@@ -239,9 +240,9 @@ En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 béné
 
 ![bg right](img/1/ecole_ete_2024_1_JosephHenry.jpg)
 
-# 1848
+## 1848
 
-## Joseph Henry inaugure un réseau télégraphique d’observateurs de 150 bénévoles.
+### Joseph Henry inaugure un réseau télégraphique d’observateurs de 150 bénévoles.
 
 ---
 
@@ -251,9 +252,9 @@ En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 béné
 
 ![bg left](img/1/ecole_ete_2024_1_JosephHenry.jpg)
 
-# 1860
+## 1860
 
-## 500 stations fournissent des rapports télégraphiques journaliers
+### 500 stations fournissent des rapports télégraphiques journaliers
 
 ---
 
@@ -268,10 +269,9 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 ![bg right 95%](img/1/ecole_ete_2024_1_UlyssesSGrant.jpg)
 ![bg right 95%](img/1/ecole_ete_2024_1_AlbertJMyer.jpg)
 
+## 1870
 
-# 1870
-
-## Ulysses S. Grant (**à gauche**) autorise un service météo national sous la direction de Albert J. Myer (**à droit**).
+### Ulysses S. Grant (**à gauche**) autorise un service météo national sous la direction de Albert J. Myer (**à droit**).
 
 ---
 
@@ -279,9 +279,9 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 ![bg left:60% 90%](img/1/ecole_ete_2024_1_network.png)
 
-# 1891
+## 1891
 
-## Le réseau d'observateurs météo bénévoles contenait plus de 2000 stations autour du pays.
+### Le réseau d'observateurs météo bénévoles contenait plus de 2000 stations autour du pays.
 
 ---
 
@@ -289,9 +289,9 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 ![bg right fit](img/1/ecole_ete_2024_1_cerf-volants.jpg)
 
-# 1898
+## 1898
 
-## Le U.S. Weather Bureau expérimente avec des cerf-volants.
+### Le U.S. Weather Bureau expérimente avec des cerf-volants.
 
 ---
 
@@ -301,9 +301,9 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 ![bg left fit](img/1/ecole_ete_2024_1_ballons.jpg)
 
-# 1909
+## 1909
 
-## Début de l’utilisation de ballons.
+### Début de l’utilisation de ballons.
 
 ---
 
@@ -313,9 +313,9 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 ![bg right fit](img/1/ecole_ete_2024_1_aviation-civile.jpg)
 
-# 1926
+## 1926
 
-## L’aviation change le rôle du Weather Bureau qui doit fournir des services météorologiques à l’aviation civile.
+### L’aviation change le rôle du Weather Bureau qui doit fournir des services météorologiques à l’aviation civile.
 
 ---
 
@@ -323,9 +323,9 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 ![bg left fit](img/1/ecole_ete_2024_1_avions-dediees.jpg)
 
-# 1931 à 1934
+## 1931 à 1934
 
-## Le Weather Bureau opère 20 avions d’observations météorologiques.
+### Le Weather Bureau opère 20 avions d’observations météorologiques.
 
 ---
 
@@ -333,9 +333,9 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 ![bg right fit](img/1/ecole_ete_2024_1_radiosondes.jpg)
 
-# 1939
+## 1939
 
-## L’utilisation de radiosondes remplace les observations par avions.
+### L’utilisation de radiosondes remplace les observations par avions.
 
 ---
 
@@ -345,20 +345,22 @@ La OMM à débutait comme direction des efforts internationaux pour la surveilla
 
 ![bg left fit](img/1/ecole_ete_2024_1_radar.jpg)
 
-# 1950
+## 1950
 
-## Les technologies radar développées durant la 2e guerre mondiale sont adaptées aux observations météorologiques.
+### Les technologies radar développées durant la 2e guerre mondiale sont adaptées aux observations météorologiques.
 
 ---
 
-<!-- -->
+<!-- _header: "" -->
+
+<!-- FIXME -->
 
 ![bg right:65% horizontal fit](img/1/ecole_ete_2024_1_TIROS-I-alt.jpg)
 ![bg right fit](img/1/ecole_ete_2024_1_TIROS-II-alt.jpg)
 
-# 1960
+## 1960
 
-## Les premiers satellites d’observations météorologiques sont lancés.
+### Les premiers satellites d’observations météorologiques sont lancés.
 
 - TIROS-I (**à gauche**)
 - TIROS-II (**à droit**)
@@ -379,7 +381,7 @@ Les stations peuvent être soit automatisé ou à observateur. Les stations à o
 
 Québec, le MELCC maintient le document de référence pour les observateurs, et maintient un réseau de 329 stations, 241 avec observateurs et 88 automatiques.  -->
 
-# Station d’observation météo
+## Station d’observation météo
 
 Observation **in situ** : observation obtenue par contact direct avec l’objet en question.
 
@@ -391,7 +393,6 @@ Stations automatiques : observations possibles à toutes les heures.
 
 ---
 
-
 <!-- _footer: "**source: MELCC**" -->
 
 <!-- Des carnets des observateurs existent pour noter les observations. À l'époque, ces carnets étaient entré manuellement dans les systèmes par des techniciens, mais il existe maintenant des méthodes électroniques pour soumettre les observations.
@@ -401,7 +402,7 @@ Bien qu'une validation sommaire est faites sur les données soumises, il reste q
 ![bg left:60% 90%](img/2/ecole_ete_2024_2_carnet.png)
 ![bg 90%](img/2/ecole_ete_2024_2_data-entry.png)
 
-# Outils de station d'observation météo
+## Outils de station d'observation météo
 
 ---
 
@@ -411,7 +412,7 @@ Généralement au mercure, mais pour les température plus froide, il faut un th
 
 Pour des mesures automatiques, on peut utiliser une thermistance, qui est basé sur la variation de la résistance électrique d'un matériaux en fonction de la température. -->
 
-# Thermomètre
+## Thermomètre
 
 La température minimum et maximum de l’air est mesurée à l’aide d’une combinaison d’un thermomètre à mercure et thermomètre à alcool.
 
@@ -423,14 +424,14 @@ Au Québec, les mesures des observateurs se font à une précision d’un demi-d
 
 <!-- Pluviomètre : pas compliqué, l'observateur n'a simplement qu'a noté la quantité accumulé dans le cylindre depuis la dernière observation, puis le vider. -->
 
-# Pluviomètre
+## Pluviomètre
 
-![bg right fit](img/2/ecole_ete_2024_2_pluviometre.jpg)
+![bg right:60% fit](img/2/ecole_ete_2024_2_pluviometre.jpg)
 
 ---
 
 <style scoped>
-h1 {
+h2 {
     position: absolute;
     top: 5%;
 }
@@ -442,7 +443,7 @@ h1 {
 
 Il est également possible d'avoir un système qui chauffe le cylindre qui permet également de mesurer l'équivalent en eau de la neige lors de précipitation solide. -->
 
-# Pluviomètre cont.
+## Pluviomètre
 
 ![bg fit](img/2/ecole_ete_2024_2_pluviometre-basculeur-1.jpg)
 ![bg fit](img/2/ecole_ete_2024_2_pluviometre-basculeur-2.jpg)
@@ -451,7 +452,7 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 
 <!-- Table a neige, pour mesurer la hauteur de neige tombé. Après un temps d'observation, la table est dégagé, replacé au niveau du sol ou du couvert de neige actuel. -->
 
-# Table à neige
+## Table à neige
 
 ![bg right fit](img/2/ecole_ete_2024_2_table-a-neige.png)
 
@@ -462,26 +463,32 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 <!-- Nivomètre à écran Nipher : pour mesurer la neige.
 Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de neige augmente, l'instrument est rehaussé. La forme de l'embouchure sert à limiter un peu la turbulence autour de l'instrument qui va affecté la quantité de neige accumulé dans l'appareil. Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. -->
 
-# Nivomètre à écran de Nipher
+## <!-- fit --> Nivomètre à écran de « Nipher »
 
 ![bg left fit](img/2/ecole_ete_2024_2_nivometre-nipher.png)
 
 ---
 
-<!-- _header: "" -->
-<!-- _footer: "" -->
+<style scoped>
+h2 {
+    position: absolute;
+    top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : Thériault et al. (2012) Dependence of Snow Gauge Collection Efficiency on Snowflake Characteristics (https://doi.org/10.1175/JAMC-D-11-0116.1)**" -->
 
 <!-- Ici je vous montre des travaux de Julie Thériault, prof à l'UQAM, qui avait passé du temps à NCAR à Boulder au Colorado avec des instruments asser sophistiqué. Ce que vous voyez en bas à droite c'est le DFIR, Double Fence Intercomparison Reference qui est considéré comme ce qui se fait de mieux pour réduire la turbulence autour de l'appareil de collecte.
 
 À gauche dans le graphique, vous avez l'efficacité de collecte entre le DFIR et un autre appareil, le single Alter, en fonction de la vitesse du vent, et du type de neige, mouillé ou sèche. On peut voir qu'à partir de vents de 2-3 m/s, les mesures d'appareils traditionnelle se dégrade rapidement pour aller jusqu'à 20% de la quantité de neige mesuré par le DFIR. Bref, c'est tout un casse-tête de mesurer la précipitation sous forme de neige. -->
 
-<!-- # “Single alter” et DFIR -->
+## “Single alter” et DFIR
 
-![bg fit](img/2/ecole_ete_2024_2_single-alter-dfir.png)
+![bg 66%](img/2/ecole_ete_2024_2_single-alter-dfir.png)
 
 ---
 
-# « Sous-captation »
+## « Sous-captation »
 
 La **sous-captation** est un phénomène où le pluviomètre ou nivomètre sous-estime la quantité de précipitation tombée en période de grands vents ou lors de fortes tempêtes.
 
@@ -507,7 +514,7 @@ Cela souligne la nécessité de corriger les données, ce dont je parlerai à pl
 <style scoped>
 h2 {
     position: absolute;
-    top: 1%;
+    top: 2.5%;
 }
 </style>
 
@@ -515,29 +522,28 @@ h2 {
 
 Ici, l'exemple d'une tour d'observation dans le BEREV, le bassin expérimental du ruisseau des eaux-volée dans la forêt Montmorency. C'est quelque chose qui est fait le cadre du projet EVAP piloté par François Anctil et Daniel Nadeau à l'université Laval. Ils s'intéresse à l'évapotranspiration qui est quelque chose de très peu mesurée, par la difficulté que sa représente. Et donc ils ont fait une tour de 10m au milieu de la forêt, entouré d'une peuplement d'arbre uniforme. Ils ont des instruments de mesures pour le rayonnement net, les flux de chaleurs latente et sensible, un scintillomètre qui mesure un profil d'évapotranspiration par méthode de covariance des tourbillons, des instruments dans les arbres pour mesurer l'écoulement de la sève, des capteurs de températures dans le sols, etc. -->
 
-![bg 65%](img/2/ecole_ete_2024_2_berev.jpg)
+![bg 60%](img/2/ecole_ete_2024_2_berev.jpg)
 
 ## Site expérimental - BEREV
 
 ---
 
-<!-- _header: "" -->
-<!-- _source: "**source: MDDEFP**" -->
+<!-- _footer: "**source : MDDEFP**" -->
 
 <!-- Finalement, l'échelle à neige : vieille mais moins cher.
 
 Permet de mesurer la hauteur de la neige au cours de l'hiver à un site précis. -->
 
-![bg right fit](img/2/ecole_ete_2024_2_echelle-a-neige.png)
+![bg right:60% fit](img/2/ecole_ete_2024_2_echelle-a-neige.png)
 
 ## Échelle à neige
 
 ---
 
 <style scoped>
-h1 {
+h2 {
     position: absolute;
-    top: 10%;
+    top: 5%;
 }
 </style>
 
@@ -549,7 +555,7 @@ Par exemple, les thermomètres et hygromètres doivent être à l'intérieur d'u
 ![bg horizontal 70%](img/2/ecole_ete_2024_2_manuel-des-observateurs.png)
 ![bg horizontal 70%](img/2/ecole_ete_2024_2_noaa-observations.png)
 
-# **Standards** des stations d’observation météo
+## **Standards** des stations d’observation météo
 
 ---
 
@@ -582,7 +588,7 @@ Nous aide à comprendre les différences entre les zones atmosphériques, les ce
 
 Christopher peut-être avait parler un peu de ces choses l’autre jour. -->
 
-# Radiosonde
+## Radiosonde
 
 La **radiosonde** est composée d’un ensemble d’instruments d’observations attachés à un ballon qui s’élève dans l’atmosphère.
 
@@ -614,10 +620,11 @@ Quand le ballon apparaît dans la haute atmosphère, déploie un parachute et re
 
 ![bg left:66% fit](img/2/ecole_ete_2024_2_skewt.jpg)
 
-## Radiosonde
+## Données de radiosonde
 
 ---
 
+<!-- _footer: "**Source : NASA Climate Science Investigations (https://www.ces.fau.edu)**" -->
 <!-- _paginate: false -->
 
 <!-- Télédétection : comme le radar et les satellites.
@@ -634,12 +641,11 @@ Mais, ca se peut qu’on à des experts dans la salle.  -->
 
 ![bg right:50% fit](img/2/ecole_ete_2024_2_teledetection.jpg)
 
-# Télédétection
+## Télédétection
 
 - Différence entre les bandes spectrales ou l’intensité ou fréquence des signales
 - Utile pour identifier la couverture des sols, la distribution spatiale des émissions ou d’espèces atmosphériques
 - Essentielle pour générer des topographiques spatiales
-- **Source : NASA Climate Science Investigations (https://www.ces.fau.edu)**
 
 ---
 
@@ -651,14 +657,14 @@ L'effet Doppler : Déterminer si les particules sont en mouvement et donc d'inf
 
 La polarisation : c'est-à-dire choisir l'axe dans lequel l'onde oscille pour obtenir de l'information sur la forme des particules. -->
 
-# Radar
+## Radar
 
 Observation de télédétection **in situ** : observation obtenue sans contact avec l’objet en question.
 
 Trois (3) composantes majeures : 
-- un émetteur d’ondes radioélectriques,
-- une antenne, 
-- et un receveur d’onde.
+- **un émetteur d’ondes radioélectriques**,
+- **une antenne**, et 
+- **un receveur d’onde**
 
 Portée d’environ **200 Km** autour du radar.
 
@@ -776,14 +782,15 @@ Donc, nous avons dévéloppé plusieurs approches pour corriger ces artefactes a
 
 ![bg fit left:55%](img/2/ecole_ete_2024_2_composite-radar.png)
 
-## Composite radar
+## Radar composé /
+## « Composite Radar »
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 10%;
+  top: 5%;
 }
 </style>
 
@@ -796,7 +803,7 @@ h1 {
 ![bg fit](img/2/ecole_ete_2024_2_golfball.png)
 ![bg fit](img/2/ecole_ete_2024_2_storm-radar.png)
 
-# Radar + Prévision
+## Radar et prévision immédiat
 
 ---
 
@@ -808,7 +815,7 @@ Une source d'information non-négligeable pour le climat et toutes sortes d'info
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_satellite.jpg)
 
-# Satellites
+## Satellites
 
 ---
 
@@ -821,7 +828,7 @@ L’image ici parvient à GPM, le mission de « Global Precipitation Measuremen
 
 ![bg right:60% fit](img/2/ecole_ete_2024_2_gpm.png)
 
-# Données satellitaires
+## Données satellitaires
 
 - Coordination à l'international
 
@@ -876,11 +883,16 @@ Ils ont aussi un sondeur qui permet de mesurer un meilleur profile vertical de t
 
 Il permet de dériver une panoplie d'information comme la hauteur et l'épaisseur des nuages, la température de surface de l'océan, l'étendu de la neige en hiver, la glace de mer et la hauteur de la surface de l'océan. -->
 
-## Satellites
+## Satellites - Informations
 
 Équipé d’un capteur photographique multispectres et sondeur,
 
-Information obtenue sur : hauteur et épaisseur de nuages, température de surface de l’océan, étendue de la neige et glace de mer, hauteur de la surface de l’océan, etc.
+Information obtenue sur : 
+- Hauteur et épaisseur de nuages, 
+- Température de surface de l’océan, 
+- Étendue de la neige et glace de mer, 
+- Hauteur de la surface de l’océan, 
+- etc...
 
 ---
 
@@ -909,7 +921,7 @@ Avec quelques corrections, ce type d'imagerie peut déterminer de manière très
 
 ![bg fit 95%](img/2/ecole_ete_2024_2_satellite-graphic.png)
 
-## Satellites
+## Satellites - Aspects optiques
 
 ---
 
@@ -970,11 +982,11 @@ Couverture globale de satellite géostationnaire :
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 4%;
 }
-h2 {
+h3 {
   position: absolute;
   top: 10%
 }
@@ -991,8 +1003,7 @@ Ceci est une des outils qui est déployé pour mieux comprendre la circulation t
 ![bg horizontal fit 90%](img/2/ecole_ete_2024_2_argos-graphic.jpg)
 ![bg fit 95%](img/2/ecole_ete_2024_2_argos-map.png)
 
-# Autres sources des données 
-## Bouée Argos
+##  Données des courants / océans - Bouée Argos
 
 ---
 
@@ -1013,7 +1024,7 @@ Si vous avez des questions spéciqiues à ces genres de structures, je vous sugg
 
 ![bg fit](img/2/ecole_ete_2024_2_jaugeage.jpg)
 
-## Stations de jaugeage
+##  Données des rivières - Stations de jaugeage
 
 ---
 
@@ -1060,7 +1071,7 @@ la dernière lecture que j'ai faite pendant la semaine passée suggère que les 
 ![top-right](img/2/ecole_ete_2024_2_co2-sensor.jpg)
 ![bottom-right](img/2/ecole_ete_2024_2_keeling-curve.png)
 
-## Mesure de CO2 in situ
+## Mesures de CO2 in situ
 ### Spectrophotomètre - Courbe de Kipling
 
 ---
@@ -1079,7 +1090,7 @@ La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces g
 
 ![bg fit 80%](img/2/ecole_ete_2024_2_satellite-co2.jpg)
 
-## Mesure de CO2 par satellite
+## Mesures de CO2 par satellite
 
 ---
 
@@ -1089,12 +1100,12 @@ On va maintenant regarder plus concrètement qu'est ce qui est disponible comme 
 
 QUESTIONS -->
 
-# 3. Données observées
+# **3. Données observées**
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
@@ -1110,7 +1121,7 @@ Au Canada, les données de stations archivées remontent jusqu'en 1840 pour la v
 
 ![bg fit 80%](img/3/ecole_ete_2024_3_donnees-ecrit.png)
 
-# Données de stations
+## Données de stations
 
 ---
 
@@ -1210,7 +1221,7 @@ Les observations peuvent être erronées ou pourraient être influencées par de
 
 Des erreurs systématiques dans nos données en raison de facteurs tels que la turbulence du vent et l’accumulation de neige sur les capteurs. -->
 
-# Données de stations - Conclusions
+## **Données de stations - Conclusions**
 
 <div class="container">
 
@@ -1244,7 +1255,7 @@ Données homogénéisées : Consiste en des méthodes pour boucher ces trous da
 
 Résultat : beaucoup moins de stations, mais des séries plus complètes et sans rupture. -->
 
-# Données homogénéisées
+## Données homogénéisées
 
 Ajustement des données brutes de stations à l’aide de connaissances sur les erreurs des différents instruments, le déplacement de stations, etc.
 
@@ -1263,9 +1274,9 @@ les vents de surface à l'échelle horaire pour une centaine de stations et la p
 
 La semaine passée, Environnement Canada ont annoncé qui la prochaine version (3) sera disponible dans quelques mois. -->
 
-# Données homogénéisées
+## Données homogénéisées
 
-Environnement Canada est le principal pourvoyeur de ce type de données au pays via les travaux de Hui Wan, Xiaolan Wang, Val Swail, Lucie Vincent et Éva Mekis.
+Environnement Canada est le principal pourvoyeur de ce type de données au pays via les travaux des chercheurs en climat et météo
 
 - **http://www.ec.gc.ca/dccha-ahccd/**
 
@@ -1278,9 +1289,9 @@ Environnement Canada est le principal pourvoyeur de ce type de données au pays 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1295,7 +1306,7 @@ Les données précipitation sous forme de neige : Des différences régionales.
 
 ![bg fit 85%](img/3/ecole_ete_2024_3_mekis-2011.png)
 
-# Données homogénéisées
+## Données homogénéisées
 
 ---
 
@@ -1303,7 +1314,7 @@ Les données précipitation sous forme de neige : Des différences régionales.
 
 Dans un contexte d'étude des tendances et changement climatique, il est préférable d'utiliser les données homogénéisées lorsque possible. -->
 
-# Données homogénéisées - Conclusions
+## **Données homogénéisées - Conclusions**
 
 <div class="container">
 
@@ -1333,9 +1344,9 @@ Dans un contexte d'étude des tendances et changement climatique, il est préfé
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1349,7 +1360,7 @@ On le voit ici un exemple d’une interpolation faite par la MELCC des données 
 
 ![bg fit 60%](img/3/ecole_ete_2024_3_interpolees.jpg)
 
-# Données interpolées
+## Données interpolées
 
 ---
 
@@ -1361,7 +1372,7 @@ Souvent les erreurs associées avec les interpolation viennent des erreurs dans 
 
 Régions éloignées d'une bonne densité de stations sont susceptible d'être couverte de données qui ne reflète pas les conditions réelles. -->
 
-# Données interpolées
+## Données interpolées - Méthodes
 
 Interpolation de données de stations (brutes ou homogénéisées) sur une grille.
 
@@ -1375,9 +1386,9 @@ Plusieurs méthodes possibles :
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1393,7 +1404,7 @@ La combinaison de ces deux jeux de données : température continus dans le mon
 
 ![bg fit 80%](img/3/ecole_ete_2024_3_cru-interpolees.jpg)
 
-# Données interpolées - Globales
+## Données interpolées - Globales
 
 ---
 
@@ -1427,7 +1438,7 @@ Ressource Naturelle Canada (RNCan) utilise ANUSPLIN, une méthode très populair
 
 Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude et autres facteurs. -->
 
-# Données interpolées - Canada
+## Données interpolées - Canada
 
 CanGRD est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
  - Résolution temporelle mensuelle *à partir de 1900*.
@@ -1458,14 +1469,12 @@ Produit de la ministère de l’environnement et la lutte contre les changements
  - Résolution spatiale de ~10 km sur le territoire de Québec.
  - **Données non-public, sauf pour les chercheurs**
 
-
-
 ---
 
 <style scoped>
 h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1480,7 +1489,7 @@ Les produits intégraient des données brutes au réseau de stations météorolo
 ![bg horizontal fit 70%](img/3/ecole_ete_2024_3_interpolated-signals.png)
 ![bg fit 70%](img/3/ecole_ete_2024_3_interpolated-error.png)
 
-## Attention - Propagation des erreurs
+## **Attention** - Propagation des erreurs
 
 ---
 
@@ -1519,8 +1528,7 @@ Si la zone ne dispose pas d'une couverture de stations cohérente ou si une inte
 
 Impossible de savoir quelle méthode est utilisée à moins d’être bien documentée. -->
 
-## Données interpolées - Conclusion
-
+## **Données interpolées - Conclusion**
 
 <div class="container">
 
@@ -1557,16 +1565,16 @@ Les deux types de modèles essaie de reproduire ou anticiper les conditions mét
 
 QUESTIONS ? -->
 
-# Données de réanalyses et prévisions
+# **4. Données de réanalyses et prévisions**
 
 ## Expériments de « Hindcasting » et « Forecasting »
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1580,7 +1588,7 @@ Des ruptures peut se passe dans les données des modèles de réanalyse quand m�
 
 ![bg 65%](img/3/ecole_ete_2024_3_reanalyses-graphique.png)
 
-# Réanalyses
+## Réanalyses
 
 ---
 
@@ -1609,7 +1617,7 @@ et ça continue… (~2019 et après) : **ERA5, ERA5-Land, CaSR**
 <style scoped>
 h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -1621,7 +1629,7 @@ Chaque génération : Avancements pour la résolution spatio-temporelle et plus
 
 ![bg 70%](img/3/ecole_ete_2024_3_reanalyses-courbe.jpg)
 
-## Historique des réanalyses - Cont.
+## Historique des réanalyses - Continué
 
 ---
 
@@ -1640,17 +1648,18 @@ Collecter uniquement ce qui est nécessaire est une bonne approche. -->
 ## Données des réanalyses
 
 Réanalyses modernes :
-  - Résolutions spatiales entre ~25 à 10 Km (ou moins!)
-  - Résolution temporelle d’archivage jusqu’aux heures
+  - **Résolutions spatiales entre ~25 à 10 Km (ou moins!)**
+  - **Résolution temporelle d’archivage jusqu’aux heures**
 
 Plusieurs Go de données par mois/niveau/variable.
 
-  - 16 octets * 24 heures * ~30 jours * 12 mois * (360 / résolution Lons) * (180 / résolution Lat) * nombres de niveaux en altitude * etc... = **ENORME**
+  - 16 octets * 24 heures * ~30 jours * 12 mois * (360 / résolution longitude) * (180 / résolution latitude) * nombres de niveaux en altitude * etc... = **ENORME**
 
 Quelques exemples :
-  - ERA-Interim (ancien) : 30 ans de réanalyses pour une vingtaine de variables = ~7 To de données.
-  - ERA5 : 11 To de nouvelles données par mois.
-  - ERA5-Land : Résolution plus fine (~7 plus fine qu’ERA5)
+  - **ERA-Interim (ancien)** : 30 ans de réanalyses pour une vingtaine de variables
+    - *~7 To de données en totale*
+  - **ERA5** : *11 To de nouvelles données par mois*
+    - **ERA5-Land** : Résolution encore plus fine (*~7 fois plus fine qu’ERA5*)
 
 ---
 
@@ -1693,6 +1702,7 @@ Pour en savoir plus :
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
 
 <!-- Nombreuse réanalyses disponibles : Pas des fiables méthodes pour savoir quelle réanalyse on doit utiliser. 
 
@@ -1704,26 +1714,24 @@ Débat continuelle entre les statisticiens, hydrologues et modélisateurs du cli
 
 # Réanalyses
 
-- **Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**
+FIXME
 
 ---
 
 # Réanalyses canadiens
 
-
+FIXME
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
-}
-li {
-  position: absolute;
-  bottom: 7.5%
+  top: 5%;
 }
 </style>
+
+<!-- _footer: "**Source : ECMWF (TIGGE)**" -->
 
 <!-- Comme Dominique avait expliqué hier, on peut faire des prévisions météorologiques à l'aide de modèle, la capacité prédictive de jour le jour est limité par la nature chaotique de la circulation atmosphérique, à disons l'ordre de deux semaines.
 
@@ -1731,9 +1739,7 @@ Nous avons tous des expériences avec les prévisions quand on regarde le Weathe
 
 ![bg fit 60%](img/3/ecole_ete_2024_3_previsions.jpg)
 
-# Modèles de prévision
-
-- **Source : ECMWF (TIGGE)**
+## Modèles de prévision
 
 ---
 
@@ -1741,11 +1747,11 @@ Nous avons tous des expériences avec les prévisions quand on regarde le Weathe
 
 Après ça, c'est au météorologues d'assigner des probabilités à ces événements. La nature de ces données là font en sorte qu'elles sont archivé pour une durée limitée et rarement utilisé pour des études climatiques. -->
 
-# Modèles de prévision
+## Modèles de prévision
 
-Modèles utilisés pour faire des prévisions pour (souvent) les 14 jours à venir.
+Modèles utilisés pour faire des prévisions pour (souvent) les *14 jours à venir*.
 
-Le service météorologique du Canada (SMC) roule 20 configurations du modèle « GEM »
+Le service météorologique du Canada (SMC) roule 20 configurations du modèle « *GEM* »
 - *2 * jour, sur un horizon de 16 jours*
 
 Archivage de durée limitée et rarement utilisé pour des études climatiques.
@@ -1757,21 +1763,19 @@ Intégration des données observées de plusieurs sources pour piloter les prév
 <style scoped>
 h2 {
   position: absolute;
-  top: 2.5%;
-}
-li {
-  position: absolute;
-  bottom: 7.5%
+  top: 5%;
 }
 </style>
+
+<!-- _footer: "**Source : VentuSky (https://www.ventusky.com/?p=47.515;-70.201;10&l=temperature-2m)**" -->
 
 <!-- Je voudrais montrer cette visualisation des données prévisions.
 
 J’ai pris cette carte de la prévision du modèle GEM pour ce matin l’autre jour. Ça se peut que la chiffre pour la température est précis ou proche. On verra. -->
 
-![bg fit 80%](img/3/ecole_ete_2024_3_ventusky.png)
+![bg fit 90%](img/3/ecole_ete_2024_3_ventusky.png)
 
-## [Prévision en temps réelle](https://www.ventusky.com/?p=47.515;-70.201;10&l=temperature-2m)
+## Prévisions en temps réelle
 
 ---
 
@@ -1781,7 +1785,7 @@ Lorsque les systèmes d’observations qui sont intégrés changent très souven
 
 Il existe des différences majeures entre les produits et il peut être impossible de savoir lequel est le bon pour vos besoins. -->
 
-# Réanalyses
+## **Réanalyses - Conclusion**
 
 <div class="container">
 
@@ -1817,7 +1821,7 @@ Il existe des différences majeures entre les produits et il peut être impossib
 
 QUESTIONS -->
 
-# Données des modèles climatiques
+# **5. Données des modèles climatiques**
 
 ---
 
@@ -1829,7 +1833,7 @@ Par exemple – Simulations futures – le modèle indique une précipitation ex
 
 Les données sont archivées sur des serveurs dédiés de longue durée, généralement pour un sous-ensemble de variables que le modèle produit et allant jusqu'à des fréquences horaires. -->
 
-# Modèles du climat
+## Modèles du climat
 
 Modèles utilisés pour faire de longues séries climatiques, soit des possibilités climatiques passées ou des projections futures.
 
@@ -1873,7 +1877,7 @@ CMIP est un regroupement des instituts et chercheurs qui s’occupe des efforts 
 
 Les modélisations qu’on trouvent dans le rapport du GIEC sont toujours basés sur les modèles CMIP, et les 5e et 6e  rapports ont étés basées sur CMIP5 et CMIP6, respectivement. -->
 
-# Coordination des modèles globales
+## Coordination des modèles globales
 
 WCRP : « World Climate Research Program »
  - CMIP : « Coupled Model Intercomparison Project »
@@ -1910,7 +1914,7 @@ Je vais parler maintenant de l’exemple de la structure de CMIP5. La générati
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
@@ -1927,7 +1931,7 @@ Ils inclus aussi l’expérience historique de CMIP6 dans le cœur des priorité
 ![bg horizontal 95%](img/4/ecole_ete_2024_4_cmip-wheel.jpg)
 ![bg 66%](img/4/ecole_ete_2024_4_cmip-experiments.jpg)
 
-# CMIP6
+## CMIP6
 
 ---
 
@@ -2024,7 +2028,7 @@ On peut voir pour les derniers 3 générations, la TCR ne bougent pas vraiment, 
 
 ![bg 77%](img/4/ecole_ete_2024_4_model-sensitivity.jpg)
 
-## Comparaison de modèles CMIP - Conclusion
+## Comparaison de modèles CMIP
 
 ---
 
@@ -2038,7 +2042,7 @@ Pas très capable à reproduire des événements à courte ou petite échelle.
 
 Un défi de trouver la bonne manière de les comparer à cause que leurs sorties sont très différents des fois. -->
 
-# Modès du climat globales
+## **Modèles du climat globales - Conclusions**
 
 <div class="container">
 
@@ -2068,9 +2072,9 @@ Un défi de trouver la bonne manière de les comparer à cause que leurs sorties
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
 </style>
 
@@ -2084,7 +2088,7 @@ Sans les sortis globaux pour piloter les simulations RCM, ils ne fonctionnent pa
 
 ![bg fit 95%](img/4/ecole_ete_2024_4_rcms.png)
 
-# Modèles régionaux du climat (RCM)
+## Modèles régionaux du climat (RCM)
 
 ---
 
@@ -2096,7 +2100,7 @@ Aujourd'hui : Projet CORDEX ou le « Coordinated Regional Downscaling Experime
 
 CORDEX est un gros famille des expériences qui fait partie des projets en sous le DECK. Dans le passé, il était basé sur CMIP5, mais maintenant on commence à associer les données CORDEX aux génération de CMIP. -->
 
-# Modèles régionaux du climat (RCM)
+## Modèles régionaux du climat (RCM) - CORDEX
 
 Tout comme la communauté de modélisation globale, la modélisation régionale a aussi établi des protocoles d’expériences.
 
@@ -2147,7 +2151,7 @@ La couverture des expériences par région n’est pas uniforme – grappes de c
 ![img top-right](img/4/ecole_ete_2024_4_cordex-arctic.jpg)
 ![img bottom-right](img/4/ecole_ete_2024_4_cordex-antarctic.jpg)
 
-# CMIP5-CORDEX
+## CMIP5-CORDEX
 
 ---
 
@@ -2220,9 +2224,9 @@ Gestion des données d'ESGF par ligne de commande
 
 Tester la sensibilité aux perturbations au départ d’une scénario, ou pour évaluer des nouvelles modules ou changements aux modèle ou pour aider des chercheurs avec des questions spécifiques liées aux questions d’hydrologiques, socio-sanitaires, ou environnementales. -->
 
-# Ensemble du MRCC
+## Ensemble du MRCC
 
-Les centres de recherche (p.ex. Ouranos) développent un ensemble de simulation relié à leur(s) modèle(s).
+Quelques centres de recherche climatiques développent un ensemble de simulation relié à leur(s) modèle(s).
  - Pour faire des tests de sensibilité
  - Pour évaluer des améliorations ou ajouts au modèle
  - Pour diverses expériences spécifiques
@@ -2236,7 +2240,7 @@ Grands nombres de simulations demande des centaines de tera octets (To) d’espa
 
 Aussi, une système d’archivage est nécessaire pour sauvegarder des centaines des simulations que nous avons produites depuis qu’Ouranos à commencé. -->
 
-# Ensemble MRCC d’Ouranos
+## Ensemble du MRCC à Ouranos
 
 Le MRCC a une résolution spatiale allant jusqu’à ~12 km et une résolution temporelle d’archivage jusqu’aux heures.
 
@@ -2264,7 +2268,7 @@ h2 {
 ![bg horizontal 62%](img/4/ecole_ete_2024_4_archive2.jpg)
 ![bg horizontal fit](img/4/ecole_ete_2024_4_robot.jpg)
 
-## Système d'archivage d'Ouranos
+## Système d'archivage à Ouranos
 
 ---
 
@@ -2287,7 +2291,7 @@ li {
 ![bg horizontal fit](img/4/ecole_ete_2024_4_lto.jpg)
 ![bg horizontal fit](img/4/ecole_ete_2024_4_lto-gens.jpg)
 
-## Système d'archivage d'Ouranos
+## Système d'archivage à Ouranos
 
 - **LTO : « Linear Tape-Open »**
 jusqu'à *18 To par cassette* présentement!
@@ -2302,7 +2306,7 @@ Pas souvent de nombreuses instituts qui font des expériences sur la même domai
 
 Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
 
-# Modèles régionaux du climat
+# **Modèles régionaux du climat - Conlcusions**
 
 <div class="container">
 
@@ -2349,16 +2353,9 @@ Ici on voit les travaux de Martin Leduc, un chercheur d’Ouranos qui a dévelop
 
 ![bg 60%](img/4/ecole_ete_2024_4_grands-ensembles.png)
 
-## Grands ensembles
+## Grands ensembles des modèles
 
 ---
-
-<style scoped>
-h2 {
-  position: absolute;
-  top: 2.5%;
-}
-</style>
 
 <!-- Un autre type d'ensemble qui a fait surface dans les dernières années sont les grands ensembles.
 
@@ -2368,15 +2365,15 @@ Ces travaux ont débuté avec l’ensemble du CCSM3 de NCAR.
 
 Les produits d’Environnement Canada sont aussi connues pour leurs simulations à base de leur GCM « CanESM2 », un autre qui utilise les sortis de GCM pour rouler leur RCM « CanRCM4 » , et récemment ils offrent un produit corrigé pour mieux aider les chercheurs qui s’appelle CanLEAD. -->
 
-## Grands ensembles
+## Grands ensembles des modèles
 
 Les grands ensembles consistent à produire plusieurs dizaines de membres d’une même configuration d’un modèle.
 
 Permet de mieux évaluer le rôle de la variabilité naturelle dans la chaîne d’incertitude de la modélisation climatique.
 
-NCAR CESM1 LENS (40 membres)
+**NCAR CESM1 LENS** (*40 membres*)
 
-CanESM / CanESM2 Large Ensemble (50 membres)
+**CanESM / CanESM2 Large Ensemble** (*50 membres*)
  - CanRCM4-LE → CanLEAD-LE (données corrigés)
 
 ---
@@ -2420,12 +2417,12 @@ Par contre pour les rares modèles à 360 jours, ça devient plus compliquer et 
 ## Calendriers climatiques
 
 Différents modèles climatiques utilisent différents calendriers  :
- - « standard » (ancien nom : « gregorian » )
- - « proleptic_gregorian »
- - « julian »
- - 360 jours (« 360_day » : modèles HadGEM) 
- - 365 jours (« no_leap »)
- - 366 jours (« all_leap »)
+ - « *standard* » (ancien nom : « *gregorian* » )
+ - « *proleptic_gregorian* »
+ - « *julian* »
+ - 360 jours (« *360_day* » : modèles de **HadGEM**) 
+ - 365 jours (« *no_leap* »)
+ - 366 jours (« *all_leap* »)
 
 Pour savoir en plus :
  - **Conventions CF (http://cfconventions.org/cf-conventions/cf-conventions#calendar)**
@@ -2438,19 +2435,18 @@ Les données dérivées ne sont pas exactement une source distincte en raison qu
 
 QUESTIONS ? -->
 
-# Données « dérivées »
+# **6. Données « dérivées »**
 
 ---
 
-# Données « post-traitées » vs données « dérivées »
+## Données « post-traitées » vs données « dérivées »
 
 
-
-https://doi.org/10.1038/s41597-023-02855-z
+<!-- _footer: "**Source : Lavoie et al. (2024) An ensemble of bias-adjusted CMIP6 climate simulations based on a high-resolution North American reanalysis (https://doi.org/10.1038/s41597-023-02855-z)**" -->
 
 ---
 
-# FIXME : Données « post-traitées »
+## FIXME : Données « post-traitées »
 
 Talk about : 
  - Scenarios Génériques
@@ -2535,7 +2531,7 @@ On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs cli
 
 ![bg right:60% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
 
-## <!-- fit --> Données « dérivées »
+## Données « dérivées » par Ouranos
 
 FIXME: What do we offer?
 
@@ -2550,7 +2546,7 @@ Ouranos à travailler comme partenaire avec Environnement Canada sur le site «�
 
 En Europe, l’agence Copernicus aussi offrent des indicateurs sur mesure sur leur plateforme « Climate Data Store ». Encore, Ouranos avait contribué du travail sur les logiciels qui roule dans le back-end de ce projet aussi. -->
 
-# Données dérivées « sur mesure » 
+## Données dérivées « sur mesure »
 
 Calculs des indices par requête internet / en-ligne :
 
@@ -2570,13 +2566,14 @@ h2 {
 }
 </style>
 
+<!-- _header: "" -->
 <!-- _footer: "**Source : ClimateData.ca - (https://donneesclimatiques.ca/analyser/)**" -->
 
 <!-- Voici une exemple de donneesclimatiques.ca – Il me donne l’option de calculer les jours avec précipitation en haut d’un seuil pour un bassin versant (proche à ici). Cet requête serait envoyer à un serveur qui va retourner un tableau ou une grille qui contient l’indicateur calculer. -->
 
 ![bg 95%](img/5/ecole_ete_2024_5_climatedataca.png)
 
-## Données dérivées « sur mesure » 
+## Données dérivées sur site-web - ClimateData.ca
 
 ---
 
@@ -2588,20 +2585,32 @@ Pas souvent de nombreuses instituts qui font des expériences sur la même domai
 
 Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
 
-# Données dérivées
+## **Données dérivées - Conclusions**
+
+<div class="container">
+
+<div class="column">
 
 **Forces**
 
-Transformation des données vers les informations utiles pour montrer des conditions / changements au grand public 
-Facilite la comparaison entres sources / formes différents des données
-Moins d’espace disque nécessaire pour les stocker
+- Transformation des données vers les informations utiles pour montrer des conditions / changements au grand public 
+- Facilite la comparaison entres sources / formes différents des données
+- Moins d’espace disque nécessaire pour les stocker
+
+</div>
+
+<div class="column">
 
 **Faiblesses**
 
-« Filtrage » des données - enlève plusieurs détails   
-Seuils et paramétrages sont très spécifiques de cas à cas – besoin de refaire des calculs 
-Outils et algorithmes de calcul complexe nécessaires pour traiter des données énormes
-~~Produits « one-shot » (Faite une fois) – besoin de refaire des calculs souvent~~
+- « Filtrage » des données - enlève plusieurs détails   
+- Seuils et paramétrages sont très spécifiques de cas à cas – besoin de refaire des calculs 
+- Outils et algorithmes de calcul complexe nécessaires pour traiter des données énormes
+- ~~Produits « one-shot » (Faite une fois) – besoin de refaire des calculs souvent~~
+
+</div>
+
+</div>
 
 ---
 
@@ -2611,7 +2620,7 @@ On passent maintenant vers la section où on va apprendre comment tous des donn�
 
 QUESTIONS ? -->
 
-# <!-- fit --> Formats habituels des données climatiques et outils d’analyses
+# <!-- fit --> **7. Formats habituels des données climatiques et outils d’analyses**
 
 ---
 
@@ -2696,9 +2705,9 @@ Je n'ai pas travaillé avec des données de radiosondage et je ne les trouvent p
 
 ![bg right fit](img/6/ecole_ete_2024_6_radiosonde.jpg)
 
-## Format « maison »
+## Formats « maison »
 
-### Données de radiosonde dans le format FSL
+### Données de radiosonde dans le format « FSL »
 
 ![img center-left](img/6/ecole_ete_2024_6_radio-legende.png)
 
@@ -2772,16 +2781,16 @@ FIXME: Add notes
 
 ![bg left fit](img/6/ecole_ete_2024_6_datacube.jpg)
 
-## Formats « Datacube »
+## Format « Datacube »
 
 Données avec plusieurs dimensions
 « matrice multi-dimensionnel »
  - latitude, longitude, élévation, temps, autres coordonnées, variables, etc...
  - Données satellitaires et climatiques sur grille
 
-Compression !
+**Compression !**
 
-Métadonnées intégrés !
+**Métadonnées intégrés !**
 
 ---
 
@@ -2812,7 +2821,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "Source : https://artefacts.ceda.ac.uk/formats/netcdf/index_cf.html" -->
+<!-- _footer: "**Source : CEDA UK (https://artefacts.ceda.ac.uk/formats/netcdf/index_cf.html)**" -->
 
 <!-- Le format de données inclut les dimensions par lesquelles les variables sont définies, les définitions des variables, leurs unités et leurs méthodes de cellule, ainsi que les dimensions qu’elles utilisent.
 
@@ -2831,8 +2840,8 @@ Il possède des attributs globaux réservés qui stockent des informations telle
 La communauté des sciences du climat a établi une convention à suivre pour bien écrire des données climatiques.
 
 Standards pour les données parmi les climatologues
- - CF Conventions : http://cfconventions.org
- - COARDS (ancien) : https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions
+ - **Conventions CF : http://cfconventions.org**
+ - **COARDS (ancien) : https://ferret.pmel.noaa.gov/Ferret/documentation/coards-netcdf-conventions**
 
 Les variables ont des noms standardisés.
 
@@ -2851,7 +2860,7 @@ img[alt~="bottom-center"] {
   position: absolute;
   bottom: 7.5%;
   left: 40%;
-  height: 12.5%;
+  height: 17.5%;
 }
 </style>
 
@@ -2874,7 +2883,7 @@ Services propriétaires de calcul et entreposage
 
 Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne : « [OPeNDAP](https://www.opendap.org/) » 
 
-« Datacube » similaire à NetCDF optimisé pour la téléchargement et lecture en-ligne : « [Zarr] »
+« Datacube » similaire à NetCDF optimisé pour la téléchargement et lecture en-ligne : « [Zarr](https://zarr.dev/) »
 
 ![img center-right](img/6/ecole_ete_2024_6_proprietary.png)
 ![img bottom-center](img/6/ecole_ete_2024_6_zarr.png)
@@ -2885,7 +2894,7 @@ Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne
 img[alt~="bottom-right"] {
   position: absolute;
   bottom: 7.5%;
-  right: 20%;
+  right: 7.5%;
   width: 33%;
 }
 </style>
@@ -2904,8 +2913,8 @@ CCC, RPN : formats de données sur grille d’Environnement Canada.
 
 Vectorielle : définition des points, des lignes ou des contours de polygones représentant des phénomènes ou objets spatiaux.
 
- - Shapefile, GeoJSON, GML, KML ...
- - PostgreSQL/PostGIS, **GeoPackage →**
+ - *Shapefile*, *GeoJSON*, *GML*, *KML* ...
+ - *PostgreSQL/PostGIS*, *SQLite*, *GeoPackage* **→**
 
 ![img bottom-right](img/6/ecole_ete_2024_6_geopackage.png)
 
@@ -2927,9 +2936,9 @@ Populaire récemment : R, Python, ArcGIS/QGIS, Julia, Rust, etc.
 
 Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactive Data Language, mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux langaes sont maintenant désuets. -->
 
-## Plateformes et langages
+## Plateformes et langages de programmation
 
-![bg 90%](img/6/ecole_ete_2024_6_plateformes.png)
+![bg 88%](img/6/ecole_ete_2024_6_plateformes.png)
 
 ---
 
@@ -2954,7 +2963,7 @@ Aussi des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO 
 
 <!-- Si on à le temps je pourrais faire un exemple très vite de comment l’outil ncview se voit. -->
 
-## Exemple: : `ncview`
+## Exemple : `ncview`
 
 ---
 
@@ -2987,15 +2996,15 @@ Peut être décourageant même pour les chercheurs expérimentés qui ont déjà
 
 Quantité de données disponibles nécessite un ensemble de compétences lui-même pour naviguer et trouver les données nécessaires. -->
 
-# Comment choisir ses données ?
+## Comment choisir ses données ?
 
-Qu’est-ce qui est disponible (accessible) à la résolution spatiale et temporelle nécessaire ?
+Qu’est-ce qui est **disponible** (ou **accessible**) à la résolution spatiale et temporelle nécessaire ?
 
-Est-ce que le jeu de données représente bien le processus à étudier ?
+Est-ce que le jeu de données **représente bien** le processus à étudier ?
 
-Lors de la validation, est-ce que l’incertitude sur les données observées et l’aspect de la représentativité spatiale et temporelle est pris en compte ?
+Lors de la validation, est-ce que l’**incertitude** sur les données observées et l’aspect de la **représentativité spatiale et temporelle** est pris en compte ?
 
-Faites-vous une étude d’impact ou un projet d’analyse de processus ?
+Faites-vous une **étude d’impact** ou un projet d’**analyse de processus** ?
 
 ---
 
@@ -3005,7 +3014,7 @@ Ouranos : Rencontrer ou de discuter avec des chercheurs sur divers produits et 
 
 Données brutes; Données tabulaires; Des représentations cartographiques corrigées : l’Équipe de Scénarios et Services Climatiques. -->
 
-# Les services climatiques
+# **8. Les services climatiques**
 
 Pont entre la science du climat et la prise de décisions en matière d’adaptation aux changements climatiques.
 
@@ -3052,7 +3061,7 @@ Par exemple, j’ai parlé de Climatedata.ca tantôt - la base de données et le
 
 Toute ça fonctionne par communication WPS un standard de requête sur le web géré par le « Open Geospatial Consortium » dont nous à Ouranos ont fait plusieurs contributions de code et ressources. -->
 
-![bg 85%](img/6/test.png)
+![bg 85%](img/6/ecole_ete_2024_6_pavics-diagram.png)
 
 ## Plateforme de calcul « **PAVICS** »
 
@@ -3104,7 +3113,7 @@ CanGRD Interpolated Homogenized Observations : https://www.canada.ca/en/environ
 
 -->
 
-![bg 70%](img/6/ecole_ete_2024_6_data-info-knowledge.png)
+![bg 75%](img/6/ecole_ete_2024_6_data-info-knowledge.png)
 
-# Merci !
+# **Merci !**
 
