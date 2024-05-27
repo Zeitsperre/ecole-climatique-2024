@@ -354,7 +354,9 @@ La OMM à débutait comme direction des efforts internationaux pour la surveilla
 
 <!-- _header: "" -->
 
-<!-- FIXME -->
+<!-- 1960 : les premiers satellites d'observations météo (TIROS-1 et TIROS-2) ont étaient lancé.
+
+Et donc, la combinaison de ces technologies, et de plusieurs autres que je présenterais plus tard, forme aujourd'hui l'ensemble des outils à notre disposition pour observer l'atmosphère et l'océan. -->
 
 ![bg right:65% horizontal fit](img/1/ecole_ete_2024_1_TIROS-I-alt.jpg)
 ![bg right fit](img/1/ecole_ete_2024_1_TIROS-II-alt.jpg)
@@ -548,6 +550,8 @@ h2 {
 }
 </style>
 
+<!-- _footer: "**Sources : OMM, MELCCFP, NOAA**" -->
+
 <!-- Les stations et leurs instruments doivent répondre à une panoplie de critères afin d'uniformiser les observations à différents endroits. L’Organisation météorologique mondiale (OMM) est responsable de la publication du guide sur l'instrumentation météorologique et des méthodes d'observations. C'est un document de plus de 700 pages qui décrit la mise en place et les spécifications des instruments.
 
 Par exemple, les thermomètres et hygromètres doivent être à l'intérieur d'un abri Stevenson pour les protéger de l'influence de la radiation solaire directe et des intempéries. La distance minimale à laquelle certains obstacles peuvent se trouver de la station est aussi décrite. -->
@@ -567,7 +571,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Station de météo McGill (https://radar.mcgill.ca/weather-station)**" -->
+<!-- _footer: "**Photos : Université Mcgill**\n**Source : Station de météo McGill (https://radar.mcgill.ca/weather-station)**" -->
 
 <!-- Il y a un station de météo automatique situé à Burnside Hall, à l'université McGill.
 
@@ -650,6 +654,8 @@ Mais, ca se peut qu’on à des experts dans la salle.  -->
 
 ---
 
+<!-- _footer: "**Source : Service météorologique du Canada (ECCC)**" -->
+
 <!-- Radar : Télédétection in situ.
 
 l’idée autour de radar c’est d’émettre des micro-ondes et d’utiliser les changements au signale récupéré pour savoir la nature des objets à distance.
@@ -658,21 +664,22 @@ L'effet Doppler : Déterminer si les particules sont en mouvement et donc d'inf
 
 La polarisation : c'est-à-dire choisir l'axe dans lequel l'onde oscille pour obtenir de l'information sur la forme des particules. -->
 
-## Radar
+![bg right fit](img/2/ecole_ete_2024_2_radar-doppler-vents.png)
 
-Observation de télédétection **in situ** : observation obtenue sans contact avec l’objet en question.
+## Radar - Observation de télédétection **in situ**
 
-Trois (3) composantes majeures : 
+Obtenue sans contact avec l’objet en question
+- Portée d’environ **200 Km** autour de l'installation
+
+Trois composantes majeures : 
 - **un émetteur d’ondes radioélectriques**,
 - **une antenne**, et 
 - **un receveur d’onde**
 
-Portée d’environ **200 Km** autour du radar.
-
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "**Source : Université McGill**" -->
+<!-- _footer: "**Photo : Université McGill**" -->
 
 <!-- Ici on a une photo du radar de l’observatoire du J.S. Marshall gérer par l'université McGill sur le campus à Saint-Anne de Bellevue dans l'ouest de l’île de Montréal qui fait partie du réseau d'observation radar d'environnement Canada. C'est d'une hauteur d'environ 5 étages dans un endroit bien dégagé histoire de ne pas être obstrué par des structures avoisinantes. À l'intérieur du dôme, on retrouve le radar en tant que telle. 
 
@@ -695,7 +702,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source: NOAA**" -->
+<!-- _footer: "**Photo : NOAA**" -->
 
 <!-- L'émetteur d'onde va émettre des pulses micro-onde sur des échelles de microsecondes avec des longueurs d'ondes de 1-10 cm, ce qui est environ 10x la taille des gouttes de précipitations et donc lorsque ces ondes rencontres de la précipitation dans l’atmosphère, il y a un phénomène de diffusion de Rayleigh par lequel les ondes sont redirigés dans plusieurs direction, dont certaines de retour vers le radar.
 
@@ -731,6 +738,8 @@ Dans sa version la plus simple, la relation entre facteur de réflectivité et p
 
 <!-- _header: "" -->
 
+<!-- _footer : "**Source : Service météorologique de Canada (MSC)**" -->
+
 <!-- Réseau d’observation radar : Nécessaire pour la cartographie des systèmes de météo.
 
 Environnement Canada : le réseau canadien d'observation radar. Comme vous pouvez le constater, la couverture spatiale se limite au sud du pays. -->
@@ -742,6 +751,8 @@ Environnement Canada : le réseau canadien d'observation radar. Comme vous pouv
 ---
 
 <!-- _header: "" -->
+
+<!-- _footer: "**Source : National Weather Service (NOAA)**" -->
 
 <!-- Si on regarde au États-Unis, le territoire entier est presque couvert et la densité des radars est aussi supérieur à celle du canada. -->
 
@@ -796,7 +807,7 @@ h2 {
 </style>
 
 <!-- _header: "" -->
-<!-- _footer: "**Source : McGill Radar Nowcasting ([site web](https://radar.mcgill.ca/imagery/nowcasting.html))**" -->
+<!-- _footer: "**Photo : Université McGill**\n**Source : McGill Radar Nowcasting ([site web](https://radar.mcgill.ca/imagery/nowcasting.html))**" -->
 <!-- _paginate: false -->
 
 <!-- Voici le page internet de l’observatoire du J.S. Marshall qui j’ai parlais de plus tôt. On peut voir les images de ce radar en temps réelle avec couplée avec une modèle de prévision qui estime les prochains trois (3) heures. -->
@@ -2243,12 +2254,12 @@ Aussi, une système d’archivage est nécessaire pour sauvegarder des centaines
 
 ## Ensemble du MRCC à Ouranos
 
-Le MRCC a une résolution spatiale allant jusqu’à ~12 km et une résolution temporelle d’archivage jusqu’aux heures.
+Le MRCC a une **résolution spatiale allant jusqu’à ~12 km** et une ** résolution temporelle d’archivage jusqu’aux heures**.
 
 Conserver une centaine de variables aux 3h sur une grille de 12 km sur l’Amérique du Nord pour une simulation de 140 ans requiert environ 40 To d’espace disque.
- - Quinzaine des variables archivés aux heures
+ - Une quinzaine des variables sont archivés aux heures
 
-Système d’archivage créé uniquement pour les sortis de modèle MRCC
+**Ouranos a une système d’archivage créée uniquement pour les sortis du modèle MRCC**
 
 ---
 
@@ -2263,7 +2274,12 @@ h2 {
 <!-- _footer: "**Crédit : Travis Logan et Pascal Bourgault, équipe PCDO**" -->
 <!-- _paginate: false -->
 
-<!-- FIXME: ADD TEXT -->
+<!-- Chez Ouranos, notre système d'archivage contient plus de 5 pétaoctets, aux dernières nouvelles. Cela nécessite une salle de serveur dédiée et des armoires de cassettes de données qui sont automatiquement sauvegardées tous les jours. 
+
+Un robot déplace les cassettes lorsque nous devons archiver ou rechercher quelque chose C'est tellement cool, selon moi.
+
+Vous pourriez voir à droite les cassettes en rangées.
+ -->
 
 ![bg horizontal 62%](img/4/ecole_ete_2024_4_archive1.jpg)
 ![bg horizontal 62%](img/4/ecole_ete_2024_4_archive2.jpg)
@@ -2276,26 +2292,26 @@ h2 {
 <style scoped>
 h2 {
   position: absolute;
-  top: 2.5%;
+  top: 5%;
 }
-li {
+p {
   position: absolute;
-  bottom: 12.5%
+  bottom: 8%
 }
 </style>
 
 <!-- _header: "" -->
 <!-- _paginate: false -->
 
-<!-- FIXME: ADD TEXT -->
+<!-- Pour contexte, un de ces cassettes peuvent en contenir 18 téra octets des données. -->
 
 ![bg horizontal fit](img/4/ecole_ete_2024_4_lto.jpg)
 ![bg horizontal fit](img/4/ecole_ete_2024_4_lto-gens.jpg)
 
-## Système d'archivage à Ouranos
+## Système d'archivage à Ouranos - Cassettes LTO
 
-- **LTO : « Linear Tape-Open »**
-jusqu'à *18 To par cassette* présentement!
+**LTO : « Linear Tape-Open » peuvent contenir** 
+**jusqu'à *18 To par cassette* présentement!**
 
 ---
 
@@ -2375,7 +2391,7 @@ Permet de mieux évaluer le rôle de la variabilité naturelle dans la chaîne d
 **NCAR CESM1 LENS** (*40 membres*)
 
 **CanESM / CanESM2 Large Ensemble** (*50 membres*)
- - CanRCM4-LE → CanLEAD-LE (données corrigés)
+ - **CanRCM4-LE → CanLEAD-LE (données corrigés)**
 
 ---
 
@@ -2387,7 +2403,6 @@ h2 {
 </style>
 
 <!-- _footer: "**Source : Leduc et al. (2016) The ClimEx Project: Dynamical downscaling of a GCM large ensemble at very high resolution for Bavaria and Quebec. International Conference on Regional Climate-CORDEX, Stockholm, 17-20 May 2016. Poster.**" -->
-
 
 <!-- Scientifiques du Bavière et Ouranos ont rouler une nouvelle ensemble large nommé ClimEx. Cette ensemble avait utilisé 5 familles de perturbations pour rouler le CanESM2 pour 50 simulations sur les domaines d’Europe et le Québec, incluant le Nord-Est des États-Unis. 
 
