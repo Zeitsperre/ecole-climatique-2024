@@ -31,7 +31,7 @@ style: |
     .container{
       display: flex;
     }
-    .col{
+    .column{
       flex: 1;
     }
 
@@ -60,40 +60,66 @@ Avec remerciements à Blaise Gauvin St-Denis et l'équipe PCDO
 
 ---
 
+<!-- _footer: "**Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016.\nCredit: NASA Earth Observatory**" -->
+
 <!-- Les objectifs du cours sont les suivants : [...] donc ici on va plus parler du travail qui est fait par les services météorologiques nationaux pour prendre des mesures. 
 
 Ensuite [...] où là on va parler des données qui sont diffusées au public et donc que des organismes comme Ouranos ou des étudiants comme vous peuvent utiliser. 
 
 Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information faramineuse pour ce qui est de l'observation de la terre et de notre atmosphère et il n'y a pas le jeu de données parfaits qui répond à toute les questions donc il faut comprendre les [...], et aussi je souhaite vous donner une appréciation de la [...]. -->
 
+![bg right:40%](img/extras/extratropical-cyclone-august-2016.jpg)
+
 # **Objectifs du cours**
 
-Connaissance de base de l’historique de la collecte de données climatiques, du fonctionnement des différents instruments et de leurs incertitudes.
-
-
-Vue d’ensemble des données disponibles pour faire des études climatiques.
-
-Connaissance des forces et faiblesses des différents types de jeux de données.
-
-Compréhension de la taille considérable de certaines des bases de données et des défis à les analyser.
+- Connaissance de base de l’historique de la collecte de données climatiques, du fonctionnement des différents instruments et de leurs incertitudes.
+- Vue d’ensemble des données disponibles pour faire des études climatiques.
+- Connaissance des forces et faiblesses des différents types de jeux de données.
+- Compréhension de la taille considérable de certaines des bases de données et des défis à les analyser.
 
 ---
 
 <!-- _footer: "" -->
 
-![bg absolute left:40% 85%](img/profile.jpg)
+![bg absolute left:40% 85%](img/extras/profile.jpg)
 
 # Qui suis-je ?
 
 Trevor James Smith
 
-![height:35](img/github.png) [**github.com/Zeitsperre**](https://github.com/Zeitsperre)
-![height:35](img/mastodon-logo.png) [**Zeit@techhub.social**](https://techhub.social/@zeit)
+![height:35](img/github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
+
 
 - Developpeur/packageur/mainteneur des logiciels de recherche scientifiques
 - M.Sc. en Géographie, environnement et urbanisme
   - Sujet: Analyse des impacts des changements climatiques sur les vignobles en sud du Québec
 - 10+ années d'expérience en utilisant Python, Linux, GIS, et autres téchnologies associées
+
+---
+
+
+
+<!-- _header: "" -->
+<!-- _footer: "**Crédit : https://www.communitystories.ca/v2/grand-verglas-saint-jean-sur-richelieu_ice-storm/**" -->
+
+<!-- My employer, Ouranos, is a not-for-profit based on Montréeal that works with the Canadian and Quebec governments on climate change adaptation. We were created in response to an extreme storm event that had 1.5 Million people without power for weeks and caused around 5.5 Billion dollars in damage. Our role is to connect government, industry, and academia with many types of climate information so that events like those are less impactful. For the past 8 years or so, we've been moving into software and research platform development. The core development team is small, but we do a lot of collaboration. -->
+
+
+<!-- 
+
+
+-->
+
+![bg vertical right:50% 95%](img/extras/ouranos-website.png)
+![bg 95%](img/extras/ice-storm.jpg)
+
+# C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀
+
+* Non-profit research consortium established in 2003 in Montréal, Québec, Canada
+  * Created in response to the [January 1998 North American Ice Storm](https://en.wikipedia.org/wiki/January_1998_North_American_ice_storm) 🌨️
+* Climate Change Adaptation Planning
+* Climate Model Data Producer/Provider
+* *Climate Information Services*
 
 ---
 
@@ -640,21 +666,20 @@ Trois (3) composantes majeures :
 - une antenne, 
 - et un receveur d’onde.
 
-Portée d’environ 200 km autour du radar.
+Portée d’environ **200 Km** autour du radar.
 
 ---
 
-<!-- _paginate: false -->
+<!-- _header: "" -->
+<!-- _footer: "**Source: Université McGill**" -->
 
 <!-- Ici on a une photo du radar de l’observatoire du J.S. Marshall gérer par l'université McGill sur le campus à Saint-Anne de Bellevue dans l'ouest de l’île de Montréal qui fait partie du réseau d'observation radar d'environnement Canada. C'est d'une hauteur d'environ 5 étages dans un endroit bien dégagé histoire de ne pas être obstrué par des structures avoisinantes. À l'intérieur du dôme, on retrouve le radar en tant que telle. 
 
 À McGill l'antenne est de 9m à l'intérieur de la coupole. Et donc le radar tourne continuellement, à plusieurs rotations par minute et après chaque rotation, l'angle vertical est augmenté afin de faire un image en 3D de l'atmosphère. Ce cycle de rotation horizontal et de changement d'angle vertical prend environ 5 à 10 minutes, puis recommence. -->
 
-![bg left:50% fit](img/2/ecole_ete_2024_2_mcgill-doppler.jpg)
+![bg right:70% fit](img/2/ecole_ete_2024_2_mcgill-doppler.jpg)
 
 # Radar
-
-**Source: Université McGill**
 
 ---
 
@@ -663,11 +688,9 @@ h1 {
   position: absolute;
   top: 1%;
 }
-p {
-  position: absolute;
-  bottom: 8%;
-}
 </style>
+
+<!-- _footer: "**Source: NOAA**" -->
 
 <!-- L'émetteur d'onde va émettre des pulses micro-onde sur des échelles de microsecondes avec des longueurs d'ondes de 1-10 cm, ce qui est environ 10x la taille des gouttes de précipitations et donc lorsque ces ondes rencontres de la précipitation dans l’atmosphère, il y a un phénomène de diffusion de Rayleigh par lequel les ondes sont redirigés dans plusieurs direction, dont certaines de retour vers le radar.
 
@@ -678,8 +701,6 @@ On mesure aussi l'intensité du signal de retour par une mesure qu'on appelle la
 ![bg 70%](img/2/ecole_ete_2024_2_mcgill-doppler-interior.jpg)
 
 # Radar
-
-**Source: NOAA**
 
 ---
 
@@ -697,9 +718,9 @@ Le facteur de réflectivité est dépendant de la distribution de la taille des 
 
 Dans sa version la plus simple, la relation entre facteur de réflectivité et précipitation est donnée par la relation **Z-R**.
 
-*Z = 200R^1.6 pour la pluie (Z en mm^6/mm^3, R en mm/h)*
+- *Z = 200R^1.6 pour la pluie (Z en mm^6/mm^3, R en mm/h)*
 
-*Z = 200R^2 pour la neige*
+- *Z = 200R^2 pour la neige*
 
 ---
 
@@ -735,11 +756,11 @@ Problème : La taille des données. Réseau = plusieurs terabytes de données p
 
 Résolution temporelle de *5 à 10 min*.
 
-Résolution spatiale de 1 degré en azimuth et en élévation. ~100 m sur l’axe de l’onde émise.
+Résolution spatiale de *1 degré en azimuth et en élévation*, *~100 m sur l’axe de l’onde émise*.
 
 Une image de 200 km → *3 millions points de grille*
 
-Plusieurs téraoctets de données produites par jour.
+Plusieurs téraoctets (To) de données produites par jour
 
 ---
 
@@ -763,13 +784,10 @@ h1 {
   position: absolute;
   top: 10%;
 }
-li {
-  position: absolute;
-  bottom: 10%;
-}
 </style>
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : McGill Radar Nowcasting ([site web](https://radar.mcgill.ca/imagery/nowcasting.html))**" -->
 <!-- _paginate: false -->
 
 <!-- Voici le page internet de l’observatoire du J.S. Marshall qui j’ai parlais de plus tôt. On peut voir les images de ce radar en temps réelle avec couplée avec une modèle de prévision qui estime les prochains trois (3) heures. -->
@@ -779,7 +797,7 @@ li {
 
 # Radar + Prévision
 
-* [McGill Radar Nowcasting (site web)](https://radar.mcgill.ca/imagery/nowcasting.html)
+* 
 
 ---
 
@@ -796,20 +814,19 @@ Une source d'information non-négligeable pour le climat et toutes sortes d'info
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : NASA**" -->
 
 <!-- Toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés.
 
 L’image ici parvient à GPM, le mission de « Global Precipitation Measurement » une initiative de plusieurs pays.-->
 
-![bg fit right:65%](img/2/ecole_ete_2024_2_gpm.png)
+![bg right:60% fit](img/2/ecole_ete_2024_2_gpm.png)
 
 # Données satellitaires
 
 Coordination à l'international
 
-Plusieurs « *missions* » en opération en même temps
-
-- **Source : NASA** 
+Plusieurs « **missions** » en opération en même temps
 
 ---
 <!-- Deux types d'orbites de satellite possible :
@@ -822,35 +839,34 @@ Au fur et a mesure que la terre tourne vers l'est, le satellite passe au dessus 
 
 # Satellite
 
-Également de la famille d’observation par « *télédétection* »
+Également de la famille d’observation par « **télédétection** »
 
-Deux types d’orbites : *géostationnaires* et à *orbite polaire*.
+Deux types d’orbites : **géostationnaires** et **à orbite polaire**.
 
 Géostationnaire : 
-  - 36,000 Km au dessus de la terre fixé au dessus du même point terrestre en permanence
+  - *36,000 Km au dessus de la terre* fixé au dessus du même point terrestre en permanence
 
 Orbite polaire : 
-  - ~850 Km au dessus de la terre
-  - ~14 orbites par jour
+  - *~850 Km au dessus de la terre*
+  - *~14 orbites par jour*
 
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Crédits des images : NASA, NOAA, JMA**" -->
 
 <!-- L'utilisation de base des satellites d'observations consistait en une image photographique afin d'observer les nuages, comme on peut voir ici des satellite géostationnaires GOES-1 et GOES-18. 
 
 Le nombre d'instruments et leur capacité d'observation c'est grandement amélioré avec les années. -->
 
-![bg right:70% horizontal fit](img/2/ecole_ete_2024_2_GOES-1.jpg)
+![bg right:69% horizontal fit](img/2/ecole_ete_2024_2_GOES-1.jpg)
 ![bg fit](img/2/ecole_ete_2024_2_GOES-18.png)
 
 # Mission Satellitaire « GOES »
 
-GOES-1 (1975)
+**GOES-1 (1975)**
 
-GOES-18 (2022)
-
-* **Crédits des images : NASA, NOAA, JMA**
+**GOES-18 (2022)**
 
 ---
 
@@ -873,11 +889,9 @@ h1 {
   position: absolute;
   top: 4%;
 }
-li {
-  position: absolute;
-  bottom: 10%
-}
 </style>
+
+<!-- _footer: "**Source : NASA**" -->
 
 <!-- Acquisition : Collecter des données à différentes fréquences dans des bandes spectrales très spécifiques :
 
@@ -897,11 +911,10 @@ Avec quelques corrections, ce type d'imagerie peut déterminer de manière très
 
 # Satellite
 
-* **Source : NASA**
-
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA (https://doi.org/10.3390/rs61111372)**" -->
 
 <!-- Télédétection et Machine Learning : Créer des images de nombreuse phénomènes, identifier les objets ou surveiller les événements climatiques.
 Ouragans, les El Nino, tempêtes. -->
@@ -911,20 +924,19 @@ Ouragans, les El Nino, tempêtes. -->
 # Satellite 
 ## Imagerie aérienne
 
-* **Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA**
-
 ---
+
+<!-- _footer: "**Source : Herrera et al. (2022) Predicting Atlantic Hurricanes Using Machine Learning (https://doi.org/10.3390/atmos13050707)**" -->
+<!-- _paginate: false -->
 
 <!-- Télédétection et apprentissage automatique : Créer des images de nombreuse phénomènes, identifier les objets, ou surveiller les événements climatiques.
 
 Il y a eu plusieurs avancements récemment dans la domaine d’identification et prévision des Ouragans, les El Nino, tempêtes, et autres phénomènes. -->
 
-![bg right:60% fit](img/2/ecole_ete_2024_2_ouragans.png)
+![bg left:60% fit](img/2/ecole_ete_2024_2_ouragans.png)
 
 # Satellite
 ## Ouragans et « Machine Learning »
-
-- **Source : Herrera et al. (2022) Predicting Atlantic Hurricanes Using Machine Learning (https://doi.org/10.3390/atmos13050707)**
 
 ---
 
@@ -943,17 +955,17 @@ Satellites à orbite polaire : Données de plus haute résolution sur la géolo
 # Satellite
 
 
-- Couverture globale de satellite géostationnaire
-- GMS Himawari 8 (japonais : JMA)
+Couverture globale de satellite géostationnaire :
+- **GMS Himawari 8** (japonais : JMA)
   - l’est asiatique et l’océan pacifique.
-- GOES West et GOES East (américains : NASA)
+- **GOES West et GOES East** (américains : NASA)
   - l’océan pacifique\, les Amériques\, l’océan atlantique.
-- METEOSAT (européen : EUMETSAT)
+- **METEOSAT** (européen : EUMETSAT)
   - Europe et Afrique.
-- INSAT (indien : ISRO)
+- **INSAT** (indien : ISRO)
   - Asie et l’océan Indien.
 - Les satellites en orbites polaires ont des missions plus spécialisées 
-  - e.g. LANDSAT, SRTM, Terra, Aqua, etc.
+  - e.g. **LANDSAT**, **SRTM**, **Terra**, **Aqua**, etc.
 
 ---
 
@@ -1047,7 +1059,7 @@ la dernière lecture que j'ai faite pendant la semaine passée suggère que les 
 ![top-right](img/2/ecole_ete_2024_2_co2-sensor.jpg)
 ![bottom-right](img/2/ecole_ete_2024_2_keeling-curve.png)
 
-# Mesure de CO2 
+# Mesure de CO2 in situ
 ## Spectrophotomètre
 
 ---
@@ -1068,7 +1080,7 @@ La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces g
 
 ![bg fit 80%](img/2/ecole_ete_2024_2_satellite-co2.jpg)
 
-# Mesure de CO2 par Satellite
+# Mesure de CO2 par satellite
 
 * **Source : World Data Center for Greenhouse Gases (https://gaw.kishou.go.jp)**
 
@@ -1089,11 +1101,9 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 7.5%
-}
 </style>
+
+<!-- _footer: "**Source : \"DRAW: Data Rescue Archives and Weather\" (https://citsci.geog.mcgill.ca/en/)**" -->
 
 <!-- La plupart des centres urbains ont des stations météo qui sont opérationnelle depuis très longtemps, souvent colocalisé avec les aéroports. 
 
@@ -1105,8 +1115,6 @@ Au Canada, les données de stations archivées remontent jusqu'en 1840 pour la v
 
 # Données de stations
 
-* **Source: "DRAW: Data Rescue Archives and Weather" (https://citsci.geog.mcgill.ca/en/)**
-
 ---
 
 <!-- Si vous êtes intéressé aux données d'une station d'Environnement Canada un grand portion des données sont disponible en ligne
@@ -1117,7 +1125,7 @@ Accéder via le site web climat.meteo.gc.ca : fichier CSV des données.
 
 Par contre, pour un étude à plus grande échelle spatiale et temporelle, il faut obtenir les données brutes d'environnement Canada ou d'un de leur partenaire -->
 
-# Données de stations
+# Données de stations canadiens
 
 Les archives débutent vers les années 1840
 
@@ -1130,6 +1138,7 @@ Les données de stations du RMCQ sont disponibles sur https://agrometeo.org en t
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Source: Environnement Canada**" -->
 
 <!-- Environnement Canada document ses données en gros détail. 
 
@@ -1139,16 +1148,14 @@ Ce n'est pas toutes les stations qui rapporte toutes les variables et que chaque
 
 Et donc souvent on regarde ces listes et on se dit que tout est beau, c'est exactement ce qu'il nous faut pour faire notre analyse, mais dans les faits, lorsqu'on utilise des données de stations, on ne saura pas si c'est adéquat tant que l'on aura pas récupéré les données et vérifier leur couverture réelle. -->
 
-![bg fit right:60% 70%](img/3/ecole_ete_2024_3_donnees-tableau.png)
+![bg fit right:65% fit](img/3/ecole_ete_2024_3_donnees-tableau.png)
 
-# Données de stations
-
-* **Source: Environnement Canada**
+## Sommaires de données de stations canadiens
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 1%;
 }
@@ -1165,7 +1172,7 @@ Les données historiques ne sont pas publiques -->
 
 ![bg fit 80%](img/3/ecole_ete_2024_3_reseau-des-stations.png)
 
-# Données de stations canadiens
+## Données de stations canadiens
 
 ---
 
@@ -1182,12 +1189,12 @@ Les données historiques ne sont pas publiques. -->
 
 ![bg right:65% fit](img/3/ecole_ete_2024_3_reseau-melcc.png)
 
-# Données de stations du MELCCFP
+## Données de stations du MELCCFP
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
@@ -1197,7 +1204,7 @@ h1 {
 
 ![bg fit 90%](img/3/ecole_ete_2024_3_reseau-omm.png)
 
-# Données de stations de la OMM
+## Données de stations de la OMM
 
 ---
 
@@ -1207,23 +1214,31 @@ Les observations peuvent être erronées ou pourraient être influencées par de
 
 Des erreurs systématiques dans nos données en raison de facteurs tels que la turbulence du vent et l’accumulation de neige sur les capteurs. -->
 
-# Données de stations
+# Données de stations - Conclusions
 
-FIXME: Need two columns
+<div class="container">
+
+<div class="col">
 
 **Forces**
 
-Information locale à partir d'instruments
-Représentatif de l’échelle à laquelle l’humain perçoit la météo
-Records les plus anciens des valeurs « *vérifiées sur le terrain* » (« *ground-truthed* »)
+- Information locale à partir d'instruments
+- Représentatif de l’échelle à laquelle l’humain perçoit la météo
+- Records les plus anciens des valeurs « *vérifiées sur le terrain* » (« *ground-truthed* »)
+
+</div>
+
+<div class="col">
 
 **Faiblesses**
 
-Possibilité d’erreurs par les observateurs
-Peut être affecté par la proximité de perturbations (chaleur urbaine, masse d’eau)
-Déplacement et fermeture de stations
-Discontinuités temporelles
-Couverture spatiale très hétérogène
+- Possibilité d’erreurs par les observateurs
+- Peut être affecté par la proximité de perturbations (chaleur urbaine, masse d’eau)
+- Déplacement et fermeture de stations
+- Discontinuités temporelles
+- Couverture spatiale très hétérogène
+
+</div>
 
 ---
 
@@ -1258,11 +1273,11 @@ Environnement Canada est le principal pourvoyeur de ce type de données au pays 
 
 - **http://www.ec.gc.ca/dccha-ahccd/**
 
-Plus de 400 stations homogénéisées pour les températures minimum, maximum et la précipitation.
+**Plus de 400 stations** homogénéisées pour les *températures minimum, maximum et la précipitation.*
 
-- Wan et al. 2007; Wan et al. 2010 (Génération 1)
-- Mekis et Vincent 2011; Vincent et al. 2012. (Génération 2)
-- Vincent et al. 2020 (Génération 3)
+- **Wan et al. 2007; Wan et al. 2010 (Génération 1)**
+- **Mekis et Vincent 2011; Vincent et al. 2012. (Génération 2)**
+- **Vincent et al. 2020 (Génération 3)**
 
 ---
 
@@ -1271,13 +1286,10 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 2.5%
-}
 </style>
 
-<!-- _footer: "" -->
+<!-- _footer: "**Mekis & Vincent 2011. An Overview of the Second Generation Adjusted Daily Precipitation Dataset for Trend Analysis in Canada (https://doi.org/10.1080/07055900.2011.583910)**
+" -->
 
 <!-- Éva Mékis et al. 2011 : Données homogénéisées de précipitation, et ce que vous voyez ici ce sont la différences entre les tendances de 1950-2009 avant et après homogénéisation. 
 
@@ -1289,30 +1301,38 @@ Les données précipitation sous forme de neige : Des différences régionales.
 
 # Données homogénéisées
 
-- **Mekis & Vincent 2011. An Overview of the Second Generation Adjusted Daily Precipitation Dataset for Trend Analysis in Canada (https://doi.org/10.1080/07055900.2011.583910)**
-
 ---
 
 <!-- Forces : informations climatiques locales, plus continues et fiables avec a peu près les mêmes faiblesses spatiales que les données brutes. 
 
 Dans un contexte d'étude des tendances et changement climatique, il est préférable d'utiliser les données homogénéisées lorsque possible. -->
 
-# Données homogénéisées
+# Données homogénéisées - Conclusions
 
-FIXME: Need two columns
+<div class="container">
+
+<div class="col">
 
 **Forces**
 
-Information locale
-Représentatif de l’échelle à laquelle l’humain perçoit la météo
-Séries (plus) continues
-Corrigé pour donner des tendances plus représentative de la réalité
+- Information locale
+- Représentatif de l’échelle à laquelle l’humain perçoit la météo
+- Séries (plus) continues
+- Corrigé pour donner des tendances plus représentative de la réalité
+
+</div>
+
+<div class="col">
 
 **Faiblesses**
 
-Moins de stations disponibles
-Couverture spatiale très hétérogène
-Peu d’information sur l’incertitude des méthodes d’homogénéisation
+- Moins de stations disponibles
+- Couverture spatiale très hétérogène
+- Peu d’information sur l’incertitude des méthodes d’homogénéisation
+
+</div>
+
+</div>
 
 ---
 
@@ -1321,13 +1341,9 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 2.5%
-}
 </style>
 
-<!-- _footer: "" -->
+<!-- _footer: "**Source : MELCCFP**" -->
 
 <!-- C’est génial d’y avoir des données aux endroits, mais si je s’intéresse sur les tendances régionales ou des conditions loin d’un station d’observation, je devais interpoler les valeurs spatialement. 
 
@@ -1338,8 +1354,6 @@ On le voit ici un exemple d’une interpolation faite par la MELCC des données 
 ![bg fit 60%](img/3/ecole_ete_2024_3_interpolees.jpg)
 
 # Données interpolées
-
-- **Source : MELCCFP**
 
 ---
 
@@ -1369,13 +1383,9 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 2.5%
-}
 </style>
 
-<!-- _footer: "" -->
+<!-- _footer: "**Source : CRU (http://www.cru.uea.ac.uk/)**" -->
 
 <!-- Populaire : « Climate Research Unit » (CRU) de l'Université d'East Anglia. 
 
@@ -1389,26 +1399,23 @@ La combinaison de ces deux jeux de données : température continus dans le mon
 
 # Données interpolées - Globales
 
-- **Source : CRU (http://www.cru.uea.ac.uk/)**
-
 ---
 
 <!-- _header: "" -->
+<!-- _footer: " **Source : Jones et al. (1999) (https://doi.org/10.1029/1999RG900002)**" -->
 
 <!-- Ces ensembles de données peuvent remonter à 1850.
 
 Utilisés pour examiner les tendances à grande échelle des températures pour l'ensemble de l'historique, à un intervalle mensuel. -->
 
-![bg right:35% 100%](img/3/ecole_ete_2024_3_hadcrut.png)
+![bg right:55% fit](img/3/ecole_ete_2024_3_hadcrut.png)
 
-# Données interpolées - Globales
+## Données interpolées - Globales
 
-Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST, autres)
+Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST...)
  - Résolution temporelle mensuelle *à partir de 1850*.
- - Résolution spatiale de *~500 km sur le globe*.
-
-[HadCRUT4](https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4)
-  - **Source : Jones et al. (1999) (https://doi.org/10.1029/1999RG900002)**
+ - Résolution spatiale de *~500 km sur le globe*
+ - **Données direct - [HadCRUT4](https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4)**
 
 ---
 
@@ -1433,7 +1440,7 @@ CanGRD est une interpolation des données homogénéisées d’Environnement Can
 Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant la méthode ANUSPLIN
  - Résolution temporelle journalière *à partir de 1950*.
  - Résolution spatiale de *~10 km sur le territoire canadien*.
- - ANUSPLIN : Hutchinson, M. F. (1995) (https://doi.org/10.1080/02693799508902045)
+ - *ANUSPLIN* : **Hutchinson, M. F. (1995) (https://doi.org/10.1080/02693799508902045)**
 
 ---
 
@@ -1447,7 +1454,7 @@ Il y a plusieurs manières de faire interpolation par Krigeage mais l’objectif
 
 ![bg fit right:45%](img/2/ecole_ete_2024_2_melcc-grille.png)
 
-# Données interpolées - Québec
+## Données interpolées - Québec
 
 Produit de la ministère de l’environnement et la lutte contre les changements climatiques, la faune et les parcs (MELCCFP) « Grille climatique quotidien »
  - Méthode interpolation : Krigeage
@@ -1455,16 +1462,14 @@ Produit de la ministère de l’environnement et la lutte contre les changements
  - Résolution spatiale de ~10 km sur le territoire de Québec.
  - **Données non-public, sauf pour les chercheurs**
 
+
+
 ---
 
 <style scoped>
-h1 {
-  position: absolute;
-  top: 2.5%;
-}
 h2 {
   position: absolute;
-  top: 10%;
+  top: 2.5%;
 }
 </style>
 
@@ -1479,7 +1484,7 @@ Les produits intégraient des données brutes au réseau de stations météorolo
 ![bg horizontal fit 70%](img/3/ecole_ete_2024_3_interpolated-signals.png)
 ![bg fit 70%](img/3/ecole_ete_2024_3_interpolated-error.png)
 
-# Propagation des erreurs
+## Attention - Propagation des erreurs
 
 ---
 
@@ -1496,7 +1501,7 @@ J’ai décider de présenter ça comme la dernière exemple à cause que cette 
 
 ![bg right 90%](img/2/ecole_ete_2024_2_daymet.png)
 
-# Données interpolées – Amérique du Nord
+## Données interpolées – Amérique du Nord
 
 Le NASA produit l’interpolation de « DayMET »
 - Résolution temporelle quotidien à partir de 1980
@@ -1518,20 +1523,31 @@ Si la zone ne dispose pas d'une couverture de stations cohérente ou si une inte
 
 Impossible de savoir quelle méthode est utilisée à moins d’être bien documentée. -->
 
-# Données interpolées
+## Données interpolées - Conclusion
 
-FIXME: Need two columns
+
+<div class="container">
+
+<div class="col">
 
 **Forces**
 
-Couverture spatiale complète à haute résolution.
-Séries temporelles continues.
+- Couverture spatiale complète à haute résolution.
+- Séries temporelles continues.
+
+</div>
+
+<div class="col">
 
 **Faiblesses**
 
-Les données dans les régions à faible densité de stations sont de moindre qualité.
-Peu d’information sur les incertitudes liées aux méthodes d’interpolation.
-Les erreurs dans les données de stations utilisées se propagent dans les données interpolées.
+- Les données dans les régions à faible densité de stations sont de moindre qualité.
+- Peu d’information sur les incertitudes liées aux méthodes d’interpolation.
+- Les erreurs dans les données de stations utilisées se propagent dans les données interpolées.
+
+</div>
+
+</div>
 
 ---
 
@@ -1547,6 +1563,8 @@ QUESTIONS ? -->
 
 # Données de réanalyses et prévisions
 
+## Expériments de « Hindcasting » et « Forecasting »
+
 ---
 
 <style scoped>
@@ -1554,11 +1572,9 @@ h1 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 7.5%
-}
 </style>
+
+<!-- _footer: "**Source : ECMWF**" -->
 
 <!-- Intègre les observations climatiques dans des modèles climatiques qui peut ensuite compléter les données manquantes ou extrapoler à un avenir proche à l'aide de formules physiques.
 
@@ -1570,8 +1586,6 @@ Des ruptures peut se passe dans les données des modèles de réanalyse quand m�
 
 # Réanalyses
 
-- **Source : ECMWF**
-
 ---
 
 <!-- Première génération : milieu des années 1990 avec ECMWF et NCEP qui travaillaient sur les réanalyses ERA-15 et NCEP1. 
@@ -1582,30 +1596,28 @@ La troisième génération de réanalyses avait plus de développeurs que jamais
 
 Aujourd’hui : on à plusieurs continuations de ces produits. -->
 
-# Historique des réanalyses
+## Historique des réanalyses
 
-Première génération (~1990) : NCEP1, ERA-15.
+Première génération (~1990) : **NCEP1, ERA-15**
 
-Deuxième génération (~2000) : NCEP2, NARR, JRA-25, ERA-40, ERA-interim.
+Deuxième génération (~2000) : **NCEP2, NARR, JRA-25, ERA-40, ERA-interim**
 
-Troisième génération (~2008) : CFSR, 20CR, MERRA, JRA55, ERA20C.
+Troisième génération (~2008) : **CFSR, 20CR, MERRA, JRA55, ERA20C**
 
-Quatrième génération (~2014) : CFSv2, MERRA2, ERA-20CM, 
+Quatrième génération (~2014) : **CFSv2, MERRA2, ERA-20CM**
 
-et ça continue… (~2019 et après) : ERA5, ERA5-Land
+et ça continue… (~2019 et après) : **ERA5, ERA5-Land, CaSR**
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
-li {
-  position: absolute;
-  bottom: 7.5%
-}
 </style>
+
+<!-- _footer: "**Source : ECMWF**" -->
 
 <!-- Les nouvelles générations de réanalyses suivent généralement les avancés dans les nouvelles générations de modèles prévisionnelles ainsi que les évolutions majeurs dans les méthodes d'assimilations et leurs entrées. 
 
@@ -1613,9 +1625,7 @@ Chaque génération : Avancements pour la résolution spatio-temporelle et plus
 
 ![bg 70%](img/3/ecole_ete_2024_3_reanalyses-courbe.jpg)
 
-# Historique des réanalyses
-
-- **Source : ECMWF**
+## Historique des réanalyses - Cont.
 
 ---
 
@@ -1631,7 +1641,7 @@ Pour ERA5-Land, la résolution est encore plus fine, alors... encore plus grand.
 
 Collecter uniquement ce qui est nécessaire est une bonne approche. -->
 
-# Réanalyses
+## Données des réanalyses
 
 Réanalyses modernes :
   - Résolutions spatiales entre ~25 à 10 Km (ou moins!)
@@ -1654,7 +1664,7 @@ Les centres avancent bien sur le problème d'assimilation de données pour redir
 
 Même avec tous ces avancements technologiques, il restent encore des difficultés avec les comparaisons statistiques entre les jeu de données de réanalyses et leurs données assimilés. -->
 
-# Réanalyses
+## Réanalyses appliquées
 
 La comparaison de réanalyses et l’évaluation de leurs forces et faiblesses respectives est encore très anecdotiques.
 
@@ -1777,21 +1787,31 @@ Il existe des différences majeures entre les produits et il peut être impossib
 
 # Réanalyses
 
-FIXME: Need two columns
+<div class="container">
+
+<div class="column">
 
 **Forces**
 
-Couverture spatiale complète.
-Séries continues à haute résolution temporelle
-Cohérence physique entre les variables.
-Utilise un maximum de données observées pour initialiser le modèle plusieurs fois par jour.
-Variables souvent beaucoup plus intéressantes.
+- Couverture spatiale complète.
+- Séries continues à haute résolution temporelle
+- Cohérence physique entre les variables.
+- Utilise un maximum de données observées pour initialiser le modèle plusieurs fois par jour.
+- Variables souvent beaucoup plus intéressantes.
+
+</div>
+
+<div class="column">
 
 **Faiblesses**
 
-Plusieurs phénomènes encore paramétrés (p. ex. précipitation).
-Les modèles de réanalyses / prévisions ont des différences majeures entre elles.
-Les normes relatives aux variables ne sont pas toujours cohérentes entre les jeux des données réanalyses / prévisions et les modèles climatiques.
+- Plusieurs phénomènes encore paramétrés (p. ex. précipitation).
+- Les modèles de réanalyses / prévisions ont des différences majeures entre elles.
+- Les normes relatives aux variables ne sont pas toujours cohérentes entre les jeux des données réanalyses / prévisions et les modèles climatiques.
+
+</div>
+
+</div>
 
 ---
 
@@ -1837,7 +1857,7 @@ Perspective d’Ouranos, les données CMIP5 que nous avons maintenant dépasse 2
 
 Avec CMIP6 les données de base sont offerts aux heures avec des résolutions encore plus fines. -->
 
-# Modèles du climat global (GCM)
+## Modèles du climat global (GCM)
 
 Les modèles du climat modernes ont une résolution spatiale allant jusqu’à **25 Km*** et une résolution temporelle d’archivage jusqu’aux heures.
  - *Ce chiffre peut descendre, dépendamment le modèle
@@ -1874,13 +1894,22 @@ Présentement : **CMIP6** (production / utilisation)
 
 ---
 
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
 <!-- _footer: "**Source : Taylor et al. (2011) An Overview of the CMIP5 Experiment Design (https://doi.org/10.1175/BAMS-D-11-00094.1)**" -->
 
 <!-- Pour les gens qui aime à savoir, les relations entre les organismes de recherche en climat sont pas énormément compliqués, mais quand même.
 
 Je vais parler maintenant de l’exemple de la structure de CMIP5. La génération actuel, CMIP6, est différent en quelques manières mais pour la plupart, l’idée de priorisations de l’ordre des simulations et la structure des expériences sont très similaires. -->
 
-![bg 50%](img/4/ecole_ete_2022_4_cmip-relationship.jpg)
+![bg 50%](img/4/ecole_ete_2024_4_cmip-relationship.jpg)
+
+## Structure organisationel
 
 ---
 
@@ -1899,8 +1928,8 @@ Au centre, il y a le DECK pour « Diagnostic, Evaluation and Characterization o
 
 Ils inclus aussi l’expérience historique de CMIP6 dans le cœur des priorités. Tout le reste est divisé en MIP, qui répondent à diverses questions et les grands défis scientifiques identifiés par les groupes de travail. -->
 
-![bg horizontal 95%](img/4/ecole_ete_2022_4_cmip-wheel.jpg)
-![bg 66%](img/4/ecole_ete_2022_4_cmip-experiments.jpg)
+![bg horizontal 95%](img/4/ecole_ete_2024_4_cmip-wheel.jpg)
+![bg 66%](img/4/ecole_ete_2024_4_cmip-experiments.jpg)
 
 # CMIP6
 
@@ -1921,7 +1950,7 @@ Les pays riche qui peuvent se permettre d'entreprendre ces efforts de modélisat
 
 Même si on ne voit pas des instituts dans Afrique par exemple, dans une monde connecté, nos collaborateurs sont des fois partout et les efforts de s’améliorer les modèles sont un travail faite par la communauté « at large » -->
 
-![bg 75%](img/4/ecole_ete_2022_4_cmip-map.png)
+![bg 75%](img/4/ecole_ete_2024_4_cmip-map.png)
 
 ## Instituts participants à CMIP
 
@@ -1947,7 +1976,7 @@ Cette mesure ne contient aucune information sur les performance de distribution 
 
 Pour tel raison, il n’y a pas un CMIP4 (les modèles utilisés dans le 4e rapport du GIEC était basées sur CMIP3) – Je ne sais pas pourquoi. Peut-être Dominique le sait. -->
 
-![bg fit right:75%](img/4/ecole_ete_2022_4_model-evolution.jpg)
+![bg fit right:75%](img/4/ecole_ete_2024_4_model-evolution.jpg)
 
 ## Modèles participants de CMIP2 à CMIP5
 
@@ -1975,8 +2004,8 @@ Réponses à l'augmentation du CO2 sont aussi similaires.
 
 Donc ce qu'on va généralement viser à faire dans ces études climatiques c'est d'échantillonner cet ensemble de modèle de façon à prendre des modèles variés. C'est ce qu'on appelle des méthodes de sélection par grappe, ou « cluster analysis ». -->
 
-![bg horizontal 90%](img/4/ecole_ete_2022_4_cmip5-model-families.jpg)
-![bg horizontal 80%](img/4/ecole_ete_2022_4_cmip6-model-families.png)
+![bg horizontal 90%](img/4/ecole_ete_2024_4_cmip5-model-families.jpg)
+![bg horizontal 80%](img/4/ecole_ete_2024_4_cmip6-model-families.png)
 
 ## Généalogies des modèles participants de CMIP5 et CMIP6
 
@@ -1997,9 +2026,9 @@ Ces deux métriques représente les dynamiques des modèles et les modeleurs ess
 
 On peut voir pour les derniers 3 générations, la TCR ne bougent pas vraiment, et malheureusement, la élongation de ECS nous indique que les prévisions pour la sensibilité du système étaient peut-être trop conservateurs. -->
 
-![bg 77%](img/4/ecole_ete_2022_4_model-sensitivity.jpg)
+![bg 77%](img/4/ecole_ete_2024_4_model-sensitivity.jpg)
 
-## Comparaison de modèles CMIP
+## Comparaison de modèles CMIP - Conclusion
 
 ---
 
@@ -2015,20 +2044,30 @@ Un défi de trouver la bonne manière de les comparer à cause que leurs sorties
 
 # Modès du climat globales
 
-FIXME: NEED TWO COLUMNS
+<div class="container">
 
-*Forces*
+<div class="col">
 
-Couverture spatiale complète.
-Séries continues.
-Cohérence physique entre les variables.
-Permet de faire des projections dans le futur.
-Standards souvent bien suivi pour le calcul des variables et formats de données
+**Forces**
 
-*Faiblesses*
+- Couverture spatiale complète.
+- Séries continues.
+- Cohérence physique entre les variables.
+- Permet de faire des projections dans le futur.
+- Standards souvent bien suivi pour le calcul des variables et formats de données
 
-Plusieurs phénomènes encore paramétrés (p. ex. types spéciales de la précipitation).
-Les modèles ont des différences majeures entre eux.
+</div>
+
+<div class="col">
+
+**Faiblesses**
+
+- Plusieurs phénomènes encore paramétrés (p. ex. types spéciales de la précipitation).
+- Les modèles ont des différences majeures entre eux.
+
+</div>
+
+</div>
 
 ---
 
@@ -2047,7 +2086,7 @@ La façon générale dont les modèles régionales marchent c’est en utilisant
 
 Sans les sortis globaux pour piloter les simulations RCM, ils ne fonctionnent pas. -->
 
-![bg fit 95%](img/4/ecole_ete_2022_4_rcms.png)
+![bg fit 95%](img/4/ecole_ete_2024_4_rcms.png)
 
 # Modèles régionaux du climat (RCM)
 
@@ -2108,9 +2147,9 @@ Comme j’ai mentionné, les données produites par cette coordination se font p
 
 La couverture des expériences par région n’est pas uniforme – grappes de calcul pour rouler des modèles climatiques sont coûteux en temps et ressources. -->
 
-![img center-left](img/4/ecole_ete_2022_4_cordex-global.jpg)
-![img top-right](img/4/ecole_ete_2022_4_cordex-arctic.jpg)
-![img bottom-right](img/4/ecole_ete_2022_4_cordex-antarctic.jpg)
+![img center-left](img/4/ecole_ete_2024_4_cordex-global.jpg)
+![img top-right](img/4/ecole_ete_2024_4_cordex-arctic.jpg)
+![img bottom-right](img/4/ecole_ete_2024_4_cordex-antarctic.jpg)
 
 # CMIP5-CORDEX
 
@@ -2127,9 +2166,9 @@ Différentes version de modèles, différentes résolution, différents pilotes 
 
 Pas nécessairement basées dans la région d’intérêt d’un projet. Pour le projet CORDEX-NA on trouve Ouranos et UQAM, mais aussi le DMI ou « Danish Meteorological Institute » et le SMHI ou « Swedish Meteorology and Hydrology Institute » se trouvent comme participants. -->
 
-![bg right:66% fit](img/4/ecole_ete_2022_4_cmip5-responsables.png)
+![bg right:66% fit](img/4/ecole_ete_2024_4_cmip5-responsables.png)
 
-# CMIP5-CORDEX
+## CMIP5-CORDEX
 
 Domaine Amérique du nord
 
@@ -2138,13 +2177,6 @@ Domaine Amérique du nord
 Couverture des expériences inégales
 
 ---
-
-<style scoped>
-h1 {
-  position: absolute;
-  top: 2.5%;
-}
-</style>
 
 <!-- _header: "" -->
 <!-- _footer: "**Source : ESGF-LLNL (https://esgf-node.llnl.gov/search/esgf-llnl/)**" -->
@@ -2157,14 +2189,13 @@ Le portail web offre accès à CMIP, CORDEX, et plusieurs autres projets.
 
 Utilisation est gratuit pour raisons de la recherche. -->
 
-![bg right:70% 90%](img/4/ecole_ete_2022_4_esgf-llnl.jpg)
+![bg right:70% 90%](img/4/ecole_ete_2024_4_esgf-llnl.jpg)
 
-# Le reseau ESGF
+## Le reseau ESGF
 
 Portail web
 
 Distribué entre plusieurs centres de recherche
-
 
 ---
 
@@ -2180,20 +2211,20 @@ h1 {
 
 <!-- Un API existe pour connecter et télécharger les données et des outils comme ESGF-Download nous aident à faire des grands téléchargements intelligents au besoin. -->
 
-![bg right:70% fit](img/4/ecole_ete_2022_4_esgpull.png)
+![bg right:70% fit](img/4/ecole_ete_2024_4_esgpull.png)
 
-# ESGF-Download
+## ESGF-Download
 
 Gestion des données d'ESGF par ligne de commande
 * Je suis un contributeur au projet sur GitHub!
 
 ---
 
-<!-- Ouranos : Modèles du famille MRCC, maintenant version 5.
+<!-- Ouranos : Modèles du famille MRCC (modèle regionale canadien de climat) version 5.
 
 Tester la sensibilité aux perturbations au départ d’une scénario, ou pour évaluer des nouvelles modules ou changements aux modèle ou pour aider des chercheurs avec des questions spécifiques liées aux questions d’hydrologiques, socio-sanitaires, ou environnementales. -->
 
-# Ensemble du MRCC à Ouranos
+# Ensemble du MRCC
 
 Les centres de recherche (p.ex. Ouranos) développent un ensemble de simulation relié à leur(s) modèle(s).
  - Pour faire des tests de sensibilité
@@ -2233,9 +2264,9 @@ h2 {
 
 <!-- FIXME: ADD TEXT -->
 
-![bg horizontal 62%](img/4/ecole_ete_2022_4_archive1.jpg)
-![bg horizontal 62%](img/4/ecole_ete_2022_4_archive2.jpg)
-![bg horizontal fit](img/4/ecole_ete_2022_4_robot.jpg)
+![bg horizontal 62%](img/4/ecole_ete_2024_4_archive1.jpg)
+![bg horizontal 62%](img/4/ecole_ete_2024_4_archive2.jpg)
+![bg horizontal fit](img/4/ecole_ete_2024_4_robot.jpg)
 
 ## Système d'archivage d'Ouranos
 
@@ -2263,7 +2294,7 @@ li {
 ## Système d'archivage d'Ouranos
 
 - **LTO : « Linear Tape-Open »**
-jusqu'à *18 To par cassette* !
+jusqu'à *18 To par cassette* présentement!
 
 ---
 
@@ -2275,23 +2306,33 @@ Pas souvent de nombreuses instituts qui font des expériences sur la même domai
 
 Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
 
-<!-- FIXME Columns needed -->
-
 # Modèles régionaux du climat
+
+<div class="container">
+
+<div class="column">
 
 **Forces**
 
-Couverture spatiale à haute résolution sur un domaine choisi.
-Séries continues.
-Cohérence physique entre les variables.
+- Couverture spatiale à haute résolution sur un domaine choisi.
+- Séries continues.
+- Cohérence physique entre les variables.
 Permet de faire des projections dans le futur.
+
+</div>
+
+<div class="column">
 
 **Faiblesses**
 
-Plusieurs phénomènes encore paramétrés (p. ex. formes de  précipitation spéciales).
-Les modèles ont des différences majeures entre eux.
-Multiplication des expériences requises pour couvrir l’incertitude des modèles pilotes.
-Coûts énormes en calcul et en stockage / archivage des données
+- Plusieurs phénomènes encore paramétrés (p. ex. formes de  précipitation spéciales).
+- Les modèles ont des différences majeures entre eux.
+- Multiplication des expériences requises pour couvrir l’incertitude des modèles pilotes.
+- Coûts énormes en calcul et en stockage / archivage des données
+
+</div>
+
+</div>
 
 ---
 
