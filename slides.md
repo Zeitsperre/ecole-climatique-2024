@@ -664,7 +664,7 @@ L'effet Doppler : Déterminer si les particules sont en mouvement et donc d'inf
 
 La polarisation : c'est-à-dire choisir l'axe dans lequel l'onde oscille pour obtenir de l'information sur la forme des particules. -->
 
-![bg right fit](img/2/ecole_ete_2024_2_radar-doppler-vents.png)
+![bg right 95%](img/2/ecole_ete_2024_2_radar-doppler-vents.png)
 
 ## Radar - Observation de télédétection **in situ**
 
@@ -2657,7 +2657,7 @@ Ce format est fourni sur demande mais il est rare que quelqu'un le veut. -->
 
 ![bg 80%](img/6/ecole_ete_2024_6_eccc-flatfile.jpg)
 
-## (Ancien) Format des données de stations
+## Format des données de stations
 
 ---
 
@@ -2667,7 +2667,7 @@ Pour comprendre ce format maison, il faut se référer à la documentation sur l
 
 Pour les ingénieurs, on pourrais dire RTFM : Read the « fantastic » Manual. -->
 
-## (Ancien) Format des données de stations
+## Format des données de stations
 
 L’information sur les variables, les unités et les “flags” se trouve dans une documentation à part.
 
@@ -2776,18 +2776,18 @@ Si le programmation de ça vous intéresse, je suggère de regarder ce projet je
 
 ![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
 
-## À coté – les métadonnées
+## À coté – Les métadonnées
 
 Des données qui décrit / défini les données
- - Historique / changements / provenance de opérations
+ - Historique / changements / provenance des opérations
  - Créateur, origine, date de création, version, modèles, standard de métadonnées, unités, etc.
- - Calendrier(s)
+ - Calendrier(s), fréquences de temps
  - Codes de qualité de données
 
  ---
 
 <!-- _header: "" -->
-<!-- _footer: "**Source : https://eo4society.esa.int**" -->
+<!-- _footer: "**Source : EO4Society (https://eo4society.esa.int)**" -->
 
 <!-- 
 
@@ -2826,7 +2826,7 @@ Développé par UCAR (pas UQAR, malheureusement) et le National Science Foundati
 
 Pour en savoir plus :
  - **Site web du projet (https://www.unidata.ucar.edu/software/netcdf)**
- - **Wikipédia : (https://en.wikipedia.org/wiki/NetCDF)**
+ - **Entrée sur Wikipédia (https://en.wikipedia.org/wiki/NetCDF)**
 
 ---
 
@@ -2882,13 +2882,13 @@ img[alt~="bottom-center"] {
 
 <!-- FIXME THIS NEEDS TO BE UPDATED -->
 
-<!-- Plus récemment on commence à trouver les données en formats optimisées pour le partage sur l’internet, comme des « data streams » et « data lakes » ou flux lacs des données.
+<!-- Il y a aussi les données en formats optimisées pour le partage sur l’internet, comme des « data streams » et « data lakes » ou flux lacs des données, en bon français.
 
-Plusieurs exemples des systèmes  sont offerts par Google, Microsoft, Amazon, et Apache
+Plusieurs exemples des systèmes propriétaires sont offerts par Google, Microsoft, Amazon, basées sur technologies provenant de « Apache » et autres.
 
-Ces formats de données peuvent êtres structurés (en base de données relationnel/SQL), semi-structurés (comme les CSV et les JSON), non-structurés (comme les PDFs) ou en binaire (comme les images). 
+Ces formats de données peuvent êtres structurés (en base de données relationnel/SQL), semi-structurés (comme les CSV et les JSON), non-structurés (comme les PDFs) ou en binaire (comme les images).
 
-À Ouranos on est en train d’offrir quelques données dans un format très similaire a NetCDF mais optimisé pour la téléchargement des données en-ligne, qui s’appelle Zarr. -->
+À Ouranos on offrent plusieurs données en-ligne en utilisant un technologie qui s'appelle OPeNDAP qui interopère bien avec Python et R et aussi dans un format très similaire a NetCDF mais optimisé pour la téléchargement des données en-ligne qui s’appelle « Zarr » . -->
 
 ## Formats infonuagiques
 
@@ -2897,7 +2897,7 @@ Services propriétaires de calcul et entreposage
  - Google Big Query / Earth Engine (Cloud)
  - Apache Spark (Hadoop)
 
-Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne : « [OPeNDAP](https://www.opendap.org/) » 
+Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne : « [OPeNDAP](https://www.opendap.org/) »
 
 « Datacube » similaire à NetCDF optimisé pour la téléchargement et lecture en-ligne : « [Zarr](https://zarr.dev/) »
 
@@ -2917,7 +2917,7 @@ img[alt~="bottom-right"] {
 
 <!-- Autres : le format GRIB (Gridded Binary) est un maintenant vieux format utilisé encore pour les données provenant du OMM qui ressemble au format NetCDF.
 
-Centres de recherches d’Environnement Canada travailles encore avec leur format binaire maison, comme le CCC de CCCMA et RPN du groupe Recherche en Prévision Numérique
+Centres de recherches d’Environnement Canada travailles encore avec leur format binaire maison, comme le CCC de CCCMA et RPN du groupe Recherche en Prévision Numérique.
 
 Je veux mentionner les fichiers de type vectorielle, qui sont en fait des définitions des points, lignes, et polygones que nous utilisons définir des endroits ou régions géographiques. Le plus connu est le Shapefile, mais ça commence à être remplacé par des nouvelles formats ouverts. -->
 
@@ -2944,13 +2944,13 @@ h2 {
 }
 </style>
 
-<!-- Pour travailler avec ces fichiers très volumineux, il faut généralement avoir des logiciels d'analyses ou à des langages de programmation.
+<!-- Pour travailler avec ces fichiers très volumineux, il faut généralement avoir des logiciels d'analyses ou écrire des fonctions ou scriptes dans des langages de programmation.
 
 Quelques langages traditionnel : C/C++, Fortran, Java, MATLAB/Octave
 
 Populaire récemment : R, Python, ArcGIS/QGIS, Julia, Rust, etc.
 
-Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou Interactive Data Language, mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux langaes sont maintenant désuets. -->
+Quand j’ai commencer avec NetCDF Il y avait aussi le langage IDL ou « Interactive Data Language » , mais il à était pas mal remplacé par GDL. Je crois qu’avec les nouvelles avancements en Python et Julia, ces deux langaes sont maintenant désuets. -->
 
 ## Plateformes et langages de programmation
 
@@ -2965,11 +2965,9 @@ h2 {
 }
 </style>
 
-<!-- FIXME CONVERT OR REMAKE THIS SLIDE WHEN YOU HAVE TIME -->
+<!--La plupart de ces outils ont étés crées pour les grandes familles des systèmes Linux (tous les logos en vert), UNIX comme macOS et BSD mais si il y a aussi les façons de manipuler les données directement du « command prompt » ou « Powershell » si tu veux vraiment rester en Windows.
 
-<!--La plupart de ces outils ont étés crées pour les grandes familles des systèmes Linux comme Ubuntu ou WSL, UNIX comme macOS et BSD mais il y a aussi les façons de manipuler les données directement du « command prompt » ou « Powershell » en Windows. 
-
-Aussi des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO qui ont étés produite spécifiquement pour les NetCDFs. -->
+Aussi on on peut trouver des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO qui ont étés produite spécifiquement pour les NetCDFs. -->
 
 ## Outils pour systèmes d’opérations
 
@@ -2977,9 +2975,11 @@ Aussi des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO 
 
 ---
 
-<!-- Si on à le temps je pourrais faire un exemple très vite de comment l’outil ncview se voit. -->
+<!-- Si on à le temps je pourrais faire un exemple très vite de comment l’outil ncvue se voit. -->
 
-## Exemple : `ncview`
+## Exemple : `ncvue` 
+
+* Une nouveau implémentation de `ncview`
 
 ---
 
@@ -2990,7 +2990,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**" -->
+<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**\n**Présentation de xclim pour PyCon Global 2023 (https://www.youtube.com/watch?v=3zS3lQJ6pb4) (25 mins)**" -->
 
 <!-- Pour ceux et celles qui s'intéressent à la gestion des indices climatiques, Ouranos a développé un package python permettant de faire exactement cela. Je pourrais en parler plus tard si les gens sont intéressés. -->
 
@@ -3053,7 +3053,7 @@ h2 {
 
 ## Plateforme de recherche - PAVICS
 
-![bg horizontal fit](img/6/ecole_ete_2024_6_pavics-register.png)
+![bg horizontal 90%](img/6/ecole_ete_2024_6_pavics-register.png)
 ![bg fit](img/6/ecole_ete_2024_6_pavics-extras.png)
 
 ---
