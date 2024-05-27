@@ -5,7 +5,7 @@ theme: descartes
 _class: lead
 class: default
 footer: Données climatiques : Acquisition, interprétation et manipulation
-header: École d'été en sciences du climat
+header: École d'été en sciences du climat 2024
 author: Trevor James Smith
 paginate: true
 backgroundColor: 
@@ -19,8 +19,8 @@ style: |
       font-size: 20px;
     }
     header {
-      right: 10%;
-      left: 60%;
+      right: 5%;
+      left: 50%;
       text-align: right;
       font-size: 20px;
     }
@@ -97,29 +97,25 @@ Trevor James Smith
 
 ---
 
-
-
 <!-- _header: "" -->
-<!-- _footer: "**Crédit : https://www.communitystories.ca/v2/grand-verglas-saint-jean-sur-richelieu_ice-storm/**" -->
+<!-- _footer: "**Crédit : [Musées numériques Canada](https://www.communitystories.ca/v2/grand-verglas-saint-jean-sur-richelieu_ice-storm/)**" -->
 
-<!-- My employer, Ouranos, is a not-for-profit based on Montréeal that works with the Canadian and Quebec governments on climate change adaptation. We were created in response to an extreme storm event that had 1.5 Million people without power for weeks and caused around 5.5 Billion dollars in damage. Our role is to connect government, industry, and academia with many types of climate information so that events like those are less impactful. For the past 8 years or so, we've been moving into software and research platform development. The core development team is small, but we do a lot of collaboration. -->
+<!-- Mon employeur, Ouranos, est une organisation à but non lucratif basée à Montréal qui travaille avec les gouvernements canadien et québécois sur l'adaptation au changement climatique.
 
+Comme avait mentionné, nous avons été créés en réponse à une tempête extrême qui a laissé 1.5 million de personnes sans électricité pendant des semaines et avait  causé des dommages d'environ de 5.5 milliards de dollars. Notre rôle est de mettre en relation les gouvernements, l'industrie et les universités avec de nombreux types d'informations sur le climat afin que des événements comme ceux-là aient moins d'impact.
 
-<!-- 
-
-
--->
+Depuis environ 8 ans, nous nous sommes orientés vers le développement de logiciels et de plateformes de recherche. Mon équipe en particulier est quand même petit, mais nous collaborons beaucoup. -->
 
 ![bg vertical right:50% 95%](img/extras/ouranos-website.png)
 ![bg 95%](img/extras/ice-storm.jpg)
 
 # C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀
 
-* Non-profit research consortium established in 2003 in Montréal, Québec, Canada
-  * Created in response to the [January 1998 North American Ice Storm](https://en.wikipedia.org/wiki/January_1998_North_American_ice_storm) 🌨️
-* Climate Change Adaptation Planning
-* Climate Model Data Producer/Provider
-* *Climate Information Services*
+* Organisation à but non-lucratif, établi 2002 à Montréal, Québec
+  * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
+* Plans d'adaptations aux changements climatiques
+* Source/producteur des données des modèles climatiques
+* **Sevices d'informations climatiques / « Climate Information Services »**
 
 ---
 
@@ -138,11 +134,15 @@ Trevor James Smith
 
 ---
 
-# **1. Historique des instruments d'observations météorologiques.**
-
-<!-- La NOAA «National Oceanic and Atmospheric Administration».
+<!-- La NOAA « National Oceanic and Atmospheric Administration ».
 Célébration de ses 200 ans un petit historique sur la météorologie.
 Centré sur les États-Unis mais quand même interessant. -->
+
+
+# **1. Historique des instruments d'observations météorologiques.**
+
+Pour en savoir plus : 
+ - **Rétroperspective de NOAA - (https://vlab.noaa.gov/web/nws-heritage)**
 
 ---
 
@@ -391,7 +391,8 @@ Stations automatiques : observations possibles à toutes les heures.
 
 ---
 
-<!-- _paginate: false -->
+
+<!-- _footer: "**source: MELCC**" -->
 
 <!-- Des carnets des observateurs existent pour noter les observations. À l'époque, ces carnets étaient entré manuellement dans les systèmes par des techniciens, mais il existe maintenant des méthodes électroniques pour soumettre les observations.
 
@@ -400,9 +401,7 @@ Bien qu'une validation sommaire est faites sur les données soumises, il reste q
 ![bg left:60% 90%](img/2/ecole_ete_2024_2_carnet.png)
 ![bg 90%](img/2/ecole_ete_2024_2_data-entry.png)
 
-# Station d'observation météo
-
-**source: MELCC**
+# Outils de station d'observation météo
 
 ---
 
@@ -482,7 +481,7 @@ Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de nei
 
 ---
 
-# « Sous Captation »
+# « Sous-captation »
 
 La **sous-captation** est un phénomène où le pluviomètre ou nivomètre sous-estime la quantité de précipitation tombée en période de grands vents ou lors de fortes tempêtes.
 
@@ -501,12 +500,12 @@ Cela souligne la nécessité de corriger les données, ce dont je parlerai à pl
 
 ![bg fit](img/2/ecole_ete_2024_2_sous-captation.png)
 
-# « Sous Captation »
+## « Sous-captation »
 
 ---
 
 <style scoped>
-h1 {
+h2 {
     position: absolute;
     top: 1%;
 }
@@ -518,11 +517,12 @@ Ici, l'exemple d'une tour d'observation dans le BEREV, le bassin expérimental d
 
 ![bg 65%](img/2/ecole_ete_2024_2_berev.jpg)
 
-# Site expérimental - BEREV
+## Site expérimental - BEREV
 
 ---
 
 <!-- _header: "" -->
+<!-- _source: "**source: MDDEFP**" -->
 
 <!-- Finalement, l'échelle à neige : vieille mais moins cher.
 
@@ -530,9 +530,7 @@ Permet de mesurer la hauteur de la neige au cours de l'hiver à un site précis.
 
 ![bg right fit](img/2/ecole_ete_2024_2_echelle-a-neige.png)
 
-# Échelle à neige
-
-**source: MDDEFP**
+## Échelle à neige
 
 ---
 
@@ -551,20 +549,18 @@ Par exemple, les thermomètres et hygromètres doivent être à l'intérieur d'u
 ![bg horizontal 70%](img/2/ecole_ete_2024_2_manuel-des-observateurs.png)
 ![bg horizontal 70%](img/2/ecole_ete_2024_2_noaa-observations.png)
 
-# *Standards* des stations d’observation météo
+# **Standards** des stations d’observation météo
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 5%;
 }
-h3 {
-  position: absolute;
-  bottom: 10%;
-}
 </style>
+
+<!-- _footer: "**Station de météo McGill (https://radar.mcgill.ca/weather-station)**" -->
 
 <!-- Il y a un station de météo automatique situé à Burnside Hall, à l'université McGill.
 
@@ -574,9 +570,7 @@ Il n'est pas dans la réseau du MELCC ou Environnement Canada mais prends des me
 ![bg 50%](img/2/ecole_ete_2024_2_mcgill-stations.png)
 
 
-# Stations d’observation météo
-
-### [https://radar.mcgill.ca/imagery/weather-station.html](https://radar.mcgill.ca/imagery/weather-station.html)
+## Stations d’observation météo
 
 ---
 
@@ -610,7 +604,7 @@ Quand le ballon apparaît dans la haute atmosphère, déploie un parachute et re
 
 ![bg right:55% fit](img/2/ecole_ete_2024_2_radio-ballon.jpg)
 
-# Radiosonde
+## Radiosonde
 
 ---
 
@@ -620,7 +614,7 @@ Quand le ballon apparaît dans la haute atmosphère, déploie un parachute et re
 
 ![bg left:66% fit](img/2/ecole_ete_2024_2_skewt.jpg)
 
-# Radiosonde
+## Radiosonde
 
 ---
 
@@ -671,22 +665,26 @@ Portée d’environ **200 Km** autour du radar.
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "**Source: Université McGill**" -->
+<!-- _footer: "**Source : Université McGill**" -->
 
 <!-- Ici on a une photo du radar de l’observatoire du J.S. Marshall gérer par l'université McGill sur le campus à Saint-Anne de Bellevue dans l'ouest de l’île de Montréal qui fait partie du réseau d'observation radar d'environnement Canada. C'est d'une hauteur d'environ 5 étages dans un endroit bien dégagé histoire de ne pas être obstrué par des structures avoisinantes. À l'intérieur du dôme, on retrouve le radar en tant que telle. 
 
 À McGill l'antenne est de 9m à l'intérieur de la coupole. Et donc le radar tourne continuellement, à plusieurs rotations par minute et après chaque rotation, l'angle vertical est augmenté afin de faire un image en 3D de l'atmosphère. Ce cycle de rotation horizontal et de changement d'angle vertical prend environ 5 à 10 minutes, puis recommence. -->
 
-![bg right:70% fit](img/2/ecole_ete_2024_2_mcgill-doppler.jpg)
+![bg right:60% fit](img/2/ecole_ete_2024_2_mcgill-doppler.jpg)
 
-# Radar
+## Installations de radar
+
+- Photo : **Observatoire de J.S. Marshall, Sainte-Anne-de-Bellevue, Québec**
+- Pour en savoir plus:
+  - [Limite de visibilité du radar de l'université McGill](https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/radar-overview/mcgill-visibility-map.html)
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 1%;
+  top: 5%;
 }
 </style>
 
@@ -700,7 +698,7 @@ On mesure aussi l'intensité du signal de retour par une mesure qu'on appelle la
 
 ![bg 70%](img/2/ecole_ete_2024_2_mcgill-doppler-interior.jpg)
 
-# Radar
+## Installations de radar
 
 ---
 
@@ -710,7 +708,7 @@ Ce facteur de réflectivité est à son tour dépendent de la distribution de la
 
 Dans sa version la plus simple, la relation entre facteur de réflectivité et précipitation est donné par la relation Z-R. Z=200R^1.6 pour la pluie et Z=2000R^2 pour la neige, où Z est en mm^6/m^3 et R en mm/h. -->
 
-# Relation Z-R
+## Relation Z-R
 
 La puissance reçue est reliée au facteur de réflectivité d’un volume de particules.
 
@@ -732,7 +730,7 @@ Environnement Canada : le réseau canadien d'observation radar. Comme vous pouv
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_radars-canadiens.jpg)
 
-# Radars canadiens
+## Intsallations de radar canadiens
 
 ---
 
@@ -742,7 +740,7 @@ Environnement Canada : le réseau canadien d'observation radar. Comme vous pouv
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_radars-americains.jpg)
 
-# Radars americains
+## Installations de radar americains
 
 ---
 
@@ -752,7 +750,7 @@ Avantage : résolution temporelle et spatiale. La résolution spatiale d'un rad
 
 Problème : La taille des données. Réseau = plusieurs terabytes de données produites par jour. Il faut donc développer des produits intermédiaires ou des cartes qui eux pourront être archivé. -->
 
-# Radar
+## Données de radar
 
 Résolution temporelle de *5 à 10 min*.
 
@@ -764,18 +762,21 @@ Plusieurs téraoctets (To) de données produites par jour
 
 ---
 
-<!-- _header: "" -->
+<!-- _footer: "**Source : Fairman et al. (2015) A Radar-based rainfall climatology of Great Britain and Ireland (https://doi.org/10.1002/wea.2486)**" -->
 
-<!-- Difficile de transformer l’information sur une grille uniforme de précipitation. 
+<!-- Difficile de transformer l’information sur une grille uniforme de précipitation.
+
 Problème est causée par la résolution du radar qui se dégrade en fonction de la distance.
 
 Exemple : climatologie en Angleterre ou l'on peut voir des artefacts de blocage du rayon ou de délimitation entre les radars.
 
-Erreurs peut venir du terrain, tels que les montagnes, ainsi que des insectes et des oiseaux en vol. -->
+Erreurs peut venir du terrain, tels que les montagnes, ainsi que des insectes et des oiseaux en vol. 
+
+Donc, nous avons dévéloppé plusieurs approches pour corriger ces artefactes avec données des autres sources, comme par exemples les sorties de modèles de prévision. -->
 
 ![bg fit left:55%](img/2/ecole_ete_2024_2_composite-radar.png)
 
-# Composite radar
+## Composite radar
 
 ---
 
@@ -797,8 +798,6 @@ h1 {
 
 # Radar + Prévision
 
-* 
-
 ---
 
 <!-- _header: "" -->
@@ -809,7 +808,7 @@ Une source d'information non-négligeable pour le climat et toutes sortes d'info
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_satellite.jpg)
 
-# Satellite
+# Satellites
 
 ---
 
@@ -824,9 +823,9 @@ L’image ici parvient à GPM, le mission de « Global Precipitation Measuremen
 
 # Données satellitaires
 
-Coordination à l'international
+- Coordination à l'international
 
-Plusieurs « **missions** » en opération en même temps
+- Plusieurs « **missions** » en opération en même temps
 
 ---
 <!-- Deux types d'orbites de satellite possible :
@@ -837,16 +836,16 @@ Plusieurs « **missions** » en opération en même temps
 
 Au fur et a mesure que la terre tourne vers l'est, le satellite passe au dessus d'une région à l'ouest et enregistre des bandes successives d'information sur le globe. Un satellite à orbite polaire typique va faire une rotation complet autour de la terre en un peu moins de deux heures, 14 fois par jour. -->
 
-# Satellite
+## Types des satellites
 
 Également de la famille d’observation par « **télédétection** »
 
-Deux types d’orbites : **géostationnaires** et **à orbite polaire**.
+Deux types d’orbites : **géostationnaires** et **à orbite polaire**
 
-Géostationnaire : 
+- Géostationnaire : 
   - *36,000 Km au dessus de la terre* fixé au dessus du même point terrestre en permanence
 
-Orbite polaire : 
+- À orbite polaire : 
   - *~850 Km au dessus de la terre*
   - *~14 orbites par jour*
 
@@ -862,7 +861,8 @@ Le nombre d'instruments et leur capacité d'observation c'est grandement amélio
 ![bg right:69% horizontal fit](img/2/ecole_ete_2024_2_GOES-1.jpg)
 ![bg fit](img/2/ecole_ete_2024_2_GOES-18.png)
 
-# Mission Satellitaire « GOES »
+## Mission Satellitaire de NASA
+## « GOES »
 
 **GOES-1 (1975)**
 
@@ -876,7 +876,7 @@ Ils ont aussi un sondeur qui permet de mesurer un meilleur profile vertical de t
 
 Il permet de dériver une panoplie d'information comme la hauteur et l'épaisseur des nuages, la température de surface de l'océan, l'étendu de la neige en hiver, la glace de mer et la hauteur de la surface de l'océan. -->
 
-# Satellite
+## Satellites
 
 Équipé d’un capteur photographique multispectres et sondeur,
 
@@ -885,7 +885,7 @@ Information obtenue sur : hauteur et épaisseur de nuages, température de surfa
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 4%;
 }
@@ -909,7 +909,7 @@ Avec quelques corrections, ce type d'imagerie peut déterminer de manière très
 
 ![bg fit 95%](img/2/ecole_ete_2024_2_satellite-graphic.png)
 
-# Satellite
+## Satellites
 
 ---
 
@@ -921,8 +921,8 @@ Ouragans, les El Nino, tempêtes. -->
 
 ![bg right:60% fit 95%](img/2/ecole_ete_2024_2_imagerie-aerienne.png)
 
-# Satellite 
-## Imagerie aérienne
+## Satellites
+### Imagerie aérienne
 
 ---
 
@@ -935,8 +935,8 @@ Il y a eu plusieurs avancements récemment dans la domaine d’identification et
 
 ![bg left:60% fit](img/2/ecole_ete_2024_2_ouragans.png)
 
-# Satellite
-## Ouragans et « Machine Learning »
+## Satellites
+### Les ouragans et apprentissage machine (« Machine Learning »)
 
 ---
 
@@ -952,7 +952,7 @@ ISRO : INSAT « Indian National Satellite System »
 
 Satellites à orbite polaire : Données de plus haute résolution sur la géologie, l'hydrologie, l'océanographie et l'écologie. -->
 
-# Satellite
+## Satellites en opération
 
 
 Couverture globale de satellite géostationnaire :
@@ -974,11 +974,13 @@ h1 {
   position: absolute;
   top: 4%;
 }
-li {
+h2 {
   position: absolute;
-  bottom: 10%
+  top: 10%
 }
 </style>
+
+<!-- _footer: "**Crédit: http://www.jamstec.go.jp/e/about/equipment/observe/seawater.html**" -->
 
 <!-- Plusieurs autres systèmes d'observations existes.
 
@@ -986,19 +988,18 @@ Les bouées Argos qui consistent en une flotte de quelque 4000 bouées dont le d
 
 Ceci est une des outils qui est déployé pour mieux comprendre la circulation thermohaline que Chris avait présenté lundi. -->
 
-![bg horizontal fit 95%](img/2/ecole_ete_2024_2_argos-graphic.jpg)
+![bg horizontal fit 90%](img/2/ecole_ete_2024_2_argos-graphic.jpg)
 ![bg fit 95%](img/2/ecole_ete_2024_2_argos-map.png)
 
-# Bouée Argos
-
-- **Crédit: http://www.jamstec.go.jp/e/about/equipment/observe/seawater.html**
+# Autres sources des données 
+## Bouée Argos
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 4%;
+  top: 5%;
 }
 </style>
 
@@ -1012,16 +1013,16 @@ Si vous avez des questions spéciqiues à ces genres de structures, je vous sugg
 
 ![bg fit](img/2/ecole_ete_2024_2_jaugeage.jpg)
 
-# Station de jaugeage
+## Stations de jaugeage
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
-h2 {
+h3 {
   position: absolute;
   top: 12.5%;
 }
@@ -1059,30 +1060,26 @@ la dernière lecture que j'ai faite pendant la semaine passée suggère que les 
 ![top-right](img/2/ecole_ete_2024_2_co2-sensor.jpg)
 ![bottom-right](img/2/ecole_ete_2024_2_keeling-curve.png)
 
-# Mesure de CO2 in situ
-## Spectrophotomètre
+## Mesure de CO2 in situ
+### Spectrophotomètre - Courbe de Kipling
 
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
-  top: 2.5%;
-}
-li {
-  position: absolute;
-  bottom: 7.5%
+  top: 5%;
 }
 </style>
+
+<!-- _footer: "**Source : World Data Center for Greenhouse Gases (https://gaw.kishou.go.jp)**" -->
 
 <!-- Greenhouse Gases Observing Satellite (GOSAT) maintien par NASA et Japan Aerospace Exploration Agency (JAXA) 
 La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces genres de techniques de spectroscopie avec télédétection -->
 
 ![bg fit 80%](img/2/ecole_ete_2024_2_satellite-co2.jpg)
 
-# Mesure de CO2 par satellite
-
-* **Source : World Data Center for Greenhouse Gases (https://gaw.kishou.go.jp)**
+## Mesure de CO2 par satellite
 
 ---
 
@@ -1125,7 +1122,7 @@ Accéder via le site web climat.meteo.gc.ca : fichier CSV des données.
 
 Par contre, pour un étude à plus grande échelle spatiale et temporelle, il faut obtenir les données brutes d'environnement Canada ou d'un de leur partenaire -->
 
-# Données de stations canadiens
+## Données de stations canadiens
 
 Les archives débutent vers les années 1840
 
@@ -1157,14 +1154,13 @@ Et donc souvent on regarde ces listes et on se dit que tout est beau, c'est exac
 <style scoped>
 h2 {
   position: absolute;
-  top: 1%;
+  top: 2.55%;
 }
 </style>
 
 <!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
 
-Au Québec, il existe le RMCQ, le « Réseau météorologique coopératif du Québec » qui regroupe des stations opérées par Rio Tinto Alcan, Environnement Canada, 
-Hydro-Québec, le MELCC, le ministère de l'énergie et des ressources naturelles (MERN) et la société de protection des forêts contre le feu (SOPFEU). 
+Au Québec, il existe le RMCQ, le « Réseau météorologique coopératif du Québec » qui regroupe des stations opérées par Rio Tinto Alcan, Environnement Canada, Hydro-Québec, le MELCC, le ministère de l'énergie et des ressources naturelles (MERN) et la société de protection des forêts contre le feu (SOPFEU). 
 
 Ces données en temps réel sont disponible via le site agrometeo.org. 
 
