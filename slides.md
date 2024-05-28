@@ -94,7 +94,7 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 - Developpeur/packageur/mainteneur des logiciels de recherche scientifiques; 
 - M.Sc. Géographie, environnement et urbanisme
-  - Analyse des impacts des changements climatiques sur les vignobles en sud du Québec
+  - Impacts des changements climatiques sur les vignobles en sud du Québec
 - 10+ années d'expérience en utilisant Python, Linux, GIS, et autres téchnologies associées
 
 ---
@@ -102,14 +102,14 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 <!-- _header: "" -->
 <!-- _footer: "**Crédit : [Musées numériques Canada](https://www.communitystories.ca/v2/grand-verglas-saint-jean-sur-richelieu_ice-storm/)**" -->
 
-<!-- Mon employeur, Ouranos, est une organisation à but non lucratif basée à Montréal qui travaille avec les gouvernements canadien et québécois sur l'adaptation au changement climatique.
+<!-- Comme mes colleagues ont mentionné, mon employeur, Ouranos, est une organisation à but non lucratif basée à Montréal qui travaille avec les gouvernements canadien et québécois sur l'adaptation au changement climatique.
 
-Comme avait mentionné, nous avons été créés en réponse à une tempête extrême qui a laissé 1.5 million de personnes sans électricité pendant des semaines et avait  causé des dommages d'environ de 5.5 milliards de dollars. Notre rôle est de mettre en relation les gouvernements, l'industrie et les universités avec de nombreux types d'informations sur le climat afin que des événements comme ceux-là aient moins d'impact.
+Nous avons été créés en réponse à une tempête extrême qui a laissé 1.5 million de personnes sans électricité pendant des semaines et avait  causé des dommages d'environ de 5.5 milliards de dollars. Notre rôle est de mettre en relation les gouvernements, l'industrie et les universités avec de nombreux types d'informations sur le climat afin que des événements comme ceux-là aient moins d'impact.
 
-Depuis environ 8 ans, nous nous sommes orientés vers le développement de logiciels et de plateformes de recherche. Mon équipe en particulier est quand même petit, mais nous collaborons beaucoup. -->
+Depuis environ 8 ans, nous nous sommes orientés vers le développement de logiciels ouverts et de plateformes de recherche. Mon équipe en particulier est quand même petit, mais nous collaborons beaucoup à l'internationale. -->
 
-![bg vertical right:50% 95%](img/extras/ouranos-website.png)
-![bg 95%](img/extras/ice-storm.jpg)
+![bg vertical right fit](img/extras/ouranos-website.png)
+![bg fit](img/extras/ice-storm.jpg)
 
 # **C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀**
 
@@ -117,7 +117,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
 * Plans d'adaptations aux changements climatiques
 * Source/producteur des données des modèles climatiques
-* **Sevices d'informations climatiques / « Climate Information Services »**
+* **Sevices d'informations climatiques/« Climate Information Services »**
 
 ---
 
@@ -1456,17 +1456,17 @@ CANGRD : Données homogénéisé et une interpolation multivariée simple pour 
 
 La résolution relativement grossière : Réduisent les erreurs dues à la technique d'interpolation.
 
-Ressource Naturelle Canada (RNCan) utilise ANUSPLIN, une méthode très populaire pour créer leur grille de 10 km au Canada.
+Ressource Naturelle Canada utilise *ANUSPLIN*, une méthode très populaire pour créer leur grille de 10 km au Canada.
 
 Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude et autres facteurs. -->
 
 ## Données interpolées - Canada
 
-**CanGRD** est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
+**[CanGRD](https://www.canada.ca/en/environment-climate-change/services/climate-change/canadian-centre-climate-services/display-download/technical-documentation-historical-climate-data.html)** est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
  - Résolution temporelle mensuelle *à partir de 1900*.
  - Résolution spatiale de *~50 km sur le territoire canadien*.
 
-Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant la méthode ANUSPLIN (**NRCanMet**)
+Ressources Naturelles Canada produit une grille interpolée en utilisant la méthode ANUSPLIN (**[NRCanMet](https://doi.org/10.1016/j.agrformet.2006.03.012)**)
  - Résolution temporelle journalière *à partir de 1950*.
  - Résolution spatiale de *~10 km sur le territoire canadien*.
  - *ANUSPLIN* : **Hutchinson, M. F. (1995) (https://doi.org/10.1080/02693799508902045)**
@@ -1474,7 +1474,7 @@ Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "" -->
+<!-- _footer: "**Source : Service Info-Climat (MELCCFP) (https://www.environnement.gouv.qc.ca/climat/surveillance/index.asp)**" -->
 
 <!-- Plusieurs méthodes disponible pour la choix de méthode
 La groupe Info-Climat de la MELCCFP produisent une grille à 10 Km de résolution en utilisant le Krigeage comme interpolation.
@@ -1485,7 +1485,8 @@ Il y a plusieurs manières de faire interpolation par Krigeage mais l’objectif
 
 ## Données interpolées - Québec
 
-Produit de la ministère de l’environnement et la lutte contre les changements climatiques, la faune et les parcs (MELCCFP) « *Grille climatique quotidien* »
+Produit de la MELCCFP
+ « *Grille climatique quotidien* »
  - Méthode interpolation : Krigeage
  - Résolution temporelle journalière à partir de 1961.
  - Résolution spatiale de ~10 km sur le territoire de Québec.
@@ -1516,7 +1517,7 @@ Les produits intégraient des données brutes au réseau de stations météorolo
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "" -->
+<!-- _footer: "**Source : ORNL (NASA) - (https://daymet.ornl.gov/overview)**" -->
 
 <!-- Un autre jeu de données souvent noté est celle de NASA qui s’appelle DayMET qui est basé sur la même approche ANUSPLIN de NRCan
 
@@ -1528,7 +1529,7 @@ J’ai décider de présenter ça comme la dernière exemple à cause que cette 
 
 ![bg right 90%](img/2/ecole_ete_2024_2_daymet.png)
 
-## Données interpolées – Amérique du Nord
+## Données interpolées++ – Amérique du Nord
 
 Le NASA produit l’interpolation de « **DayMET** »
 - Résolution temporelle quotidien à partir de 1980
@@ -1723,16 +1724,13 @@ Pour en savoir plus :
 
 ---
 
-<!-- FIXME -->
-
 <!-- _footer: "**Source : Gasset et al. (2022) A 10 km North American precipitation and land-surface reanalysis based on the GEM atmospheric model. (https://doi.org/10.5194/hess-25-4917-2021)**" -->
 
 <!-- Avant de passer vers les prévisions, je voudrais aussi mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse dérivée d'un autre réanalyse où les données observées sont ré-intégrée vers durant leur production.
 
 Un exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. 
 
-On peut voir ici à doite les deux premiers rangées montre le sortis pour le modèle 
--->
+On peut voir ici à doite les deux premiers rangées montre le sortis pour le modèle, comparé aux données interpolées des stations et celles des satellites. -->
 
 ![bg right:45% fit](img/3/ecole_ete_2024_3_rdrs-comparison-map.png)
 
@@ -1800,8 +1798,8 @@ Après ça, c'est au météorologues d'assigner des probabilités à ces événe
 
 Modèles utilisés pour faire des prévisions pour (souvent) les *14 jours à venir*.
 
-Le service météorologique du Canada roule 20 configurations du modèle « *GEM* »
-- *2 * jour, sur un horizon de 16 jours*
+Le service météorologique du Canada roule 20 configurations du modèle « **GEM** »
+- *2 * jour*, sur un horizon de *16 jours*
 
 Archivage de durée limitée et rarement utilisé pour des études climatiques.
 
