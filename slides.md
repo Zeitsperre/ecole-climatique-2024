@@ -1538,7 +1538,7 @@ Si la zone ne dispose pas d'une couverture de stations cohérente ou si une inte
 
 Impossible de savoir quelle méthode est utilisée à moins d’être bien documentée. -->
 
-## **Données interpolées - Conclusion**
+## **Données interpolées - Conclusions**
 
 <div class="container">
 
@@ -1588,7 +1588,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : ECMWF**" -->
+<!-- _footer: "**Source : ECMWF**\n**Vidéo : https://www.youtube.com/watch?v=FAGobvUGl24**" -->
 
 <!-- Intègre les observations climatiques dans des modèles climatiques qui peut ensuite compléter les données manquantes ou extrapoler à un avenir proche à l'aide de formules physiques.
 
@@ -1732,12 +1732,20 @@ Débat continuelle entre les statisticiens, hydrologues et modélisateurs du cli
 
 <!-- FIXME -->
 
-<!-- Il n'y a pas encore une bonne manière de  -->
+<!-- _footer: "**Source : Gasset et al. (2022) A 10 km North American precipitation and land-surface reanalysis based on the GEM atmospheric model. (https://doi.org/10.5194/hess-25-4917-2021)**" -->
 
+<!-- Avant de passer vers les prévisions, je voudrias mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse où les données observées sont ré-intégrée vers durant leur production.
 
-## Réanalyses « ré-injectées »
+Un exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. -->
 
-FIXME
+![bg left fit](img/3/ecole_ete_2024_3_rdrs-comparison-map.png)
+
+## Réanalyses modernes / « ré-injectées »
+
+Jeu de donnée à base d'un combinaison de :
+- Modéles typiquement utilisées pour générer des prévisions
+- Données observées (pour ré-forcer le modèle)
+- Piloté par une autre réanalyse (p.ex. ERA-interim / ERA5)
 
 ---
 
@@ -1760,7 +1768,7 @@ Nous avons tous des expériences avec les prévisions quand on regarde le Weathe
 
 ---
 
-<!-- La service météorologique de Canada roule 20 configurations du modèle GEM deux fois par jour sur un horizon de 16 jours pour faire les prévisions d'ensembles. Les 20 simulations diverges tranquillement dans le temps et c'est ce qui mène à des situations ou un système de précipitation, ou la ligne de délimitation pluie-neige, passe par exemple au nord ou au sud de Montréal, dépendamment du membre de l'ensemble.
+<!-- Le service météorologique du Canada roule 20 configurations du modèle GEM deux fois par jour sur un horizon de 16 jours pour faire les prévisions d'ensembles. Les 20 simulations diverges tranquillement dans le temps et c'est ce qui mène à des situations ou un système de précipitation, ou la ligne de délimitation pluie-neige, passe par exemple au nord ou au sud de Montréal, dépendamment du membre de l'ensemble.
 
 Après ça, c'est au météorologues d'assigner des probabilités à ces événements. La nature de ces données là font en sorte qu'elles sont archivé pour une durée limitée et rarement utilisé pour des études climatiques. -->
 
@@ -1768,7 +1776,7 @@ Après ça, c'est au météorologues d'assigner des probabilités à ces événe
 
 Modèles utilisés pour faire des prévisions pour (souvent) les *14 jours à venir*.
 
-Le service météorologique du Canada (SMC) roule 20 configurations du modèle « *GEM* »
+Le service météorologique du Canada roule 20 configurations du modèle « *GEM* »
 - *2 * jour, sur un horizon de 16 jours*
 
 Archivage de durée limitée et rarement utilisé pour des études climatiques.
@@ -1802,7 +1810,7 @@ Lorsque les systèmes d’observations qui sont intégrés changent très souven
 
 Il existe des différences majeures entre les produits et il peut être impossible de savoir lequel est le bon pour vos besoins. -->
 
-## **Réanalyses - Conclusion**
+## **Réanalyses - Conclusions**
 
 <div class="container">
 
