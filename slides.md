@@ -3148,14 +3148,15 @@ h2 {
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
 </style>
 
-<!--
+<!-- _footer: "**Diapositives disponible à : FIXME: LIEN-ICI**" -->
 
+<!--
 Canadian Historical Station Data: http://climate.weather.gc.ca/historical_data/search_historic_data_e.html
 US Land-Based Station Data: https://www.ncdc.noaa.gov/data-access/land-based-station-data
 Adjusted and Homogenized Canadian Climate data (AHCCD): http://www.ec.gc.ca/dccha-ahccd/
@@ -3180,7 +3181,7 @@ CanGRD Interpolated Homogenized Observations : https://www.canada.ca/en/environ
 
 ![bg 75%](img/6/ecole_ete_2024_6_data-info-knowledge.png)
 
-# **Merci !**
+## Merci pour votre attention !
 
 ---
 
