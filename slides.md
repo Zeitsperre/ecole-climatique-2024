@@ -46,20 +46,7 @@ style: |
 
 On va aborder le sujet des données climatiques, donc comment on procède pour les acquérir, comment on les interprètes et aussi comment on peut les manipuler avec divers logiciels. -->
 
-<style scoped> 
-
-</style>
-
-# <!-- fit --> **Données Climatiques** : Acquisition, Interprétation, et Manipulation
-
-### Trevor James Smith
-
-- Équipe de plateformes climatiques, données et opérations (PCDO), Ouranos
-- École d’été en science du climat et des changements climatiques, édition 2024
-- Domaine Forget, Sainte Irénée, Québec
-- 30 mai 2024
-
-### Avec remerciements à Blaise Gauvin St-Denis et l'équipe PCDO
+![bg](img/extras/front-page.png)
 
 ---
 
@@ -111,7 +98,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 ![bg vertical right fit](img/extras/ouranos-website.png)
 ![bg fit](img/extras/ice-storm.jpg)
 
-# **C'est quoi [Ouranos](https://www.ouranos.ca/en)? 🌀**
+# **C'est quoi [![img](img/extras/logo-ouranos-horizontal-couleur.svg)](https://www.ouranos.ca/en)?**
 
 * Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
@@ -3194,3 +3181,10 @@ CanGRD Interpolated Homogenized Observations : https://www.canada.ca/en/environ
 
 # **Merci !**
 
+---
+
+<!-- _header: "" -->
+<!-- _footer: "" -->
+<!-- _paginate: false -->
+
+![bg](img/extras/back-page.png)
