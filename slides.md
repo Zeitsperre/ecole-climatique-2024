@@ -150,8 +150,8 @@ Pour en savoir plus :
 
 <!-- _paginate: false -->
 
-<!-- Benjamin Franklin, connu pour son expérience du cerf-volant attaché à un fil conducteur pour démontrer que les éclairs c'est de l’électricité
-en 1743, il avait noté le mouvement d'une tempête de Philadelphie à Boston et a remarqué que la direction du mouvement d'une tempête n'était pas nécessairement dans la direction des vents prédominants. 
+<!-- Benjamin Franklin, connu pour son expérience du cerf-volant attaché à un fil conducteur pour démontrer que les éclairs c'est de l’électricité en 1743, il avait noté le mouvement d'une tempête de Philadelphie à Boston et a remarqué que la direction du mouvement d'une tempête n'était pas nécessairement dans la direction des vents prédominants.
+
 Évoqué le lien entre un hiver très froid en Europe suite à une éruption du volcan Laki en Iceland. -->
 
 ![bg right](img/1/ecole_ete_2024_1_BenFranklin.jpg)
@@ -162,9 +162,10 @@ en 1743, il avait noté le mouvement d'une tempête de Philadelphie à Boston et
 
 ---
 
-<!-- _footer: "" -->
+<!-- _paginate: false -->
 
 <!-- George Washington, qui a commencé à maintenir un journal d'observations météorologiques en 1767 jusqu'au dernier jour avant sa mort.
+
 en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle en temps que commandant durant la révolution américaine. -->
 
 ![bg left](img/1/ecole_ete_2024_1_GeorgeWashington.jpg)
@@ -178,8 +179,11 @@ en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle e
 <!-- _paginate: false -->
 
 <!-- Et l'intérêt des grandes figures politiques américaine pour la météo se poursuit avec Thomas Jefferson qui faisaient aussi des observations météorologiques sur une base régulière. 
+
 Deux observations par jour, à son levé, qu'il considérait comme étant la température minimum de la journée, et vers 3 ou 4h, qu'il considérait comme étant la température maximale. 
-Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes. 
+
+Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
+
 1776 : Thomas Jefferson recrutait des observateurs météo bénévoles à travers la Virginie. -->
 
 ![bg right](img/1/ecole_ete_2024_1_ThomasJefferson.jpg)
@@ -207,6 +211,8 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 - Caroline du Nord
 
 ---
+
+<!-- _paginate: false -->
 
 <!-- Thomas Jefferson a également commissionné l'expédition de Lewis et Clark, vers l'Ouest en 1804 et des observations météorologiques étaient faites sur une base régulière. -->
 
@@ -259,6 +265,8 @@ En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 béné
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- En 1870, le président Ulysses S. Grant (GAUCHE) autorisait l'établissement d'un service météorologique national, le US Weather Bureau, qui deviendra plus tard la NOAA.
 
 Brigadier général Albert J. Myer, du Signal Corps de l'armée, responsable pour infrastructures de communication américaine était premier en charge du US Weather Bureau. 
@@ -276,6 +284,8 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- 1891 : le réseau d'observateurs météo bénévoles contenait plus de 2000 stations autour du pays. -->
 
 ![bg left:60% 90%](img/1/ecole_ete_2024_1_network.png)
@@ -285,6 +295,8 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 ### Le réseau d'observateurs météo bénévoles contenait plus de 2000 stations autour du pays.
 
 ---
+
+<!-- _paginate: false -->
 
 <!-- 1898 : le U.S. Weather Bureau commençait à expérimenter avec des cerf-volant pour mesurer la température, l'humidité relative et les vents en hauteur dans l'atmosphère. -->
 
@@ -308,6 +320,8 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- 1926 : le Weather Bureau a eu le mandat de fournir des services météorologiques à l'aviation civile.
  
 Au même moment, des observations commençait à être prises à partir d'avions de l'armée américaine et du Weather Bureau. -->
@@ -320,6 +334,8 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- 1931 : les vols d’avions pour prendre des observations à était possible jusqu’à une hauteur de 5Km et par 1934, 20 avions du Weather Bureau faisait des observations régulièrement -->
 
 ![bg left fit](img/1/ecole_ete_2024_1_avions-dediees.jpg)
@@ -330,6 +346,8 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 ---
 
+<!-- _paginate: false -->
+
 <!-- Cette pratique a était coûteuse et dangereuse pour les pilotes et alors a été remplacé par des radiosondes qui pourrait atteindre une hauteur au dessus de 16Km en 1939. -->
 
 ![bg right fit](img/1/ecole_ete_2024_1_radiosondes.jpg)
@@ -339,6 +357,8 @@ Au même moment, des observations commençait à être prises à partir d'avions
 ### L’utilisation de radiosondes remplace les observations par avions.
 
 ---
+
+<!-- _paginate: false -->
 
 <!-- Après WWII, les technologies de radar développé pour détecté les avions ennemies on été adapté aux observations météorologiques dans les années 1950.
 
@@ -353,6 +373,8 @@ La OMM à débutait comme direction des efforts internationaux pour la surveilla
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Photos : NASA**" -->
+<!-- _paginate: false -->
 
 <!-- 1960 : les premiers satellites d'observations météo (TIROS-1 et TIROS-2) ont étaient lancé.
 
@@ -816,10 +838,12 @@ h2 {
 ![bg fit](img/2/ecole_ete_2024_2_storm-radar.png)
 
 ## Radar et prévision immédiat
+## Nowcasting
 
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : NASA**" -->
 
 <!-- Observations satellitaires : Beaucoup à apprendre sur l'imagerie par satellite. 
 
@@ -980,13 +1004,13 @@ Satellites à orbite polaire : Données de plus haute résolution sur la géolo
 
 
 Couverture globale de satellite géostationnaire :
-- **GMS Himawari 8** (japonais : JMA)
+- **GMS Himawari 8** (japonais : **JMA**)
   - l’est asiatique et l’océan pacifique.
-- **GOES West et GOES East** (américains : NASA)
+- **GOES West et GOES East** (américains : **NASA**)
   - l’océan pacifique\, les Amériques\, l’océan atlantique.
-- **METEOSAT** (européen : EUMETSAT)
+- **METEOSAT** (européen : **EUMETSAT**)
   - Europe et Afrique.
-- **INSAT** (indien : ISRO)
+- **INSAT** (indien : **ISRO**)
   - Asie et l’océan Indien.
 - Les satellites en orbites polaires ont des missions plus spécialisées 
   - e.g. **LANDSAT**, **SRTM**, **Terra**, **Aqua**, etc.
@@ -1070,6 +1094,7 @@ img[alt~="bottom-right"] {
 </style>
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : Scripps Institution of Oceanography (UCS) (https://keelingcurve.ucsd.edu/)**" -->
 
 <!-- On parle souvent de la concentration de CO2 dans l'atmosphère. 
 
@@ -1084,7 +1109,7 @@ la dernière lecture que j'ai faite pendant la semaine passée suggère que les 
 ![bottom-right](img/2/ecole_ete_2024_2_keeling-curve.png)
 
 ## Mesures de CO2 in situ
-### Spectrophotomètre - Courbe de Kipling
+### Spectrophotomètre - Courbe de Keeling
 
 ---
 
@@ -1142,7 +1167,7 @@ Au Canada, les données de stations archivées remontent jusqu'en 1840 pour la v
 
 Environnement Canada publie les sommaires mensuelles sur leur site web en fichier CSV des données. 
 
-Autrement la Service Météorologique du Canda offre un service de téléchargement des données brutes aux stations en utilisant un API ou par FTP. -->
+Autrement le service météorologique du Canada offre un service de téléchargement des données brutes aux stations en utilisant un API ou par FTP. -->
 
 ## Données de stations canadiens
 
@@ -1151,7 +1176,7 @@ Les archives débutent vers les années 1840
 Les données de stations d’Environnement Canada sont disponibles en tableaux mensuels :
 - https://climat.meteo.gc.ca 
 
-Pour un usage plus comprehensif, la Service météorologique du Canada (SMC) offre quelques manières d'accéder aux données observées gratuitement
+Pour un usage plus comprehensif, le Service météorologique du Canada (SMC) offre quelques manières d'accéder aux données observées gratuitement
 - https://eccc-msc.github.io/open-data/
 
 ---
@@ -1184,11 +1209,7 @@ h2 {
 
 <!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
 
-Au Québec, il existe le RMCQ, le « Réseau météorologique coopératif du Québec » qui regroupe des stations opérées par Rio Tinto Alcan, Environnement Canada, Hydro-Québec, le MELCC, le ministère de l'énergie et des ressources naturelles (MERN) et la société de protection des forêts contre le feu (SOPFEU). 
-
-Ces données en temps réel sont disponible via le site agrometeo.org. 
-
-Les données historiques ne sont pas publiques -->
+FIXME - ADD SPEAKING NOTES FOR CANADIAN NON-ECCC STATIONS -->
 
 ![bg fit 55%](img/3/ecole_ete_2024_3_reseau-stations.jpg)
 
