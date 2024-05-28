@@ -1199,9 +1199,11 @@ h2 {
 
 <!-- _footer: "**Source : Mekis et al. (2016) An Overview of Surface-Based Precipitation Observations at Environment and Climate Change Canada (https://doi.org/10.1080/07055900.2018.1433627)**" -->
 
-<!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
+<!-- Environnement Canada n'est pas le seul réseau de stations météorologiques en activité au Canada. 
 
-FIXME - ADD SPEAKING NOTES FOR CANADIAN NON-ECCC STATIONS -->
+De nombreuses industries situées dans des régions éloignées du Canada exploitent leurs propres stations afin de déterminer les conditions dans les aéroports régionaux, les sites miniers ou pour des raisons hydrologiques et hydroélectriques. 
+
+Notez les points énumérés comme « partenaires » dans la figure ici. -->
 
 ![bg fit 55%](img/3/ecole_ete_2024_3_reseau-stations.jpg)
 
@@ -2821,13 +2823,13 @@ Un fichier par jour de ~5 Mo :
 
 <!-- Les métadonnées sont critiques pour mieux comprendre les données qu’on joue avec.
 
-Sans ces informations c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc.
+Sans ces informations, c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc.
 
-Si le programmation de ça vous intéresse, je suggère de regarder ce projet je développe qui s'appelle « Miranda » -->
+Si la programmation vous intéresse, je suggère de regarder ce projet en développement qui s'appelle « Miranda » pour standardiser les données et métadonnées météorologiques et climatiques. -->
 
 ![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
 
-## À coté – Les métadonnées
+## À côté – Les métadonnées
 
 Des données qui décrit / défini les données
  - Historique / changements / provenance des opérations
@@ -2840,18 +2842,18 @@ Des données qui décrit / défini les données
 <!-- _header: "" -->
 <!-- _footer: "**Source : EO4Society (https://eo4society.esa.int)**" -->
 
-<!-- 
+<!-- Il est parfois judicieux de combiner une grille avec des métadonnées, mais aussi de fournir plusieurs dimensions ou variables au sein de la même structure de données.
 
-FIXME: Add notes
+C'est le principe qui sous-tend le « datacube », dont il existe de nombreuses implémentations.
 
--->
+Ce faisant, nous créons quelque chose qui ne peut pas être facilement lu comme un CSV, mais nous obtenons la possibilité de compresser nos données ainsi que de prendre en charge l'auto-description des données. -->
 
 ![bg left fit](img/6/ecole_ete_2024_6_datacube.jpg)
 
 ## Format « Datacube »
 
 Données avec plusieurs dimensions
-« matrice multi-dimensionnel »
+(« N-dimensional matrices »)
  - latitude, longitude, élévation, temps, autres coordonnées, variables, etc...
  - Données satellitaires et climatiques sur grille
  - **Compression !**
@@ -2859,7 +2861,7 @@ Données avec plusieurs dimensions
 
 ---
 
-<!-- Pour ces raisons: Plusieurs tentatives de développer un format de données standard pour les applications climatiques : Le format gagnant de ce processus est le NetCDF. 
+<!-- Pour ces raisons, plusieurs tentatives de développer un format de données standard pour les applications climatiques : Le format gagnant de ce processus est le NetCDF. 
 
 etCDF : Structuré pour des données multidimensionnelles qui préserve les métadonnées et bénéficie de la compression facultative. 
 
