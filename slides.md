@@ -130,9 +130,9 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 3. Données observées
 4. Données de réanalyses et de prévisions
 5. Données de modèles climatiques
-6. Données dérivées
+6. Données post-traitées et dérivées
 7. Formats habituels des données climatiques et outils d’analyses
-8. Les services climatiques (PAVICS)
+8. Les plateformes et services climatiques 
 
 ---
 
@@ -1711,6 +1711,37 @@ Pour en savoir plus :
 
 ---
 
+<!-- FIXME -->
+
+<!-- _footer: "**Source : Gasset et al. (2022) A 10 km North American precipitation and land-surface reanalysis based on the GEM atmospheric model. (https://doi.org/10.5194/hess-25-4917-2021)**" -->
+
+<!-- Avant de passer vers les prévisions, je voudrais aussi mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse dérivée d'un autre réanalyse où les données observées sont ré-intégrée vers durant leur production.
+
+Un exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. 
+
+On peut voir ici à doite les deux premiers rangées montre le sortis pour le modèle 
+-->
+
+![bg right:45% fit](img/3/ecole_ete_2024_3_rdrs-comparison-map.png)
+
+## Réanalyses « ré-injectées »
+
+Jeu de donnée hybride (p. ex. **RDRS**) à base de :
+- Modéles typiquement utilisées pour générer des prévisions (modèle « **GEM** »)
+- Données observées ré-intégrées (stations RMCQ, MELCCFP)
+- Piloté par une autre réanalyse (ERA-interim / ERA5)
+
+---
+
+<!-- _footer: "" -->
+
+
+## À côté - Résolutions
+
+
+
+---
+
 <!-- _header: "" -->
 <!-- _footer: "**Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
 
@@ -1720,32 +1751,13 @@ Certaines produits fonctionnent mieux que les autres pour les analyses, dépenda
 
 Débat continuelle entre les statisticiens, hydrologues et modélisateurs du climat. -->
 
-![bg right:63% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
+![bg right:60% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
 
 ## Réanalyses 
 
 - Plusieurs produits disponibles
 - Forces et faiblesses avec certains produits dependamment la phénomène
 - Débat continuelle entre les producteurs et utilisateurs
-
----
-
-<!-- FIXME -->
-
-<!-- _footer: "**Source : Gasset et al. (2022) A 10 km North American precipitation and land-surface reanalysis based on the GEM atmospheric model. (https://doi.org/10.5194/hess-25-4917-2021)**" -->
-
-<!-- Avant de passer vers les prévisions, je voudrias mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse où les données observées sont ré-intégrée vers durant leur production.
-
-Un exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. -->
-
-![bg left fit](img/3/ecole_ete_2024_3_rdrs-comparison-map.png)
-
-## Réanalyses modernes / « ré-injectées »
-
-Jeu de donnée à base d'un combinaison de :
-- Modéles typiquement utilisées pour générer des prévisions
-- Données observées (pour ré-forcer le modèle)
-- Piloté par une autre réanalyse (p.ex. ERA-interim / ERA5)
 
 ---
 
@@ -1768,7 +1780,7 @@ Nous avons tous des expériences avec les prévisions quand on regarde le Weathe
 
 ---
 
-<!-- Le service météorologique du Canada roule 20 configurations du modèle GEM deux fois par jour sur un horizon de 16 jours pour faire les prévisions d'ensembles. Les 20 simulations diverges tranquillement dans le temps et c'est ce qui mène à des situations ou un système de précipitation, ou la ligne de délimitation pluie-neige, passe par exemple au nord ou au sud de Montréal, dépendamment du membre de l'ensemble.
+<!-- Le service météorologique du Canada roule 20 configurations du modèle « GEM » deux fois par jour sur un horizon de 16 jours pour faire les prévisions d'ensembles. Les 20 simulations diverges tranquillement dans le temps et c'est ce qui mène à des situations ou un système de précipitation, ou la ligne de délimitation pluie-neige, passe par exemple au nord ou au sud de Montréal, dépendamment du membre de l'ensemble.
 
 Après ça, c'est au météorologues d'assigner des probabilités à ces événements. La nature de ces données là font en sorte qu'elles sont archivé pour une durée limitée et rarement utilisé pour des études climatiques. -->
 
@@ -2089,6 +2101,9 @@ Un défi de trouver la bonne manière de les comparer à cause que leurs sorties
 
 - Plusieurs phénomènes encore paramétrés (p. ex. types spéciales de la précipitation).
 - Les modèles ont des différences majeures entre eux.
+  - Analyses des statistiques nécessaires
+- Les résolutions spatiales ne supportent pas les analyses aux echelles locales / régionales
+  - (**Pas si problèmatique avec CMIP6**)
 
 </div>
 
@@ -2107,7 +2122,7 @@ h2 {
 
 <!-- Dominique a mentionné dans son cours la catégorie des modèles régionales, qui permettent de faire une modélisation à plus fine échelle sur une région limitée.
 
-La façon générale dont les modèles régionales marchent c’est en utilisant des sortis de modèles globaux – Je ne suis pas l’expert mais rapidement, en utilisant les conditions vue à la limite de domaine, le RCM simule les dynamiques qui sont souvent paramétrés à l’échelle globale.
+La façon générale dont les modèles régionales marchent c’est en utilisant des sortis de modèles globaux – ça veut dire, en utilisant les conditions vue à la limite de domaine, le RCM simule les dynamiques qui sont souvent paramétrés à l’échelle globale.
 
 Sans les sortis globaux pour piloter les simulations RCM, ils ne fonctionnent pas. -->
 
@@ -2267,10 +2282,10 @@ Aussi, une système d’archivage est nécessaire pour sauvegarder des centaines
 
 ## Ensemble du MRCC à Ouranos
 
-Le MRCC a une **résolution spatiale allant jusqu’à ~12 km** et une ** résolution temporelle d’archivage jusqu’aux heures**.
+Le MRCC a une **résolution spatiale allant jusqu’à ~12 km** et une **résolution temporelle d’archivage jusqu’aux heures**.
 
-Conserver une centaine de variables aux 3h sur une grille de 12 km sur l’Amérique du Nord pour une simulation de 140 ans requiert environ 40 To d’espace disque.
- - Une quinzaine des variables sont archivés aux heures
+Conserver une centaine de variables aux 3h sur une grille de 12 km sur l’Amérique du Nord pour une simulation de 100 ans requiert environ **~32 To d’espace disque**.
+ - **MRCC5-CMIP6 : 2500 années simulées à date → ~800 To d'espace disque**
 
 **Ouranos a une système d’archivage créée uniquement pour les sortis du modèle MRCC**
 
@@ -2464,7 +2479,7 @@ Les données dérivées ne sont pas exactement une source distincte en raison qu
 
 QUESTIONS ? -->
 
-# **6. Données « dérivées »**
+# **6. Données « post-traitées » et « dérivées »**
 
 ---
 
@@ -2816,10 +2831,8 @@ Données avec plusieurs dimensions
 « matrice multi-dimensionnel »
  - latitude, longitude, élévation, temps, autres coordonnées, variables, etc...
  - Données satellitaires et climatiques sur grille
-
-**Compression !**
-
-**Métadonnées intégrés !**
+ - **Compression !**
+ - **Métadonnées intégrés !**
 
 ---
 
