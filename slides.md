@@ -486,6 +486,7 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 <!-- _paginate: false -->
 
 <!-- Nivomètre à écran Nipher : pour mesurer la neige.
+
 Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de neige augmente, l'instrument est rehaussé. La forme de l'embouchure sert à limiter un peu la turbulence autour de l'instrument qui va affecté la quantité de neige accumulé dans l'appareil. Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. -->
 
 ## <!-- fit --> Nivomètre à écran de « Nipher »
@@ -521,16 +522,19 @@ Au Québec, les mesures se font à une précision d’un dixième de millimètre
 
 ---
 
+<!-- _footer: "**Photos : Ross Brown et Barry Goodison**" -->
+
 <!-- Voici plusieurs photos courtoisie de Ross Brown et Barry Goodison d’Environnement Canada qui montre les nombreuses façons dont les nivomètres peuvent sous-capturer la neige. 
 
 Le gel des plaques qui mesure le deplacements par poids, 
+
 Une incapacité à faire fondre la neige assez rapidement. 
 
 Les mesures peuvent mal se passer et elles le font assez souvent pour la neige. 
 
 Cela souligne la nécessité de corriger les données, ce dont je parlerai à plus tard. -->
 
-![bg fit](img/2/ecole_ete_2024_2_sous-captation.png)
+![bg 80%](img/2/ecole_ete_2024_2_sous-captation.png)
 
 ## « Sous-captation »
 
@@ -543,13 +547,15 @@ h2 {
 }
 </style>
 
+<!-- _footer: "**Source : Bassin expérimental du ruisseau des Eaux-Volées (BEREV) de la Forêt Montmorency ([lien](https://www.cef-cfr.ca/pmwiki.php?n=Membres.SylvainJutrasBEREV))**" -->
+
 <!-- Jusqu'à présent, nous avons vu des moyens assez conventionnels d'observer les précipitations mais on peut s'imaginer des sites d'observations beaucoup plus sophistiquées qui sont en général des sites expérimentaux pour des projets de recherche spécifique. 
 
 Ici, l'exemple d'une tour d'observation dans le BEREV, le bassin expérimental du ruisseau des eaux-volée dans la forêt Montmorency. C'est quelque chose qui est fait le cadre du projet EVAP piloté par François Anctil et Daniel Nadeau à l'université Laval. Ils s'intéresse à l'évapotranspiration qui est quelque chose de très peu mesurée, par la difficulté que sa représente. Et donc ils ont fait une tour de 10m au milieu de la forêt, entouré d'une peuplement d'arbre uniforme. Ils ont des instruments de mesures pour le rayonnement net, les flux de chaleurs latente et sensible, un scintillomètre qui mesure un profil d'évapotranspiration par méthode de covariance des tourbillons, des instruments dans les arbres pour mesurer l'écoulement de la sève, des capteurs de températures dans le sols, etc. -->
 
 ![bg 60%](img/2/ecole_ete_2024_2_berev.jpg)
 
-## Site expérimental - BEREV
+## Site expérimental « **BEREV** »
 
 ---
 
