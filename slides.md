@@ -1032,7 +1032,7 @@ h2 {
 
 Basé sur une relation hauteur débit, ou une courbe d’étalonnage qui est calibré par des techniciens lors de périodes de différents débits. 
 
-Si vous avez des questions spéciqiues à ces genres de structures, je vous suggerez de parler avec les experts au fond de la salle.-->
+Si vous avez des questions spéciqiues à ces genres de structures, je vous suggerez de parler avec les experts au fond de la salle. -->
 
 ![bg fit](img/2/ecole_ete_2024_2_jaugeage.jpg)
 
@@ -1097,7 +1097,8 @@ h2 {
 
 <!-- _footer: "**Source : World Data Center for Greenhouse Gases (https://gaw.kishou.go.jp)**" -->
 
-<!-- Greenhouse Gases Observing Satellite (GOSAT) maintien par NASA et Japan Aerospace Exploration Agency (JAXA) 
+<!-- Greenhouse Gases Observing Satellite (« GOSAT ») maintien par NASA et Japan Aerospace Exploration Agency (« JAXA »)
+
 La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces genres de techniques de spectroscopie avec télédétection -->
 
 ![bg fit 80%](img/2/ecole_ete_2024_2_satellite-co2.jpg)
@@ -1110,7 +1111,7 @@ La distribution du CO2 dans l'atmosphère à travers le monde en utilisant ces g
 
 On va maintenant regarder plus concrètement qu'est ce qui est disponible comme données climatiques et à quoi ça ressemble de trouver les données dont on a besoin, les obtenir et les manipuler.
 
-QUESTIONS -->
+QUESTIONS ? -->
 
 # **3. Données observées**
 
@@ -1175,9 +1176,11 @@ Et donc souvent on regarde ces listes et on se dit que tout est beau, c'est exac
 <style scoped>
 h2 {
   position: absolute;
-  top: 2.55%;
+  top: 2.5%;
 }
 </style>
+
+<!-- _footer: "**Source : Mekis et al. (2016) An Overview of Surface-Based Precipitation Observations at Environment and Climate Change Canada (https://doi.org/10.1080/07055900.2018.1433627)**" -->
 
 <!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
 
@@ -1187,13 +1190,14 @@ Ces données en temps réel sont disponible via le site agrometeo.org.
 
 Les données historiques ne sont pas publiques -->
 
-![bg fit 80%](img/3/ecole_ete_2024_3_reseau-des-stations.png)
+![bg fit 55%](img/3/ecole_ete_2024_3_reseau-stations.jpg)
 
 ## Données de stations canadiens
 
 ---
 
 <!-- _header: "" -->
+<!-- _footer: "**Source : [MELCCFP](https://www.environnement.gouv.qc.ca/climat/surveillance/index.asp)**" -->
 <!-- _paginate: false -->
 
 <!-- Environnement Canada n’est pas seul le seul réseau météo au Canada. 
@@ -1208,6 +1212,9 @@ Les données historiques ne sont pas publiques. -->
 
 ## Données de stations du MELCCFP
 
+- *Les ministres changent leurs noms/acronyms après tous les élections*
+  - *c'est ennuyeux !*
+
 ---
 
 <style scoped>
@@ -1217,11 +1224,16 @@ h2 {
 }
 </style>
 
-<!-- Globale : il y a les National Centres for Environmental Information (NCEI) (était le NCDC) de NOAA qui regroupe des données observées à travers le monde sur une base mensuelle qui provient en fait des partenaires de la OMM. -->
+<!-- _footer: "**Menne et al. (2012): Global Historical Climatology Network - Daily (GHCN-Daily), Version 3 (https://doi.org/10.7289/V5D21VHZ)**" -->
 
-![bg fit 90%](img/3/ecole_ete_2024_3_reseau-omm.png)
+<!-- Globale : il y a les National Centres for Environmental Information (NCEI) (était le NCDC) de NOAA qui regroupe des données observées à travers le monde sur une base mensuelle qui provient en fait des partenaires de la OMM. 
 
-## Données de stations de la OMM
+La carte ici montre plusieurs sources des stations, incluant ceux de l'OMM, le NCEI et aussi les partenairs régionales.
+-->
+
+![bg fit 75%](img/3/ecole_ete_2024_3_reseau-ghcn-d.png)
+
+## Données de stations globales
 
 ---
 
