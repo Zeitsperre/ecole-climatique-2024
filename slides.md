@@ -98,13 +98,13 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 ![bg vertical right fit](img/extras/ouranos-website.png)
 ![bg fit](img/extras/ice-storm.jpg)
 
-# **C'est quoi [![img](img/extras/logo-ouranos-horizontal-couleur.svg)](https://www.ouranos.ca/en)?**
+# **C'est quoi [![img](img/extras/logo-ouranos-horizontal-couleur.svg)](https://www.ouranos.ca/en) ?**
 
 * Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
 * Plans d'adaptations aux changements climatiques
 * Source/producteur des données des modèles climatiques
-* **Sevices d'informations climatiques/« Climate Information Services »**
+* **Sevices d'informations climatiques (« Climate Information Services »)**
 
 ---
 
@@ -359,7 +359,6 @@ La OMM à débutait comme direction des efforts internationaux pour la surveilla
 
 ---
 
-<!-- _header: "" -->
 <!-- _footer: "**Photos : NASA**" -->
 <!-- _paginate: false -->
 
@@ -449,8 +448,6 @@ h2 {
 }
 </style>
 
-<!-- _paginate: false -->
-
 <!-- Pluviomètre à auget basculeur : Après une certaine quantité de pluie tombé, par exemple 0.1 mm, l'auget bascule et envoie un signal électrique. Donc le nombre de bascule multiplier par 0.1 mm donne la précipitation sur une période de temps donnée. 
 
 Il est également possible d'avoir un système qui chauffe le cylindre qui permet également de mesurer l'équivalent en eau de la neige lors de précipitation solide. -->
@@ -461,6 +458,8 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 ![bg fit](img/2/ecole_ete_2024_2_pluviometre-basculeur-2.jpg)
 
 ---
+
+<!-- _paginate : false -->
 
 <!-- Table a neige, pour mesurer la hauteur de neige tombé. Après un temps d'observation, la table est dégagé, replacé au niveau du sol ou du couvert de neige actuel. -->
 
@@ -571,9 +570,9 @@ h2 {
 
 Par exemple, les thermomètres et hygromètres doivent être à l'intérieur d'un abri Stevenson pour les protéger de l'influence de la radiation solaire directe et des intempéries. La distance minimale à laquelle certains obstacles peuvent se trouver de la station est aussi décrite. -->
 
-![bg horizontal 70%](img/2/ecole_ete_2024_2_guide_omm.png)
-![bg horizontal 70%](img/2/ecole_ete_2024_2_manuel-des-observateurs.png)
-![bg horizontal 70%](img/2/ecole_ete_2024_2_noaa-observations.png)
+![bg horizontal 82%](img/2/ecole_ete_2024_2_guide_omm.png)
+![bg horizontal 90%](img/2/ecole_ete_2024_2_manuel-des-observateurs.png)
+![bg horizontal 90%](img/2/ecole_ete_2024_2_noaa-observations.png)
 
 ## **Standards** des stations d’observation météo
 
@@ -753,7 +752,7 @@ Dans sa version la plus simple, la relation entre facteur de réflectivité et p
 
 <!-- _header: "" -->
 
-<!-- _footer : "**Source : Service météorologique de Canada (MSC)**" -->
+<!-- _footer : "**Source : Service météorologique du Canada (MSC)**" -->
 
 <!-- Réseau d’observation radar : Nécessaire pour la cartographie des systèmes de météo.
 
