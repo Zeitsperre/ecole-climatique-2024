@@ -1139,21 +1139,19 @@ Au Canada, les données de stations archivées remontent jusqu'en 1840 pour la v
 
 <!-- Si vous êtes intéressé aux données d'une station d'Environnement Canada un grand portion des données sont disponible en ligne
 
-Accéder via le site web climat.meteo.gc.ca : fichier CSV des données. 
+Environnement Canada publie les sommaires mensuelles sur leur site web en fichier CSV des données. 
 
-# FIXME: THIS INFORMATION IS OBSOLETE - MENTION MSC DATA MART
-
-Par contre, pour un étude à plus grande échelle spatiale et temporelle, il faut obtenir les données brutes d'environnement Canada ou d'un de leur partenaire -->
+Autrement la Service Météorologique du Canda offre un service de téléchargement des données brutes aux stations en utilisant un API ou par FTP. -->
 
 ## Données de stations canadiens
 
 Les archives débutent vers les années 1840
 
-Les données de stations d’Environnement Canada sont disponibles sur https://climat.meteo.gc.ca en tableaux mensuels.
+Les données de stations d’Environnement Canada sont disponibles en tableaux mensuels :
+- https://climat.meteo.gc.ca 
 
-Un API existe pour automatiser les requêtes
-
-Les données de stations du RMCQ sont disponibles sur https://agrometeo.org en temps réel. (vieux / obsolètes)
+Pour un usage plus comprehensif, la Service météorologique du Canada (SMC) offre quelques manières d'accéder aux données observées gratuitement
+- https://eccc-msc.github.io/open-data/
 
 ---
 
@@ -1389,11 +1387,11 @@ Régions éloignées d'une bonne densité de stations sont susceptible d'être c
 Interpolation de données de stations (brutes ou homogénéisées) sur une grille.
 
 Plusieurs méthodes possibles :
-- Bilinéaire
-- Interpolation multivariée (Gandin 1963)
-- « Inverse distance weighting » (Shepard 1968)
-- « Thin-plate splines » (Duchon 1976\, Wahba 1979)
-- Krigeage (Matheron 1960), etc.
+- **Bilinéaire**
+- **Interpolation multivariée** (Gandin 1963)
+- « **Inverse distance weighting** » (Shepard 1968)
+- « **Thin-plate splines** » (Duchon 1976, Wahba 1979)
+- **Krigeage** (Matheron 1960), etc.
 
 ---
 
@@ -1431,7 +1429,7 @@ Utilisés pour examiner les tendances à grande échelle des températures pour 
 
 ## Données interpolées - Globales
 
-Le CRU produit plusieurs produits d’interpolations (CRUTEM, HadCRUT, HadSST...)
+Le CRU produit plusieurs produits d’interpolations (**CRUTEM**, **HadCRUT**, **HadSST**...)
  - Résolution temporelle mensuelle *à partir de 1850*.
  - Résolution spatiale de *~500 km sur le globe*
  - **Données direct - [HadCRUT4](https://climatedataguide.ucar.edu/climate-data/global-surface-temperature-data-hadcrut4-and-crutem4)**
@@ -1452,11 +1450,11 @@ Cette méthode d'interpolation multivariée prennent en compte la variation spat
 
 ## Données interpolées - Canada
 
-CanGRD est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
+**CanGRD** est une interpolation des données homogénéisées d’Environnement Canada avec une interpolation optimale.
  - Résolution temporelle mensuelle *à partir de 1900*.
  - Résolution spatiale de *~50 km sur le territoire canadien*.
 
-Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant la méthode ANUSPLIN
+Ressources Naturelles Canada (RNCan) produit une grille interpolée en utilisant la méthode ANUSPLIN (**NRCanMet**)
  - Résolution temporelle journalière *à partir de 1950*.
  - Résolution spatiale de *~10 km sur le territoire canadien*.
  - *ANUSPLIN* : **Hutchinson, M. F. (1995) (https://doi.org/10.1080/02693799508902045)**
@@ -1475,7 +1473,7 @@ Il y a plusieurs manières de faire interpolation par Krigeage mais l’objectif
 
 ## Données interpolées - Québec
 
-Produit de la ministère de l’environnement et la lutte contre les changements climatiques, la faune et les parcs (MELCCFP) « Grille climatique quotidien »
+Produit de la ministère de l’environnement et la lutte contre les changements climatiques, la faune et les parcs (MELCCFP) « *Grille climatique quotidien* »
  - Méthode interpolation : Krigeage
  - Résolution temporelle journalière à partir de 1961.
  - Résolution spatiale de ~10 km sur le territoire de Québec.
@@ -1520,7 +1518,7 @@ J’ai décider de présenter ça comme la dernière exemple à cause que cette 
 
 ## Données interpolées – Amérique du Nord
 
-Le NASA produit l’interpolation de « DayMET »
+Le NASA produit l’interpolation de « **DayMET** »
 - Résolution temporelle quotidien à partir de 1980
 - Résolution spatiale de ~1 km sur Amérique du Nord
 
@@ -1686,7 +1684,7 @@ Même avec tous ces avancements technologiques, il restent encore des difficult�
 La comparaison de réanalyses et l’évaluation de leurs forces et faiblesses respectives est encore très anecdotiques.
 
 Plusieurs avancements dans l’assimilation des données, mais...
-- Les incertitudes associées au jeu de données de référence sont souvent ignorées lors de la validation
+- **Les incertitudes associées au jeu de données de référence sont souvent ignorées lors de la validation**
 
 Pour en savoir plus :
 
@@ -1716,21 +1714,28 @@ Pour en savoir plus :
 <!-- _header: "" -->
 <!-- _footer: "**Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
 
-<!-- Nombreuse réanalyses disponibles : Pas des fiables méthodes pour savoir quelle réanalyse on doit utiliser. 
+<!-- Nombreuse réanalyses disponibles : Le fait que nous avons pas une grille de validation disponible pour toute la terre, les méthodes pour les valider pour savoir quelle réanalyse on doit utiliser sont toujours en développement.
 
-Certaines produits fonctionnent mieux que les autres pour les analyses, dépendamment sur la phénomène
+Certaines produits fonctionnent mieux que les autres pour les analyses, dépendamment sur la phénomène.
 
 Débat continuelle entre les statisticiens, hydrologues et modélisateurs du climat. -->
 
 ![bg right:63% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
 
-# Réanalyses
+## Réanalyses 
 
-FIXME
+- Plusieurs produits disponibles
+- Forces et faiblesses avec certains produits dependamment la phénomène
+- Débat continuelle entre les producteurs et utilisateurs
 
 ---
 
-# Réanalyses canadiens
+<!-- FIXME -->
+
+<!-- Il n'y a pas encore une bonne manière de  -->
+
+
+## Réanalyses « ré-injectées »
 
 FIXME
 
@@ -2690,7 +2695,7 @@ h2 {
 
 ![bg 80%](img/6/ecole_ete_2024_6_flatfile-stations.jpg)
 
-## (Ancien) Format des données de stations
+## Format des données de stations
 
 ---
 
@@ -2880,8 +2885,6 @@ img[alt~="bottom-center"] {
 }
 </style>
 
-<!-- FIXME THIS NEEDS TO BE UPDATED -->
-
 <!-- Il y a aussi les données en formats optimisées pour le partage sur l’internet, comme des « data streams » et « data lakes » ou flux lacs des données, en bon français.
 
 Plusieurs exemples des systèmes propriétaires sont offerts par Google, Microsoft, Amazon, basées sur technologies provenant de « Apache » et autres.
@@ -2990,7 +2993,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**\n**Présentation de xclim pour PyCon Global 2023 (https://www.youtube.com/watch?v=3zS3lQJ6pb4) (25 mins)**" -->
+<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**\n**Présentation de xclim pour PyCon Global 2023 (https://www.youtube.com/watch?v=3zS3lQJ6pb4) (25 mins)**\n**Article : Bourgault et al. (2023). xclim: xarray-based climate data analytics (https://joss.theoj.org/papers/10.21105/joss.05415)**" -->
 
 <!-- Pour ceux et celles qui s'intéressent à la gestion des indices climatiques, Ouranos a développé un package python permettant de faire exactement cela. Je pourrais en parler plus tard si les gens sont intéressés. -->
 
