@@ -46,7 +46,7 @@ style: |
 
 On va aborder le sujet des données climatiques, donc comment on procède pour les acquérir, comment on les interprètes et aussi comment on peut les manipuler avec divers logiciels. -->
 
-![bg](img/extras/front-page.png)
+![bg](img/0/ecole_ete_2024_0_front.png)
 
 ---
 
@@ -58,7 +58,7 @@ Ensuite [...] où là on va parler des données qui sont diffusées au public et
 
 Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information faramineuse pour ce qui est de l'observation de la terre et de notre atmosphère et il n'y a pas le jeu de données parfaits qui répond à toute les questions donc il faut comprendre les [...], et aussi je souhaite vous donner une appréciation de la [...]. -->
 
-![bg right:40%](img/extras/extratropical-cyclone-august-2016.jpg)
+![bg right:40%](img/0/ecole_ete_2024_0_extratropical-cyclone-august-2016.jpg)
 
 # **Objectifs du cours**
 
@@ -71,16 +71,16 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 <!-- _footer: "" -->
 
-![bg absolute left:40% 85%](img/extras/profile.jpg)
+![bg absolute left:40% 85%](img/0/ecole_ete_2024_0_tjs-profile.jpg)
 
 # **Qui suis-je ?**
 
 ### Trevor James Smith 
 
-#### ![height:35](img/extras/github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
+#### ![height:35](img/0/ecole_ete_2024_0_github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
 
-- Developpeur/packageur/mainteneur des logiciels de recherche scientifiques; 
-- M.Sc. Géographie, environnement et urbanisme
+- Developpeur/packageur/mainteneur des logiciels de recherche scientifiques
+- M.Sc. Géographie, environnement et urbanisme de l'Université Concordia
   - Impacts des changements climatiques sur les vignobles en sud du Québec
 - 10+ années d'expérience en utilisant Python, Linux, GIS, et autres téchnologies associées
 
@@ -95,10 +95,9 @@ Nous avons été créés en réponse à une tempête extrême qui a laissé 1.5 
 
 Depuis environ 8 ans, nous nous sommes orientés vers le développement de logiciels ouverts et de plateformes de recherche. Mon équipe en particulier est quand même petit, mais nous collaborons beaucoup à l'internationale. -->
 
-![bg vertical right fit](img/extras/ouranos-website.png)
-![bg fit](img/extras/ice-storm.jpg)
-
-# **C'est quoi [![img](img/extras/logo-ouranos-horizontal-couleur.svg)](https://www.ouranos.ca/en) ?**
+![bg vertical right fit](img/0/ecole_ete_2024_0_ouranos-website.png)
+![bg fit](img/0/ecole_ete_2024_0_ice-storm.jpg)
+# **C'est quoi [![img](img/0/ecole_ete_2024_0_ouranos-logo.svg)](https://www.ouranos.ca/en) ?**
 
 * Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
@@ -394,7 +393,8 @@ Québec, le MELCC maintient le document de référence pour les observateurs, et
 
 ## Station d’observation météo
 
-Observation **in situ** : observation obtenue par contact direct avec l’objet en question.
+Observation « **in situ** »
+  - Observation obtenue par contact direct avec l’objet en question.
 
 Stations à observateurs : un ou deux temps d’observations par jour.
 
@@ -2507,22 +2507,27 @@ QUESTIONS ? -->
 # **6. Données « post-traitées » et « dérivées »**
 
 ---
+""
+<!-- _footer: "**I wonder what would be a good source for this would be? An Ouranos report maybe?**" -->
 
-## Données « post-traitées » vs données « dérivées »
+# FIXME: Données « post-traitées » vs données « dérivées »
 
-
-<!-- _footer: "**Source : Lavoie et al. (2024) An ensemble of bias-adjusted CMIP6 climate simulations based on a high-resolution North American reanalysis (https://doi.org/10.1038/s41597-023-02855-z)**" -->
+**Briefly** talk about differences : 
+ - Bias corrected data (used for generating indicators)
+ - Climate indicators (used for end-user analyses)
 
 ---
 
-## FIXME : Données « post-traitées »
+<!-- _footer: "**Source : Lavoie et al. (2024) An ensemble of bias-adjusted CMIP6 climate simulations based on a high-resolution North American reanalysis (https://doi.org/10.1038/s41597-023-02855-z)**" -->
+
+# FIXME : Données « post-traitées »
 
 Talk about : 
  - Scenarios Génériques
  - ESPO-R ESPO-G
+ - NEX-GDDP
 
-**5 slides maximum!**
-
+**3 slides maximum!**
 
 ---
 
@@ -2591,6 +2596,7 @@ h2 {
 
 <!-- _header: "" -->
 <!-- _footer: "**Source : Ouranos (https://portraits.ouranos.ca)**" -->
+<!-- _paginate: false -->
 
 <!-- À Ouranos, on produit plusieurs jeu de données dérivées ou pré-calculés pour le province au complet
 
@@ -2598,12 +2604,16 @@ Une plateforme très souvent consulté sur notre site web est nommé les portrai
 
 On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs climatiques, basées sur des nouveaux produits des données utilisées maintenant par Environnement Canada. Je vous encourage d'explorer nos  -->
 
-![bg right:60% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
+![bg right:55% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
 
 ## Données « dérivées » par Ouranos
 
-FIXME: What do we offer?
+FIXME : What exactly are we offering in 2024?
 
+- Two bias-adjusted products
+- X pre-computed indicators
+- Domain of Quebec (and regional subdomains)
+- Data available through OPeNDAP/PAVICS, etc..
 
 ---
 
@@ -3189,4 +3199,4 @@ CanGRD Interpolated Homogenized Observations : https://www.canada.ca/en/environ
 <!-- _footer: "" -->
 <!-- _paginate: false -->
 
-![bg](img/extras/back-page.png)
+![bg](img/0/ecole_ete_2024_0_back.png)
