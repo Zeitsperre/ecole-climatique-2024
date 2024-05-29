@@ -189,7 +189,7 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 <!-- 1803 : Thomas Jefferson a également commissionné l'expédition de Lewis et Clark, vers l'Ouest en 1804 et des observations météorologiques étaient faites sur une base régulière. -->
 
-![bg right 90%](img/1/ecole_ete_2024_1_LewisAndClark.jpg)
+![bg left 90%](img/1/ecole_ete_2024_1_LewisAndClark.jpg)
 
 ## 1803 / 1804
 
@@ -207,7 +207,7 @@ Noté l’importance des observations météorologiques pour les affaires du gou
 
 L'idée d'un réseau d'observation météorologique en utilisant plusieurs postes militaires à travers le pays -->
 
-![bg left](img/1/ecole_ete_2024_1_JamesTilton.jpg)
+![bg right](img/1/ecole_ete_2024_1_JamesTilton.jpg)
 
 ## 1814
 
@@ -223,7 +223,7 @@ L'idée d'un réseau d'observation météorologique en utilisant plusieurs poste
 
 1860 : 500 stations, opérés par des bénévoles, fournissaient des rapports télégraphiques journaliers. -->
 
-![bg right](img/1/ecole_ete_2024_1_JosephHenry.jpg)
+![bg left](img/1/ecole_ete_2024_1_JosephHenry.jpg)
 
 ## 1848 à 1860
 
@@ -311,7 +311,7 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 <!-- 1939 : cette pratique a était coûteuse et dangereuse pour les pilotes et alors a été remplacé par des radiosondes qui pourrait atteindre une hauteur au dessus de 16Km. -->
 
-![bg right fit](img/1/ecole_ete_2024_1_radiosondes.jpg)
+![bg left fit](img/1/ecole_ete_2024_1_radiosondes.jpg)
 
 ## 1939
 
@@ -325,7 +325,7 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 En même temps la OMM à débutait comme direction des efforts internationaux pour la surveillance météorologique. -->
 
-![bg left fit](img/1/ecole_ete_2024_1_radar.jpg)
+![bg right fit](img/1/ecole_ete_2024_1_radar.jpg)
 
 ## 1950
 
@@ -340,8 +340,8 @@ En même temps la OMM à débutait comme direction des efforts internationaux po
 
 Et donc, la combinaison de ces technologies, et de plusieurs autres que je présenterais plus tard, forme aujourd'hui l'ensemble des outils à notre disposition pour observer l'atmosphère et l'océan. -->
 
-![bg right:65% horizontal fit](img/1/ecole_ete_2024_1_TIROS-I-alt.jpg)
-![bg right fit](img/1/ecole_ete_2024_1_TIROS-II-alt.jpg)
+![bg left:65% horizontal fit](img/1/ecole_ete_2024_1_TIROS-I-alt.jpg)
+![bg fit](img/1/ecole_ete_2024_1_TIROS-II-alt.jpg)
 
 ## 1960
 
@@ -367,7 +367,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : CRAAQ" -->
+<!-- _footer: "**Source : CRAAQ**" -->
 
 <!-- L'objectif ici est relativement simple. On cherche à obtenir un maximum d'information sur l'état local de l'atmosphère près de la surface. 
 
@@ -822,6 +822,10 @@ h2 {
   position: absolute;
   top: 5%;
 }
+h3 {
+  position: absolute;
+  top: 10%;
+}
 </style>
 
 <!-- _header: "" -->
@@ -834,7 +838,7 @@ h2 {
 ![bg fit](img/2/ecole_ete_2024_2_storm-radar.png)
 
 ## Radar et prévision immédiat
-## Nowcasting
+### « Nowcasting »
 
 ---
 
@@ -845,7 +849,7 @@ h2 {
 
 Une source d'information non-négligeable pour le climat et toutes sortes d'informations provenant des satellites peuvent nous aider à mieux comprendre le système climatique, indépendamment des facteurs climatiques directement observés.-->
 
-![bg fit right:60%](img/2/ecole_ete_2024_2_satellite.jpg)
+![bg fit left:60%](img/2/ecole_ete_2024_2_satellite.jpg)
 
 ## Satellites
 
@@ -958,7 +962,7 @@ Avec quelques corrections, ce type d'imagerie peut déterminer de manière très
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "**Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA (https://doi.org/10.3390/rs61111372)**" -->
+<!-- _footer: "**Source : Li (2014): Object-based land-cover mapping with high resolution aerial Photography at the county scale in midwestern USA (https://doi.org/10.3390/rs61111372)**" -->
 
 <!-- Télédétection et Machine Learning : Créer des images de nombreuse phénomènes, identifier les objets ou surveiller les événements climatiques.
 Ouragans, les El Nino, tempêtes. -->
@@ -1024,7 +1028,7 @@ h3 {
 }
 </style>
 
-<!-- _footer: "**Crédit: http://www.jamstec.go.jp/e/about/equipment/observe/seawater.html**" -->
+<!-- _footer: "**Source : JAMSTEC (http://www.jamstec.go.jp/e/about/equipment/observe/seawater.html)**" -->
 
 <!-- Plusieurs autres systèmes d'observations existes.
 
@@ -1035,7 +1039,9 @@ Ceci est une des outils qui est déployé pour mieux comprendre la circulation t
 ![bg horizontal fit 90%](img/2/ecole_ete_2024_2_argos-graphic.jpg)
 ![bg fit 95%](img/2/ecole_ete_2024_2_argos-map.png)
 
-##  Données des courants / océans - Bouée Argos
+##  Données des courants / océans
+
+### Bouée Argos
 
 ---
 
@@ -1043,6 +1049,10 @@ Ceci est une des outils qui est déployé pour mieux comprendre la circulation t
 h2 {
   position: absolute;
   top: 5%;
+}
+h3 {
+  position: absolute;
+  top: 10%
 }
 </style>
 
@@ -1056,7 +1066,9 @@ Si vous avez des questions spéciqiues à ces genres de structures, je vous sugg
 
 ![bg fit](img/2/ecole_ete_2024_2_jaugeage.jpg)
 
-##  Données des rivières - Stations de jaugeage
+##  Données des rivières 
+
+### Stations de jaugeage
 
 ---
 
@@ -1960,24 +1972,24 @@ La base de données CMIP5 récupérée à Ouranos fait environ *20 To* pour quel
 
 <!-- Plusieurs modèles globaux existe et la communauté international est organisé pour coordonner les activités des différents centre de modélisation à travers le monde. L’organisme en haut, le WCRP s’occupent de plusieurs projets liées à la modelisation, mais on s’intéresse à CMIP aujourd’hui.
 
-CMIP est un regroupement des instituts et chercheurs qui s’occupe des efforts de standardisation des expériences climatiques, les formats, les métadonnées des GCMs. Ils ont même établi un ensemble de portail web pour retrouver un maximum de données des modèles participants, géré par la ESGF.
+Dominique avait mentionné ça, mais le CMIP est un regroupement des instituts et chercheurs qui s’occupe des efforts de standardisation des expériences climatiques, les formats, les métadonnées des GCMs. Ils ont même établi un ensemble de portail web pour retrouver un maximum de données des modèles participants, géré par la ESGF.
 
 Les modélisations qu’on trouvent dans le rapport du GIEC sont toujours basés sur les modèles CMIP, et les 5e et 6e  rapports ont étés basées sur CMIP5 et CMIP6, respectivement. -->
 
 ## Coordination des modèles globales
 
-WCRP : « World Climate Research Program »
- - CMIP : « Coupled Model Intercomparison Project »
+**WCRP** : « **World Climate Research Program** »
+ - **CMIP** : « **Coupled Model Intercomparison Project** »
 
 Standardisation de la priorité des expériences évalués
 
 Standardisation du format / métadonnées de données
- - Vocabulaire Contrôlée
+ - **Vocabulaire Contrôlée**
 
 Établissement de portail de données sur le web
-- ESGF : « Earth System Grid Federation »
+- **ESGF** : « **Earth System Grid Federation** »
 
-Présentement : **CMIP6** (production / utilisation)
+Présentement : **CMIP6** (utilisation)
 
 ---
 
@@ -2153,7 +2165,7 @@ Un défi de trouver la bonne manière de les comparer à cause que leurs sorties
 - Les modèles ont des différences majeures entre eux.
   - Analyses des statistiques nécessaires
 - Les résolutions spatiales ne supportent pas les analyses aux echelles locales / régionales
-  - (**Pas si problèmatique avec CMIP6**)
+  - **Moins problèmatique avec CMIP6**
 
 </div>
 
@@ -2194,7 +2206,7 @@ CORDEX est un gros famille des expériences qui fait partie des projets en sous 
 
 Tout comme la communauté de modélisation globale, la modélisation régionale a aussi établi des protocoles d’expériences.
 
-Les projets PRUDENCE, ENSEMBLES et NARCCAP sont les prédécesseurs de CORDEX :
+Les projets **PRUDENCE**, **ENSEMBLES** et **NARCCAP** sont les prédécesseurs de **CORDEX** :
  - « *CO*ordinated *R*egional *D*ownscaling *EX*periment »
 
 **CMIP5-CORDEX (passé) et CMIP6-CORDEX (en production)**
@@ -2202,7 +2214,7 @@ Les projets PRUDENCE, ENSEMBLES et NARCCAP sont les prédécesseurs de CORDEX :
 ---
 
 <style scoped>
-h1 {
+h2 {
   position: absolute;
   top: 2.5%;
 }
@@ -2261,8 +2273,7 @@ Pas nécessairement basées dans la région d’intérêt d’un projet. Pour le
 ## CMIP5-CORDEX
 
 Domaine Amérique du nord
-
-« NA-CORDEX »
+- « **NA-CORDEX** »
 
 Couverture des expériences inégales
 
