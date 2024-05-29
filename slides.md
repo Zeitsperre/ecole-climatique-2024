@@ -21,7 +21,7 @@ style: |
   }
   header {
     right: 5%;
-    left: 50%;
+    left: 30%;
     text-align: right;
     font-size: 20px;
   }
@@ -73,7 +73,7 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 ![bg absolute left:40% 85%](img/0/ecole_ete_2024_0_tjs-profile.jpg)
 
-# **Qui suis-je ?**
+## **Qui suis-je ?**
 
 ### Trevor James Smith 
 
@@ -97,7 +97,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 
 ![bg vertical right fit](img/0/ecole_ete_2024_0_ouranos-website.png)
 ![bg fit](img/0/ecole_ete_2024_0_ice-storm.jpg)
-# **C'est quoi [![img](img/0/ecole_ete_2024_0_ouranos-logo.svg)](https://www.ouranos.ca/en) ?**
+## **C'est quoi [Ouranos](https://www.ouranos.ca/en) ?**
 
 * Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
@@ -1452,7 +1452,7 @@ La combinaison de ces deux jeux de données : température continus dans le mon
 
 Utilisés pour examiner les tendances à grande échelle des températures pour l'ensemble de l'historique, à un intervalle mensuel. -->
 
-![bg right:55% fit](img/3/ecole_ete_2024_3_hadcrut.png)
+![bg right fit](img/3/ecole_ete_2024_3_hadcrut.png)
 
 ## Données interpolées - Globales
 
@@ -1691,7 +1691,7 @@ Réanalyses modernes :
 
 Plusieurs Go de données par mois/niveau/variable.
 
-  - 16 octets * 24 heures * ~30 jours * 12 mois * (360 / résolution longitude) * (180 / résolution latitude) * nombres de niveaux en altitude * etc... = **ENORME**
+  - *16 octets* * *24 heures* * *~30 jours* * *12 mois* * (*360 / résolution longitude*) * (*180 / résolution latitude*) * *nombres de niveaux en altitude* * etc... = **ENORME**
 
 Quelques exemples :
   - **ERA-Interim (ancien)** : 30 ans de réanalyses pour une vingtaine de variables
@@ -1739,11 +1739,26 @@ Pour en savoir plus :
 
 ---
 
+<!-- _footer: "**Source : CERRA (Copernicus) (https://climate.copernicus.eu/copernicus-regional-reanalysis-europe-cerra)**" -->
+
+<!-- Avant de passer vers les prévisions, je voudrais aussi mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse dérivée d'un autre réanalyse où les données observées sont ré-intégrée pour ré-forcer le modèle durant leur production. -->
+
+![bg right:55% 95%](img/3/ecole_ete_2024_3_reanalyses-downscaling.png)
+
+
+## <!-- fit --> Réanalyses « ré-injectées »
+
+Jeu de donnée hybride à base de :
+- Modéles typiquement utilisées pour générer des prévisions
+- Données observées ré-intégrées
+- Piloté par une autre réanalyse
+
+---
+
 <!-- _footer: "**Source : Gasset et al. (2022) A 10 km North American precipitation and land-surface reanalysis based on the GEM atmospheric model. (https://doi.org/10.5194/hess-25-4917-2021)**" -->
+<!-- _paginate: false -->
 
-<!-- Avant de passer vers les prévisions, je voudrais aussi mentionner quelques produits récents. Il n'y a pas encore une bonne manière de les catégoriser, mais ils sont un genre de réanalyse dérivée d'un autre réanalyse où les données observées sont ré-intégrée vers durant leur production.
-
-Un exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. 
+<!-- Un autre exemple de ce produit vient d'environnement Canada et s'appelle la grille RDRS. 
 
 On peut voir ici à doite les deux premiers rangées montre le sortis pour le modèle, comparé aux données interpolées des stations et celles des satellites. -->
 
@@ -1751,23 +1766,14 @@ On peut voir ici à doite les deux premiers rangées montre le sortis pour le mo
 
 ## Réanalyses « ré-injectées »
 
-Jeu de donnée hybride (p. ex. **RDRS**) à base de :
-- Modéles typiquement utilisées pour générer des prévisions (modèle « **GEM** »)
-- Données observées ré-intégrées (stations RMCQ, MELCCFP)
-- Piloté par une autre réanalyse (ERA-interim / ERA5)
+**RDRS (Environnement Canada)**
+
+- Modèle de prévision « **GEM** »
+- Données de stations **RMCQ**, **MELCCFP**
+- Piloté par réanalyses **ERA-interim** ou **ERA5**
 
 ---
 
-<!-- _footer: "" -->
-
-
-## À côté - Résolutions
-
-
-
----
-
-<!-- _header: "" -->
 <!-- _footer: "**Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
 
 <!-- Nombreuse réanalyses disponibles : Le fait que nous avons pas une grille de validation disponible pour toute la terre, les méthodes pour les valider pour savoir quelle réanalyse on doit utiliser sont toujours en développement.
@@ -1776,7 +1782,7 @@ Certaines produits fonctionnent mieux que les autres pour les analyses, dépenda
 
 Débat continuelle entre les statisticiens, hydrologues et modélisateurs du climat. -->
 
-![bg right:60% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
+![bg right:55% fit](img/3/ecole_ete_2024_3_reanalyses-comparaison.jpg)
 
 ## Réanalyses 
 
@@ -1793,7 +1799,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : ECMWF (TIGGE)**" -->
+<!-- _footer: "**Source : ECMWF (TIGGE) (https://confluence.ecmwf.int/display/TIGGE)**" -->
 
 <!-- Comme Dominique avait expliqué hier, on peut faire des prévisions météorologiques à l'aide de modèle, la capacité prédictive de jour le jour est limité par la nature chaotique de la circulation atmosphérique, à disons l'ordre de deux semaines.
 
@@ -1838,6 +1844,21 @@ J’ai pris cette carte de la prévision du modèle GEM pour ce matin l’autre 
 ![bg fit 90%](img/3/ecole_ete_2024_3_ventusky.png)
 
 ## Prévisions en temps réelle
+
+---
+
+<!-- _footer: "**Source : ERA5-Land-T (Copernicus) (https://climate.copernicus.eu/c3s-launches-new-era5-land-t-service)**" -->
+
+<!-- Lors de la création de nouvelles grilles climatiques à partir de données à résolution plus générale, les modélisateurs décideront des éléments à privilégier.
+
+Avec ces produits de résolution plus fines, les grilles ne représentent souvent que quelques variables ou un domaine spatial spécifique. Il convient d'en tenir compte lors de l'identification des ensembles de données qui répondront à vos besoins. -->
+
+## À côté - Résolutions
+
+![img](img/3/ecole_ete_2024_3_era5-vs-era5l.png)
+
+- **Résolutions ↑ : Choix des variables ↓** 
+- **Résolutions ↓ : Choix des variables ↑**
 
 ---
 
@@ -2828,26 +2849,37 @@ Un fichier par jour de ~5 Mo :
 
 ---
 
-<!-- _footer: "**Source : https://github.com/Ouranosinc/miranda**" -->
-<!-- _paginate: false -->
-
 <!-- Les métadonnées sont critiques pour mieux comprendre les données qu’on joue avec.
 
-Sans ces informations, c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc.
+Sans ces informations, c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc. -->
 
-Si la programmation vous intéresse, je suggère de regarder ce projet en développement qui s'appelle « Miranda » pour standardiser les données et métadonnées météorologiques et climatiques. -->
 
-![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
 
 ## À côté – Les métadonnées
 
 Des données qui décrit / défini les données
  - Historique / changements / provenance des opérations
- - Créateur, origine, date de création, version, modèles, standard de métadonnées, unités, etc.
+ - Créateur, origine, date de création, versions des outils, modèles et grilles utilisées, standard de métadonnées, unités des valeurs, etc.
  - Calendrier(s), fréquences de temps
  - Codes de qualité de données
 
- ---
+---
+
+<!-- _paginate: false -->
+
+<!-- Si la programmation vous intéresse, je suggère de regarder ce projet en développement qui s'appelle « Miranda » pour standardiser les données et métadonnées météorologiques et climatiques. -->
+
+![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
+
+## À côté - Les métadonnées
+
+Outils de gestion / standardisation des données et métadonnées
+- en développement
+
+Pour en savoir plus :
+- **GitHub : [Ouranosinc/Miranda](https://github.com/Ouranosinc/miranda)**
+
+---
 
 <!-- _header: "" -->
 <!-- _footer: "**Source : EO4Society (https://eo4society.esa.int)**" -->
