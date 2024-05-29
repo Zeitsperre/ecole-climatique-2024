@@ -399,7 +399,7 @@ h2 {
 
 <!-- L'objectif ici est relativement simple. On cherche à obtenir un maximum d'information sur l'état local de l'atmosphère près de la surface. 
 
-Donc de gauche à droite, on peut voir ici un pluviomètre a pesée pour mesurer la quantité de précipitation tombée, un pyranomètre pour mesurer le flux thermique d'énergie solaire incidente à la surface, un abri météorologique qui contient des thermomètres et une thermistance, un deuxième pluviomètre à auget et un anémomètre à une hauteur de 10m pour la vitesse du vent. D'autres instruments courants qui se sont pas présent sur cette figure sont l'hygromètre pour mesurer l'humidité, et le baromètre pour mesurer la pression atmosphérique. 
+Donc de GAUCHE à DROITE, on peut voir ici un pluviomètre a pesée pour mesurer la quantité de précipitation tombée, un pyranomètre pour mesurer le flux thermique d'énergie solaire incidente à la surface, un abri météorologique qui contient des thermomètres et une thermistance, une deuxième pluviomètre à auget et un anémomètre à une hauteur de 10m pour la vitesse du vent. D'autres instruments courants qui se sont pas présent sur cette figure sont l'hygromètre pour mesurer l'humidité, et le baromètre pour mesurer la pression atmosphérique. 
 
 Pour les stations plus avancées, principalement dans les aéroport, on peut aussi trouver des capteurs de gouttelettes pour mesurer la distribution de la taille des gouttelettes, un transmissiomètre pour la visibilité et un célomètre pour la hauteur des nuages, une girouette automatique ou un capteur de vent ultrasons pour la direction du vent. -->
 
@@ -497,7 +497,9 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 
 <!-- Nivomètre à écran Nipher : pour mesurer la neige.
 
-Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de neige augmente, l'instrument est rehaussé. La forme de l'embouchure sert à limiter un peu la turbulence autour de l'instrument qui va affecté la quantité de neige accumulé dans l'appareil. Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. -->
+Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de neige augmente, l'instrument est rehaussé. La forme de l'embouchure sert à limiter un peu la turbulence autour de l'instrument qui va affecté la quantité de neige accumulé dans l'appareil.
+
+Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. -->
 
 ## <!-- fit --> Nivomètre à écran de « Nipher »
 
@@ -514,15 +516,19 @@ h2 {
 
 <!-- _footer: "**Source : Thériault et al. (2012) Dependence of Snow Gauge Collection Efficiency on Snowflake Characteristics (https://doi.org/10.1175/JAMC-D-11-0116.1)**" -->
 
-<!-- Ici je vous montre des travaux de Julie Thériault, prof à l'UQAM, qui avait passé du temps à NCAR à Boulder au Colorado avec des instruments asser sophistiqué. Ce que vous voyez en bas à droite c'est le DFIR, Double Fence Intercomparison Reference qui est considéré comme ce qui se fait de mieux pour réduire la turbulence autour de l'appareil de collecte.
+<!-- Ici je vous montre des travaux de Julie Thériault, prof à l'UQAM, qui avait passé du temps à NCAR à Boulder au Colorado avec des instruments asser sophistiqué. Ce que vous voyez en bas à DROITE c'est le DFIR, Double Fence Intercomparison Reference qui est considéré comme ce qui se fait de mieux pour réduire la turbulence autour de l'appareil de collecte.
 
-À gauche dans le graphique, vous avez l'efficacité de collecte entre le DFIR et un autre appareil, le single Alter, en fonction de la vitesse du vent, et du type de neige, mouillé ou sèche. On peut voir qu'à partir de vents de 2-3 m/s, les mesures d'appareils traditionnelle se dégrade rapidement pour aller jusqu'à 20% de la quantité de neige mesuré par le DFIR. Bref, c'est tout un casse-tête de mesurer la précipitation sous forme de neige. -->
+À GAUCHE dans le graphique, vous avez l'efficacité de collecte entre le DFIR et un autre appareil, le single Alter, en fonction de la vitesse du vent, et du type de neige, mouillé ou sèche. On peut voir qu'à partir de vents de 2-3 m/s, les mesures d'appareils traditionnelle se dégrade rapidement pour aller jusqu'à 20% de la quantité de neige mesuré par le DFIR. Bref, c'est tout un casse-tête de mesurer la précipitation sous forme de neige. -->
 
 ## “Single alter” et DFIR
 
 ![bg 66%](img/2/ecole_ete_2024_2_single-alter-dfir.png)
 
 ---
+
+<!-- Je viens de mentionner l'effet de la turbulence, et un peu plus tôt les problèmes de sous-captation pour le pluviomètre.
+
+C'est notable en particulier pour la mesure de la précipitation sous forme de neige. -->
 
 ## « Sous-captation »
 
@@ -657,9 +663,9 @@ Quand le ballon apparaît dans la haute atmosphère, déploie un parachute et re
 
 ---
 
-<!-- Ici, on a une diagramme SkewT qui vient d’une radiosonde avec les isobares sur l'axe vertical et un paquet d'autres ligne, dont des isothermes, des adiabats, et les deux lignes en gras qui indique la température de l'air et la température du point de rosé à gauche. Les endroits ou les deux lignes se touchent se sont les niveaux dans l'atmosphère ou l'air est saturé en vapeur d'eau et ou on s'attend à avoir de la condensation.
+<!-- Ici, on a une diagramme SkewT qui vient d’une radiosonde avec les isobares sur l'axe vertical et un paquet d'autres ligne, dont des isothermes, des adiabats, et les deux lignes en gras qui indique la température de l'air et la température du point de rosé à GAUCHE. Les endroits ou les deux lignes se touchent se sont les niveaux dans l'atmosphère ou l'air est saturé en vapeur d'eau et ou on s'attend à avoir de la condensation.
 
-À droite on a également les vents avec l'altitude, donc du nord à la surface et des vents de l'ouest en hauteur. Les météorologues utilisent ce genre de graphique pour dérivé une panoplie de variables secondaires comme le CAPE, l'énergie potentielle de convection disponible ou « Convective Available Potential Energy ». -->
+À DROITE on a également les vents avec l'altitude, donc du nord à la surface et des vents de l'ouest en hauteur. Les météorologues utilisent ce genre de graphique pour dérivé une panoplie de variables secondaires comme le CAPE, l'énergie potentielle de convection disponible ou « Convective Available Potential Energy ». -->
 
 ![bg left:66% fit](img/2/ecole_ete_2024_2_skewt.jpg)
 
@@ -1202,7 +1208,7 @@ Pour un usage plus comprehensif, le Service météorologique du Canada (SMC) off
 
 <!-- Environnement Canada document ses données en gros détail. 
 
-On peut voir ici la liste des variables à fréquence journalière (température minimum, maximum et moyenne, la précipitation autant sous forme de neige que liquide, ou total et la neige au sol. 
+On peut voir ici la liste des variables à fréquence journalière (température minimum, maximum et moyenne, la précipitation autant sous forme de neige que liquide, ou total et la neige au sol). 
 
 Ce n'est pas toutes les stations qui rapporte toutes les variables et que chaque station a son historique d'opération et de période hors d'usage. 
 
@@ -1495,7 +1501,7 @@ CANGRD : Données homogénéisé et une interpolation multivariée simple pour 
 
 La résolution relativement grossière : Réduisent les erreurs dues à la technique d'interpolation.
 
-Ressource Naturelle Canada utilise *ANUSPLIN*, une méthode très populaire pour créer leur grille de 10 km au Canada.
+Ressources Naturelle Canada utilise *ANUSPLIN*, une méthode très populaire pour créer leur grille de 10 km au Canada (NRCanMet).
 
 Cette méthode d'interpolation multivariée prennent en compte la variation spatiale en fonction de l'altitude et autres facteurs. -->
 
@@ -2101,9 +2107,9 @@ h2 {
 <!-- _header: "" -->
 <!-- _footer: "**Knutti et al. (2013) - (https://doi.org/10.1002/grl.50256)\nBrunner et al. (2020) - (https://doi.org/10.5194/esd-11-995-2020)**" -->
 
-<!-- Arbre généalogique des modèles climatiques. CMIP5 à gauche et CMIP6 à droite.
+<!-- Arbre généalogique des modèles climatiques. CMIP5 à GAUCHE et CMIP6 à DROITE.
 
-Attention CMIP6 – Les modèles de CMIP6 sont plus nombreux, mais ils sont regroupés par famille – les chiffres à cotés des entrées.
+Attention : CMIP6 – Les modèles de CMIP6 sont plus nombreux, mais ils sont regroupés par famille – les chiffres à cotés des entrées.
 
 Modèles qui proviennent d'un même centre de recherche ou qui partage beaucoup de leurs composantes, ici indiqué par le code de couleur des noms de modèles vont avoir des climat passé simulé plus semblable, 
 
@@ -2376,7 +2382,7 @@ h2 {
 
 Un robot déplace les cassettes lorsque nous devons archiver ou rechercher quelque chose C'est tellement cool, selon moi.
 
-Vous pourriez voir à droite les cassettes en rangées.
+Vous pourriez voir à DROITE les cassettes en rangées.
  -->
 
 ![bg horizontal 62%](img/4/ecole_ete_2024_4_archive1.jpg)
@@ -2545,7 +2551,9 @@ Pour savoir en plus :
 
 <!-- Je vais terminer la section sur les sources des données avec des données qui sont typiquement produites pendant la transformation vers informations. Ce qu’on fait durant l’étape de l’analyse.
 
-Les données dérivées ne sont pas exactement une source distincte en raison que on pourrait faire ces dérivations en utilisant plus qu’une source des données ou plusieurs, selon la question ou l’analyse qu’on veut faire.
+Pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles  « post-traitées ».  
+
+Et pour les utilisateurs qui souhaitent simplement obtenir des informations spécifiques pour soutenir des analyses très distinctes, nous pouvons aller encore plus loin en générant ce que nous appelons des données dérivées.
 
 QUESTIONS ? -->
 
@@ -2693,21 +2701,19 @@ h2 {
 <!-- _header: "" -->
 <!-- _footer: "**Source : ClimateData.ca - (https://donneesclimatiques.ca/analyser/)**" -->
 
-<!-- Voici une exemple de donneesclimatiques.ca – Il me donne l’option de calculer les jours avec précipitation en haut d’un seuil pour un bassin versant (proche à ici). Cet requête serait envoyer à un serveur qui va retourner un tableau ou une grille qui contient l’indicateur calculer. -->
+<!-- Voici une exemple de DonneesClimatiques.ca – Il me donne l’option de calculer les jours avec précipitation en haut d’un seuil pour un bassin versant (proche à ici). Cet requête serait envoyer à un serveur qui va retourner un tableau ou une grille qui contient l’indicateur calculer. -->
 
 ![bg 95%](img/5/ecole_ete_2024_5_climatedataca.png)
 
-## Données dérivées sur site-web - ClimateData.ca
+## Données dérivées sur site-web - **DonneesClimatiques.ca**
 
 ---
 
-<!-- Quelques distinctions des modèles globaux.
+<!-- Ces produits sont destinés à transmettre des informations à l'aide de mesures que les gens comprennent, et ils réussissent très bien à donner aux gens exactement ce qu'ils recherchent. Ils éliminent ainsi un grand nombre d'informations secondaires qui ne sont pas pertinentes pour leur cas d'utilisation spécifique.
 
-Pas toujours le cas ou on se trouve les mêmes expériences entre les domaines. 
+Cela dit, une fois que vous avez obtenu ces informations, si vous voulez quelque chose de différent, comme un indicateur avec un seuil de température différent, vous devez recommencer depuis le début. Cela peut parfois nécessiter une grande puissance de calcul et des algorithmes avancés, en particulier si l'on s'intéresse aux résultats statistiques.
 
-Pas souvent de nombreuses instituts qui font des expériences sur la même domaine.
-
-Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
+Dans le passé, ces produits étaient généralement réalisés une seule fois pour un produit particulier, mais c'est de moins en moins le cas avec les calculs à la demande. -->
 
 ## **Données dérivées - Conclusions**
 
