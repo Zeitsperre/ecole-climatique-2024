@@ -170,31 +170,18 @@ Deux observations par jour, à son levé, qu'il considérait comme étant la tem
 
 Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
-1776 : Thomas Jefferson recrutait des observateurs météo bénévoles à travers la Virginie. -->
+1776 : Thomas Jefferson recrutait des observateurs météo bénévoles à travers la Virginie. 
+
+1800 : des bénévoles étaient présent dans 5 autres états : Massachusetts, Pennsylvanie, Connecticut, New York et La Caroline du Nord. -->
 
 ![bg right](img/1/ecole_ete_2024_1_ThomasJefferson.jpg)
 
-## 1776
+## 1776 à 1800
 
 ### Thomas Jefferson recrute des observateurs météo bénévoles en Virginie.
 
----
-
-<!-- _paginate: false -->
-
-<!-- 1800 : des bénévoles étaient présent dans 5 autres états : Massachusetts, Pennsylvanie, Connecticut, New York et La Caroline du Nord. -->
-
-![bg left](img/1/ecole_ete_2024_1_ThomasJefferson.jpg)
-
-## 1800
-
 ### Le réseau de bénévoles s’étend dans 5 états.
-
-- Massachusetts
-- Pennsylvanie
-- Connecticut
-- New York
-- Caroline du Nord
+- Massachusetts, Pennsylvanie, Connecticut, New York, Caroline du Nord
 
 ---
 
@@ -232,23 +219,15 @@ L'idée d'un réseau d'observation météorologique en utilisant plusieurs poste
 
 <!-- Joseph Henry, premier secrétaire de l'institution Smithsonian, et plus connu pour ces découvertes par rapport à l'inductance des matériaux.
 
-1848 : il inaugurait un réseau télégraphique de 150 observateurs 150 bénévoles pour résoudre le problème des tempêtes américaine. -->
+1848 : il inaugurait un réseau télégraphique de 150 observateurs 150 bénévoles pour résoudre le problème des tempêtes américaine. 
+
+1860 : 500 stations, opérés par des bénévoles, fournissaient des rapports télégraphiques journaliers. -->
 
 ![bg right](img/1/ecole_ete_2024_1_JosephHenry.jpg)
 
-## 1848
+## 1848 à 1860
 
 ### Joseph Henry inaugure un réseau télégraphique d’observateurs de 150 bénévoles.
-
----
-
-<!-- _paginate: false -->
-
-<!-- 1860 : 500 stations, opérés par des bénévoles, fournissaient des rapports télégraphiques journaliers. -->
-
-![bg left](img/1/ecole_ete_2024_1_JosephHenry.jpg)
-
-## 1860
 
 ### 500 stations fournissent des rapports télégraphiques journaliers
 
@@ -313,25 +292,18 @@ Les premières observations météo synchronisé ont eu lieu le 1er novembre 187
 
 <!-- 1926 : le Weather Bureau a eu le mandat de fournir des services météorologiques à l'aviation civile.
  
-Au même moment, des observations commençait à être prises à partir d'avions de l'armée américaine et du Weather Bureau. -->
+Au même moment, des observations commençait à être prises à partir d'avions de l'armée américaine et du Weather Bureau. 
+
+1931 : les vols d’avions pour prendre des observations à était possible jusqu’à une hauteur de 5Km.
+
+1934 : 20 avions du Weather Bureau faisait des observations régulièrement.-->
 
 ![bg right fit](img/1/ecole_ete_2024_1_aviation-civile.jpg)
 
-## 1926
+## 1926 à 1934
 
 ### L’aviation change le rôle du Weather Bureau qui doit fournir des services météorologiques à l’aviation civile.
 
----
-
-<!-- _paginate: false -->
-
-<!-- 1931 : les vols d’avions pour prendre des observations à était possible jusqu’à une hauteur de 5Km et par 1934, 20 avions du Weather Bureau faisait des observations régulièrement -->
-
-![bg left fit](img/1/ecole_ete_2024_1_avions-dediees.jpg)
-
-## 1931 à 1934
-
-### Le Weather Bureau opère 20 avions d’observations météorologiques.
 
 ---
 
@@ -499,7 +471,9 @@ Il est également possible d'avoir un système qui chauffe le cylindre qui perme
 
 Cet instrument a une hauteur ajustable au fur et à mesure que le couvert de neige augmente, l'instrument est rehaussé. La forme de l'embouchure sert à limiter un peu la turbulence autour de l'instrument qui va affecté la quantité de neige accumulé dans l'appareil.
 
-Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. -->
+Un observateur vient ensuite prendre le cylindre, fait fondre son contenu et mesure la quantité d'eau équivalente. 
+
+Vous pouvez probablement constater que la précision de ces mesures dépend fortement de la vitesse du vent et de la turbulence. -->
 
 ## <!-- fit --> Nivomètre à écran de « Nipher »
 
@@ -514,21 +488,21 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Thériault et al. (2012) Dependence of Snow Gauge Collection Efficiency on Snowflake Characteristics (https://doi.org/10.1175/JAMC-D-11-0116.1)**" -->
+<!-- _footer: "**Source : Landolt and Rasmussen (2007) Three-dimensional airflow analysis inside snow gauge shielding to determine snow gauge collection efficiencies**" -->
 
-<!-- Ici je vous montre des travaux de Julie Thériault, prof à l'UQAM, qui avait passé du temps à NCAR à Boulder au Colorado avec des instruments asser sophistiqué. Ce que vous voyez en bas à DROITE c'est le DFIR, Double Fence Intercomparison Reference qui est considéré comme ce qui se fait de mieux pour réduire la turbulence autour de l'appareil de collecte.
+<!-- Ce que vous voyez à GAUCHE c'est le « Single Alter » et à DROITE c'est le DFIR, ou « Double Fence Intercomparison Reference ». Ces deux instruments essaie de diminuer l'effet de turbulence et vitesse du vent, mais le DFIR est considéré comme ce qui se fait de mieux pour réduire ces phénomènes autour de l'appareil de collecte.
 
-À GAUCHE dans le graphique, vous avez l'efficacité de collecte entre le DFIR et un autre appareil, le single Alter, en fonction de la vitesse du vent, et du type de neige, mouillé ou sèche. On peut voir qu'à partir de vents de 2-3 m/s, les mesures d'appareils traditionnelle se dégrade rapidement pour aller jusqu'à 20% de la quantité de neige mesuré par le DFIR. Bref, c'est tout un casse-tête de mesurer la précipitation sous forme de neige. -->
+Quand même, à partir des vents de 2-3 m/s, les mesures d'appareils traditionnelle se dégrade rapidement pour aller jusqu'à 20% de la quantité de neige mesuré par le DFIR. 
 
-## “Single alter” et DFIR
+C'est tout un casse-tête de mesurer la précipitation sous forme de neige. -->
 
-![bg 66%](img/2/ecole_ete_2024_2_single-alter-dfir.png)
+## « Single Alter » et « DFIR »
+
+![bg 90%](img/2/ecole_ete_2024_2_sa-dfir.png)
 
 ---
 
-<!-- Je viens de mentionner l'effet de la turbulence, et un peu plus tôt les problèmes de sous-captation pour le pluviomètre.
-
-C'est notable en particulier pour la mesure de la précipitation sous forme de neige. -->
+<!-- Le mot pour cet effet sur les mesurements s'appelle ;a « Sous-captation » et ça se présente en particulierement pour la mesure de la précipitation sous forme de neige. -->
 
 ## « Sous-captation »
 
@@ -542,7 +516,7 @@ Au Québec, les mesures se font à une précision d’un dixième de millimètre
 
 <!-- Voici plusieurs photos courtoisie de Ross Brown et Barry Goodison d’Environnement Canada qui montre les nombreuses façons dont les nivomètres peuvent sous-capturer la neige. 
 
-Le gel des plaques qui mesure le deplacements par poids, 
+Les plaques qui mesure le deplacements par poids peuvent se geler.
 
 Une incapacité à faire fondre la neige assez rapidement. 
 
