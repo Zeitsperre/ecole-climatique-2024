@@ -2547,16 +2547,14 @@ QUESTIONS ? -->
 <!-- _footer: "**Source : Feigenwinter et al (2018) Exploring
 quantile mapping as a tool to produce user-tailored climate scenarios for Switzerland ([lien](https://www.meteosuisse.admin.ch/services-et-publications/publications/publications-scientifiques/2018/exploring-quantile-mapping-as-a-tool-to-produce-user-tailored-climate-scenarios-for-switzerland.html))**" -->
 
-<!--
+<!-- Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération.
 
-Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération.
-
-Avec ces données on peut accompagner les utilisateurs qui souhaitent simplement obtenir des informations spécifiques pour soutenir des analyses très distinctes, nous pouvons aller encore plus loin en générant ce que nous appelons des « données dérivées » -->
+Avec ces données on peut fournir aux utilisateurs des informations spécifiques pour soutenir des analyses très distinctes en générant ce que nous appelons des indices climatiques ou « données dérivées » -->
 
 ![bg vertical right:45% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
 ![bg fit](img/5/ecole_ete_2024_5_gel-degel.png)
 
-## Données « post-traitées » vs données « dérivées »
+## Données « post-traitées » vs. données « dérivées »
 
 « **Post-traitées** »
 -  Sortis des modèles ajustées pour enlever les biais pour supplémenter les analyses générales.
@@ -2569,10 +2567,12 @@ Avec ces données on peut accompagner les utilisateurs qui souhaitent simplement
 
 <!-- _footer: "**Source : Lavoie et al. (2024) An ensemble of bias-adjusted CMIP6 climate simulations based on a high-resolution North American reanalysis (https://doi.org/10.1038/s41597-023-02855-z)**" -->
 
+<!-- Quand j'ai commencé avec Ouranos, il y avait pas tropde-->
+
 # FIXME : Données « post-traitées »
 
 Talk about : 
- - ESPO-R ESPO-G (https://doi.org/10.1038/s41597-023-02855-z)
+ - ESPO-G (https://doi.org/10.1038/s41597-023-02855-z)
  - GDPCIR (https://doi.org/10.5194/gmd-17-191-2024)
  - NEX-GDDP (https://doi.org/10.1038/s41597-022-01393-4)
 
