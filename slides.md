@@ -2544,9 +2544,9 @@ QUESTIONS ? -->
 # FIXME : Données « post-traitées »
 
 Talk about : 
- - Scenarios Génériques
- - ESPO-R ESPO-G
- - NEX-GDDP
+ - ESPO-R ESPO-G (https://doi.org/10.1038/s41597-023-02855-z)
+ - GDPCIR (https://doi.org/10.5194/gmd-17-191-2024)
+ - NEX-GDDP (https://doi.org/10.1038/s41597-022-01393-4)
 
 **3 slides maximum!**
 
@@ -2984,9 +2984,9 @@ Ces formats de données peuvent êtres structurés (en base de données relation
 ## Formats infonuagiques
 
 Services propriétaires de calcul et entreposage
- - Amazon AWS (S3)
- - Google Big Query / Earth Engine (Cloud)
- - Apache Spark (Hadoop)
+ - « Amazon AWS (S3) »
+ - « Google Big Query » / « Earth Engine » (Cloud)
+ - « Apache Spark » (Hadoop)
 
 Protocole ouverte pour servir des données NetCDF et formats similaires en-ligne : « [OPeNDAP](https://www.opendap.org/) »
 
@@ -3109,7 +3109,7 @@ Qu’est-ce qui est **disponible** (ou **accessible**) à la résolution spatial
 
 Est-ce que le jeu de données **représente bien** le processus à étudier ?
 
-Lors de la validation, est-ce que l’**incertitude** sur les données observées et l’aspect de la **représentativité spatiale et temporelle** est pris en compte ?
+Lors de la validation, est-ce que **l'incertitude** sur les données observées et l’aspect de **la représentativité spatiale et temporelle** est pris en compte ?
 
 Faites-vous une **étude d’impact** ou un projet d’**analyse de processus** ?
 
@@ -3142,7 +3142,7 @@ h2 {
 <!-- _footer: "**Pour enregistrer : https://pavics.ouranos.ca/**" -->
 <!-- _paginate: false -->
 
-## Plateforme de recherche - PAVICS
+## Plateforme de calcul « **PAVICS** »
 
 ![bg horizontal 90%](img/6/ecole_ete_2024_6_pavics-register.png)
 ![bg fit](img/6/ecole_ete_2024_6_pavics-extras.png)
@@ -3185,7 +3185,7 @@ h2 {
 
 ![bg 90%](img/6/ecole_ete_2024_6_pavics-offres.png)
 
-## Offre des services climatiques chez Ouranos
+## Les services climatiques chez Ouranos
 
 ---
 
