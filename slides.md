@@ -69,7 +69,7 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 
 ---
 
-<!-- _footer: "" -->
+<!-- Alors bonjour, je m'appelle Trevor... --->
 
 ![bg absolute left:40% 85%](img/0/ecole_ete_2024_0_tjs-profile.jpg)
 
@@ -80,7 +80,7 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 #### ![height:35](img/0/ecole_ete_2024_0_github.png) [github.com/Zeitsperre](https://github.com/Zeitsperre)
 
 - Developpeur/packageur/mainteneur des logiciels de recherche scientifiques
-- M.Sc. Géographie, environnement et urbanisme de l'Université Concordia
+- M.Sc. en Géographie, environnement et urbanisme de l'Université Concordia
   - Impacts des changements climatiques sur les vignobles en sud du Québec
 - 10+ années d'expérience en utilisant Python, Linux, GIS, et autres téchnologies associées
 
@@ -152,7 +152,7 @@ Pour en savoir plus :
 
 <!-- George Washington, qui a commencé à maintenir un journal d'observations météorologiques en 1767 jusqu'au dernier jour avant sa mort.
 
-en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle en temps que commandant durant la révolution américaine. -->
+En lien avec ses intéresses pour la culture de tabac et de blé, et son rôle en temps que commandant durant la révolution américaine. -->
 
 ![bg left](img/1/ecole_ete_2024_1_GeorgeWashington.jpg)
 
@@ -166,7 +166,7 @@ en lien avec ses intéresses pour la culture de tabac et de blé, et son rôle e
 
 <!-- Et l'intérêt des grandes figures politiques américaine pour la météo se poursuit avec Thomas Jefferson qui faisaient aussi des observations météorologiques sur une base régulière. 
 
-Deux observations par jour, à son levé, qu'il considérait comme étant la température minimum de la journée, et vers 3 ou 4h, qu'il considérait comme étant la température maximale. 
+Deux observations par jour, à son levé, qu'il considérait comme étant la température minimum de la journée, et vers 3h ou 4h, qu'il considérait comme étant la température maximale. 
 
 Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
@@ -200,7 +200,7 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 <!-- _paginate: false -->
 
-<!-- Thomas Jefferson a également commissionné l'expédition de Lewis et Clark, vers l'Ouest en 1804 et des observations météorologiques étaient faites sur une base régulière. -->
+<!-- 1803 : Thomas Jefferson a également commissionné l'expédition de Lewis et Clark, vers l'Ouest en 1804 et des observations météorologiques étaient faites sur une base régulière. -->
 
 ![bg right 90%](img/1/ecole_ete_2024_1_LewisAndClark.jpg)
 
@@ -215,7 +215,9 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 <!-- _paginate: false -->
 
 <!-- En 1814, le chirurgien en chef de l'armée américaine, James Tilton 
+
 Noté l’importance des observations météorologiques pour les affaires du gouvernement
+
 L'idée d'un réseau d'observation météorologique en utilisant plusieurs postes militaires à travers le pays -->
 
 ![bg left](img/1/ecole_ete_2024_1_JamesTilton.jpg)
@@ -229,7 +231,8 @@ L'idée d'un réseau d'observation météorologique en utilisant plusieurs poste
 <!-- _paginate: false -->
 
 <!-- Joseph Henry, premier secrétaire de l'institution Smithsonian, et plus connu pour ces découvertes par rapport à l'inductance des matériaux.
-En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 bénévoles pour résoudre le problème des tempêtes américaine. -->
+
+1848 : il inaugurait un réseau télégraphique de 150 observateurs 150 bénévoles pour résoudre le problème des tempêtes américaine. -->
 
 ![bg right](img/1/ecole_ete_2024_1_JosephHenry.jpg)
 
@@ -253,11 +256,11 @@ En 1848, il inaugurait un réseau télégraphique de 150 observateurs 150 béné
 
 <!-- _paginate: false -->
 
-<!-- En 1870, le président Ulysses S. Grant (GAUCHE) autorisait l'établissement d'un service météorologique national, le US Weather Bureau, qui deviendra plus tard la NOAA.
+<!-- 1870 : le président Ulysses S. Grant (GAUCHE) autorisait l'établissement d'un service météorologique national, le US Weather Bureau, qui deviendra plus tard la NOAA.
 
 Brigadier général Albert J. Myer, du Signal Corps de l'armée, responsable pour infrastructures de communication américaine était premier en charge du US Weather Bureau. 
 
-Les premières observations météo synchronisé ont eu lieu le 1er novembre 1870 à 7:35 du matin à 24 stations qui ont transmis à un site central à Washington.
+Les premières observations météo synchronisé ont eu lieu le 1er novembre 1870 à 7h35 du matin à 24 stations qui ont transmis à un site central à Washington.
 
 3 ans plus tard à Vienne, l'idée d'avoir des échanges journaliers des observations météorologiques à travers le monde est lancé, ce qui marque aussi les début de la OMM (WMO : World Meteorological Organization). Rendu en 1891, le réseau d'observateurs météo bénévoles contenait plus de 2000 stations. -->
 
@@ -334,7 +337,7 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 <!-- _paginate: false -->
 
-<!-- Cette pratique a était coûteuse et dangereuse pour les pilotes et alors a été remplacé par des radiosondes qui pourrait atteindre une hauteur au dessus de 16Km en 1939. -->
+<!-- 1939 : cette pratique a était coûteuse et dangereuse pour les pilotes et alors a été remplacé par des radiosondes qui pourrait atteindre une hauteur au dessus de 16Km. -->
 
 ![bg right fit](img/1/ecole_ete_2024_1_radiosondes.jpg)
 
@@ -346,9 +349,9 @@ Au même moment, des observations commençait à être prises à partir d'avions
 
 <!-- _paginate: false -->
 
-<!-- Après WWII, les technologies de radar développé pour détecté les avions ennemies on été adapté aux observations météorologiques dans les années 1950.
+<!-- 1950 : après WWII, les technologies de radar développé pour détecté les avions ennemies on été adapté aux observations météorologiques.
 
-La OMM à débutait comme direction des efforts internationaux pour la surveillance météorologique. -->
+En même temps la OMM à débutait comme direction des efforts internationaux pour la surveillance météorologique. -->
 
 ![bg left fit](img/1/ecole_ete_2024_1_radar.jpg)
 
@@ -377,7 +380,7 @@ Et donc, la combinaison de ces technologies, et de plusieurs autres que je prés
 
 ---
 
-<!-- Fonctionnement des différents instruments d'observations météo les plus utilisés, ainsi que les incertitudes ou potentiels problèmes associés à leur utilisation.
+<!-- On passe maintenant à la fonctionnement des différents instruments d'observations météo les plus utilisés, ainsi que les incertitudes ou potentiels problèmes associés à leur utilisation.
 
 Je dois mentionner que ma formation est en géographie, alors je ne suis donc pas un expert en outils de mesure météorologique, mais si vous avez des questions spécifiques, n'hésitez pas à les poser tout de même. Je peux vous revenir si cela dépasse mes connaissances. -->
 
@@ -385,11 +388,32 @@ Je dois mentionner que ma formation est en géographie, alors je ne suis donc pa
 
 ---
 
+<style scoped>
+h2 {
+  position: absolute;
+  top: 2.5%;
+}
+</style>
+
+<!-- _footer: "**Source : CRAAQ" -->
+
+<!-- L'objectif ici est relativement simple. On cherche à obtenir un maximum d'information sur l'état local de l'atmosphère près de la surface. 
+
+Donc de gauche à droite, on peut voir ici un pluviomètre a pesée pour mesurer la quantité de précipitation tombée, un pyranomètre pour mesurer le flux thermique d'énergie solaire incidente à la surface, un abri météorologique qui contient des thermomètres et une thermistance, un deuxième pluviomètre à auget et un anémomètre à une hauteur de 10m pour la vitesse du vent. D'autres instruments courants qui se sont pas présent sur cette figure sont l'hygromètre pour mesurer l'humidité, et le baromètre pour mesurer la pression atmosphérique. 
+
+Pour les stations plus avancées, principalement dans les aéroport, on peut aussi trouver des capteurs de gouttelettes pour mesurer la distribution de la taille des gouttelettes, un transmissiomètre pour la visibilité et un célomètre pour la hauteur des nuages, une girouette automatique ou un capteur de vent ultrasons pour la direction du vent. -->
+
+## Station d'observation météo
+
+![bg 50%](img/2/ecole_ete_2024_2_station.png)
+
+---
+
 <!-- Les instruments d'une station météorologiques sont pour la plupart de type "in situ", c'est-à-dire en contact avec l’objet à mesurer.
 
 Les stations peuvent être soit automatisé ou à observateur. Les stations à observateur requiert qu'une personne prenne des mesures deux fois par jours tout les jours de l'année. 
 
-Québec, le MELCC maintient le document de référence pour les observateurs, et maintient un réseau de 329 stations, 241 avec observateurs et 88 automatiques.  -->
+Québec, le MELCCFP maintient le document de référence pour les observateurs, et maintient un réseau de 329 stations, 241 avec observateurs et 88 automatiques.  -->
 
 ## Station d’observation météo
 
