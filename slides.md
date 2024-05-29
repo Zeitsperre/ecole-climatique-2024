@@ -2560,14 +2560,23 @@ QUESTIONS ? -->
 # **6. Données « post-traitées » et « dérivées »**
 
 ---
-""
-<!-- _footer: "**I wonder what would be a good source for this would be? An Ouranos report maybe?**" -->
 
-# FIXME: Données « post-traitées » vs données « dérivées »
+<!-- _footer: "**Source : Feigenwinter et al (2018) Exploring
+quantile mapping as a tool to produce user-tailored climate scenarios for Switzerland ([lien](https://www.meteosuisse.admin.ch/services-et-publications/publications/publications-scientifiques/2018/exploring-quantile-mapping-as-a-tool-to-produce-user-tailored-climate-scenarios-for-switzerland.html))**" -->
+
+<!-- 
+FIXME
+-->
+
+![bg vertical right:40% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
+
+# Données « post-traitées » vs données « dérivées »
 
 **Briefly** talk about differences : 
  - Bias corrected data (used for generating indicators)
  - Climate indicators (used for end-user analyses)
+
+
 
 ---
 
@@ -2581,6 +2590,9 @@ Talk about :
  - NEX-GDDP (https://doi.org/10.1038/s41597-022-01393-4)
 
 **3 slides maximum!**
+
+- Pour en savoir plus :
+  - **[Maraun D. (2016) Correcting Climate Change Simulations - a Critical Review](https://doi.org/10.1007/s40641-016-0050-x)**
 
 ---
 
@@ -2655,18 +2667,19 @@ h2 {
 
 Une plateforme très souvent consulté sur notre site web est nommé les portraits climatiques. Ceci montre les statistiques sur grilles des conditions présentement et un scénario de futur pour les degrès-jours de croissance selon quelques produits de données. 
 
-On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs climatiques, basées sur des nouveaux produits des données utilisées maintenant par Environnement Canada. Je vous encourage d'explorer nos  -->
+On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs climatiques, basées sur des nouveaux produits des données utilisées maintenant par Environnement Canada. Je vous retourner à nos offres climatiques plus tard. -->
 
 ![bg right:55% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
 
 ## Données « dérivées » par Ouranos
 
-FIXME : What exactly are we offering in 2024?
+### <!-- fit --> Projections de climat intéractifs
 
-- Two bias-adjusted products
-- X pre-computed indicators
-- Domain of Quebec (and regional subdomains)
-- Data available through OPeNDAP/PAVICS, etc..
+- Données CMIP5 ou CMIP6 post-traitées
+- **25 indices climatiques** pré-calculées
+- Domaine de Québec* (et sous-domaines)
+- Sommaires disponible pour téléchargement
+- Données sources accssibles par OPeNDAP / PAVICS, etc..
 
 ---
 
@@ -2674,7 +2687,7 @@ FIXME : What exactly are we offering in 2024?
 
 Ça évite la nécessité de télécharger des données et faire l’analyse elle-même. 
 
-Ouranos à travailler comme partenaire avec Environnement Canada sur le site « Données Climatiques » ou « Climate Data » Point CA
+Depuis plusieurs années, Ouranos travaille aussi comme partenaire avec Environnement Canada sur le site « Données Climatiques » ou « Climate Data » Point CA.
 
 En Europe, l’agence Copernicus aussi offrent des indicateurs sur mesure sur leur plateforme « Climate Data Store ». Encore, Ouranos avait contribué du travail sur les logiciels qui roule dans le back-end de ce projet aussi. -->
 
@@ -2682,12 +2695,13 @@ En Europe, l’agence Copernicus aussi offrent des indicateurs sur mesure sur le
 
 Calculs des indices par requête internet / en-ligne :
 
+- Microsoft Planetary Computer (Global) : https://planetarycomputer.microsoft.com/
+
 - Données Climatiques (Canada) : https://donneesclimatiques.ca/  
 
-- Copernicus Data Store (Europe) : https://cds.climate.copernicus.eu/
+- Copernicus Data Store (Global / Europe) : https://cds.climate.copernicus.eu/
 
-- PAVICS (Québec) :
-https://pavics.ouranos.ca/
+- PAVICS (Amérique du Nord) : https://pavics.ouranos.ca/
 
 ---
 
@@ -2883,8 +2897,6 @@ Un fichier par jour de ~5 Mo :
 
 Sans ces informations, c’est très facile de trompé les calculs ou utiliser la mauvaise fichier, convertir les en mauvaise unités etc. -->
 
-
-
 ## À côté – Les métadonnées
 
 Des données qui décrit / défini les données
@@ -2895,21 +2907,6 @@ Des données qui décrit / défini les données
 
 ---
 
-<!-- _paginate: false -->
-
-<!-- Si la programmation vous intéresse, je suggère de regarder ce projet en développement qui s'appelle « Miranda » pour standardiser les données et métadonnées météorologiques et climatiques. -->
-
-![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
-
-## À côté - Les métadonnées
-
-Outils de gestion / standardisation des données et métadonnées
-- en développement
-
-Pour en savoir plus :
-- **GitHub : [Ouranosinc/Miranda](https://github.com/Ouranosinc/miranda)**
-
----
 
 <!-- _header: "" -->
 <!-- _footer: "**Source : EO4Society (https://eo4society.esa.int)**" -->
@@ -2985,6 +2982,23 @@ Standards pour les données parmi les climatologues
 Les variables ont des noms standardisés.
 
 La définition des unités temporelles et de la grille géospatiales est standardisée.
+
+---
+
+<!-- _paginate: false -->
+
+<!-- Si la programmation vous intéresse, je suggère de regarder ce projet en développement qui s'appelle « Miranda » pour standardiser les données et métadonnées météorologiques et climatiques. -->
+
+![bg right fit](img/6/ecole_ete_2024_6_miranda.png)
+
+## À côté - Standardisation des données
+
+Outils de **conversion** / **gestion** / **conformité** des données et métadonnées en NetCDF
+- En développement pour plusieurs années
+- Objectif : en opérationpendant hiver 2024
+
+Pour en savoir plus :
+- **GitHub : [Ouranosinc/Miranda](https://github.com/Ouranosinc/miranda)**
 
 ---
 
@@ -3111,9 +3125,9 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**\n**Présentation de xclim pour PyCon Global 2023 (https://www.youtube.com/watch?v=3zS3lQJ6pb4) (25 mins)**\n**Article : Bourgault et al. (2023). xclim: xarray-based climate data analytics (https://joss.theoj.org/papers/10.21105/joss.05415)**" -->
+<!-- _footer: "**Source : Ouranosinc/xclim (https://github.com/Ouranosinc/xclim)**\n**Présentation à PyCon Global 2023 (https://www.youtube.com/watch?v=3zS3lQJ6pb4) (25 mins)**\n**Bourgault et al. (2023). xclim: xarray-based climate data analytics (https://joss.theoj.org/papers/10.21105/joss.05415)**" -->
 
-<!-- Pour ceux et celles qui s'intéressent à la gestion des indices climatiques, Ouranos a développé un package python permettant de faire exactement cela. Je pourrais en parler plus tard si les gens sont intéressés. -->
+<!-- Pour ceux et celles qui s'intéressent à la gestion des indices climatiques, Ouranos a développé un package en Python qui permette de faire ces genres des analyses climatiques. Je pourrais en parler à plus tard si les gens sont intéressés. -->
 
 ![bg 80%](img/6/ecole_ete_2024_6_xclim.png)
 
