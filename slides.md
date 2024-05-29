@@ -2551,9 +2551,7 @@ Pour savoir en plus :
 
 <!-- Je vais terminer la section sur les sources des données avec des données qui sont typiquement produites pendant la transformation vers informations. Ce qu’on fait durant l’étape de l’analyse.
 
-Pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles  « post-traitées ».  
-
-Et pour les utilisateurs qui souhaitent simplement obtenir des informations spécifiques pour soutenir des analyses très distinctes, nous pouvons aller encore plus loin en générant ce que nous appelons des données dérivées.
+FIXME
 
 QUESTIONS ? -->
 
@@ -2564,19 +2562,23 @@ QUESTIONS ? -->
 <!-- _footer: "**Source : Feigenwinter et al (2018) Exploring
 quantile mapping as a tool to produce user-tailored climate scenarios for Switzerland ([lien](https://www.meteosuisse.admin.ch/services-et-publications/publications/publications-scientifiques/2018/exploring-quantile-mapping-as-a-tool-to-produce-user-tailored-climate-scenarios-for-switzerland.html))**" -->
 
-<!-- 
-FIXME
--->
+<!--
 
-![bg vertical right:40% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
+Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération.
 
-# Données « post-traitées » vs données « dérivées »
+Avec ces données on peut accompagner les utilisateurs qui souhaitent simplement obtenir des informations spécifiques pour soutenir des analyses très distinctes, nous pouvons aller encore plus loin en générant ce que nous appelons des « données dérivées » -->
 
-**Briefly** talk about differences : 
- - Bias corrected data (used for generating indicators)
- - Climate indicators (used for end-user analyses)
+![bg vertical right:45% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
+![bg fit](img/5/ecole_ete_2024_5_gel-degel.png)
 
+## Données « post-traitées » vs données « dérivées »
 
+« **Post-traitées** »
+-  Sortis des modèles ajustées pour enlever les biais pour supplémenter les analyses générales.
+
+« **Dérivées** »
+- Indicateurs climatiques des phénomènes spécifiques.
+  - p. ex. **Évenements de gél-dégel →**
 
 ---
 
