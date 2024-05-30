@@ -50,7 +50,7 @@ On va aborder le sujet des données climatiques, donc comment on procède pour l
 
 ---
 
-<!-- _footer: "**Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016.\nCredit: NASA Earth Observatory**" -->
+<!-- _footer: "**Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016.\nCrédit : [NASA Earth Observatory](https://earthobservatory.nasa.gov/)**" -->
 
 <!-- Les objectifs du cours sont les suivants : [...] donc ici on va plus parler du travail qui est fait par les services météorologiques nationaux pour prendre des mesures. 
 
@@ -68,6 +68,8 @@ Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information f
 - Compréhension de la taille considérable de certaines des bases de données et des défis à les analyser.
 
 ---
+
+<!-- _footer: "" -->
 
 <!-- Alors bonjour, je m'appelle Trevor... --->
 
@@ -97,13 +99,14 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 
 ![bg vertical right fit](img/0/ecole_ete_2024_0_ouranos-website.png)
 ![bg fit](img/0/ecole_ete_2024_0_ice-storm.jpg)
+
 ## **C'est quoi [Ouranos](https://www.ouranos.ca/en) ?**
 
-* Organisation à but non-lucratif, établi 2002 à Montréal, Québec
-  * Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord) 🌨️
-* Plans d'adaptations aux changements climatiques
-* Source/producteur des données des modèles climatiques
-* **Sevices d'informations climatiques (« Climate Information Services »)**
+- Organisation à but non-lucratif, établi 2002 à Montréal, Québec
+  - Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord)
+- Plans d'adaptations aux changements climatiques
+- Source/producteur des données des modèles climatiques
+- **Sevices d'informations climatiques**
 
 ---
 
@@ -116,7 +119,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 3. Données observées
 4. Données de réanalyses et de prévisions
 5. Données de modèles climatiques
-6. Données post-traitées et dérivées
+6. Données dérivées
 7. Formats habituels des données climatiques et outils d’analyses
 8. Les plateformes et services climatiques 
 
@@ -130,7 +133,7 @@ Centré sur les États-Unis mais quand même interessant. -->
 # **1. Historique des instruments d'observations météorologiques.**
 
 Pour en savoir plus : 
- - **Rétroperspective de NOAA - (https://vlab.noaa.gov/web/nws-heritage)**
+ - **Rétrospective de NOAA : (https://vlab.noaa.gov/web/nws-heritage)**
 
 ---
 
@@ -180,7 +183,7 @@ Il notait aussi l'arrivé d'oiseau ou la date de fleuraison des plantes.
 
 ### Thomas Jefferson recrute des observateurs météo bénévoles en Virginie.
 
-### Le réseau de bénévoles s’étend dans 5 états.
+### Le réseau de bénévoles s’étend dans 5 états :
 - Massachusetts, Pennsylvanie, Connecticut, New York, Caroline du Nord
 
 ---
@@ -1241,8 +1244,8 @@ Les données historiques ne sont pas publiques. -->
 
 ## Données de stations du MELCCFP
 
-- *Les ministres changent leurs noms/acronyms après tous les élections*
-  - *c'est ennuyeux !*
+* *Les ministres changent leurs noms/acronyms après tous les élections*
+  * *c'est ennuyeux !*
 
 ---
 
@@ -1260,7 +1263,7 @@ h2 {
 La carte ici montre plusieurs sources des stations, incluant ceux de l'OMM, le NCEI et aussi les partenairs régionales.
 -->
 
-![bg fit 75%](img/3/ecole_ete_2024_3_reseau-ghcn-d.png)
+![bg 70%](img/3/ecole_ete_2024_3_reseau-ghcn-d.png)
 
 ## Données de stations globales
 
@@ -1918,7 +1921,7 @@ Modèles utilisés pour faire de longues séries climatiques, soit des possibili
 
 Archivage de longue durée pour une sélection de variables climatiques jusqu’à des fréquences horaires.
 
-Expériences fortement guidées par les scénarios développés par le GIEC (le « IPCC » )
+Expériences fortement guidées par les scénarios développés par le **GIEC** (le « **IPCC** » )
 
 - **AR/AR4 → SRES; AR5 →  RCP; AR6 → SSP**
 
@@ -1939,16 +1942,14 @@ Avec CMIP6 les données de base sont offerts aux heures avec des résolutions en
 ## Modèles du climat global (GCM)
 
 Les modèles du climat modernes ont une résolution spatiale allant jusqu’à **50 Km*** et une résolution temporelle d’archivage jusqu’aux heures.
- - *Ce chiffre peut descendre, dépendamment le modèle / expériment
+ * *Ce chiffre peut descendre, dépendamment le modèle / expériment
 
 La base de données CMIP5 récupérée à Ouranos fait environ *20 To* pour quelques variables, ce qui représente seulement une infime partie de la base de données CMIP5 complète.
 
 **Données CMIP6** : Pas raisonnable de télécharger toute la base 
- - 8 ou 16 octets * expérience * modèle * réalisation * niveaux * pas de temps * projet * etc... = **ENORME**
+ - *8 ou 16 octets* * *expérience* * *modèle* * *réalisation* * *niveaux* * *pas de temps* * *projet* * etc... = **ENORME**
 
 ---
-
-<!-- _footer: "" -->
 
 <!-- Plusieurs modèles globaux existe et la communauté international est organisé pour coordonner les activités des différents centre de modélisation à travers le monde. L’organisme en haut, le WCRP s’occupent de plusieurs projets liées à la modelisation, mais on s’intéresse à CMIP aujourd’hui.
 
@@ -1999,7 +2000,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Eyring et al. 2016: Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization (https://doi.org/10.5194/gmd-9-1937-2016)**" -->
+<!-- _footer: "**Source : Eyring et al. 2016: Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization (https://doi.org/10.5194/gmd-9-1937-2016)**" -->
 
 <!-- Dominique avait parlé un peu de ça hier mais l’idée de la coordination pour CMIP6 est pour établir les expériences prioritaires selon les instituts des modèles. 
 
@@ -2043,7 +2044,8 @@ h2 {
 </style>
 
 <!-- _header: "" -->
-<!-- _footer: "**Knutti, et al. (2013) Climate model genealogy: Generation CMIP5 and how we got there (https://doi.org/10.1002/grl.50256)**" -->
+<!-- _footer: "**Source : Knutti, et al. (2013) Climate model genealogy: Generation CMIP5 and how we got there (https://doi.org/10.1002/grl.50256)**" -->
+<!-- _paginate: false -->
 
 <!-- Knutti 2013 avait commencer le travaux de « comment rassembler les modèles CMIP ? ». Ici on voit à travers les générations de CMIP (CMIP2, CMIP3 et CMIP5) la distance des modèles par rapport aux observations en considérant les moyennes de la température et la précipitation de surface. 
 
@@ -2055,7 +2057,7 @@ Cette mesure ne contient aucune information sur les performance de distribution 
 
 Pour tel raison, il n’y a pas un CMIP4 (les modèles utilisés dans le 4e rapport du GIEC était basées sur CMIP3) – Je ne sais pas pourquoi. Peut-être Dominique le sait. -->
 
-![bg fit right:75%](img/4/ecole_ete_2024_4_model-evolution.jpg)
+![bg fit right:70%](img/4/ecole_ete_2024_4_model-evolution.jpg)
 
 ## Modèles participants de CMIP2 à CMIP5
 
@@ -2071,7 +2073,7 @@ h2 {
 </style>
 
 <!-- _header: "" -->
-<!-- _footer: "**Knutti et al. (2013) - (https://doi.org/10.1002/grl.50256)\nBrunner et al. (2020) - (https://doi.org/10.5194/esd-11-995-2020)**" -->
+<!-- _footer: "**Sources : Knutti et al. (2013) - (https://doi.org/10.1002/grl.50256)\nBrunner et al. (2020) - (https://doi.org/10.5194/esd-11-995-2020)**" -->
 
 <!-- Arbre généalogique des modèles climatiques. CMIP5 à GAUCHE et CMIP6 à DROITE.
 
@@ -2186,9 +2188,11 @@ CORDEX est un gros famille des expériences qui fait partie des projets en sous 
 Tout comme la communauté de modélisation globale, la modélisation régionale a aussi établi des protocoles d’expériences.
 
 Les projets **PRUDENCE**, **ENSEMBLES** et **NARCCAP** sont les prédécesseurs de **CORDEX** :
- - « *CO*ordinated *R*egional *D*ownscaling *EX*periment »
+- « *CO*ordinated *R*egional *D*ownscaling *EX*periment »
 
 **CMIP5-CORDEX (passé) et CMIP6-CORDEX (en production)**
+- Plus que 10 instituts de recherche font partie du projet CMIP6-CORDEX
+  * **Ouranos** et **UQAM**
 
 ---
 
@@ -2324,7 +2328,7 @@ Aussi, une système d’archivage est nécessaire pour sauvegarder des centaines
 
 Le MRCC a une **résolution spatiale allant jusqu’à ~12 km** et une **résolution temporelle d’archivage jusqu’aux heures**.
 
-Conserver une centaine de variables aux 3h sur une grille de 12 km sur l’Amérique du Nord pour une simulation de 100 ans requiert environ **~32 To d’espace disque**.
+Conserver une centaine de variables aux *3h* sur une grille de *12 Km* sur l’Amérique du Nord pour une simulation de 100 ans requiert environ **~32 To d’espace disque**.
  - **MRCC5-CMIP6 : 2500 années simulées à date → ~800 To d'espace disque**
 
 **Ouranos a une système d’archivage créée uniquement pour les sortis du modèle MRCC**
@@ -2507,7 +2511,7 @@ Différents modèles climatiques utilisent différents calendriers  :
  - « *standard* » (ancien nom : « *gregorian* » )
  - « *proleptic_gregorian* »
  - « *julian* »
- - 360 jours (« *360_day* » : modèles de **HadGEM**) 
+ - 360 jours (« *360_day* » : modèles **HadGEM** en particulier) 
  - 365 jours (« *no_leap* »)
  - 366 jours (« *all_leap* »)
 
@@ -2519,9 +2523,7 @@ Pour savoir en plus :
 <!-- _footer: "**Source : Feigenwinter et al (2018) Exploring
 quantile mapping as a tool to produce user-tailored climate scenarios for Switzerland ([lien](https://www.meteosuisse.admin.ch/services-et-publications/publications/publications-scientifiques/2018/exploring-quantile-mapping-as-a-tool-to-produce-user-tailored-climate-scenarios-for-switzerland.html))**" -->
 
-<!-- Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération.
-
-J'imagine que Francois va parler plus profondement de ça. -->
+<!-- Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération. -->
 
 ![bg vertical right:55% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
 
@@ -2531,22 +2533,23 @@ Sortis des modèles ajustées statistiquement pour enlever les biais de modèles
 
 ---
 
-<!-- _footer: "**Source : Lavoie et al. (2024) An ensemble of bias-adjusted CMIP6 climate simulations based on a high-resolution North American reanalysis (https://doi.org/10.1038/s41597-023-02855-z)**" -->
+<!-- Lorsque j'ai commencé chez Ouranos, il n'y avait pas beaucoup d'options disponibles pour ce type de produit. À l'époque, nous produisions notre propre produit basé sur CMIP5 et la grille NRCanMet, mais nous avons récemment publié deux nouvelles versions basée sur CMIP6 appelée ESPO-G (« Ensemble de Simulations Post-traitées d’Ouranos »). 
 
-<!-- Quand j'ai commencé avec Ouranos, il y avait pas tropde-->
+L'explication de ces produits dépasse quelque peu le cadre de cet exposé, mais je pense que François en parlera plus tard. -->
 
-# FIXME : Données « post-traitées »
+## Données « post-traitées »
 
-Talk about : 
- - ESPO-G (https://doi.org/10.1038/s41597-023-02855-z)
- - GDPCIR (https://doi.org/10.5194/gmd-17-191-2024)
- - NEX-GDDP (https://doi.org/10.1038/s41597-022-01393-4)
+- Ouranos
+  - **ESPO-G** (https://doi.org/10.1038/s41597-023-02855-z)
 
-**3 slides maximum!**
+- Climate Impact Lab
+  - **GDPCIR** (https://doi.org/10.5194/gmd-17-191-2024)
 
-- Pour en savoir plus :
-  - **[Maraun D. (2016) Correcting Climate Change Simulations - a Critical Review](https://doi.org/10.1007/s40641-016-0050-x)**
+- NASA Center for Climate Simulation (NCCS)
+  - **NEX-GDDP** (https://doi.org/10.1038/s41597-022-01393-4)
 
+Pour en savoir plus
+- **Maraun D. (2016) Correcting Climate Change Simulations - a Critical Review (https://doi.org/10.1007/s40641-016-0050-x)**
 
 ---
 
@@ -2613,7 +2616,7 @@ Pour en savoir plus :
 ---
 
 <!-- _header: "" -->
-<!-- _footer: "**Source : Ouranos (https://portraits.ouranos.ca)**" -->
+<!-- _footer: "" -->
 <!-- _paginate: false -->
 
 <!-- À Ouranos, on produit plusieurs jeu de données dérivées ou pré-calculés pour le province au complet
@@ -2622,11 +2625,11 @@ Une plateforme très souvent consulté sur notre site web est nommé les portrai
 
 On a récemment mis cet produit à jour avec plusieurs nouvelles indicateurs climatiques, basées sur des nouveaux produits des données utilisées maintenant par Environnement Canada. Je vous retourner à nos offres climatiques plus tard. -->
 
-![bg right:55% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
+![bg right:45% fit](img/5/ecole_ete_2024_5_portraits-nouveau)
 
 ## Données « dérivées » par Ouranos
 
-### <!-- fit --> Projections de climat intéractifs
+### [Les Portraits climatiques](https://portraits.ouranos.ca)
 
 - Données CMIP5 ou CMIP6 post-traitées
 - **25 indices climatiques** pré-calculées
@@ -2666,7 +2669,7 @@ h2 {
 </style>
 
 <!-- _header: "" -->
-<!-- _footer: "**Source : ClimateData.ca - (https://donneesclimatiques.ca/analyser/)**" -->
+<!-- _footer: "**Source : ClimateData.ca (https://donneesclimatiques.ca/analyser/)**" -->
 
 <!-- Voici une exemple de DonneesClimatiques.ca – Il me donne l’option de calculer les jours avec précipitation en haut d’un seuil pour un bassin versant (proche à ici). Cet requête serait envoyer à un serveur qui va retourner un tableau ou une grille qui contient l’indicateur calculer. -->
 
@@ -2728,7 +2731,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Centre canadien de service climatiques**" -->
+<!-- _footer: "**Source : [Centre canadien des services climatiques](https://www.canada.ca/fr/environnement-changement-climatique/services/changements-climatiques/centre-canadien-services-climatiques.html)**" -->
 
 <!-- Nous revenons aux données des stations d’Environnement Canada, les fichiers source bruts se présentent comme suit.
 
@@ -2765,7 +2768,7 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Source : Centre canadien de service climatiques**" -->
+<!-- _footer: "**Source : [Centre canadien des services climatiques](https://www.canada.ca/fr/environnement-changement-climatique/services/changements-climatiques/centre-canadien-services-climatiques.html)**" -->
 
 <!-- Par exemple, pour obtenir le nom et l'emplacement de la station météo, nous avons besoin d'une table de consultation contenant ces informations, comme celle ici. -->
 
@@ -2841,8 +2844,8 @@ Un fichier par jour de ~5 Mo :
  - Pour 62 années → ~22 000 fichiers pour un total de *~110 Go par variable*
 
 **Simple, stable, mais...**
- - **aucun compression (gourmand pour l’espace disque)**
- - **aucun métadonnées**
+ - **Aucun compression (gourmand pour l’espace disque)**
+ - **Aucun métadonnées**
 
 ---
 
@@ -2980,8 +2983,8 @@ Ces formats de données peuvent êtres structurés (en base de données relation
 
 ## Formats infonuagiques
 
-Services propriétaires de calcul et entreposage
- - « Amazon AWS (S3) »
+Services propriétaires de calcul et entreposage :
+ - « Amazon AWS » (S3)
  - « Google Big Query » / « Earth Engine » (Cloud)
  - « Apache Spark » (Hadoop)
 
@@ -3053,7 +3056,7 @@ h2 {
 }
 </style>
 
-<!--La plupart de ces outils ont étés crées pour les grandes familles des systèmes Linux (tous les logos en vert), UNIX comme macOS et BSD mais si il y a aussi les façons de manipuler les données directement du « command prompt » ou « Powershell » si tu veux vraiment rester en Windows.
+<!-- La plupart de ces outils ont étés crées pour les grandes familles des systèmes Linux (tous les logos en vert), UNIX comme macOS et BSD mais si il y a aussi les façons de manipuler les données directement du « command prompt » ou « Powershell » si tu veux vraiment rester en Windows.
 
 Aussi on on peut trouver des logiciels natifs pour UNIX et Linux comme Ncview, Panoply, CDO et NCO qui ont étés produite spécifiquement pour les NetCDFs. -->
 
@@ -3067,7 +3070,7 @@ Aussi on on peut trouver des logiciels natifs pour UNIX et Linux comme Ncview, P
 
 ## Exemple : `ncvue` 
 
-* Une nouveau implémentation de `ncview`
+- Un nouveau implémentation de `ncview`
 
 ---
 
