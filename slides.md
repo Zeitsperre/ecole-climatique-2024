@@ -63,7 +63,7 @@ Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016
 
 ![bg right:40%](img/0/ecole_ete_2024_0_extratropical-cyclone-august-2016.jpg)
 
-# **Objectifs du cours**
+## **Objectifs du cours**
 
 - Connaissance de base de l’historique de la collecte de données climatiques, du fonctionnement des différents instruments et de leurs incertitudes.
 - Vue d’ensemble des données disponibles pour faire des études climatiques.

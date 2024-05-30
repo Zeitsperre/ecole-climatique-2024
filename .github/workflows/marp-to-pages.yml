@@ -25,6 +25,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install GhostScript
+        run: |
+          sudo apt-get -y install ghostscript
+
       - name: Ensure build dir exists
         run: |
           mkdir -p build
@@ -50,6 +54,18 @@ jobs:
           args: slides.md --allow-local-files -o build/slides.pdf
         env:
           MARP_USER: root:root
+
+      - name: Optimise PDF size
+        run: |
+          gs -sDEVICE=pdfwrite \
+          -dCompatibilityLevel=1.4 \
+          -dPDFSETTINGS=/default \
+          -dQUIET \
+          -dDetectDuplicateImages \
+          -dCompressFonts=true \
+          -r150 \
+          -o build/slides.pdf \
+          build/slides.pdf
 
       - name: Marp Build (slides.pptx)
         uses: docker://marpteam/marp-cli:v3.4.0
