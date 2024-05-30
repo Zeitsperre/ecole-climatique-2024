@@ -64,8 +64,9 @@ jobs:
           -dDetectDuplicateImages \
           -dCompressFonts=true \
           -r150 \
-          -o build/slides.pdf \
+          -o build/slides-optimized.pdf \
           build/slides.pdf
+          rm build/slides.pdf
 
       - name: Marp Build (slides.pptx)
         uses: docker://marpteam/marp-cli:v3.4.0
