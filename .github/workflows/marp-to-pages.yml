@@ -25,9 +25,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install GhostScript
+      - name: Setup Python3
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
+        with:
+          python-version: "3.x"
+
+      - name: Install image crompression libraries
         run: |
-          sudo apt-get -y install ghostscript
+          sudo apt-get -y install imagemagick ghostscript
+          python -m pip install compress-pptx
 
       - name: Ensure build dir exists
         run: |
@@ -74,6 +80,10 @@ jobs:
           args: slides.md --allow-local-files -o build/slides.pptx
         env:
           MARP_USER: root:root
+
+      - name: Optimise PPTX size
+        run: |
+          compress-pptx build/slides.pptx
 
       - name: Deploy preview
         if: ${{ github.event_name == 'pull_request' }}
