@@ -589,17 +589,15 @@ h2 {
 }
 </style>
 
-<!-- _footer: "**Photos : Université Mcgill**\n**Source : Station de météo McGill (https://radar.mcgill.ca/weather-station)**" -->
+<!-- _footer: "**Photo : UQAM**\n**Source : Station de météo UQAM (https://eos.meteo.mcgill.ca/stations/4/live-data)**" -->
 
-<!-- Il y a un station de météo automatique situé à Burnside Hall, à l'université McGill.
+<!-- Il y a un station de météo automatique situé à UQAM (et aussi à McGill, mais il marche pas au moment).
 
-Il n'est pas dans la réseau du MELCC ou Environnement Canada mais prends des mesures à tous les 5 mins et les mettre en ligne. -->
+Ces stations ne sont pas dans la réseau du MELCC ou Environnement Canada mais prends des mesures en direct et les mettre en ligne. -->
 
-![bg horizontal 50%](img/2/ecole_ete_2024_2_burnside-hall.png)
-![bg 50%](img/2/ecole_ete_2024_2_mcgill-stations.png)
+![bg horizontal fit](img/2/ecole_ete_2024_2_uqam-station.jpg)
 
-
-## Stations d’observation météo
+## Stations d’observation météo *indépendants*
 
 ---
 
@@ -764,7 +762,7 @@ Environnement Canada : le réseau canadien d'observation radar. Comme vous pouv
 
 ![bg fit right:60%](img/2/ecole_ete_2024_2_radars-canadiens.jpg)
 
-## Intsallations de radar canadiens
+## Installations de radar canadiens
 
 ---
 
@@ -1389,6 +1387,7 @@ Dans un contexte d'étude des tendances et changement climatique, il est préfé
 - Moins de stations disponibles
 - Couverture spatiale très hétérogène
 - Peu d’information sur l’incertitude des méthodes d’homogénéisation
+- Seulement température et précipitation disponible
 
 </div>
 
@@ -1558,11 +1557,11 @@ Un application de ces données pourrait examiner les conditions loco-régionales
 
 J’ai décider de présenter ça comme la dernière exemple à cause que cette approche de s’intégrer des données de nombreux types de sources se rendre DayMET très similaire à un réanalyses – Mais ceci n’est pas un! -->
 
-![bg right 90%](img/2/ecole_ete_2024_2_daymet.png)
+![bg right:45% 90%](img/2/ecole_ete_2024_2_daymet.png)
 
-## Données interpolées++ – Amérique du Nord
+## Données interpolées – Amérique du Nord
 
-Le NASA produit l’interpolation de « **DayMET** »
+« **DayMET** » : Interpolation de NASA
 - Résolution temporelle quotidien à partir de 1980
 - Résolution spatiale de ~1 km sur Amérique du Nord
 
@@ -1646,13 +1645,13 @@ Des ruptures peut se passe dans les données des modèles de réanalyse quand m�
 
 ---
 
-<!-- Première génération : milieu des années 1990 avec ECMWF et NCEP qui travaillaient sur les réanalyses ERA-15 et NCEP1. 
+<!-- On voit ces genres des modèles commencent à arrive pendant les années 1990.
 
-Deuxième génération de réanalyses, le JMA c'est joint aux efforts de production avec leur réanalyse JRA-25, alors que NCEP produisait NCEP2 et NARR et le ECMWF produisait ERA-40, puis ERA-Interim par la suite. 
+Les nouvelles générations de réanalyses suivent généralement les avancés dans les nouvelles générations de modèles prévisionnelles ainsi que les évolutions majeurs dans les méthodes d'assimilations et leurs entrées.
 
-La troisième génération de réanalyses avait plus de développeurs que jamais. Le NCEP avait CFSR, le ECMWF avait ERA20C, la NOAA et le CIRES produisent le 20CR, la NASA a une produit nommé MERRA et le JMA a passé à JRA55. 
+Avec chaque génération on voit des avancements pour la résolution spatio-temporelle et plus de variables disponibles.
 
-Aujourd’hui : on à plusieurs continuations de ces produits. -->
+Aujourd’hui : on à plusieurs continuations de ces produits avec quelques produits nouveau et interessant. -->
 
 ## Historique des réanalyses
 
@@ -1664,26 +1663,7 @@ Troisième génération (~2008) : **CFSR, 20CR, MERRA, JRA55, ERA20C**
 
 Quatrième génération (~2014) : **CFSv2, MERRA2, ERA-20CM**
 
-et ça continue… (~2019 et après) : **ERA5, ERA5-Land, CaSR**
-
----
-
-<style scoped>
-h2 {
-  position: absolute;
-  top: 5%;
-}
-</style>
-
-<!-- _footer: "**Source : ECMWF**" -->
-
-<!-- Les nouvelles générations de réanalyses suivent généralement les avancés dans les nouvelles générations de modèles prévisionnelles ainsi que les évolutions majeurs dans les méthodes d'assimilations et leurs entrées. 
-
-Chaque génération : Avancements pour la résolution spatio-temporelle et plus de variables disponibles. -->
-
-![bg 70%](img/3/ecole_ete_2024_3_reanalyses-courbe.jpg)
-
-## Historique des réanalyses - Continué
+et ça continue… (~2019 et après) : **ERA5, ERA5-Land, RDRS**
 
 ---
 
@@ -1707,13 +1687,13 @@ Réanalyses modernes :
 
 Plusieurs Go de données par mois/niveau/variable.
 
-  - *16 octets* * *24 heures* * *~30 jours* * *12 mois* * (*360 / résolution longitude*) * (*180 / résolution latitude*) * *nombres de niveaux en altitude* * etc... = **ENORME**
+- *16 octets* * *24 heures* * *~30 jours* * *12 mois* * (*360 / résolution longitude*) * (*180 / résolution latitude*) * *nombres de niveaux en altitude* * etc... = **ENORME**
 
 Quelques exemples :
-  - **ERA-Interim (ancien)** : 30 ans de réanalyses pour une vingtaine de variables
-    - *~7 To de données en totale*
-  - **ERA5** : *11 To de nouvelles données par mois*
-    - **ERA5-Land** : Résolution encore plus fine (*~7 fois plus fine qu’ERA5*)
+- **ERA-Interim (ancien)** : 30 ans de réanalyses pour une vingtaine de variables
+  - *~7 To de données en totale*
+- **ERA5** : *11 To de nouvelles données par mois*
+  - **ERA5-Land** : Résolution encore plus fine (*~7 fois plus fine qu’ERA5*)
 
 ---
 
@@ -1728,7 +1708,7 @@ Même avec tous ces avancements technologiques, il restent encore des difficult�
 La comparaison de réanalyses et l’évaluation de leurs forces et faiblesses respectives est encore très anecdotiques.
 
 Plusieurs avancements dans l’assimilation des données, mais...
-- **Les incertitudes associées au jeu de données de référence sont souvent ignorées lors de la validation**
+- **Les incertitudes associées au jeu de données de référence sont souvent ignorées lors de la validation !**
 
 Pour en savoir plus :
 
@@ -1739,7 +1719,7 @@ Pour en savoir plus :
 
 <!-- _footer: "" -->
 
-<!-- Évolution rapide des données observées au cours des années : Maintenant millions de données d'entrée à tout les cycles de 12 h aux stations et les  satellites créer des sauts énormes quand ils sont mise en ligne.
+<!-- Évolution rapide des données observées au cours des années : Maintenant millions de données d'entrée à tout les cycles de 12h aux stations et les  satellites créer des sauts énormes quand ils sont mise en ligne.
 
 Cette quantité d'information disponible rendre des difficultés dans la validation des observations. Les avancements dans la contrôle de qualité des sortis des réanalyses traîne. -->
 
@@ -1782,7 +1762,7 @@ On peut voir ici à doite les deux premiers rangées montre le sortis pour le mo
 
 ## Réanalyses « ré-injectées »
 
-**RDRS (Environnement Canada)**
+**RDRS** (Environnement Canada)
 
 - Modèle de prévision « **GEM** »
 - Données de stations **RMCQ**, **MELCCFP**
@@ -1790,7 +1770,7 @@ On peut voir ici à doite les deux premiers rangées montre le sortis pour le mo
 
 ---
 
-<!-- _footer: "**Source : Sabarly, et al. (2016) Use of Four Reanalysis Datasets to Assess the Terrestrial Branch of the Water Cycle over Quebec, Canada (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
+<!-- _footer: "**Source : Sabarly, et al. (2016) (https://doi.org/10.1175/JHM-D-15-0093.1)**" -->
 
 <!-- Nombreuse réanalyses disponibles : Le fait que nous avons pas une grille de validation disponible pour toute la terre, les méthodes pour les valider pour savoir quelle réanalyse on doit utiliser sont toujours en développement.
 
@@ -1867,14 +1847,14 @@ J’ai pris cette carte de la prévision du modèle GEM pour ce matin l’autre 
 
 <!-- Lors de la création de nouvelles grilles climatiques à partir de données à résolution plus générale, les modélisateurs décideront des éléments à privilégier.
 
-Avec ces produits de résolution plus fines, les grilles ne représentent souvent que quelques variables ou un domaine spatial spécifique. Il convient d'en tenir compte lors de l'identification des ensembles de données qui répondront à vos besoins. -->
+Avec ces produits de résolution plus fines, les grilles ne représentent souvent que quelques variables ou un domaine spatial spécifique ou seulement la surface au lieu des niveaux d'altitude. Il convient d'en tenir compte lors de l'identification des ensembles de données qui répondront à vos besoins. -->
 
 ## À côté - Résolutions
 
 ![img](img/3/ecole_ete_2024_3_era5-vs-era5l.png)
 
-- **Résolutions ↑ : Choix des variables ↓** 
-- **Résolutions ↓ : Choix des variables ↑**
+- **Résolutions plus fines : Choix des variables ↓, tailles des domaines ↓** 
+- **Résolutions plus grossières : Choix des variables ↑, tailles des domaines ↑**
 
 ---
 
@@ -1958,8 +1938,8 @@ Avec CMIP6 les données de base sont offerts aux heures avec des résolutions en
 
 ## Modèles du climat global (GCM)
 
-Les modèles du climat modernes ont une résolution spatiale allant jusqu’à **25 Km*** et une résolution temporelle d’archivage jusqu’aux heures.
- - *Ce chiffre peut descendre, dépendamment le modèle
+Les modèles du climat modernes ont une résolution spatiale allant jusqu’à **50 Km*** et une résolution temporelle d’archivage jusqu’aux heures.
+ - *Ce chiffre peut descendre, dépendamment le modèle / expériment
 
 La base de données CMIP5 récupérée à Ouranos fait environ *20 To* pour quelques variables, ce qui représente seulement une infime partie de la base de données CMIP5 complète.
 
@@ -2165,7 +2145,6 @@ Un défi de trouver la bonne manière de les comparer à cause que leurs sorties
 - Les modèles ont des différences majeures entre eux.
   - Analyses des statistiques nécessaires
 - Les résolutions spatiales ne supportent pas les analyses aux echelles locales / régionales
-  - **Moins problèmatique avec CMIP6**
 
 </div>
 
@@ -2317,7 +2296,7 @@ h1 {
 ## ESGF-Download
 
 Gestion des données d'ESGF par ligne de commande
-* Je suis un contributeur au projet sur GitHub!
+* Je contribue au projet sur GitHub!
 
 ---
 
@@ -2325,7 +2304,7 @@ Gestion des données d'ESGF par ligne de commande
 
 Tester la sensibilité aux perturbations au départ d’une scénario, ou pour évaluer des nouvelles modules ou changements aux modèle ou pour aider des chercheurs avec des questions spécifiques liées aux questions d’hydrologiques, socio-sanitaires, ou environnementales. -->
 
-## Ensemble du MRCC
+## Ensemble du MRCC5
 
 Quelques centres de recherche climatiques développent un ensemble de simulation relié à leur(s) modèle(s).
  - Pour faire des tests de sensibilité
@@ -2410,9 +2389,11 @@ Pas toujours le cas ou on se trouve les mêmes expériences entre les domaines.
 
 Pas souvent de nombreuses instituts qui font des expériences sur la même domaine.
 
+Propagation des biais des GCMs.
+
 Nous libère pour rouler des expériences  et poser des questions à l’échelle plus locaux et régionales de nos données : Impacts potentiels des changements climatiques. -->
 
-# **Modèles régionaux du climat - Conlcusions**
+## **Modèles régionaux du climat - Conclusions**
 
 <div class="container">
 
@@ -2423,7 +2404,7 @@ Nous libère pour rouler des expériences  et poser des questions à l’échell
 - Couverture spatiale à haute résolution sur un domaine choisi.
 - Séries continues.
 - Cohérence physique entre les variables.
-Permet de faire des projections dans le futur.
+- Permet de faire des projections dans le futur.
 
 </div>
 
@@ -2480,7 +2461,7 @@ Permet de mieux évaluer le rôle de la variabilité naturelle dans la chaîne d
 **NCAR CESM1 LENS** (*40 membres*)
 
 **CanESM / CanESM2 Large Ensemble** (*50 membres*)
- - **CanRCM4-LE → CanLEAD-LE (données corrigés)**
+ - **CanRCM4-LE → CanLEAD-LE (données post-traitées)**
 
 ---
 
@@ -2504,6 +2485,7 @@ Disponible pour l’Europe et on est en discussion pour l’ouvrir accès aux pu
 ##  Ensemble de Simulations « ClimEx »
 
 ---
+
 
 <!-- Il y a une particularité plutôt troublante à laquelle vous devrez faire face quand tu travail avec les données de modèles. 
 
@@ -2532,16 +2514,6 @@ Différents modèles climatiques utilisent différents calendriers  :
 Pour savoir en plus :
  - **Conventions CF (http://cfconventions.org/cf-conventions/cf-conventions#calendar)**
 
- ---
-
-<!-- Je vais terminer la section sur les sources des données avec des données qui sont typiquement produites pendant la transformation vers informations. Ce qu’on fait durant l’étape de l’analyse.
-
-FIXME
-
-QUESTIONS ? -->
-
-# **6. Données « post-traitées » et « dérivées »**
-
 ---
 
 <!-- _footer: "**Source : Feigenwinter et al (2018) Exploring
@@ -2549,19 +2521,13 @@ quantile mapping as a tool to produce user-tailored climate scenarios for Switze
 
 <!-- Rapidement, pour les utilisateurs qui ne souhaitent pas suivre un cours de science climatique pour apprendre à corriger les biais des modèles afin d'utiliser les projections des modèles climatiques, nous commençons à avoir de nombreuses options que nous appelons grilles « post-traitées ». Plusieurs méthodes existe pour faire ce genre d'opération.
 
-Avec ces données on peut fournir aux utilisateurs des informations spécifiques pour soutenir des analyses très distinctes en générant ce que nous appelons des indices climatiques ou « données dérivées » -->
+J'imagine que Francois va parler plus profondement de ça. -->
 
-![bg vertical right:45% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
-![bg fit](img/5/ecole_ete_2024_5_gel-degel.png)
+![bg vertical right:55% fit](img/5/ecole_ete_2024_5_quantle-mapping.png)
 
-## Données « post-traitées » vs. données « dérivées »
+## <!-- fit --> Données « post-traitées »
 
-« **Post-traitées** »
--  Sortis des modèles ajustées pour enlever les biais pour supplémenter les analyses générales.
-
-« **Dérivées** »
-- Indicateurs climatiques des phénomènes spécifiques.
-  - p. ex. **Évenements de gél-dégel →**
+Sortis des modèles ajustées statistiquement pour enlever les biais de modèles et pour supplémenter les analyses du climat générales.
 
 ---
 
@@ -2581,6 +2547,15 @@ Talk about :
 - Pour en savoir plus :
   - **[Maraun D. (2016) Correcting Climate Change Simulations - a Critical Review](https://doi.org/10.1007/s40641-016-0050-x)**
 
+
+---
+
+<!-- Je vais terminer la section sur les sources des données avec des données qui sont typiquement produites pendant la transformation vers informations. Ce qu’on fait durant l’étape de l’analyse.
+
+QUESTIONS ? -->
+
+# **6. Données « dérivées »**
+
 ---
 
 <!-- _footer: "**Source : IPCC AR5 WG1 - FigTS_TFE9.1**" -->
@@ -2588,6 +2563,8 @@ Talk about :
 <!-- Données dérivées : Indices climatiques pré-calculé à partir des données sources.
 
 Données climatiques traités légèrement ou fortement pour donner des informations très spécifiques.
+
+Avec ces données on peut fournir aux utilisateurs des informations spécifiques pour soutenir des analyses très distinctes en générant ce que nous appelons des indices climatiques ou « données dérivées ».
 
 Indicateurs inclure les degrés-jours de croissance ou la date du dernier gel printanier : particulièrement utiles pour les agronomes. -->
 
@@ -2614,6 +2591,14 @@ Indicateurs inclure les degrés-jours de croissance ou la date du dernier gel pr
 
 ETCCDDI un groupe de recherche de l’OMM ont créé un guide sur les indices climatiques qui est utilisé comme référence pour plusieurs analyses aujourd’hui -->
 
+
+<!--
+
+RNCan dispose d'un grand nombre de ces ensembles de données traitées via ses portails de données climatologiques.
+
+19 indices bioclimatiques produits par RNCan. Comme quoi il n'est pas toujours nécessaire de repartir à zéro.
+ -->
+
 ## Données « dérivées »
 
 Plusieurs indicateurs climatiques sont calculés à partir de données observées et publiés comme jeu des données
@@ -2624,25 +2609,6 @@ Standard pour plusieurs indices climatiques : European Climate Assessment & Dat
 
 Pour en savoir plus : 
 - **ETCCDI Comparaison - https://www.ecad.eu/documents/ETCCDMIndicesComparison.pdf**
-
----
-
-<style scoped>
-h2 {
-  position: absolute;
-  top: 2.5%;
-}
-</style>
-
-<!-- _footer: "**Source : Ancien extracteur des données RNCan - lien maintenant retiré**" -->
-
-<!-- RNCan dispose d'un grand nombre de ces ensembles de données traitées via ses portails de données climatologiques.
-
-19 indices bioclimatiques produits par RNCan. Comme quoi il n'est pas toujours nécessaire de repartir à zéro. -->
-
-![bg 52.5%](img/5/ecole_ete_2024_5_rncan-indices.jpg)
-
-## Données « dérivées »
 
 ---
 
