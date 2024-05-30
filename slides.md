@@ -50,13 +50,16 @@ On va aborder le sujet des données climatiques, donc comment on procède pour l
 
 ---
 
-<!-- _footer: "**Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016.\nCrédit : [NASA Earth Observatory](https://earthobservatory.nasa.gov/)**" -->
+<!-- _footer: "**Crédit : [NASA Earth Observatory](https://earthobservatory.nasa.gov/)**" -->
 
 <!-- Les objectifs du cours sont les suivants : [...] donc ici on va plus parler du travail qui est fait par les services météorologiques nationaux pour prendre des mesures. 
 
 Ensuite [...] où là on va parler des données qui sont diffusées au public et donc que des organismes comme Ouranos ou des étudiants comme vous peuvent utiliser. 
 
-Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information faramineuse pour ce qui est de l'observation de la terre et de notre atmosphère et il n'y a pas le jeu de données parfaits qui répond à toute les questions donc il faut comprendre les [...], et aussi je souhaite vous donner une appréciation de la [...]. -->
+Ensuite, comme vous allez le voir, il y a vraiment une quantité d'information faramineuse pour ce qui est de l'observation de la terre et de notre atmosphère et il n'y a pas le jeu de données parfaits qui répond à toute les questions donc il faut comprendre les [...], et aussi je souhaite vous donner une appréciation de la [...]. 
+
+Photo : Cyclone extratropical au-dessus de la baie d'Hudson, Canada, août 2016
+-->
 
 ![bg right:40%](img/0/ecole_ete_2024_0_extratropical-cyclone-august-2016.jpg)
 
@@ -100,7 +103,7 @@ Depuis environ 8 ans, nous nous sommes orientés vers le développement de logic
 ![bg vertical right fit](img/0/ecole_ete_2024_0_ouranos-website.png)
 ![bg fit](img/0/ecole_ete_2024_0_ice-storm.jpg)
 
-## **C'est quoi [Ouranos](https://www.ouranos.ca/en) ?**
+### **C'est quoi [Ouranos](https://www.ouranos.ca/en) ?**
 
 - Organisation à but non-lucratif, établi 2002 à Montréal, Québec
   - Crée en réponse à la [tempête de verglas massif de janvier 1998](https://fr.wikipedia.org/wiki/Verglas_massif_de_janvier_1998_dans_le_Nord-Est_de_l%27Am%C3%A9rique_du_Nord)
@@ -755,7 +758,12 @@ Dans sa version la plus simple, la relation entre facteur de réflectivité et p
 
 ---
 
-<!-- _header: "" -->
+<style scoped>
+h2 {
+  position: absolute;
+  top: 5%;
+}
+</style>
 
 <!-- _footer : "**Source : Service météorologique du Canada (MSC)**" -->
 
@@ -763,14 +771,13 @@ Dans sa version la plus simple, la relation entre facteur de réflectivité et p
 
 Environnement Canada : le réseau canadien d'observation radar. Comme vous pouvez le constater, la couverture spatiale se limite au sud du pays. -->
 
-![bg fit right:60%](img/2/ecole_ete_2024_2_radars-canadiens.jpg)
+![bg 63%](img/2/ecole_ete_2024_2_radars-canadiens.jpg)
 
 ## Installations de radar canadiens
 
 ---
 
 <!-- _header: "" -->
-
 <!-- _footer: "**Source : National Weather Service (NOAA)**" -->
 
 <!-- Si on regarde au États-Unis, le territoire entier est presque couvert et la densité des radars est aussi supérieur à celle du canada. -->
