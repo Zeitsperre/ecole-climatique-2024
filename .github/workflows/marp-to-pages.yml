@@ -74,24 +74,24 @@ jobs:
           build/slides.pdf
           rm build/slides.pdf
 
-      - name: Marp Build (slides.pptx)
-        uses: docker://marpteam/marp-cli:v3.4.0
-        with:
-          args: slides.md --allow-local-files -o build/slides.pptx
-        env:
-          MARP_USER: root:root
+      # - name: Marp Build (slides.pptx)
+      #   uses: docker://marpteam/marp-cli:v3.4.0
+      #   with:
+      #     args: slides.md --allow-local-files -o build/slides.pptx
+      #   env:
+      #     MARP_USER: root:root
 
       # - name: Optimise PPTX size
       #   run: |
       #     compress-pptx build/slides.pptx
 
-      # - name: Deploy preview
-      #   if: ${{ github.event_name == 'pull_request' }}
-      #   uses: rossjrw/pr-preview-action@v1
-      #   with:
-      #     source-dir: ./build/
-      #     preview-branch: gh-pages
-      #     umbrella-dir: pr-preview
+      - name: Deploy preview
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
 
       - name: Deploy production
         if: ${{ github.event_name == 'push' }}
