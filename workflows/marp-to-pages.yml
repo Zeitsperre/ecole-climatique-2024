@@ -1,0 +1,76 @@
+name: marp-to-pages
+concurrency: marp-to-pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Ensure build dir exists
+        run: |
+          mkdir -p build
+
+      - name: Fetch Freud Style CSS
+        run: |
+          curl -sL https://cunhapaulo.github.io/style/freud.css -o build/freud.css
+
+      - name: Copy images directory (if exists)
+        run: |
+          cp -R img build/img
+
+      - name: Marp Build (slides.md)
+        uses: docker://marpteam/marp-cli:v3.4.0
+        with:
+          args: slides.md -o build/index.html
+        env:
+          MARP_USER: root:root
+
+      - name: Marp Build (slides.pdf)
+        uses: docker://marpteam/marp-cli:v3.4.0
+        with:
+          args: slides.md --allow-local-files -o build/slides.pdf
+        env:
+          MARP_USER: root:root
+
+      - name: Marp Build (slides.pptx)
+        uses: docker://marpteam/marp-cli:v3.4.0
+        with:
+          args: slides.md --allow-local-files -o build/slides.pptx
+        env:
+          MARP_USER: root:root
+
+      - name: Deploy preview
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build/
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+
+      - name: Deploy production
+        if: ${{ github.event_name == 'push' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ./build/
+          clean-exclude: pr-preview/
+
