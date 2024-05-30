@@ -25,6 +25,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Setup Python3
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
+        with:
+          python-version: "3.x"
+
+      - name: Install image crompression libraries
+        run: |
+          sudo apt-get -y install imagemagick ghostscript
+          python -m pip install compress-pptx
+
       - name: Ensure build dir exists
         run: |
           mkdir -p build
@@ -51,12 +61,29 @@ jobs:
         env:
           MARP_USER: root:root
 
-      - name: Marp Build (slides.pptx)
-        uses: docker://marpteam/marp-cli:v3.4.0
-        with:
-          args: slides.md --allow-local-files -o build/slides.pptx
-        env:
-          MARP_USER: root:root
+      - name: Optimise PDF size
+        run: |
+          gs -sDEVICE=pdfwrite \
+          -dCompatibilityLevel=1.4 \
+          -dPDFSETTINGS=/default \
+          -dQUIET \
+          -dDetectDuplicateImages \
+          -dCompressFonts=true \
+          -r150 \
+          -o build/slides-optimized.pdf \
+          build/slides.pdf
+          rm build/slides.pdf
+
+      # - name: Marp Build (slides.pptx)
+      #   uses: docker://marpteam/marp-cli:v3.4.0
+      #   with:
+      #     args: slides.md --allow-local-files -o build/slides.pptx
+      #   env:
+      #     MARP_USER: root:root
+
+      # - name: Optimise PPTX size
+      #   run: |
+      #     compress-pptx build/slides.pptx
 
       - name: Deploy preview
         if: ${{ github.event_name == 'pull_request' }}
